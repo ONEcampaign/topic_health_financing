@@ -87,12 +87,19 @@ class CollectionCursor:
             self.close()
 
 
-def get_indicator(cursor: CollectionCursor, indicator_code: str) -> pd.DataFrame:
+def get_indicator(
+    cursor: CollectionCursor, indicator_code: str, additional_filter: dict = None
+) -> pd.DataFrame:
     """Get data for a given indicator code"""
 
+    if additional_filter is None:
+        _filter = {"indicator_code": indicator_code}
+    else:
+        _filter = {"indicator_code": indicator_code, **additional_filter}
+
     with cursor.managed_connection() as connection:
-        response = connection.data.find({"indicator_code": indicator_code}, {"_id": 0})
-        return pd.DataFrame(list(response))
+        response = connection.data.find(_filter, {"_id": 0})
+        return pd.DataFrame(list(response)).rename(columns={"country_code": "iso_code"})
 
 
 if __name__ == "__main__":
