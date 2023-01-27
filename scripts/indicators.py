@@ -2,35 +2,48 @@ from functools import partial
 
 import pandas as pd
 
+from scripts.logger import logger
 from scripts.read_data import get_indicator, CollectionCursor, COLLECTION_NAME
 
 # Create a partial function that will always use the same collection cursor.
 _get_indicator = partial(get_indicator, CollectionCursor(COLLECTION_NAME))
 
 
-def get_current_health_exp() -> pd.DataFrame:
+def get_current_health_exp(*, additional_filter: dict = None) -> pd.DataFrame:
     """Get current health expenditure data"""
-    return _get_indicator("ghed_current_health_expenditure")
+    indicator = "ghed_current_health_expenditure"
+    logger.info(f"Getting {indicator} data")
+    return _get_indicator(indicator, additional_filter=additional_filter)
 
 
-def get_health_exp_by_source() -> pd.DataFrame:
+def get_health_exp_by_source(*, additional_filter: dict = None) -> pd.DataFrame:
     """Get health expenditure by source data"""
-    return _get_indicator("ghed_current_health_expenditure_by_source")
+    indicator = "ghed_current_health_expenditure_by_source"
+    logger.info(f"Getting {indicator} data")
+    return _get_indicator(indicator, additional_filter=additional_filter)
 
 
-def get_health_exp_by_function() -> pd.DataFrame:
+def get_health_exp_by_function(*, additional_filter: dict = None) -> pd.DataFrame:
     """Get health expenditure by function data"""
-    return _get_indicator("ghed_current_health_expenditure_by_health_care_function")
+    indicator = "ghed_current_health_expenditure_by_health_care_function"
+    logger.info(f"Getting {indicator} data")
+    return _get_indicator(indicator, additional_filter=additional_filter)
 
 
-def get_health_exp_by_disease() -> pd.DataFrame:
+def get_health_exp_by_disease(*, additional_filter: dict = None) -> pd.DataFrame:
     """Get health expenditure by disease data"""
-    return _get_indicator("ghed_current_health_expenditure_by_disease_and_conditions")
+    indicator = "ghed_current_health_expenditure_by_disease_and_conditions"
+    logger.info(f"Getting {indicator} data")
+    return _get_indicator(indicator, additional_filter=additional_filter)
 
 
-def get_health_exp_by_financing_scheme() -> pd.DataFrame:
+def get_health_exp_by_financing_scheme(
+    *, additional_filter: dict = None
+) -> pd.DataFrame:
     """Get health expenditure by financing scheme data"""
-    return _get_indicator("ghed_current_health_expenditure_by_financing_schemes")
+    indicator = "ghed_current_health_expenditure_by_financing_schemes"
+    logger.info(f"Getting {indicator} data")
+    return _get_indicator(indicator, additional_filter=additional_filter)
 
 
 if __name__ == "__main__":
