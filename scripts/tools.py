@@ -9,6 +9,7 @@ from scripts.logger import logger
 from pydeflate import deflate, set_pydeflate_path, exchange
 
 from scripts.population_data.un_population import un_population_data
+from scripts.wb_codes.codes import wb_countries_df
 
 set_pydeflate_path(config.PATHS.pydeflate_data)
 
@@ -117,3 +118,72 @@ def value2pc(data: pd.DataFrame, value_column: str = "value") -> pd.DataFrame:
 
     # Drop columns
     return data.filter(cols, axis=1).rename(columns={"value": value_column})
+
+
+def african_countries() -> dict[str, str]:
+    """Return a dictionary of African ISO codes and their names."""
+    import country_converter as coco
+
+    return (
+        coco.CountryConverter()
+        .data[["name_short", "ISO3", "continent"]]
+        .query("continent == 'Africa'")
+        .set_index("ISO3")["name_short"]
+        .to_dict()
+    )
+
+
+def income_levels() -> dict[str, str]:
+    """Return a dictionary of iso_codes and their corresponding income level."""
+    return wb_countries_df().set_index("iso_code")["income"].to_dict()
+
+
+def interpolate_missing_values(
+    df: pd.DataFrame, id_col: str = "iso_code", grouper: list = None
+) -> pd.DataFrame:
+    return (
+        df.sort_values(by=["year", id_col])
+        .set_index(grouper)
+        .unstack(id_col)
+        .interpolate(
+            method="linear",
+            axis=1,
+            limit=3,
+            limit_direction="both",
+            limit_area="inside",
+        )
+        .stack(id_col)
+        .reset_index()
+    )
+
+
+def _agg_interpolate(group: pd.DataFrame, agg: str = "mean") -> pd.DataFrame:
+    """Interpolate missing values in a group"""
+
+    grouper = list(group.index)
+
+    return group.apply(interpolate_missing_values, grouper=grouper).agg(agg)
+
+
+def create_africa_total(
+    data: pd.DataFrame,
+    grouper: list = None,
+    method: str = "median",
+    value_column: str = "value",
+) -> pd.DataFrame:
+    """Create a total for Africa"""
+
+    valid_methods: list = ["median", "sum"]
+
+    if method not in valid_methods:
+        raise ValueError(f"method must be one of {valid_methods}")
+
+    if value_column not in data.columns:
+        raise ValueError(f"{value_column} not a valid column in data")
+
+    if grouper is None:
+        grouper = ["year", "indicator", "units"]
+
+    for col in grouper:
+        if col not in data.columns:
+            raise ValueError(f"{col} not a valid column in data")
