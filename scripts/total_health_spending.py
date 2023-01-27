@@ -3,7 +3,7 @@ from functools import partial
 import pandas as pd
 
 from scripts import config
-from scripts.indicators import get_current_health_exp
+from scripts.analysis.indicators import get_current_health_exp
 from scripts.tools import (
     lcu2gdp,
     mn2units,
