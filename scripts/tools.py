@@ -139,39 +139,68 @@ def income_levels() -> dict[str, str]:
 
 
 def interpolate_missing_values(
-    df: pd.DataFrame, id_col: str = "iso_code", grouper: list = None
+    df: pd.DataFrame, date_range: pd.DatetimeIndex, grouper: list[str]
 ) -> pd.DataFrame:
-    return (
-        df.sort_values(by=["year", id_col])
-        .set_index(grouper)
-        .unstack(id_col)
-        .interpolate(
-            method="linear",
-            axis=1,
-            limit=3,
-            limit_direction="both",
-            limit_area="inside",
+    """Interpolate missing values in a dataframe"""
+
+    def __interpolate(d_: pd.DataFrame) -> pd.DataFrame:
+        idx = [c for c in d_.columns if c not in ["value", "year"]]
+
+        return (
+            d_.sort_values(by=["year"])
+            .set_index("year")
+            .reindex(date_range)
+            .set_index(idx, append=True)
+            .interpolate(
+                method="linear",
+                axis=0,
+                limit=3,
+                limit_direction="both",
+                limit_area="inside",
+            )
+            .reset_index()
+            .rename(columns={"level_0": "year"})
         )
-        .stack(id_col)
-        .reset_index()
+
+    return df.groupby(grouper).apply(__interpolate).reset_index(drop=True)
+
+
+def _report_missing(
+    data: pd.DataFrame, idx: list[str], value_column: str, report_completeness: str
+) -> None:
+
+    """Export a summary of the missing data in a dataframe"""
+
+    # Check missing data
+    _size = data.groupby(idx, as_index=False).agg(
+        {value_column: lambda d: d.isna().sum()}
+    )
+    _missing = data.groupby(idx, as_index=False).agg(
+        {value_column: lambda x: x.isna().mean()}
+    )
+
+    (
+        pd.merge(_size, _missing, on=idx, suffixes=("_missing", "_missing_share"))
+        .assign(
+            group_size=lambda d: d.value_missing / d.value_missing_share,
+            value_missing_share=lambda d: round(d.value_missing_share * 100, 2),
+        )
+        .to_csv(
+            config.PATHS.raw_data / f"missing_data_{report_completeness}.csv",
+            index=False,
+        )
     )
 
 
-def _agg_interpolate(group: pd.DataFrame, agg: str = "mean") -> pd.DataFrame:
-    """Interpolate missing values in a group"""
-
-    grouper = list(group.index)
-
-    return group.apply(interpolate_missing_values, grouper=grouper).agg(agg)
-
-
-def create_africa_total(
+def _create_group_total(
     data: pd.DataFrame,
-    grouper: list = None,
-    method: str = "median",
-    value_column: str = "value",
+    method: str,
+    value_column: str,
+    grouper: list[str] = None,
+    interpolate: bool = False,
+    report_completeness: str = None,
 ) -> pd.DataFrame:
-    """Create a total for Africa"""
+    """Create a group total for a given dataframe."""
 
     valid_methods: list = ["median", "sum"]
 
@@ -182,8 +211,82 @@ def create_africa_total(
         raise ValueError(f"{value_column} not a valid column in data")
 
     if grouper is None:
-        grouper = ["year", "indicator", "units"]
+        grouper = ["iso_code", "country_name", "indicator_code", "units"]
 
     for col in grouper:
         if col not in data.columns:
             raise ValueError(f"{col} not a valid column in data")
+
+    if interpolate:
+        years = pd.date_range(start=data.year.min(), end=data.year.max(), freq="AS")
+        data = interpolate_missing_values(data, grouper=grouper, date_range=years)
+
+    idx = [
+        c
+        for c in data.columns
+        if c not in [value_column, "iso_code", "country_name", "region", "income_group"]
+    ]
+
+    if report_completeness is not None:
+        _report_missing(data, idx, value_column, report_completeness)
+
+    return data.groupby(idx, as_index=False).agg({value_column: method})
+
+
+def create_africa_agg(
+    data: pd.DataFrame,
+    method: str = "median",
+    value_column: str = "value",
+    interpolate: bool = True,
+) -> pd.DataFrame:
+    """Create a total for Africa"""
+
+    order = data.columns
+
+    return (
+        data.query(f"iso_code in {list(african_countries())}")
+        .pipe(
+            _create_group_total,
+            method=method,
+            value_column=value_column,
+            interpolate=interpolate,
+        )
+        .assign(
+            iso_code="AFR",
+            country_name=f"Africa ({method})",
+        )
+        .filter(order, axis=1)
+    )
+
+
+def create_income_agg(
+    data: pd.DataFrame,
+    method: str = "median",
+    value_column: str = "value",
+    interpolate: bool = True,
+    report_completeness: str = None,
+) -> pd.DataFrame:
+    """Create a total for each income group"""
+
+    incomes = {
+        "High income": "HIC",
+        "Upper middle income": "UMC",
+        "Lower middle income": "LMC",
+        "Low income": "LIC",
+    }
+
+    order = data.columns
+
+    return (
+        data.assign(income_level=lambda d: d.iso_code.map(income_levels()))
+        .pipe(
+            _create_group_total,
+            method=method,
+            value_column=value_column,
+            interpolate=interpolate,
+            report_completeness=report_completeness,
+        )
+        .rename(columns={"income_level": "country_name"})
+        .assign(iso_code=lambda d: d.country_name.map(incomes))
+        .filter(order, axis=1)
+    )
