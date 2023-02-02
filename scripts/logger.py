@@ -1,5 +1,5 @@
 import logging
-from scripts.config import PATHS
+
 
 # Create a root logger
 logger = logging.getLogger(__name__)

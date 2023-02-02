@@ -46,6 +46,16 @@ def get_health_exp_by_financing_scheme(
     return _get_indicator(indicator, additional_filter=additional_filter)
 
 
+def current_lcu_data(
+    spending_func: callable, *, additional_filter: dict = None
+) -> callable:
+    """Get current lcu data for a given dataset"""
+    if additional_filter is None:
+        additional_filter = {}
+    full_filter = additional_filter | {"units": "national currency unit, millions"}
+    return spending_func(additional_filter=full_filter)
+
+
 if __name__ == "__main__":
     exp = get_current_health_exp()
 
