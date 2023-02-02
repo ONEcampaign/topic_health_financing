@@ -12,6 +12,9 @@ DATABASE = "policy_data"
 METADATA = "metadata"
 COLLECTION_NAME = "ghed"
 
+os.environ["MONGO_USERNAME"] = "gpt_app"
+os.environ["MONGO_PASSWORD"] = "wdkyfyhfgYaHdiAX"
+
 
 def check_credentials(username: str | None, password: str | None) -> tuple:
     """check credentials, return from environment if not provided"""
