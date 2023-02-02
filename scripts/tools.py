@@ -166,17 +166,23 @@ def interpolate_missing_values(
 
 
 def _report_missing(
-    data: pd.DataFrame, idx: list[str], value_column: str, report_completeness: str
+    data: pd.DataFrame,
+    idx: list[str],
+    value_column: str | list,
+    report_completeness: str,
 ) -> None:
 
     """Export a summary of the missing data in a dataframe"""
 
+    if isinstance(value_column, str):
+        value_column = [value_column]
+
     # Check missing data
     _size = data.groupby(idx, as_index=False).agg(
-        {value_column: lambda d: d.isna().sum()}
+        {vc: lambda d: d.isna().sum() for vc in value_column}
     )
     _missing = data.groupby(idx, as_index=False).agg(
-        {value_column: lambda x: x.isna().mean()}
+        {vc: lambda x: x.isna().mean() for vc in value_column}
     )
 
     (
@@ -195,7 +201,7 @@ def _report_missing(
 def _create_group_total(
     data: pd.DataFrame,
     method: str,
-    value_column: str,
+    value_column: str | list,
     grouper: list[str] = None,
     interpolate: bool = False,
     report_completeness: str = None,
@@ -204,11 +210,11 @@ def _create_group_total(
 
     valid_methods: list = ["median", "sum"]
 
+    if isinstance(value_column, str):
+        value_column = [value_column]
+
     if method not in valid_methods:
         raise ValueError(f"method must be one of {valid_methods}")
-
-    if value_column not in data.columns:
-        raise ValueError(f"{value_column} not a valid column in data")
 
     if grouper is None:
         grouper = ["iso_code", "country_name", "indicator_code", "units"]
@@ -224,20 +230,22 @@ def _create_group_total(
     idx = [
         c
         for c in data.columns
-        if c not in [value_column, "iso_code", "country_name", "region", "income_group"]
+        if c
+        not in [*value_column, "iso_code", "country_name", "region", "income_group"]
     ]
 
     if report_completeness is not None:
         _report_missing(data, idx, value_column, report_completeness)
 
-    return data.groupby(idx, as_index=False).agg({value_column: method})
+    return data.groupby(idx, as_index=False).agg({vc: method for vc in value_column})
 
 
 def create_africa_agg(
     data: pd.DataFrame,
     method: str = "median",
-    value_column: str = "value",
+    value_column: str | list = "value",
     interpolate: bool = True,
+    report_completeness: str = None,
 ) -> pd.DataFrame:
     """Create a total for Africa"""
 
@@ -250,6 +258,7 @@ def create_africa_agg(
             method=method,
             value_column=value_column,
             interpolate=interpolate,
+            report_completeness=report_completeness,
         )
         .assign(
             iso_code="AFR",
@@ -262,7 +271,7 @@ def create_africa_agg(
 def create_income_agg(
     data: pd.DataFrame,
     method: str = "median",
-    value_column: str = "value",
+    value_column: str | list = "value",
     interpolate: bool = True,
     report_completeness: str = None,
 ) -> pd.DataFrame:
