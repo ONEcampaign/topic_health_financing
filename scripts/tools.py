@@ -106,8 +106,14 @@ def lcu2gdp(data: pd.DataFrame, value_column: str = "value") -> pd.DataFrame:
     return data.filter(cols, axis=1).rename(columns={"value": value_column})
 
 
-def value2pc(data: pd.DataFrame, value_column: str = "value") -> pd.DataFrame:
-    """Convert units to per capita figures"""
+def _value2(
+    data: pd.DataFrame,
+    other_data: pd.DataFrame,
+    units_str: str,
+    factor: int,
+    value_column: str = "value",
+) -> pd.DataFrame:
+    """Helper function"""
 
     if value_column not in data.columns:
         data = data.rename(columns={value_column: "value"})
@@ -115,66 +121,31 @@ def value2pc(data: pd.DataFrame, value_column: str = "value") -> pd.DataFrame:
     # Store columns
     cols = data.columns
 
-    # Load expenditure data
-    population = un_population_data().pipe(year2date)
-
     # Merge
     data = pd.merge(
-        data, population, on=["iso_code", "year"], how="left", suffixes=("", "_pop")
-    )
+        data, other_data, on=["iso_code", "year"], how="left", suffixes=("", "_other")
+    ).dropna(subset=["value"], how="any")
 
-    # Convert to LCU
-    data["value"] = round(data.value / data.value_pop, 3)
+    data["value"] = round(factor * data.value / data.value_other, 3)
 
     # state units
     try:
-        data["units"] = data["units"] + " per capita"
+        data["units"] = data["units"] + f" {units_str}"
     except KeyError:
-        data["units"] = "per capita"
+        data["units"] = units_str
 
     # Drop columns
     return data.filter(cols, axis=1).rename(columns={"value": value_column})
 
 
-def value2gdp_share(
-    data: pd.DataFrame, value_column: str = "value", constant: bool = True
-) -> pd.DataFrame:
-    """Convert units to per capita figures"""
-
-    if value_column not in data.columns:
-        data = data.rename(columns={value_column: "value"})
-
-    # Store columns
-    cols = data.columns
-
-    # Load expenditure data
-    gdp = get_weo_indicator("NGDPD").pipe(bn2units).pipe(year2date)
-
-    if constant:
-        gdp = usd2usd_constant(gdp)
-
-    # Merge
-    data = pd.merge(
-        data, gdp, on=["iso_code", "year"], how="left", suffixes=("", "_gdp")
-    )
-
-    # Convert to LCU
-    data["value"] = round(100 * data.value / data.value_gdp, 3)
-
-    # state units
-    try:
-        data["units"] = data["units"] + " % of GDP"
-    except KeyError:
-        data["units"] = "% of GDP"
-
-    # Drop columns
-    return data.filter(cols, axis=1).rename(columns={"value": value_column})
-
-
-def value2pc_group(
-    data: pd.DataFrame, value_column: str = "value", group_by: str | list = None
-) -> pd.DataFrame:
-    """Convert units to per capita figures"""
+def _value2_group(
+    data: pd.DataFrame,
+    other_data: pd.DataFrame,
+    group_by: str | list = None,
+    value_column: str = "value",
+    units_str: str = "",
+    factor: int = 1,
+):
 
     if group_by is None:
         group_by = ["iso_code", "year"]
@@ -187,18 +158,15 @@ def value2pc_group(
     # Store columns
     cols = data.columns
 
-    # Load expenditure data
-    population = un_population_data().pipe(year2date)
-
     # Merge
     data = pd.merge(
-        data, population, on=["iso_code", "year"], how="left", suffixes=("", "_pop")
+        data, other_data, on=["iso_code", "year"], how="left", suffixes=("", "_other")
     ).dropna(subset=["value"], how="any")
 
     # Group by
     data = (
         data.groupby(group_by, observed=True, dropna=False)
-        .agg({"value": "sum", "value_pop": "sum", "iso_code": "count"})
+        .agg({"value": "sum", "value_other": "sum", "iso_code": "count"})
         .reset_index()
     )
     # keep only rows for which the number of iso_codes is no lower than 95% of the average
@@ -216,16 +184,88 @@ def value2pc_group(
     )
 
     # Convert to LCU
-    data["value"] = round(data.value / data.value_pop, 3)
+    data["value"] = round(factor * data.value / data.value_other, 3)
 
     # state units
     try:
-        data["units"] = data["units"] + " per capita"
+        data["units"] = data["units"] + f" {units_str}"
     except KeyError:
-        data["units"] = "per capita"
+        data["units"] = units_str
 
     # Drop columns
     return data.filter(cols, axis=1).rename(columns={"value": value_column})
+
+
+def value2pc(data: pd.DataFrame, value_column: str = "value") -> pd.DataFrame:
+    """Convert units to per capita figures"""
+
+    # Load expenditure data
+    population = un_population_data().pipe(year2date)
+
+    return _value2(
+        data=data,
+        other_data=population,
+        units_str="per capita",
+        factor=1,
+        value_column=value_column,
+    )
+
+
+def value2gov_spending_share(
+    data: pd.DataFrame, value_column: str = "value", constant: bool = True
+) -> pd.DataFrame:
+    """Convert units to per capita figures"""
+
+    # Load expenditure data
+    ggx = get_weo_indicator("GGX").pipe(bn2units).pipe(year2date)
+
+    if constant:
+        ggx = lcu2usd_constant(ggx)
+
+    return _value2(
+        data=data,
+        other_data=ggx,
+        units_str="% of government spending",
+        factor=100,
+        value_column=value_column,
+    )
+
+
+def value2gdp_share(
+    data: pd.DataFrame, value_column: str = "value", constant: bool = True
+) -> pd.DataFrame:
+    """Convert units to per capita figures"""
+    # Load expenditure data
+    gdp = get_weo_indicator("NGDPD").pipe(bn2units).pipe(year2date)
+
+    if constant:
+        gdp = usd2usd_constant(gdp)
+
+    return _value2(
+        data=data,
+        other_data=gdp,
+        units_str="% of GDP",
+        factor=100,
+        value_column=value_column,
+    )
+
+
+def value2pc_group(
+    data: pd.DataFrame, value_column: str = "value", group_by: str | list = None
+) -> pd.DataFrame:
+    """Convert units to per capita figures"""
+
+    # Load expenditure data
+    population = un_population_data().pipe(year2date)
+
+    return _value2_group(
+        data=data,
+        other_data=population,
+        units_str="per capita",
+        factor=1,
+        value_column=value_column,
+        group_by=group_by,
+    )
 
 
 def value2gdp_share_group(
@@ -236,59 +276,20 @@ def value2gdp_share_group(
 ) -> pd.DataFrame:
     """Convert units to per capita figures"""
 
-    if group_by is None:
-        group_by = ["iso_code", "year"]
-    elif isinstance(group_by, str):
-        group_by = [group_by]
-
-    if value_column not in data.columns:
-        data = data.rename(columns={value_column: "value"})
-
-    # Store columns
-    cols = data.columns
-
     # Load expenditure data
     gdp = get_weo_indicator("NGDPD").pipe(bn2units).pipe(year2date)
 
     if constant:
         gdp = usd2usd_constant(gdp)
 
-    # Merge
-    data = pd.merge(
-        data, gdp, on=["iso_code", "year"], how="left", suffixes=("", "_gdp")
-    ).dropna(subset=["value"], how="any")
-
-    # Group by
-    data = (
-        data.groupby(group_by, observed=True, dropna=False)
-        .agg({"value": "sum", "value_gdp": "sum", "iso_code": "count"})
-        .reset_index()
+    return _value2_group(
+        data=data,
+        other_data=gdp,
+        units_str="% of GDP",
+        factor=100,
+        value_column=value_column,
+        group_by=group_by,
     )
-    # keep only rows for which the number of iso_codes is no lower than 95% of the average
-    # number of countries for the group
-    new_group = [c for c in group_by if c != "year"]
-
-    data = (
-        data.groupby(new_group, observed=True, dropna=False, group_keys=False)
-        .apply(
-            lambda group: group.loc[
-                lambda r: r.iso_code >= 0.95 * group.iso_code.mean()
-            ]
-        )
-        .reset_index()
-    )
-
-    # Convert to LCU
-    data["value"] = round(100 * data.value / data.value_gdp, 3)
-
-    # state units
-    try:
-        data["units"] = data["units"] + " % of GDP"
-    except KeyError:
-        data["units"] = "% of GDP"
-
-    # Drop columns
-    return data.filter(cols, axis=1).rename(columns={"value": value_column})
 
 
 def value_total_group(
