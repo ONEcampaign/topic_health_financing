@@ -50,7 +50,7 @@ def combine_income_countries(
 def get_version(versions_dict: dict, version: str) -> pd.DataFrame:
     columns = ["year", "iso_code", "income_group", "country_name", "value"]
     year_filter = "year.dt.year <= 2020"
-    other_filters = "iso_code != 'VEN'"
+    other_filters = "iso_code != 'VEN' and iso_code != 'LBR'"
     income_names = {
         "High": "High income",
         "Low": "Low income",

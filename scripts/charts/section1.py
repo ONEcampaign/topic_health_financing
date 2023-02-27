@@ -69,15 +69,26 @@ def pipeline() -> None:
 
     # ---- Combine all -------------------------->
 
+    indicator_order = {
+        "Per capita spending ($US)": 2,
+        "Total spending ($US billion)": 1,
+        "Share of GDP (%)": 3,
+    }
+
     # Combine both views of the data
-    df = pd.concat(
-        [
-            # combined_pc,
-            # combined_total,
-            combined_gdp,
-        ],
-        ignore_index=True,
-    ).sort_values(["indicator", "year"])
+    df = (
+        pd.concat(
+            [
+                combined_pc,
+                combined_total,
+                combined_gdp,
+            ],
+            ignore_index=True,
+        )
+        .assign(order=lambda d: d.indicator.map(indicator_order))
+        .sort_values(["order", "year"], ascending=(True, True))
+        .drop(columns=["order"])
+    )
 
     # Copy to clipboard
     df.to_clipboard(index=False)
