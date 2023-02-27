@@ -9,6 +9,7 @@ from scripts.charts.common import (
     per_capita_by_income,
     total_by_income,
 )
+from scripts.config import PATHS
 from scripts.tools import (
     value2gdp_share,
     value2gdp_share_group,
@@ -20,7 +21,7 @@ SPENDING = read_spending_data_versions(dataset_name="health_spending")
 get_spending_version = partial(get_version, versions_dict=SPENDING)
 
 
-def pipeline() -> None:
+def chart1_1_pipeline() -> None:
 
     # Get total spending in constant USD
     total_spending = get_spending_version(version="usd_constant")
@@ -91,8 +92,8 @@ def pipeline() -> None:
     )
 
     # Copy to clipboard
-    df.to_clipboard(index=False)
+    df.to_csv(PATHS.output / "section1_chart1.csv", index=False)
 
 
 if __name__ == "__main__":
-    pipeline()
+    chart1_1_pipeline()
