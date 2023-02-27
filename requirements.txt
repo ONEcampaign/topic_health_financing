@@ -3,4 +3,4 @@ pandas
 bblocks
 pydeflate
 requests
- scikit-learn
+scikit-learn

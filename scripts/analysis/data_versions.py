@@ -7,6 +7,7 @@ from scripts.analysis.indicators import (
     get_current_health_exp,
     current_lcu_data,
     get_health_exp_by_function,
+    get_health_exp_by_source,
 )
 from scripts.tools import (
     lcu2gdp,
@@ -19,6 +20,13 @@ from scripts.tools import (
 
 # Function to get the overall spending data in local currency units
 health_exp_current_lcu = partial(current_lcu_data, get_current_health_exp)
+
+# Function to get government total spending data in local currency units
+gov_total_exp_current_lcu = partial(
+    current_lcu_data,
+    get_health_exp_by_source,
+    additional_filter={"source": "domestic general government"},
+)
 
 # Function to extract COVID-19 spending from the spending by function data, in LCU
 covid_exp_current_lcu = partial(
@@ -80,6 +88,11 @@ def pipeline() -> None:
         spending_function=covid_exp_current_lcu, dataset_name="covid_spending"
     )
 
+    # Government spending
+    save_data_versions(
+        spending_function=gov_total_exp_current_lcu, dataset_name="gov_spending"
+    )
+
 
 if __name__ == "__main__":
 
@@ -88,3 +101,4 @@ if __name__ == "__main__":
 
     overall_spending = read_spending_data_versions(dataset_name="health_spending")
     covid_spending = read_spending_data_versions(dataset_name="covid_spending")
+    gov_spending = read_spending_data_versions(dataset_name="gov_spending")
