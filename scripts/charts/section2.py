@@ -1,158 +1,81 @@
+import json
 from functools import partial
 
 import pandas as pd
+from bblocks import convert_id
 
+from scripts import config
 from scripts.analysis.data_versions import read_spending_data_versions
 from scripts.charts.common import (
-    combine_income_countries,
     get_version,
-    per_capita_by_income,
 )
-from scripts.tools import value2gov_spending_share
+from scripts.tools import value2gdp_share, value2gov_spending_share, value2pc
 
 GOV_SPENDING = read_spending_data_versions(dataset_name="gov_spending")
 
 get_spending_version = partial(get_version, versions_dict=GOV_SPENDING)
 
-# Get total spending in constant USD
-total_spending = get_spending_version(version="usd_constant")
 
-# ---- Share of gov spending ---------------------->
+def get_government_spending_shares() -> pd.DataFrame:
 
-# Get per capita spending in constant USD
-spending_countries = get_spending_version(version="usd_constant")
+    # ---- Share of gov spending ---------------------->
 
-# Calculate per capita spending for income groups (total)
-gov_spending_share_countries = value2gov_spending_share(spending_countries)
+    # Get spending in constant USD
+    spending_countries = get_spending_version(version="usd_constant")
 
-d = gov_spending_share_countries.query(
-    "year.dt.year == 2018 and country_name != 'Liberia'"
-)
-d = d.filter(["country_name", "income_group", "value"])
-d = d.sort_values(by=["value"], ascending=False)
-order = d.country_name.to_list()
-d = d.assign(country=lambda d: d.country_name)
-d = (
-    d.pivot(index=["country", "income_group"], columns="country_name", values="value")
-    .filter(order)
-    .reset_index()
-)
+    # Calculate as a share of government spending for income groups (total)
+    gov_spending_share_countries = value2gov_spending_share(spending_countries)
+
+    df = gov_spending_share_countries.query("country_name != 'Liberia'")
+
+    return df
 
 
-def bin_values(df, bin_ranges):
-    """
-    Bins the values in a pandas dataframe column into groups based on specified ranges.
+def get_gdp_spending_shares() -> pd.DataFrame:
 
-    Parameters:
-        df (pandas.DataFrame): The dataframe containing the data to bin.
-        bin_ranges (list): A list of tuples containing the lower and upper bounds of each bin.
+    # ---- Share of gov spending ---------------------->
 
-    Returns:
-        pandas.DataFrame: A new dataframe with an additional column containing the number of values
-        that fall into each bin.
-    """
-    conditions = [
-        (
-            bin_range[0],
-            f"{bin_range[0]}%-{bin_range[1]}%",
-            f"{bin_range[0]} <= value < {bin_range[1]}",
-        )
-        for bin_range in bin_ranges
-    ]
+    # Get spending in constant USD
+    spending_countries = get_spending_version(version="usd_constant")
 
-    frames = []
+    # Calculate as a share of government spending for income groups (total)
+    gdp_share_countries = value2gdp_share(spending_countries)
 
-    for idx, label, condition in conditions:
-        frames.append(df.query(condition).assign(spending=f"{idx}", range=label))
+    df = gdp_share_countries.query("country_name != 'Liberia'")
 
-    data = pd.concat(frames, ignore_index=True)
-
-    order = {
-        "High income": 1,
-        "Upper-middle income": 2,
-        "Lower-middle income": 3,
-        "Low income": 4,
-    }
-
-    data = data.groupby(
-        ["income_group", "spending", "range", "year"], group_keys=True
-    ).apply(
-        lambda d: d.assign(
-            countries=lambda x: x.iso_code.count(),
-            note=lambda x: x.country_name.str.cat(sep=", "),
-        )
-        .drop_duplicates(subset="note")
-        .filter(["countries", "note"])
-    )
-
-    data = (
-        data.reset_index()
-        .assign(
-            order=lambda d: d.income_group.map(order), year=lambda d: d.year.dt.year
-        )
-        .sort_values(["year", "order", "range"])
-        .drop(columns=["order", "level_4"])
-    )
-
-    return data
+    return df
 
 
-bins = [(x / 10, y / 10) for x, y in zip(range(0, 200, 5), range(5, 205, 5))]
+def get_per_capita_spending() -> pd.DataFrame:
+
+    # ---- Share of gov spending ---------------------->
+
+    # Get spending in constant USD
+    spending_countries = get_spending_version(version="usd_constant")
+
+    # Calculate as a share of government spending for income groups (total)
+    per_capita = value2pc(spending_countries)
+
+    df = per_capita.query("country_name != 'Liberia'")
+
+    return df
 
 
-d = bin_values(gov_spending_share_countries.query("year.dt.year == 2019"), bins)
+def read_au_countries() -> list:
+
+    # read json file
+    with open(config.PATHS.raw_data / "AU_members.json", "r") as f:
+        au_members = json.load(f)
+
+    return au_members
 
 
-def histogram_chart(df) -> None:
-    """Create a curved histogram of Gender Inequality Index by continent"""
+def filter_au_countries(df: pd.DataFrame) -> pd.DataFrame:
 
-    bins = [
-        0,
-        0.0001,
-        1,
-        2,
-        3,
-        4,
-        5,
-        6,
-        7,
-        8,
-        9,
-        10,
-        11,
-        12,
-        13,
-        14,
-        15,
-        16,
-        17,
-        18,
-        19,
-        20,
-    ]
-    labels = {
-        "0": 0,
-        "0.001-0.1": 0.05,
-        "0.1-1": 0.55,
-        "2-3": 2.5,
-        "3-4": 3.5,
-        "4-5": 4.5,
-        "5-6": 5.5,
-        "6-7": 6.5,
-        "7-8": 7.5,
-        "8-9": 8.5,
-        "9-10": 9.5,
-        "10-11": 10.5,
-        "11-12": 11.5,
-        "12-13": 12.5,
-        "13-14": 13.5,
-        "14-15": 14.5,
-        "15-16": 15.5,
-        "16-17": 16.5,
-        "17-18": 17.5,
-        "18-19": 18.5,
-        "19-20": 19.5,
-    }
+    return df.query(f"iso_code in {read_au_countries()}")
+
+
+def clean_data_for_chart(df: pd.DataFrame) -> pd.DataFrame:
     order = {
         "High income": 1,
         "Upper-middle income": 2,
@@ -161,19 +84,47 @@ def histogram_chart(df) -> None:
     }
 
     return (
-        df.assign(
-            binned=lambda d: pd.cut(
-                d.value, bins=bins, labels=labels.keys(), include_lowest=True
-            ),
+        df.filter(["country_name", "income_group", "value", "year"], axis=1)
+        .assign(
+            order=lambda d: d["income_group"].map(order),
+            year_note=lambda d: d["year"].dt.year,
+            year=lambda d: d["year"].dt.strftime("%Y-%m-%d"),
         )
-        .groupby(["binned", "income_group"])
-        .size()
-        .reset_index(name="counts")
-        .assign(x_values=lambda d: d.binned.map(labels))
-        .assign(order=lambda d: d.income_group.map(order))
-        .sort_values(["order", "x_values"])
-        .drop(columns=["order"])
+        .sort_values(by=["order", "year", "value"], ascending=(True, False, False))
+        .drop(columns="order")
     )
 
 
-d2 = histogram_chart(gov_spending_share_countries.query("year.dt.year == 2019"))
+def flag_africa(df: pd.DataFrame) -> pd.DataFrame:
+    return df.assign(
+        Continent=lambda d: convert_id(
+            d.country_name, from_type="regex", to_type="continent"
+        ),
+    ).assign(
+        Continent=lambda d: d.Continent.apply(lambda x: x if x == "Africa" else "Other")
+    )
+
+
+def chart_2_1() -> None:
+    df = (
+        get_government_spending_shares()
+        .pipe(filter_au_countries)
+        .pipe(clean_data_for_chart)
+    )
+
+    df.to_csv(config.PATHS.output / "section2_chart1.csv", index=False)
+
+
+def chart_2_2_1() -> None:
+    df_gdp = get_gdp_spending_shares().pipe(clean_data_for_chart).pipe(flag_africa)
+    df_gdp.to_csv(config.PATHS.output / "section2_chart2_1.csv", index=False)
+
+
+def chart_2_2_2() -> None:
+    df_pc = get_per_capita_spending().pipe(clean_data_for_chart).pipe(flag_africa)
+    df_pc.to_csv(config.PATHS.output / "section2_chart2_2.csv", index=False)
+
+
+if __name__ == "__main__":
+    ...
+    # chart_2_1()
