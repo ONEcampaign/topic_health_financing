@@ -90,7 +90,7 @@ def get_version(
     ] + additional_cols
 
     year_filter = "year.dt.year <= 2020"
-    other_filters = "iso_code != 'VEN' and iso_code != 'LBR'"
+    other_filters = "iso_code != 'VEN' and iso_code != 'LBR' and iso_code != 'ZWE'"
     income_names = {
         "High": "High income",
         "Low": "Low income",
