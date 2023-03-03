@@ -1,10 +1,8 @@
-import json
 from functools import partial
 
 import pandas as pd
-from bblocks import add_income_level_column, convert_id
+from bblocks import format_number
 
-from scripts import config
 from scripts.analysis.data_versions import read_spending_data_versions
 from scripts.charts.common import (
     combine_income_countries,
@@ -69,6 +67,16 @@ def get_spending(version="usd_constant") -> pd.DataFrame:
     data = spending_countries.query("source != 'domestic private'")
 
     return pd.concat([data, data_private], ignore_index=True)
+
+
+def get_spending_share_of_total() -> pd.DataFrame:
+    data = get_spending()
+
+    return data.assign(
+        value=lambda d: d.groupby(
+            ["iso_code", "country_name", "year"], group_keys=False
+        )["value"].apply(lambda x: round(100 * x / x.sum(), 2))
+    )
 
 
 def get_government_spending_shares() -> pd.DataFrame:
@@ -147,6 +155,37 @@ def reshape_chart_3_1(df: pd.DataFrame) -> pd.DataFrame:
     )
 
 
+def create_tooltip_3_1(df: pd.DataFrame) -> pd.DataFrame:
+
+    df = df.query("indicator == 'Total spending ($US million)'").copy(deep=True)
+
+    for column in [
+        "Domestic Government",
+        "External Aid",
+        "Out-of-pocket",
+        "Other domestic private",
+    ]:
+        df[column] = format_number(df[column], as_units=True, decimals=1).replace(
+            "nan", "-"
+        )
+
+    df["tooltip"] = (
+        "<b>Domestic Government:</b> US$ "
+        + df["Domestic Government"]
+        + "m.<br>"
+        + "<b>External Aid:</b> US$ "
+        + df["External Aid"]
+        + "m.<br>"
+        + "<b>Out-of-pocket:</b> US$ "
+        + df["Out-of-pocket"]
+        + "m.<br>"
+        + "<b>Other domestic private:</b> US$ "
+        + df["Other domestic private"]
+        + "m."
+    )
+    return df.filter(["Country", "year", "tooltip"], axis=1)
+
+
 def chart_3_1():
     # Get total spending in constant USD
     total_spending = get_spending(version="usd_constant")
@@ -171,16 +210,29 @@ def chart_3_1():
     # Calculate total spending for income groups (total)
     total_spending_income = total_by_income(
         total_spending, additional_grouper="source"
-    ).assign(value=lambda d: round(d.value / 1e9, 3))
+    ).assign(value=lambda d: round(d.value / 1e6, 3))
 
     # Get total spending per country (in billion)
     total_spending_countries = total_spending.assign(
-        value=lambda d: round(d.value / 1e9, 3)
+        value=lambda d: round(d.value / 1e6, 3)
     )
     # Combine the datasets
     combined_total = combine_income_countries(
         total_spending_income, total_spending_countries, additional_grouper="source"
-    ).assign(indicator="Total spending ($US billion)")
+    ).assign(indicator="Total spending ($US million)")
+
+    # ---- Share of total spending ---------------------->
+    total_with_share = (
+        combined_total.melt(id_vars=["year", "source", "indicator"], var_name="Country")
+        .assign(
+            value=lambda d: d.groupby(["Country", "year"], group_keys=False)[
+                "value"
+            ].apply(lambda x: round(100 * x / x.sum(), 2)),
+            indicator="Share of total spending (%)",
+        )
+        .pivot(index=["year", "indicator", "source"], columns="Country", values="value")
+        .reset_index()
+    )
 
     # ---- Share of GDP ---------------------->
     # Calculate % of GDP by income
@@ -198,15 +250,26 @@ def chart_3_1():
     # ---- Combine all -------------------------->
 
     # Combine both views of the data
-    df = pd.concat([combined_pc, combined_total, combined_gdp], ignore_index=True).pipe(
-        clean_chart_3_1, full_df=total_spending
-    )
+    df = pd.concat(
+        [combined_pc, combined_total, combined_gdp, total_with_share], ignore_index=True
+    ).pipe(clean_chart_3_1, full_df=total_spending)
 
     # Reshape the data
     df = reshape_chart_3_1(df)
 
+    # Get only share data
+    share_df = df.query("indicator == 'Share of total spending (%)'")
+
+    # Create tooltip
+    tooltip_df = create_tooltip_3_1(df)
+
+    # Merge tooltip
+    share_df = share_df.merge(tooltip_df, on=["Country", "year"], how="left").drop(
+        ["indicator"], axis=1
+    )
+
     # Copy to clipboard
-    df.to_csv(PATHS.output / "section3_chart3.csv", index=False)
+    share_df.to_csv(PATHS.output / "section3_chart3.csv", index=False)
 
 
 if __name__ == "__main__":
