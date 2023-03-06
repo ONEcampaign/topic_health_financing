@@ -6,6 +6,7 @@ from scripts import config
 from scripts.analysis.indicators import (
     get_current_health_exp,
     current_lcu_data,
+    get_health_exp_by_financing_scheme,
     get_health_exp_by_function,
     get_health_exp_by_source,
 )
@@ -35,6 +36,15 @@ covid_exp_current_lcu = partial(
     additional_filter={"type": "COVID-19 spending"},
 )
 
+# Function to get spending by source
+health_exp_oop = partial(
+    current_lcu_data,
+    get_health_exp_by_financing_scheme,
+    additional_filter={"type": "Household out-of-pocket payment"},
+)
+
+health_exp_by_source = partial(current_lcu_data, get_health_exp_by_source)
+
 
 def save_data_versions(spending_function: callable, dataset_name: str) -> None:
     """Save versions of the LCU data"""
@@ -55,7 +65,7 @@ def save_data_versions(spending_function: callable, dataset_name: str) -> None:
     )
 
     # USD constant per capita
-    data["usd_constant_pc"] = data["usd_constant"].pipe(value2pc)
+    data["usd_constant_pc"] = data["usd_constant"].pipe(value2pc).reset_index(drop=True)
 
     # Save
     for key, value in data.items():
@@ -93,12 +103,26 @@ def pipeline() -> None:
         spending_function=gov_total_exp_current_lcu, dataset_name="gov_spending"
     )
 
+    # Spending by source
+    save_data_versions(
+        spending_function=health_exp_by_source, dataset_name="health_spending_by_source"
+    )
+
+    # Out-of-pocket spending
+    save_data_versions(
+        spending_function=health_exp_oop, dataset_name="health_spending_oop"
+    )
+
 
 if __name__ == "__main__":
 
     # Run the pipeline
-    # pipeline()
+    #pipeline()
 
     overall_spending = read_spending_data_versions(dataset_name="health_spending")
     covid_spending = read_spending_data_versions(dataset_name="covid_spending")
     gov_spending = read_spending_data_versions(dataset_name="gov_spending")
+    scheme_spending = read_spending_data_versions(
+        dataset_name="health_spending_by_source"
+    )
+    oop_spending = read_spending_data_versions(dataset_name="health_spending_oop")
