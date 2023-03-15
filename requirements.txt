@@ -4,3 +4,4 @@ bblocks
 pydeflate
 requests
 scikit-learn
+oda-data
