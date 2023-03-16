@@ -245,6 +245,39 @@ def create_tooltip_4_2(df: pd.DataFrame) -> pd.DataFrame:
 def chart_4_2() -> None:
     data = read_raw_data()
 
+    df = data.pipe(filter_multi_donors)
+    df = df.groupby(
+        ["year", "donor_name", "purpose_name", "sector_name", "sector_code"],
+        as_index=False,
+        dropna=False,
+        observed=True,
+    )["usd_disbursement"].sum(numeric_only=True)
+
+    df = df.loc[lambda d: d.sector_code.between(120, 139)]
+
+    df = df.sort_values(
+        ["year", "donor_name", "sector_code"], ascending=(False, True, True)
+    )
+
+    g = (
+        (
+            data.pipe(filter_multi_donors)
+            .pipe(filter_mdb_data)
+            .pipe(add_sectors_column)
+            .pipe(add_broad_sectors_column)
+            .pipe(summarise_by_donor_recipient_year_flow_sector)
+        )
+        .groupby(["year", "donor_name"])["usd_disbursement"]
+        .sum()
+        .reset_index()
+        # .groupby(["year"])["donor_name"]
+        # .count()
+    )
+
+    g2 = g.pivot(
+        index="donor_name", columns="year", values="usd_disbursement"
+    ).reset_index()
+
     df = (
         data.pipe(filter_multi_donors)
         .pipe(filter_mdb_data)
@@ -281,6 +314,7 @@ def chart_4_2() -> None:
                 "Year",
                 "Donor",
                 "Region",
+                "Health",
                 "Basic Health",
                 "Health, General",
                 "Population & Reproductive Health",
