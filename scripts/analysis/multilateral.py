@@ -13,14 +13,16 @@ set_pydeflate_path(PATHS.pydeflate_data)
 START_YEAR: int = 2006
 END_YEAR: int = 2021
 
+health = [120]
 health_general = list(range(121 * 100, 122 * 100)) + [121]
 health_basic = list(range(122 * 100, 123 * 100)) + [122]
 health_NCDs = list(range(123 * 100, 124 * 100)) + [123]
 pop_RH = list(range(130 * 100, 131 * 100)) + [130]
 
-all_health = health_general + health_basic + health_NCDs + pop_RH
+all_health = health + health_general + health_basic + health_NCDs + pop_RH
 
 health_group = {
+    "Health": health,
     "Health, General": health_general,
     "Basic Health": health_basic,
     "Non-communicable diseases (NCDs)": health_NCDs,
@@ -28,6 +30,7 @@ health_group = {
 }
 
 health_broad_group = {
+    "Health": "Health",
     "Health, General": "Health",
     "Basic Health": "Health",
     "Non-communicable diseases (NCDs)": "Health",
@@ -104,7 +107,7 @@ def filter_multi_donors(df: pd.DataFrame) -> pd.DataFrame:
 
 
 def add_sectors_column(df: pd.DataFrame) -> pd.DataFrame:
-    """Add a column with the sector name for health, and 'other' for everything else"""
+    """Add a column with the sector name for health, and 'other' for everything else."""
 
     df = df.copy(deep=True)
 
@@ -144,7 +147,7 @@ def filter_mdb_data(data: pd.DataFrame) -> pd.DataFrame:
 
 
 def summarise_by_donor_recipient_year_flow_sector(df: pd.DataFrame) -> pd.DataFrame:
-    """Summarise the data by donor, recipient, year and sector"""
+    """Summarise the data by  donor, recipient, year and sector"""
 
     return df.groupby(
         [
@@ -277,112 +280,3 @@ def add_region_groups(df: pd.DataFrame) -> pd.DataFrame:
     }
 
     return df.assign(region_name=lambda d: d.region_code.map(regions))
-
-
-def pipeline() -> None:
-    """Pipeline to get the data for the multilateral donors"""
-
-    data = read_raw_data()
-
-    df = (
-        data.pipe(filter_multi_donors)
-        .pipe(filter_mdb_data)
-        .pipe(add_sectors_column)
-        .pipe(add_broad_sectors_column)
-        .pipe(summarise_by_donor_recipient_year_flow_sector)
-        .pipe(add_income_levels)
-        .pipe(add_region_groups)
-    )
-
-    # stream = (
-    #     df.loc[lambda d: d.broad_sector != "Other"]
-    #     .groupby(
-    #         ["year", "donor_name", "region_name", "income_level", "flow_name"],
-    #         as_index=False,
-    #         dropna=False,
-    #         observed=True,
-    #     )["usd_disbursement"]
-    #     .sum(numeric_only=True)
-    # )
-
-    multi_total = df.pipe(summarise_all_donors)
-
-    multi_summary = df.pipe(summarise_all_flows)
-
-    full_data = pd.concat([multi_total, df], ignore_index=True)
-
-    # get africa total
-    africa = full_data.pipe(get_africa_total)
-
-    # get income totals
-    income = full_data.pipe(get_income_totals)
-
-    summary_data = pd.concat([africa, income], ignore_index=True)
-
-    # summarise health
-    summary_data = summary_data.pipe(summarise_health)
-
-    cols = {
-        "year": "Year",
-        "donor_name": "Donor",
-        "recipient_name": "Recipient",
-        "flow_name": "Type",
-        "sector": "Sector",
-        "broad_sector": "Broad Sector",
-        "usd_disbursement": "Disbursement",
-    }
-
-    chart_data = (
-        summary_data.filter(cols, axis=1)
-        .rename(columns=cols)
-        .loc[lambda d: d["Sector"] != "Other"]
-        .loc[lambda d: d.Year == d.Year.max()]
-        .loc[lambda d: d.Donor == "MDBs, Total"]
-        .loc[lambda d: d.Recipient != "Africa"]
-        .loc[lambda d: d.Type != "Total (ODA + OOF)"]
-    )
-
-    part1 = (
-        chart_data.groupby(
-            ["Donor", "Type"], as_index=False, dropna=False, observed=True
-        )["Disbursement"]
-        .sum(numeric_only=True)
-        .rename(columns={"Type": "To", "Donor": "From"})
-    )
-
-    part2 = (
-        chart_data.groupby(
-            ["Recipient", "Sector", "Type"], as_index=False, dropna=False, observed=True
-        )["Disbursement"]
-        .sum(numeric_only=True)
-        .loc[lambda d: d.Sector != "Other"]
-        .groupby(["Recipient", "Type"], as_index=False, dropna=False, observed=True)
-        .sum(numeric_only=True)
-        .rename(columns={"Type": "From", "Recipient": "To"})
-    )
-
-    chart = pd.concat([part1, part2], ignore_index=True).filter(
-        ["From", "To", "Disbursement"], axis=1
-    )
-
-    # multi_total = multi_total.pivot(
-    #     index=["Year", "Donor", "Recipient", "Broad Sector", "Type"],
-    #     columns="Sector",
-    #     values="Disbursement",
-    # ).reset_index()
-    #
-
-    #
-    # rename = {
-    #     "Population Policies/"
-    #     "Programmes & Reproductive Health": "Population & Reproductive Health",
-    # }
-    #
-    # multi_total = (
-    #     multi_total.assign(order=lambda d: d.Type.map(order))
-    #     .sort_values(["Year", "Donor", "Recipient", "Broad Sector", "order"])
-    #     .drop("order", axis=1)
-    #     .rename(columns=rename)
-    # )
-
-    chart.to_csv(PATHS.output / "multilateral_health.csv", index=False)
