@@ -146,7 +146,6 @@ def _value2_group(
     units_str: str = "",
     factor: int = 1,
 ):
-
     if group_by is None:
         group_by = ["iso_code", "year"]
     elif isinstance(group_by, str):
@@ -292,6 +291,30 @@ def value2gdp_share_group(
     )
 
 
+def value2gov_spending_share_group(
+    data: pd.DataFrame,
+    value_column: str = "value",
+    group_by: str | list = None,
+    constant: bool = True,
+) -> pd.DataFrame:
+    """Convert units to per capita figures"""
+
+    # Load expenditure data
+    ggx = get_weo_indicator("GGX").pipe(bn2units).pipe(year2date)
+
+    if constant:
+        ggx = lcu2usd_constant(ggx)
+
+    return _value2_group(
+        data=data,
+        other_data=ggx,
+        units_str="% of government spending",
+        factor=100,
+        value_column=value_column,
+        group_by=group_by,
+    )
+
+
 def value_total_group(
     data: pd.DataFrame, value_column: str = "value", group_by: str | list = None
 ) -> pd.DataFrame:
@@ -389,7 +412,6 @@ def _report_missing(
     value_column: str | list,
     report_completeness: str,
 ) -> None:
-
     """Export a summary of the missing data in a dataframe"""
 
     if isinstance(value_column, str):
