@@ -1,13 +1,15 @@
 from functools import partial
 
 import pandas as pd
-from bblocks import format_number
+from bblocks import convert_id, format_number
 
 from scripts.analysis.data_versions import read_spending_data_versions
 from scripts.charts.common import (
     combine_income_countries,
     get_version,
+    per_capita_africa,
     per_capita_by_income,
+    total_africa,
     total_by_income,
 )
 from scripts.config import PATHS
@@ -80,7 +82,6 @@ def get_spending_share_of_total() -> pd.DataFrame:
 
 
 def get_government_spending_shares() -> pd.DataFrame:
-
     # ---- Share of gov spending ---------------------->
 
     data = get_spending()
@@ -113,7 +114,7 @@ def clean_chart_3_1(df: pd.DataFrame, full_df: pd.DataFrame) -> pd.DataFrame:
         "Share of GDP (%)": 3,
     }
 
-    country_order = list(full_df.country_name.unique())
+    country_order = list(full_df.country_name.unique()) + ["Africa"]
     income_levels = [
         "High income",
         "Upper-middle income",
@@ -142,7 +143,6 @@ def clean_chart_3_1(df: pd.DataFrame, full_df: pd.DataFrame) -> pd.DataFrame:
 
 
 def reshape_chart_3_1(df: pd.DataFrame) -> pd.DataFrame:
-
     return (
         df.melt(
             id_vars=["year", "source", "indicator"],
@@ -156,7 +156,6 @@ def reshape_chart_3_1(df: pd.DataFrame) -> pd.DataFrame:
 
 
 def create_tooltip_3_1(df: pd.DataFrame) -> pd.DataFrame:
-
     df = df.query("indicator == 'Total spending ($US million)'").copy(deep=True)
 
     for column in [
@@ -200,25 +199,42 @@ def chart_3_1():
         total_spending, additional_grouper="source"
     )
 
+    # Africa pc spending
+    pc_spending_africa = per_capita_africa(total_spending, additional_grouper="source")
+
     # Combine the datasets
     combined_pc = combine_income_countries(
-        pc_spending_income, pc_spending_countries, additional_grouper="source"
+        income=pc_spending_income,
+        country=pc_spending_countries,
+        africa=pc_spending_africa,
+        additional_grouper="source",
     ).assign(indicator="Per capita spending ($US)")
 
     # ---- Total spending ---------------------->
 
     # Calculate total spending for income groups (total)
-    total_spending_income = total_by_income(
-        total_spending, additional_grouper="source"
-    ).assign(value=lambda d: round(d.value / 1e6, 3))
+    total_spending_income = (
+        total_by_income(total_spending, additional_grouper="source")
+        .assign(value=lambda d: round(d.value / 1e6, 3))
+        .dropna(subset=["income_group"])
+    )
 
     # Get total spending per country (in billion)
     total_spending_countries = total_spending.assign(
         value=lambda d: round(d.value / 1e6, 3)
     )
+
+    # Get total spending for Africa (in bilion)
+    total_spending_africa = total_africa(
+        total_spending, additional_grouper="source"
+    ).assign(value=lambda d: round(d.value / 1e9, 3))
+
     # Combine the datasets
     combined_total = combine_income_countries(
-        total_spending_income, total_spending_countries, additional_grouper="source"
+        income=total_spending_income,
+        country=total_spending_countries,
+        africa=total_spending_africa,
+        additional_grouper="source",
     ).assign(indicator="Total spending ($US million)")
 
     # ---- Share of total spending ---------------------->
@@ -240,11 +256,23 @@ def chart_3_1():
         total_spending, group_by=["income_group", "year", "source"]
     )
 
+    gdp_share_africa = value2gdp_share_group(
+        total_spending.assign(
+            country_name=lambda d: convert_id(
+                d.iso_code, from_type="ISO3", to_type="continent"
+            )
+        ).query("country_name == 'Africa'"),
+        group_by=["country_name", "year", "source"],
+    )
+
     gdp_share_countries = value2gdp_share(total_spending)
 
     # Combine the datasets
     combined_gdp = combine_income_countries(
-        gdp_share_income, gdp_share_countries, additional_grouper="source"
+        income=gdp_share_income,
+        country=gdp_share_countries,
+        africa=gdp_share_africa,
+        additional_grouper="source",
     ).assign(indicator="Share of GDP (%)")
 
     # ---- Combine all -------------------------->
@@ -269,9 +297,8 @@ def chart_3_1():
     )
 
     # Copy to clipboard
-    share_df.to_csv(PATHS.output / "section3_chart3.csv", index=False)
+    share_df.to_csv(PATHS.output / "section3_chart1.csv", index=False)
 
 
 if __name__ == "__main__":
-
     chart_3_1()
