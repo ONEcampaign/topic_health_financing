@@ -17,7 +17,6 @@ get_spending_version = partial(get_version, versions_dict=GOV_SPENDING)
 
 
 def get_government_spending_shares() -> pd.DataFrame:
-
     # ---- Share of gov spending ---------------------->
 
     # Get spending in constant USD
@@ -32,7 +31,6 @@ def get_government_spending_shares() -> pd.DataFrame:
 
 
 def get_gdp_spending_shares() -> pd.DataFrame:
-
     # ---- Share of gov spending ---------------------->
 
     # Get spending in constant USD
@@ -47,7 +45,6 @@ def get_gdp_spending_shares() -> pd.DataFrame:
 
 
 def get_per_capita_spending() -> pd.DataFrame:
-
     # ---- Share of gov spending ---------------------->
 
     # Get spending in constant USD
@@ -62,7 +59,6 @@ def get_per_capita_spending() -> pd.DataFrame:
 
 
 def read_au_countries() -> list:
-
     # read json file
     with open(config.PATHS.raw_data / "AU_members.json", "r") as f:
         au_members = json.load(f)
@@ -71,15 +67,14 @@ def read_au_countries() -> list:
 
 
 def filter_au_countries(df: pd.DataFrame) -> pd.DataFrame:
-
     return df.query(f"iso_code in {read_au_countries()}")
 
 
 def clean_data_for_chart(df: pd.DataFrame) -> pd.DataFrame:
     order = {
         "High income": 1,
-        "Upper-middle income": 2,
-        "Lower-middle income": 3,
+        "Upper middle income": 2,
+        "Lower middle income": 3,
         "Low income": 4,
     }
 
@@ -127,4 +122,6 @@ def chart_2_2_2() -> None:
 
 if __name__ == "__main__":
     ...
-    # chart_2_1()
+    chart_2_1()
+    chart_2_2_1()
+    chart_2_2_2()
