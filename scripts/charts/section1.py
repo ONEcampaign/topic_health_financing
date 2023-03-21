@@ -13,6 +13,8 @@ from scripts.config import PATHS
 from scripts.tools import (
     value2gdp_share,
     value2gdp_share_group,
+    value2gov_spending_share,
+    value2gov_spending_share_group,
 )
 
 SPENDING = read_spending_data_versions(dataset_name="health_spending")
@@ -22,7 +24,6 @@ get_spending_version = partial(get_version, versions_dict=SPENDING)
 
 
 def chart1_1_pipeline() -> None:
-
     # Get total spending in constant USD
     total_spending = get_spending_version(version="usd_constant")
 
@@ -68,12 +69,26 @@ def chart1_1_pipeline() -> None:
         gdp_share_income, gdp_share_countries
     ).assign(indicator="Share of GDP (%)")
 
+    # ---- Share of Government spending ---------------------->
+    # Calculate % of government spending
+    govx_share_income = value2gov_spending_share_group(
+        total_spending, group_by=["income_group", "year"]
+    )
+
+    govx_share_countries = value2gov_spending_share(total_spending)
+
+    # Combine the datasets
+    combined_govx = combine_income_countries(
+        govx_share_income, govx_share_countries
+    ).assign(indicator="Share of government spending (%)")
+
     # ---- Combine all -------------------------->
 
     indicator_order = {
-        "Per capita spending ($US)": 2,
         "Total spending ($US billion)": 1,
+        "Per capita spending ($US)": 2,
         "Share of GDP (%)": 3,
+        "Share of government spending (%)": 4,
     }
 
     # Combine both views of the data
@@ -83,12 +98,15 @@ def chart1_1_pipeline() -> None:
                 combined_pc,
                 combined_total,
                 combined_gdp,
+                combined_govx,
             ],
             ignore_index=True,
         )
         .assign(order=lambda d: d.indicator.map(indicator_order))
         .sort_values(["order", "year"], ascending=(True, True))
         .drop(columns=["order"])
+        .set_index(["year", "indicator"])
+        .reset_index()
     )
 
     # Copy to clipboard
