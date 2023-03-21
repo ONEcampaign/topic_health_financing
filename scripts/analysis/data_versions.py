@@ -117,7 +117,7 @@ def pipeline() -> None:
 if __name__ == "__main__":
 
     # Run the pipeline
-    #pipeline()
+    pipeline()
 
     overall_spending = read_spending_data_versions(dataset_name="health_spending")
     covid_spending = read_spending_data_versions(dataset_name="covid_spending")

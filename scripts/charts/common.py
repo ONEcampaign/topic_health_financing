@@ -1,4 +1,5 @@
 import pandas as pd
+from bblocks import add_income_level_column
 
 from scripts.tools import value2pc_group, value_total_group
 
@@ -6,7 +7,6 @@ from scripts.tools import value2pc_group, value_total_group
 def per_capita_by_income(
     spending: pd.DataFrame, additional_grouper: str | list = None
 ) -> pd.DataFrame:
-
     if additional_grouper is None:
         additional_grouper = []
 
@@ -47,7 +47,6 @@ def total_by_income(
 def combine_income_countries(
     income: pd.DataFrame, country: pd.DataFrame, additional_grouper: str | list = None
 ) -> pd.DataFrame:
-
     if additional_grouper is None:
         additional_grouper = []
 
@@ -91,17 +90,16 @@ def get_version(
 
     year_filter = "year.dt.year <= 2020"
     other_filters = "iso_code != 'VEN' and iso_code != 'LBR' and iso_code != 'ZWE'"
-    income_names = {
-        "High": "High income",
-        "Low": "Low income",
-        "Lower-middle": "Lower-middle income",
-        "Upper-middle": "Upper-middle income",
-    }
 
     return (
         versions_dict[version]
         .query(year_filter)
         .query(other_filters)
-        .replace({"income_group": income_names})
+        .pipe(
+            add_income_level_column,
+            id_column="iso_code",
+            id_type="ISO3",
+            target_column="income_group",
+        )
         .filter(columns, axis=1)
     )
