@@ -152,7 +152,7 @@ def sort_sankey(df: pd.DataFrame) -> pd.DataFrame:
     )
 
 
-def chart_4_1() -> None:
+def chart_4_1_old() -> None:
     data = read_raw_data()
 
     df = (
@@ -242,41 +242,8 @@ def create_tooltip_4_2(df: pd.DataFrame) -> pd.DataFrame:
     return data.assign(tooltip=df["tooltip"]).reset_index()
 
 
-def chart_4_2() -> None:
+def chart_4_1() -> None:
     data = read_raw_data()
-
-    df = data.pipe(filter_multi_donors)
-    df = df.groupby(
-        ["year", "donor_name", "purpose_name", "sector_name", "sector_code"],
-        as_index=False,
-        dropna=False,
-        observed=True,
-    )["usd_disbursement"].sum(numeric_only=True)
-
-    df = df.loc[lambda d: d.sector_code.between(120, 139)]
-
-    df = df.sort_values(
-        ["year", "donor_name", "sector_code"], ascending=(False, True, True)
-    )
-
-    g = (
-        (
-            data.pipe(filter_multi_donors)
-            .pipe(filter_mdb_data)
-            .pipe(add_sectors_column)
-            .pipe(add_broad_sectors_column)
-            .pipe(summarise_by_donor_recipient_year_flow_sector)
-        )
-        .groupby(["year", "donor_name"])["usd_disbursement"]
-        .sum()
-        .reset_index()
-        # .groupby(["year"])["donor_name"]
-        # .count()
-    )
-
-    g2 = g.pivot(
-        index="donor_name", columns="year", values="usd_disbursement"
-    ).reset_index()
 
     df = (
         data.pipe(filter_multi_donors)
@@ -293,37 +260,77 @@ def chart_4_2() -> None:
     health = df.query("broad_sector == 'Health'")
 
     health = (
-        health.pipe(summarise_all_donors)
-        .pipe(summarise_flow_type)
-        .pipe(summarise_regions)
-        .pipe(summarise_income_levels)
-    )
-
-    chart = (
-        health.pipe(rename_columns)
-        .filter(["Year", "Donor", "Region", "Sector", "Disbursement"], axis=1)
-        .pipe(pivot_line_graph)
-        .rename(
-            columns={
-                "Population Policies/Programmes &"
-                " Reproductive Health": "Population & Reproductive Health"
-            }
-        )
+        health.groupby(
+            [
+                "year",
+                "broad_sector",
+                "flow_name",
+                "region_name",
+                "recipient_name",
+                "donor_name",
+            ],
+            as_index=False,
+            observed=True,
+            dropna=False,
+        )["usd_disbursement"]
+        .sum()
         .filter(
             [
-                "Year",
-                "Donor",
-                "Region",
-                "Health",
-                "Basic Health",
-                "Health, General",
-                "Population & Reproductive Health",
-                "Non-communicable diseases (NCDs)",
+                "year",
+                "broad_sector",
+                "flow_name",
+                "region_name",
+                "recipient_name",
+                "donor_name",
+                "usd_disbursement",
             ],
             axis=1,
         )
     )
+    health_total = (
+        health.groupby(
+            [
+                "year",
+                "broad_sector",
+                "flow_name",
+                "region_name",
+                "recipient_name",
+            ]
+        )["usd_disbursement"]
+        .sum()
+        .reset_index()
+        .assign(donor_name="Total")
+    )
 
-    chart = chart.pipe(create_tooltip_4_2)
+    chart = (
+        pd.concat([health, health_total], ignore_index=True)
+        .pivot(
+            index=[
+                "year",
+                "broad_sector",
+                "flow_name",
+                "region_name",
+                "recipient_name",
+            ],
+            columns="donor_name",
+            values="usd_disbursement",
+        )
+        .reset_index()
+    )
 
-    chart.to_csv(PATHS.output / "chart_4_2.csv", index=False)
+    chart = (
+        chart.set_index(
+            [
+                "year",
+                "broad_sector",
+                "flow_name",
+                "region_name",
+                "recipient_name",
+                "Total",
+            ]
+        )
+        .reset_index()
+        .query("year >= 2016")
+    )
+
+    chart.to_csv(PATHS.output / "chart_4_1.csv", index=False)
