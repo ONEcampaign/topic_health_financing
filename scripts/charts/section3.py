@@ -117,8 +117,8 @@ def clean_chart_3_1(df: pd.DataFrame, full_df: pd.DataFrame) -> pd.DataFrame:
     country_order = list(full_df.country_name.unique()) + ["Africa"]
     income_levels = [
         "High income",
-        "Upper-middle income",
-        "Lower-middle income",
+        "Upper middle income",
+        "Lower middle income",
         "Low income",
     ]
 

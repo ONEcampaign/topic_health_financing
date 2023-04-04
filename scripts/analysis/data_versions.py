@@ -37,13 +37,14 @@ covid_exp_current_lcu = partial(
     additional_filter={"type": "COVID-19 spending"},
 )
 
-# Function to get spending by source
+# function to get other out-of pocket payments
 health_exp_oop = partial(
     current_lcu_data,
     get_health_exp_by_financing_scheme,
     additional_filter={"type": "Household out-of-pocket payment"},
 )
 
+# Function to get spending by source
 health_exp_by_source_current_lcu = partial(current_lcu_data, get_health_exp_by_source)
 
 # Function to get spending by disease
