@@ -36,13 +36,14 @@ covid_exp_current_lcu = partial(
     additional_filter={"type": "COVID-19 spending"},
 )
 
-# Function to get spending by source
+# function to get other out-of pocket payments
 health_exp_oop = partial(
     current_lcu_data,
     get_health_exp_by_financing_scheme,
     additional_filter={"type": "Household out-of-pocket payment"},
 )
 
+# Function to get spending by source
 health_exp_by_source = partial(current_lcu_data, get_health_exp_by_source)
 
 
@@ -87,7 +88,6 @@ def read_spending_data_versions(dataset_name: str) -> dict[str, pd.DataFrame]:
 
 
 def pipeline() -> None:
-
     # Overall health spending
     save_data_versions(
         spending_function=health_exp_current_lcu, dataset_name="health_spending"
@@ -115,7 +115,6 @@ def pipeline() -> None:
 
 
 if __name__ == "__main__":
-
     # Run the pipeline
     pipeline()
 
