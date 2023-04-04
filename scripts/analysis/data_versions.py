@@ -6,6 +6,7 @@ from scripts import config
 from scripts.analysis.indicators import (
     get_current_health_exp,
     current_lcu_data,
+    get_health_exp_by_disease,
     get_health_exp_by_financing_scheme,
     get_health_exp_by_function,
     get_health_exp_by_source,
@@ -19,7 +20,7 @@ from scripts.tools import (
     value2pc,
 )
 
-# Function to get the overall spending data in local currency units
+# Function to get the overall spending data in local currency units.
 health_exp_current_lcu = partial(current_lcu_data, get_current_health_exp)
 
 # Function to get government total spending data in local currency units
@@ -29,7 +30,7 @@ gov_total_exp_current_lcu = partial(
     additional_filter={"source": "domestic general government"},
 )
 
-# Function to extract COVID-19 spending from the spending by function data, in LCU
+# Function to extract COVID-19 spending from the spending by function data, in LCU.
 covid_exp_current_lcu = partial(
     current_lcu_data,
     get_health_exp_by_function,
@@ -44,7 +45,13 @@ health_exp_oop = partial(
 )
 
 # Function to get spending by source
-health_exp_by_source = partial(current_lcu_data, get_health_exp_by_source)
+health_exp_by_source_current_lcu = partial(current_lcu_data, get_health_exp_by_source)
+
+# Function to get spending by disease
+health_exp_by_disease_current_lcu = partial(
+    current_lcu_data,
+    get_health_exp_by_disease,
+)
 
 
 def save_data_versions(spending_function: callable, dataset_name: str) -> None:
@@ -105,12 +112,19 @@ def pipeline() -> None:
 
     # Spending by source
     save_data_versions(
-        spending_function=health_exp_by_source, dataset_name="health_spending_by_source"
+        spending_function=health_exp_by_source_current_lcu,
+        dataset_name="health_spending_by_source",
     )
 
     # Out-of-pocket spending
     save_data_versions(
         spending_function=health_exp_oop, dataset_name="health_spending_oop"
+    )
+
+    # Spending by disease
+    save_data_versions(
+        spending_function=health_exp_by_disease_current_lcu,
+        dataset_name="health_spending_by_disease",
     )
 
 
@@ -125,3 +139,6 @@ if __name__ == "__main__":
         dataset_name="health_spending_by_source"
     )
     oop_spending = read_spending_data_versions(dataset_name="health_spending_oop")
+    disease_spending = read_spending_data_versions(
+        dataset_name="health_spending_by_disease"
+    )
