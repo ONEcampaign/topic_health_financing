@@ -12,6 +12,7 @@ DATABASE = "policy_data"
 METADATA = "metadata"
 COLLECTION_NAME = "ghed"
 
+
 def check_credentials(username: str | None, password: str | None) -> tuple:
     """check credentials, return from environment if not provided"""
 
@@ -49,7 +50,6 @@ class CollectionCursor:
     """
 
     def __init__(self, data_collection_name):
-
         self.client = None
         self.database = None
         self.metadata = None
