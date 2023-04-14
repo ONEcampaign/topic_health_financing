@@ -8,6 +8,7 @@
     "share_low_income": "0.2",
     "share_lower_middle_income": "3.2",
     "share_upper_middle_income": "15.6",
+    "low_lower_share": "3.4",
     "africa_health_latest_year": "2020",
     "africa_health_previous_year": "2019",
     "africa_health_latest_value": 117.3,
@@ -17,6 +18,5 @@
     "Low income_spending": "20.8",
     "Low income_spending_change": "4.3",
     "Lower middle income_spending": "285.1",
-    "Lower middle income_spending_change": "1.3",
-    "low_lower_share": "3.4"
+    "Lower middle income_spending_change": "1.3"
 }
