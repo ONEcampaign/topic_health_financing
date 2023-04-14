@@ -1,7 +1,7 @@
 country_name,income_group,value,year,year_note
-Seychelles,High income,10.179,2020-01-01,2020
-Seychelles,High income,10.179,2019-01-01,2019
-Seychelles,High income,10.179,2018-01-01,2018
+Seychelles,High income,10.236,2020-01-01,2020
+Seychelles,High income,10.326,2019-01-01,2019
+Seychelles,High income,10.333,2018-01-01,2018
 Seychelles,High income,10.139,2017-01-01,2017
 Seychelles,High income,9.502,2016-01-01,2016
 Seychelles,High income,10.03,2015-01-01,2015
@@ -20,11 +20,11 @@ Seychelles,High income,9.289,2003-01-01,2003
 Seychelles,High income,6.456,2002-01-01,2002
 Seychelles,High income,8.026,2001-01-01,2001
 Seychelles,High income,6.831,2000-01-01,2000
-South Africa,Upper middle income,15.29,2020-01-01,2020
+South Africa,Upper middle income,15.288,2020-01-01,2020
 Botswana,Upper middle income,12.006,2020-01-01,2020
 Namibia,Upper middle income,10.652,2020-01-01,2020
 Mauritius,Upper middle income,10.202,2020-01-01,2020
-Gabon,Upper middle income,9.592,2020-01-01,2020
+Gabon,Upper middle income,9.591,2020-01-01,2020
 Equatorial Guinea,Upper middle income,5.292,2020-01-01,2020
 South Africa,Upper middle income,15.29,2019-01-01,2019
 Botswana,Upper middle income,12.006,2019-01-01,2019
@@ -78,7 +78,7 @@ South Africa,Upper middle income,14.684,2011-01-01,2011
 Namibia,Upper middle income,10.637,2011-01-01,2011
 Botswana,Upper middle income,9.632,2011-01-01,2011
 Mauritius,Upper middle income,7.362,2011-01-01,2011
-Gabon,Upper middle income,7.293,2011-01-01,2011
+Gabon,Upper middle income,7.183,2011-01-01,2011
 Libya,Upper middle income,6.42,2011-01-01,2011
 Equatorial Guinea,Upper middle income,1.473,2011-01-01,2011
 South Africa,Upper middle income,14.145,2010-01-01,2010
@@ -158,7 +158,7 @@ Mauritius,Upper middle income,6.879,2000-01-01,2000
 Libya,Upper middle income,6.04,2000-01-01,2000
 Gabon,Upper middle income,5.241,2000-01-01,2000
 Equatorial Guinea,Upper middle income,1.409,2000-01-01,2000
-Lesotho,Lower middle income,11.076,2020-01-01,2020
+Lesotho,Lower middle income,11.078,2020-01-01,2020
 Tunisia,Lower middle income,10.783,2020-01-01,2020
 Sao Tome and Principe,Lower middle income,10.763,2020-01-01,2020
 Eswatini,Lower middle income,10.096,2020-01-01,2020
@@ -169,14 +169,14 @@ Kenya,Lower middle income,8.232,2020-01-01,2020
 Congo,Lower middle income,8.217,2020-01-01,2020
 Morocco,Lower middle income,7.223,2020-01-01,2020
 Mauritania,Lower middle income,6.976,2020-01-01,2020
-Ghana,Lower middle income,6.852,2020-01-01,2020
 Senegal,Lower middle income,6.481,2020-01-01,2020
+Ghana,Lower middle income,6.161,2020-01-01,2020
 Côte d'Ivoire,Lower middle income,5.536,2020-01-01,2020
 Angola,Lower middle income,5.364,2020-01-01,2020
 Egypt,Lower middle income,5.161,2020-01-01,2020
 Benin,Lower middle income,4.555,2020-01-01,2020
-Djibouti,Lower middle income,4.284,2020-01-01,2020
-Nigeria,Lower middle income,4.187,2020-01-01,2020
+Djibouti,Lower middle income,4.292,2020-01-01,2020
+Nigeria,Lower middle income,4.188,2020-01-01,2020
 Comoros,Lower middle income,4.124,2020-01-01,2020
 Cameroon,Lower middle income,3.699,2020-01-01,2020
 Sao Tome and Principe,Lower middle income,10.763,2019-01-01,2019
@@ -185,11 +185,11 @@ Eswatini,Lower middle income,10.035,2019-01-01,2019
 Algeria,Lower middle income,9.698,2019-01-01,2019
 Tunisia,Lower middle income,9.517,2019-01-01,2019
 United Republic of Tanzania,Lower middle income,9.438,2019-01-01,2019
-Lesotho,Lower middle income,8.988,2019-01-01,2019
+Lesotho,Lower middle income,9.375,2019-01-01,2019
 Kenya,Lower middle income,8.232,2019-01-01,2019
 Morocco,Lower middle income,7.395,2019-01-01,2019
 Mauritania,Lower middle income,6.976,2019-01-01,2019
-Ghana,Lower middle income,6.546,2019-01-01,2019
+Ghana,Lower middle income,6.155,2019-01-01,2019
 Côte d'Ivoire,Lower middle income,5.536,2019-01-01,2019
 Angola,Lower middle income,5.364,2019-01-01,2019
 Congo,Lower middle income,5.107,2019-01-01,2019
@@ -205,7 +205,7 @@ Sao Tome and Principe,Lower middle income,10.763,2018-01-01,2018
 Cabo Verde Republic of,Lower middle income,10.392,2018-01-01,2018
 Algeria,Lower middle income,10.094,2018-01-01,2018
 Eswatini,Lower middle income,9.968,2018-01-01,2018
-Lesotho,Lower middle income,9.611,2018-01-01,2018
+Lesotho,Lower middle income,9.697,2018-01-01,2018
 United Republic of Tanzania,Lower middle income,9.415,2018-01-01,2018
 Kenya,Lower middle income,7.227,2018-01-01,2018
 Morocco,Lower middle income,7.182,2018-01-01,2018
@@ -222,8 +222,8 @@ Congo,Lower middle income,3.487,2018-01-01,2018
 Benin,Lower middle income,2.963,2018-01-01,2018
 Cameroon,Lower middle income,1.957,2018-01-01,2018
 Tunisia,Lower middle income,11.662,2017-01-01,2017
-Lesotho,Lower middle income,10.932,2017-01-01,2017
 Sao Tome and Principe,Lower middle income,10.763,2017-01-01,2017
+Lesotho,Lower middle income,10.755,2017-01-01,2017
 Cabo Verde Republic of,Lower middle income,10.392,2017-01-01,2017
 Algeria,Lower middle income,10.235,2017-01-01,2017
 Eswatini,Lower middle income,9.968,2017-01-01,2017
@@ -246,7 +246,7 @@ Tunisia,Lower middle income,12.625,2016-01-01,2016
 Algeria,Lower middle income,10.65,2016-01-01,2016
 Cabo Verde Republic of,Lower middle income,10.392,2016-01-01,2016
 United Republic of Tanzania,Lower middle income,9.521,2016-01-01,2016
-Lesotho,Lower middle income,9.413,2016-01-01,2016
+Lesotho,Lower middle income,9.44,2016-01-01,2016
 Eswatini,Lower middle income,8.217,2016-01-01,2016
 Kenya,Lower middle income,8.031,2016-01-01,2016
 Sao Tome and Principe,Lower middle income,8.002,2016-01-01,2016
@@ -265,7 +265,7 @@ Congo,Lower middle income,2.885,2016-01-01,2016
 Cameroon,Lower middle income,1.813,2016-01-01,2016
 Tunisia,Lower middle income,12.285,2015-01-01,2015
 Algeria,Lower middle income,10.638,2015-01-01,2015
-Lesotho,Lower middle income,10.26,2015-01-01,2015
+Lesotho,Lower middle income,10.288,2015-01-01,2015
 Cabo Verde Republic of,Lower middle income,10.094,2015-01-01,2015
 Eswatini,Lower middle income,8.582,2015-01-01,2015
 Ghana,Lower middle income,8.558,2015-01-01,2015
@@ -287,7 +287,7 @@ Cameroon,Lower middle income,1.813,2015-01-01,2015
 Tunisia,Lower middle income,13.543,2014-01-01,2014
 Algeria,Lower middle income,11.418,2014-01-01,2014
 Cabo Verde Republic of,Lower middle income,9.983,2014-01-01,2014
-Lesotho,Lower middle income,9.856,2014-01-01,2014
+Lesotho,Lower middle income,9.888,2014-01-01,2014
 Eswatini,Lower middle income,8.537,2014-01-01,2014
 Kenya,Lower middle income,7.845,2014-01-01,2014
 Sao Tome and Principe,Lower middle income,7.776,2014-01-01,2014
@@ -311,7 +311,7 @@ Eswatini,Lower middle income,11.66,2013-01-01,2013
 Cabo Verde Republic of,Lower middle income,9.03,2013-01-01,2013
 Ghana,Lower middle income,8.617,2013-01-01,2013
 Sao Tome and Principe,Lower middle income,8.44,2013-01-01,2013
-Lesotho,Lower middle income,7.883,2013-01-01,2013
+Lesotho,Lower middle income,7.969,2013-01-01,2013
 Morocco,Lower middle income,7.646,2013-01-01,2013
 Kenya,Lower middle income,7.15,2013-01-01,2013
 Djibouti,Lower middle income,6.735,2013-01-01,2013
@@ -331,7 +331,7 @@ Tunisia,Lower middle income,12.639,2012-01-01,2012
 Algeria,Lower middle income,10.061,2012-01-01,2012
 Ghana,Lower middle income,8.973,2012-01-01,2012
 Cabo Verde Republic of,Lower middle income,8.865,2012-01-01,2012
-Lesotho,Lower middle income,8.256,2012-01-01,2012
+Lesotho,Lower middle income,8.296,2012-01-01,2012
 Kenya,Lower middle income,7.359,2012-01-01,2012
 Morocco,Lower middle income,7.166,2012-01-01,2012
 Djibouti,Lower middle income,7.133,2012-01-01,2012
@@ -345,13 +345,13 @@ Egypt,Lower middle income,4.385,2012-01-01,2012
 Angola,Lower middle income,4.202,2012-01-01,2012
 Mauritania,Lower middle income,4.167,2012-01-01,2012
 Cameroon,Lower middle income,3.732,2012-01-01,2012
-Nigeria,Lower middle income,3.67,2012-01-01,2012
+Nigeria,Lower middle income,3.668,2012-01-01,2012
 Congo,Lower middle income,2.671,2012-01-01,2012
 Eswatini,Lower middle income,14.277,2011-01-01,2011
 Tunisia,Lower middle income,12.386,2011-01-01,2011
 Ghana,Lower middle income,12.074,2011-01-01,2011
 Algeria,Lower middle income,9.034,2011-01-01,2011
-Lesotho,Lower middle income,8.907,2011-01-01,2011
+Lesotho,Lower middle income,8.926,2011-01-01,2011
 Cabo Verde Republic of,Lower middle income,8.608,2011-01-01,2011
 Djibouti,Lower middle income,8.474,2011-01-01,2011
 Kenya,Lower middle income,7.981,2011-01-01,2011
@@ -372,7 +372,7 @@ Eswatini,Lower middle income,13.757,2010-01-01,2010
 Tunisia,Lower middle income,13.032,2010-01-01,2010
 Ghana,Lower middle income,11.916,2010-01-01,2010
 Algeria,Lower middle income,9.188,2010-01-01,2010
-Lesotho,Lower middle income,8.295,2010-01-01,2010
+Lesotho,Lower middle income,8.528,2010-01-01,2010
 Morocco,Lower middle income,7.532,2010-01-01,2010
 United Republic of Tanzania,Lower middle income,7.321,2010-01-01,2010
 Kenya,Lower middle income,7.244,2010-01-01,2010
@@ -396,8 +396,8 @@ Algeria,Lower middle income,8.645,2009-01-01,2009
 Cabo Verde Republic of,Lower middle income,8.309,2009-01-01,2009
 United Republic of Tanzania,Lower middle income,7.584,2009-01-01,2009
 Morocco,Lower middle income,7.565,2009-01-01,2009
+Lesotho,Lower middle income,7.323,2009-01-01,2009
 Kenya,Lower middle income,7.201,2009-01-01,2009
-Lesotho,Lower middle income,7.147,2009-01-01,2009
 Senegal,Lower middle income,6.66,2009-01-01,2009
 Djibouti,Lower middle income,6.14,2009-01-01,2009
 Angola,Lower middle income,5.778,2009-01-01,2009
@@ -415,8 +415,8 @@ United Republic of Tanzania,Lower middle income,12.486,2008-01-01,2008
 Tunisia,Lower middle income,11.841,2008-01-01,2008
 Ghana,Lower middle income,9.896,2008-01-01,2008
 Cabo Verde Republic of,Lower middle income,8.107,2008-01-01,2008
+Lesotho,Lower middle income,8.081,2008-01-01,2008
 Algeria,Lower middle income,7.687,2008-01-01,2008
-Lesotho,Lower middle income,7.497,2008-01-01,2008
 Kenya,Lower middle income,7.171,2008-01-01,2008
 Morocco,Lower middle income,6.681,2008-01-01,2008
 Senegal,Lower middle income,6.625,2008-01-01,2008
@@ -501,7 +501,7 @@ Eswatini,Lower middle income,9.743,2004-01-01,2004
 Cabo Verde Republic of,Lower middle income,9.631,2004-01-01,2004
 Senegal,Lower middle income,8.967,2004-01-01,2004
 Algeria,Lower middle income,8.669,2004-01-01,2004
-Lesotho,Lower middle income,8.219,2004-01-01,2004
+Lesotho,Lower middle income,8.253,2004-01-01,2004
 Kenya,Lower middle income,6.989,2004-01-01,2004
 Comoros,Lower middle income,6.756,2004-01-01,2004
 Nigeria,Lower middle income,6.554,2004-01-01,2004
@@ -522,7 +522,7 @@ Cabo Verde Republic of,Lower middle income,11.367,2003-01-01,2003
 United Republic of Tanzania,Lower middle income,9.709,2003-01-01,2003
 Algeria,Lower middle income,9.438,2003-01-01,2003
 Senegal,Lower middle income,9.048,2003-01-01,2003
-Lesotho,Lower middle income,8.045,2003-01-01,2003
+Lesotho,Lower middle income,7.904,2003-01-01,2003
 Kenya,Lower middle income,7.022,2003-01-01,2003
 Comoros,Lower middle income,6.685,2003-01-01,2003
 Cameroon,Lower middle income,6.515,2003-01-01,2003
@@ -543,7 +543,7 @@ Eswatini,Lower middle income,9.189,2002-01-01,2002
 Senegal,Lower middle income,8.636,2002-01-01,2002
 Sao Tome and Principe,Lower middle income,8.481,2002-01-01,2002
 Algeria,Lower middle income,7.973,2002-01-01,2002
-Lesotho,Lower middle income,7.871,2002-01-01,2002
+Lesotho,Lower middle income,7.724,2002-01-01,2002
 Kenya,Lower middle income,7.089,2002-01-01,2002
 Comoros,Lower middle income,6.712,2002-01-01,2002
 Cameroon,Lower middle income,6.433,2002-01-01,2002
@@ -554,16 +554,16 @@ Benin,Lower middle income,4.748,2002-01-01,2002
 Angola,Lower middle income,4.191,2002-01-01,2002
 Morocco,Lower middle income,4.189,2002-01-01,2002
 Côte d'Ivoire,Lower middle income,4.148,2002-01-01,2002
-Nigeria,Lower middle income,2.742,2002-01-01,2002
+Nigeria,Lower middle income,2.741,2002-01-01,2002
 Congo,Lower middle income,1.344,2002-01-01,2002
 Mauritania,Lower middle income,,2002-01-01,2002
 Cabo Verde Republic of,Lower middle income,11.173,2001-01-01,2001
 Tunisia,Lower middle income,10.576,2001-01-01,2001
 Eswatini,Lower middle income,9.285,2001-01-01,2001
 Algeria,Lower middle income,9.267,2001-01-01,2001
-Lesotho,Lower middle income,9.026,2001-01-01,2001
 Senegal,Lower middle income,9.011,2001-01-01,2001
 United Republic of Tanzania,Lower middle income,8.799,2001-01-01,2001
+Lesotho,Lower middle income,8.701,2001-01-01,2001
 Ghana,Lower middle income,7.194,2001-01-01,2001
 Kenya,Lower middle income,7.089,2001-01-01,2001
 Sao Tome and Principe,Lower middle income,6.887,2001-01-01,2001
@@ -584,8 +584,8 @@ Eswatini,Lower middle income,9.794,2000-01-01,2000
 Comoros,Lower middle income,9.155,2000-01-01,2000
 Senegal,Lower middle income,8.96,2000-01-01,2000
 Algeria,Lower middle income,8.779,2000-01-01,2000
-Lesotho,Lower middle income,7.692,2000-01-01,2000
 Cabo Verde Republic of,Lower middle income,7.502,2000-01-01,2000
+Lesotho,Lower middle income,7.407,2000-01-01,2000
 Kenya,Lower middle income,7.089,2000-01-01,2000
 Egypt,Lower middle income,6.664,2000-01-01,2000
 Djibouti,Lower middle income,6.075,2000-01-01,2000
@@ -599,17 +599,17 @@ Angola,Lower middle income,2.739,2000-01-01,2000
 Nigeria,Lower middle income,2.367,2000-01-01,2000
 Congo,Lower middle income,2.273,2000-01-01,2000
 Mauritania,Lower middle income,,2000-01-01,2000
-Burkina Faso,Low income,11.464,2020-01-01,2020
-Niger,Low income,10.231,2020-01-01,2020
+Burkina Faso,Low income,11.647,2020-01-01,2020
+Niger,Low income,10.468,2020-01-01,2020
 Sudan,Low income,9.588,2020-01-01,2020
 Rwanda,Low income,8.883,2020-01-01,2020
 Madagascar,Low income,8.79,2020-01-01,2020
 Malawi,Low income,8.668,2020-01-01,2020
-Burundi,Low income,8.313,2020-01-01,2020
+Burundi,Low income,8.165,2020-01-01,2020
 Mozambique,Low income,7.29,2020-01-01,2020
 Zambia,Low income,7.165,2020-01-01,2020
 Ethiopia,Low income,6.792,2020-01-01,2020
-Democratic Republic of the Congo,Low income,6.27,2020-01-01,2020
+Democratic Republic of the Congo,Low income,6.272,2020-01-01,2020
 Guinea,Low income,6.149,2020-01-01,2020
 Mali,Low income,5.669,2020-01-01,2020
 Gambia,Low income,5.48,2020-01-01,2020
@@ -620,7 +620,7 @@ Central African Republic,Low income,4.842,2020-01-01,2020
 Uganda,Low income,3.139,2020-01-01,2020
 Guinea-Bissau,Low income,2.752,2020-01-01,2020
 Eritrea,Low income,2.354,2020-01-01,2020
-South Sudan,Low income,1.747,2020-01-01,2020
+South Sudan,Low income,1.511,2020-01-01,2020
 Burkina Faso,Low income,9.577,2019-01-01,2019
 Niger,Low income,9.379,2019-01-01,2019
 Rwanda,Low income,8.883,2019-01-01,2019
@@ -634,15 +634,15 @@ Sierra Leone,Low income,5.824,2019-01-01,2019
 Mali,Low income,5.669,2019-01-01,2019
 Gambia,Low income,5.48,2019-01-01,2019
 Togo,Low income,5.382,2019-01-01,2019
-Sudan,Low income,5.374,2019-01-01,2019
+Sudan,Low income,5.368,2019-01-01,2019
 Chad,Low income,4.872,2019-01-01,2019
 Central African Republic,Low income,4.842,2019-01-01,2019
 Ethiopia,Low income,4.761,2019-01-01,2019
-Democratic Republic of the Congo,Low income,4.368,2019-01-01,2019
+Democratic Republic of the Congo,Low income,4.374,2019-01-01,2019
 Uganda,Low income,3.139,2019-01-01,2019
 Guinea-Bissau,Low income,2.752,2019-01-01,2019
 Eritrea,Low income,2.354,2019-01-01,2019
-South Sudan,Low income,2.103,2019-01-01,2019
+South Sudan,Low income,2.104,2019-01-01,2019
 Madagascar,Low income,10.477,2018-01-01,2018
 Rwanda,Low income,8.883,2018-01-01,2018
 Burkina Faso,Low income,8.785,2018-01-01,2018
@@ -671,7 +671,7 @@ Niger,Low income,9.663,2017-01-01,2017
 Rwanda,Low income,8.883,2017-01-01,2017
 Burundi,Low income,8.777,2017-01-01,2017
 Malawi,Low income,8.19,2017-01-01,2017
-Sudan,Low income,8.05,2017-01-01,2017
+Sudan,Low income,8.048,2017-01-01,2017
 Zambia,Low income,7.165,2017-01-01,2017
 Togo,Low income,6.45,2017-01-01,2017
 Mozambique,Low income,5.996,2017-01-01,2017
@@ -688,7 +688,7 @@ Guinea-Bissau,Low income,2.752,2017-01-01,2017
 Eritrea,Low income,2.354,2017-01-01,2017
 South Sudan,Low income,2.106,2017-01-01,2017
 Madagascar,Low income,17.511,2016-01-01,2016
-Sudan,Low income,12.931,2016-01-01,2016
+Sudan,Low income,12.929,2016-01-01,2016
 Burkina Faso,Low income,11.034,2016-01-01,2016
 Burundi,Low income,10.391,2016-01-01,2016
 Malawi,Low income,9.678,2016-01-01,2016
@@ -708,13 +708,13 @@ Guinea,Low income,4.113,2016-01-01,2016
 Democratic Republic of the Congo,Low income,3.808,2016-01-01,2016
 Guinea-Bissau,Low income,2.362,2016-01-01,2016
 Eritrea,Low income,2.354,2016-01-01,2016
-Sudan,Low income,18.286,2015-01-01,2015
+Sudan,Low income,18.284,2015-01-01,2015
 Madagascar,Low income,15.274,2015-01-01,2015
-Burundi,Low income,10.443,2015-01-01,2015
+Burundi,Low income,10.444,2015-01-01,2015
 Malawi,Low income,9.729,2015-01-01,2015
 Rwanda,Low income,7.915,2015-01-01,2015
 Sierra Leone,Low income,7.911,2015-01-01,2015
-Zambia,Low income,7.385,2015-01-01,2015
+Zambia,Low income,7.561,2015-01-01,2015
 Burkina Faso,Low income,7.153,2015-01-01,2015
 Ethiopia,Low income,5.572,2015-01-01,2015
 Mozambique,Low income,5.554,2015-01-01,2015
@@ -730,12 +730,12 @@ Guinea-Bissau,Low income,2.501,2015-01-01,2015
 Eritrea,Low income,2.354,2015-01-01,2015
 Guinea,Low income,1.978,2015-01-01,2015
 Madagascar,Low income,13.924,2014-01-01,2014
-Sudan,Low income,10.648,2014-01-01,2014
+Sudan,Low income,10.618,2014-01-01,2014
 Burundi,Low income,9.792,2014-01-01,2014
 Malawi,Low income,8.581,2014-01-01,2014
 Rwanda,Low income,7.982,2014-01-01,2014
+Zambia,Low income,7.785,2014-01-01,2014
 Burkina Faso,Low income,7.774,2014-01-01,2014
-Zambia,Low income,7.669,2014-01-01,2014
 Sierra Leone,Low income,7.58,2014-01-01,2014
 Uganda,Low income,7.009,2014-01-01,2014
 Gambia,Low income,5.754,2014-01-01,2014
@@ -752,7 +752,7 @@ Guinea-Bissau,Low income,2.598,2014-01-01,2014
 Eritrea,Low income,2.354,2014-01-01,2014
 Madagascar,Low income,10.268,2013-01-01,2013
 Rwanda,Low income,8.304,2013-01-01,2013
-Sudan,Low income,7.521,2013-01-01,2013
+Sudan,Low income,7.518,2013-01-01,2013
 Central African Republic,Low income,7.336,2013-01-01,2013
 Uganda,Low income,7.324,2013-01-01,2013
 Malawi,Low income,7.156,2013-01-01,2013
@@ -760,7 +760,7 @@ Niger,Low income,6.555,2013-01-01,2013
 Burkina Faso,Low income,6.383,2013-01-01,2013
 Gambia,Low income,6.309,2013-01-01,2013
 Ethiopia,Low income,6.193,2013-01-01,2013
-Zambia,Low income,5.495,2013-01-01,2013
+Zambia,Low income,5.452,2013-01-01,2013
 Sierra Leone,Low income,5.15,2013-01-01,2013
 Chad,Low income,5.037,2013-01-01,2013
 Mozambique,Low income,4.726,2013-01-01,2013
@@ -772,7 +772,7 @@ Democratic Republic of the Congo,Low income,3.909,2013-01-01,2013
 Guinea,Low income,2.621,2013-01-01,2013
 Eritrea,Low income,2.354,2013-01-01,2013
 Madagascar,Low income,12.937,2012-01-01,2012
-Sudan,Low income,9.077,2012-01-01,2012
+Sudan,Low income,9.061,2012-01-01,2012
 Rwanda,Low income,8.363,2012-01-01,2012
 Burundi,Low income,7.11,2012-01-01,2012
 Uganda,Low income,7.05,2012-01-01,2012
@@ -780,7 +780,7 @@ Ethiopia,Low income,6.407,2012-01-01,2012
 Gambia,Low income,6.309,2012-01-01,2012
 Niger,Low income,6.249,2012-01-01,2012
 Togo,Low income,6.109,2012-01-01,2012
-Zambia,Low income,6.029,2012-01-01,2012
+Zambia,Low income,5.939,2012-01-01,2012
 Malawi,Low income,5.096,2012-01-01,2012
 Burkina Faso,Low income,4.696,2012-01-01,2012
 Sierra Leone,Low income,4.682,2012-01-01,2012
@@ -796,7 +796,7 @@ Madagascar,Low income,13.937,2011-01-01,2011
 Rwanda,Low income,8.901,2011-01-01,2011
 Niger,Low income,8.3,2011-01-01,2011
 Burundi,Low income,8.228,2011-01-01,2011
-Sudan,Low income,7.037,2011-01-01,2011
+Sudan,Low income,7.036,2011-01-01,2011
 Uganda,Low income,6.897,2011-01-01,2011
 Malawi,Low income,6.78,2011-01-01,2011
 Burkina Faso,Low income,6.587,2011-01-01,2011
