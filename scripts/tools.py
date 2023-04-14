@@ -145,6 +145,7 @@ def _value2_group(
     value_column: str = "value",
     units_str: str = "",
     factor: int = 1,
+    threshold: float = 0.95,
 ):
     if group_by is None:
         group_by = ["iso_code", "year"]
@@ -177,7 +178,10 @@ def _value2_group(
 
     # Filter by threshold
     data = filter_by_threshold(
-        df=data, threshold=0.95, value_columns=["value", "value_other"], group=group_by
+        df=data,
+        threshold=threshold,
+        value_columns=["value", "value_other"],
+        group=group_by,
     )
 
     data["value"] = round(factor * data.value / data.value_other, 3)
@@ -228,7 +232,9 @@ def value2gov_spending_share(
 
 
 def value2gdp_share(
-    data: pd.DataFrame, value_column: str = "value", constant: bool = True
+    data: pd.DataFrame,
+    value_column: str = "value",
+    constant: bool = True,
 ) -> pd.DataFrame:
     """Convert units to per capita figures"""
     # Load expenditure data
@@ -247,7 +253,10 @@ def value2gdp_share(
 
 
 def value2pc_group(
-    data: pd.DataFrame, value_column: str = "value", group_by: str | list = None
+    data: pd.DataFrame,
+    value_column: str = "value",
+    group_by: str | list = None,
+    threshold: float = 0.95,
 ) -> pd.DataFrame:
     """Convert units to per capita figures"""
 
@@ -261,6 +270,7 @@ def value2pc_group(
         factor=1,
         value_column=value_column,
         group_by=group_by,
+        threshold=threshold,
     )
 
 
@@ -269,6 +279,7 @@ def value2gdp_share_group(
     value_column: str = "value",
     group_by: str | list = None,
     constant: bool = True,
+    threshold: float = 0.95,
 ) -> pd.DataFrame:
     """Convert units to per capita figures"""
 
@@ -285,6 +296,7 @@ def value2gdp_share_group(
         factor=100,
         value_column=value_column,
         group_by=group_by,
+        threshold=threshold,
     )
 
 
@@ -362,7 +374,10 @@ def filter_by_threshold(
 
 
 def value_total_group(
-    data: pd.DataFrame, value_column: str = "value", group_by: str | list = None
+    data: pd.DataFrame,
+    value_column: str = "value",
+    group_by: str | list = None,
+    threshold: float = 0.95,
 ) -> pd.DataFrame:
     """Convert units to per capita figures"""
 
@@ -387,7 +402,7 @@ def value_total_group(
     data = add_total_counts_by_group(df=data, group=new_group)
 
     # Filter by threshold
-    data = filter_by_threshold(df=data, threshold=0.95, group=group_by)
+    data = filter_by_threshold(df=data, threshold=threshold, group=group_by)
 
     return data.filter(cols, axis=1).rename(columns={"value": value_column})
 

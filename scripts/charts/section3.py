@@ -194,13 +194,19 @@ def chart_3_1():
     # Get per capita spending in constant USD
     pc_spending_countries = get_spending(version="usd_constant_pc")
 
-    # Calcualte per capita spending for income groups (total)
+    # Calculate per capita spending for income groups (total)
     pc_spending_income = per_capita_by_income(
-        total_spending, additional_grouper="source"
+        total_spending,
+        additional_grouper="source",
+        threshold=0.5,
     )
 
     # Africa pc spending
-    pc_spending_africa = per_capita_africa(total_spending, additional_grouper="source")
+    pc_spending_africa = per_capita_africa(
+        total_spending,
+        additional_grouper="source",
+        threshold=0.5,
+    )
 
     # Combine the datasets
     combined_pc = combine_income_countries(
@@ -214,7 +220,7 @@ def chart_3_1():
 
     # Calculate total spending for income groups (total)
     total_spending_income = (
-        total_by_income(total_spending, additional_grouper="source")
+        total_by_income(total_spending, additional_grouper="source", threshold=0.5)
         .assign(value=lambda d: round(d.value / 1e6, 3))
         .dropna(subset=["income_group"])
     )
@@ -226,7 +232,9 @@ def chart_3_1():
 
     # Get total spending for Africa (in bilion)
     total_spending_africa = total_africa(
-        total_spending, additional_grouper="source"
+        total_spending,
+        additional_grouper="source",
+        threshold=0.5,
     ).assign(value=lambda d: round(d.value / 1e9, 3))
 
     # Combine the datasets
@@ -253,7 +261,7 @@ def chart_3_1():
     # ---- Share of GDP ---------------------->
     # Calculate % of GDP by income
     gdp_share_income = value2gdp_share_group(
-        total_spending, group_by=["income_group", "year", "source"]
+        total_spending, group_by=["income_group", "year", "source"], threshold=0.5
     )
 
     gdp_share_africa = value2gdp_share_group(
@@ -263,6 +271,7 @@ def chart_3_1():
             )
         ).query("country_name == 'Africa'"),
         group_by=["country_name", "year", "source"],
+        threshold=0.5,
     )
 
     gdp_share_countries = value2gdp_share(total_spending)
