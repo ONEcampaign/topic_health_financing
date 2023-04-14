@@ -330,7 +330,13 @@ def chart_4_1() -> None:
             ]
         )
         .reset_index()
+        .round(5)
+        .assign(Total=lambda d: round(d.Total, 4))
         .query("year >= 2016")
-    )
+    ).drop(columns=["broad_sector"])
 
-    chart.to_csv(PATHS.output / "chart_4_1.csv", index=False)
+    chart.to_csv(PATHS.output / "section4_chart_1.csv", index=False)
+
+
+if __name__ == "__main__":
+    chart_4_1()
