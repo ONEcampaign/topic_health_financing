@@ -127,6 +127,7 @@ def chart_2_2_2() -> None:
         .pipe(clean_data_for_chart)
         .pipe(flag_africa)
         .drop(columns="year")
+        .loc[lambda d: d.country_name != "Croatia"]
     )
     df_pc.to_csv(config.PATHS.output / "section2_chart2_2.csv", index=False)
 

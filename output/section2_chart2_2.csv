@@ -1,5 +1,4 @@
 country_name,income_group,value,year_note,Continent
-Croatia,High income,6701.091,2020,Other
 United States of America,High income,6643.358,2020,Other
 Norway,High income,6588.985,2020,Other
 Luxembourg,High income,5854.396,2020,Other
@@ -55,7 +54,6 @@ Saint Kitts and Nevis,High income,565.747,2020,Other
 Bahrain,High income,564.681,2020,Other
 Antigua and Barbuda,High income,499.921,2020,Other
 Trinidad and Tobago,High income,476.388,2020,Other
-Croatia,High income,6373.576,2019,Other
 Norway,High income,6229.813,2019,Other
 Luxembourg,High income,5646.605,2019,Other
 United States of America,High income,5566.892,2019,Other
@@ -111,7 +109,6 @@ Bahrain,High income,534.503,2019,Other
 Antigua and Barbuda,High income,476.469,2019,Other
 Trinidad and Tobago,High income,471.369,2019,Other
 Seychelles,High income,464.457,2019,Africa
-Croatia,High income,6132.05,2018,Other
 Norway,High income,5917.498,2018,Other
 United States of America,High income,5440.644,2018,Other
 Luxembourg,High income,5372.188,2018,Other
@@ -169,7 +166,6 @@ Seychelles,High income,473.696,2018,Africa
 Saint Kitts and Nevis,High income,468.564,2018,Other
 Oman,High income,466.725,2018,Other
 Norway,High income,6026.26,2017,Other
-Croatia,High income,5871.891,2017,Other
 United States of America,High income,5340.587,2017,Other
 Luxembourg,High income,5254.241,2017,Other
 Denmark,High income,5174.26,2017,Other
@@ -226,7 +222,6 @@ Antigua and Barbuda,High income,460.226,2017,Other
 Saint Kitts and Nevis,High income,450.467,2017,Other
 Seychelles,High income,439.631,2017,Africa
 Norway,High income,6119.946,2016,Other
-Croatia,High income,5688.096,2016,Other
 United States of America,High income,5279.678,2016,Other
 Luxembourg,High income,5213.227,2016,Other
 Denmark,High income,5149.85,2016,Other
@@ -283,7 +278,6 @@ Saint Kitts and Nevis,High income,443.979,2016,Other
 Romania,High income,440.052,2016,Other
 Seychelles,High income,419.831,2016,Africa
 Norway,High income,5845.654,2015,Other
-Croatia,High income,5445.827,2015,Other
 United States of America,High income,5161.17,2015,Other
 Luxembourg,High income,5101.925,2015,Other
 Denmark,High income,5063.068,2015,Other
@@ -340,7 +334,6 @@ Romania,High income,412.751,2015,Other
 Saint Kitts and Nevis,High income,380.285,2015,Other
 Seychelles,High income,371.432,2015,Africa
 Norway,High income,5330.473,2014,Other
-Croatia,High income,5271.487,2014,Other
 Luxembourg,High income,5243.407,2014,Other
 Denmark,High income,4965.179,2014,Other
 United States of America,High income,4922.396,2014,Other
@@ -397,7 +390,6 @@ Romania,High income,410.028,2014,Other
 Saint Kitts and Nevis,High income,378.692,2014,Other
 Seychelles,High income,359.083,2014,Africa
 Luxembourg,High income,5211.865,2013,Other
-Croatia,High income,5178.179,2013,Other
 Norway,High income,5034.052,2013,Other
 Denmark,High income,4918.709,2013,Other
 United States of America,High income,4669.137,2013,Other
@@ -453,7 +445,6 @@ Romania,High income,408.071,2013,Other
 Oman,High income,391.251,2013,Other
 Seychelles,High income,349.803,2013,Africa
 Saint Kitts and Nevis,High income,348.049,2013,Other
-Croatia,High income,6004.65,2012,Other
 Luxembourg,High income,5214.12,2012,Other
 Denmark,High income,4980.178,2012,Other
 Norway,High income,4942.299,2012,Other
@@ -510,7 +501,6 @@ Oman,High income,344.762,2012,Other
 Nauru,High income,343.309,2012,Other
 Romania,High income,340.828,2012,Other
 Saint Kitts and Nevis,High income,336.903,2012,Other
-Croatia,High income,6056.937,2011,Other
 Luxembourg,High income,5953.603,2011,Other
 Denmark,High income,4911.276,2011,Other
 Norway,High income,4863.19,2011,Other
@@ -568,7 +558,6 @@ Saint Kitts and Nevis,High income,330.524,2011,Other
 Romania,High income,322.452,2011,Other
 Seychelles,High income,306.877,2011,Africa
 Luxembourg,High income,6868.024,2010,Other
-Croatia,High income,6406.724,2010,Other
 Denmark,High income,4981.962,2010,Other
 Norway,High income,4956.725,2010,Other
 United States of America,High income,4528.718,2010,Other
@@ -625,7 +614,6 @@ Chile,High income,391.056,2010,Other
 Saint Kitts and Nevis,High income,335.141,2010,Other
 Seychelles,High income,303.856,2010,Africa
 Luxembourg,High income,7097.289,2009,Other
-Croatia,High income,6497.017,2009,Other
 Norway,High income,5063.051,2009,Other
 Denmark,High income,4954.292,2009,Other
 United States of America,High income,4416.585,2009,Other
@@ -682,7 +670,6 @@ Antigua and Barbuda,High income,381.548,2009,Other
 Saint Kitts and Nevis,High income,338.104,2009,Other
 Seychelles,High income,222.965,2009,Africa
 Luxembourg,High income,6772.435,2008,Other
-Croatia,High income,6689.637,2008,Other
 Denmark,High income,4638.023,2008,Other
 Norway,High income,4565.558,2008,Other
 United States of America,High income,4206.174,2008,Other
@@ -739,7 +726,6 @@ Trinidad and Tobago,High income,296.761,2008,Other
 Oman,High income,277.67,2008,Other
 Seychelles,High income,230.435,2008,Africa
 Luxembourg,High income,6658.0,2007,Other
-Croatia,High income,6526.314,2007,Other
 Norway,High income,4635.702,2007,Other
 Denmark,High income,4572.761,2007,Other
 Iceland,High income,4118.263,2007,Other
@@ -796,7 +782,6 @@ Trinidad and Tobago,High income,317.14,2007,Other
 Chile,High income,303.273,2007,Other
 Seychelles,High income,302.514,2007,Africa
 Luxembourg,High income,6618.477,2006,Other
-Croatia,High income,5669.475,2006,Other
 Denmark,High income,4482.153,2006,Other
 Norway,High income,4455.801,2006,Other
 Iceland,High income,3968.088,2006,Other
@@ -853,7 +838,6 @@ Trinidad and Tobago,High income,297.319,2006,Other
 Oman,High income,295.96,2006,Other
 Chile,High income,278.506,2006,Other
 Luxembourg,High income,6838.218,2005,Other
-Croatia,High income,5352.198,2005,Other
 Norway,High income,4599.587,2005,Other
 Denmark,High income,4287.088,2005,Other
 Iceland,High income,3966.443,2005,Other
@@ -911,7 +895,6 @@ Trinidad and Tobago,High income,301.53,2005,Other
 Chile,High income,275.246,2005,Other
 Luxembourg,High income,6953.874,2004,Other
 Norway,High income,4778.07,2004,Other
-Croatia,High income,4569.155,2004,Other
 Denmark,High income,4156.897,2004,Other
 Iceland,High income,3956.584,2004,Other
 United States of America,High income,3683.558,2004,Other
@@ -968,7 +951,6 @@ Trinidad and Tobago,High income,247.87,2004,Other
 Nauru,High income,243.497,2004,Other
 Luxembourg,High income,6419.825,2003,Other
 Norway,High income,4838.499,2003,Other
-Croatia,High income,4308.647,2003,Other
 Denmark,High income,4033.835,2003,Other
 Iceland,High income,3877.348,2003,Other
 United States of America,High income,3535.349,2003,Other
@@ -1025,7 +1007,6 @@ Trinidad and Tobago,High income,238.099,2003,Other
 Luxembourg,High income,6157.17,2002,Other
 Norway,High income,4694.833,2002,Other
 Denmark,High income,3935.448,2002,Other
-Croatia,High income,3848.553,2002,Other
 Iceland,High income,3699.205,2002,Other
 United States of America,High income,3367.167,2002,Other
 Germany,High income,3141.68,2002,Other
@@ -1079,7 +1060,6 @@ Chile,High income,249.17,2002,Other
 Romania,High income,232.499,2002,Other
 Trinidad and Tobago,High income,217.065,2002,Other
 Luxembourg,High income,5694.746,2001,Other
-Croatia,High income,4394.357,2001,Other
 Norway,High income,4147.526,2001,Other
 Denmark,High income,3797.277,2001,Other
 Iceland,High income,3423.332,2001,Other
@@ -1135,7 +1115,6 @@ Latvia,High income,231.934,2001,Other
 Romania,High income,207.275,2001,Other
 Trinidad and Tobago,High income,180.557,2001,Other
 Luxembourg,High income,5148.99,2000,Other
-Croatia,High income,4660.641,2000,Other
 Norway,High income,3874.644,2000,Other
 Denmark,High income,3613.548,2000,Other
 Iceland,High income,3396.977,2000,Other
