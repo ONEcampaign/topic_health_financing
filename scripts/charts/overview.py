@@ -15,8 +15,8 @@ def _read_spending() -> pd.DataFrame:
 
 def _read_gov_spending() -> pd.DataFrame:
     return pd.read_csv(
-        PATHS.output / "section2_chart1.csv", parse_dates=["year"]
-    ).assign(year=lambda d: d.year.dt.year)
+        PATHS.output / "section2_chart3.csv",
+    ).rename(columns={"year_note": "year"})
 
 
 def _filter_latest2y(df: pd.DataFrame) -> pd.DataFrame:
