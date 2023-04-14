@@ -191,6 +191,18 @@ def total_spending_by_income_bar() -> None:
 
     kn_dict = data.pipe(as_smt_dict_shares)
 
+    low_lower = {
+        "low_lower_share": str(
+            round(
+                float(kn_dict["share_low_income"])
+                + float(kn_dict["share_lower_middle_income"]),
+                1,
+            )
+        )
+    }
+
+    kn_dict = kn_dict | low_lower
+
     update_key_number(PATHS.output / "overview.json", new_dict=kn_dict)
 
     # Save chart
