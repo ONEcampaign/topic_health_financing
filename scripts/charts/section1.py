@@ -1,3 +1,4 @@
+"""How much do countries spend on health?"""
 from functools import partial
 
 import pandas as pd
