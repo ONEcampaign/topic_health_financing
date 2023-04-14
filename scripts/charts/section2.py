@@ -100,14 +100,15 @@ def flag_africa(df: pd.DataFrame) -> pd.DataFrame:
     )
 
 
-def chart_2_1() -> None:
+def chart_2_3() -> None:
     df = (
         get_government_spending_shares()
         .pipe(filter_au_countries)
         .pipe(clean_data_for_chart)
+        .drop(columns="year")
     )
 
-    df.to_csv(config.PATHS.output / "section2_chart1.csv", index=False)
+    df.to_csv(config.PATHS.output / "section2_chart3.csv", index=False)
 
 
 def chart_2_2_1() -> None:
@@ -134,6 +135,7 @@ def chart_2_2_2() -> None:
 
 if __name__ == "__main__":
     ...
-    chart_2_1()
+
     chart_2_2_1()
     chart_2_2_2()
+    chart_2_3()
