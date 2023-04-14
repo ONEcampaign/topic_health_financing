@@ -336,28 +336,31 @@ def value_total_group(
         data.sort_values(["year", "iso_code"])
         .groupby(["iso_code"], observed=True, dropna=False, group_keys=False)
         .apply(lambda group: group.ffill(limit=2))
+        .dropna(subset=["value"])  # drop rows with that still have NaNs
     )
+
+    # Get total counts for each group
+
+    new_group = [c for c in group_by if c != "year"]
+    counts_df = (data
+                 .loc[:, new_group + ["iso_code"]]
+                 .groupby(new_group, observed=True, dropna=False)
+                 .agg({"iso_code": "nunique"})
+                 .reset_index()
+                 .rename(columns={"iso_code": "total_counts"})
+                 )
 
     # Group by
     data = (
         data.groupby(group_by, observed=True, dropna=False)
         .agg({"value": "sum", "iso_code": "count"})
         .reset_index()
+        .merge(counts_df, on=new_group, how="left")
+        # keep only rows for which the number of iso_codes is no lower than 95% of total counts
+        .query("iso_code >= 0.95 * total_counts")
+        .drop(columns=["total_counts"])
     )
-    # keep only rows for which the number of iso_codes is no lower than 95% of the average
-    # number of countries for the group
-    new_group = [c for c in group_by if c != "year"]
 
-    data = (
-        data.groupby(new_group, observed=True, dropna=False, group_keys=False)
-        .apply(
-            lambda group: group.loc[
-                lambda r: r.iso_code >= 0.95 * group.iso_code.mean()
-            ]
-        )
-        .reset_index()
-    )
-    # Drop columns
     return data.filter(cols, axis=1).rename(columns={"value": value_column})
 
 
