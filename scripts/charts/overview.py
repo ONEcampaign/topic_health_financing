@@ -1,4 +1,5 @@
 import pandas as pd
+from bblocks import convert_id
 
 from scripts.charts.common import update_key_number
 from scripts.config import PATHS
@@ -7,6 +8,12 @@ from scripts.config import PATHS
 def _read_spending() -> pd.DataFrame:
     return pd.read_csv(
         PATHS.output / "section1_chart1.csv", parse_dates=["year"]
+    ).assign(year=lambda d: d.year.dt.year)
+
+
+def _read_gov_spending() -> pd.DataFrame:
+    return pd.read_csv(
+        PATHS.output / "section2_chart1.csv", parse_dates=["year"]
     ).assign(year=lambda d: d.year.dt.year)
 
 
@@ -31,6 +38,10 @@ def _filter_income_data(df: pd.DataFrame) -> pd.DataFrame:
     )
 
 
+def _filter_africa_data(df: pd.DataFrame) -> pd.DataFrame:
+    return df.filter(["year", "Africa"], axis=1)
+
+
 def _reshape_vertical(df: pd.DataFrame) -> pd.DataFrame:
     return df.melt(id_vars=["year"], var_name="entity", value_name="value")
 
@@ -41,6 +52,15 @@ def _summarise_by_year(df: pd.DataFrame) -> pd.DataFrame:
 
 def _calculate_pct_change(df: pd.DataFrame) -> pd.DataFrame:
     return df.assign(change=lambda d: d.value.pct_change())
+
+
+def abuja_count() -> int:
+    return (
+        _read_gov_spending()
+        .loc[lambda d: d.year == d.year.max()]
+        .loc[lambda d: d.value >= 15]
+        .country_name.nunique()
+    )
 
 
 def as_smt_dict_total(df: pd.DataFrame) -> dict:
@@ -114,7 +134,7 @@ def total_spending_sm() -> None:
     )
 
     kn_dict = {
-        "total_health_spending": f'{data["latest_value"]/1e9:.1f} trillion',
+        "total_health_spending": f'{data["latest_value"] / 1e9:.1f} trillion',
         "total_health_spending_year": f'{data["latest_year"]}',
         "total_health_spending_change": f"{data['change']}%",
         "total_health_spending_previous_year": f'{data["previous_year"]}',
@@ -149,6 +169,30 @@ def total_spending_by_income_bar() -> None:
 
     # Save chart
     data.to_csv(PATHS.output / "overview_c2.csv", index=False)
+
+
+def africa_spending_trend_line() -> None:
+    """Time series of total health spending in Africa"""
+    data_us = (
+        _read_spending()
+        .pipe(_filter_indicator, indicator="Total spending ($US billion)")
+        .pipe(_filter_africa_data)
+        .pipe(_reshape_vertical)
+    )
+
+    data_gdp = (
+        _read_spending()
+        .pipe(_filter_indicator, indicator="Share of GDP (%)")
+        .pipe(_filter_africa_data)
+        .pipe(_reshape_vertical)
+    )
+
+    data = data_us.merge(
+        data_gdp, on=["year", "entity"], suffixes=("_spending", "_gdp")
+    ).rename(columns={"value_spending": "Africa", "value_gdp": "Share of GDP (%)"})
+
+    # Save chart
+    data.to_csv(PATHS.output / "overview_c3.csv", index=False)
 
 
 if __name__ == "__main__":
