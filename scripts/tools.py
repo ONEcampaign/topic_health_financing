@@ -159,30 +159,27 @@ def _value2_group(
 
     # Merge
     data = pd.merge(
-        data, other_data, on=["iso_code", "year"], how="left", suffixes=("", "_other")
+        data,
+        other_data,
+        on=["iso_code", "year"],
+        how="left",
+        suffixes=("", "_other"),
     ).dropna(subset=["value"], how="any")
 
-    # Group by
-    data = (
-        data.groupby(group_by, observed=True, dropna=False)
-        .agg({"value": "sum", "value_other": "sum", "iso_code": "count"})
-        .reset_index()
-    )
-    # keep only rows for which the number of iso_codes is no lower than 95% of the average
-    # number of countries for the group
+    # fill gaps
+    data = fill_gaps_by_group(data, value_columns=["value", "value_other"])
+
+    # Get total counts for each group
     new_group = [c for c in group_by if c != "year"]
 
-    data = (
-        data.groupby(new_group, observed=True, dropna=False, group_keys=False)
-        .apply(
-            lambda group: group.loc[
-                lambda r: r.iso_code >= 0.95 * group.iso_code.mean()
-            ]
-        )
-        .reset_index()
+    # Add total counts
+    data = add_total_counts_by_group(df=data, group=new_group)
+
+    # Filter by threshold
+    data = filter_by_threshold(
+        df=data, threshold=0.95, value_columns=["value", "value_other"], group=group_by
     )
 
-    # Convert to LCU
     data["value"] = round(factor * data.value / data.value_other, 3)
 
     # state units
@@ -315,11 +312,16 @@ def value2gov_spending_share_group(
     )
 
 
-def fill_gaps_by_group(df: pd.DataFrame) -> pd.DataFrame:
+def fill_gaps_by_group(
+    df: pd.DataFrame, value_columns: str | list = "value"
+) -> pd.DataFrame:
+    if isinstance(value_columns, str):
+        value_columns = [value_columns]
+
     return (
         df.sort_values(["year", "iso_code"])
         .groupby(
-            [c for c in df.columns if c not in ["value", "year"]],
+            [c for c in df.columns if c not in [*value_columns, "year"]],
             observed=True,
             dropna=False,
             group_keys=False,
@@ -340,11 +342,20 @@ def add_total_counts_by_group(df: pd.DataFrame, group: list) -> pd.DataFrame:
 
 
 def filter_by_threshold(
-    df: pd.DataFrame, threshold: float, group: list, counts_column: str = "total_counts"
+    df: pd.DataFrame,
+    threshold: float,
+    group: list,
+    value_columns: str | list = "value",
+    counts_column: str = "total_counts",
 ) -> pd.DataFrame:
+    if isinstance(value_columns, str):
+        value_columns = [value_columns]
+
+    value_columns = {k: "sum" for k in value_columns}
+
     return (
         df.groupby(group, observed=True, dropna=False, as_index=False)
-        .agg({"value": "sum", "iso_code": "count", counts_column: "max"})
+        .agg(value_columns | {"iso_code": "count", counts_column: "max"})
         .query(f"iso_code >= {threshold} * {counts_column}")
         .reset_index(drop=True)
     )
