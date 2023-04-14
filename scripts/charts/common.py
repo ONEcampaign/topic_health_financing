@@ -5,7 +5,9 @@ from scripts.tools import value2pc_group, value_total_group
 
 
 def per_capita_by_income(
-    spending: pd.DataFrame, additional_grouper: str | list = None
+    spending: pd.DataFrame,
+    additional_grouper: str | list = None,
+    threshold: float = 0.95,
 ) -> pd.DataFrame:
     if additional_grouper is None:
         additional_grouper = []
@@ -18,6 +20,7 @@ def per_capita_by_income(
             data=spending,
             group_by=["year", "income_group"] + additional_grouper,
             value_column="value",
+            threshold=threshold,
         )
         .sort_values(["year", "income_group"])
         .reset_index(drop=True)
@@ -25,7 +28,9 @@ def per_capita_by_income(
 
 
 def per_capita_africa(
-    spending: pd.DataFrame, additional_grouper: str | list = None
+    spending: pd.DataFrame,
+    additional_grouper: str | list = None,
+    threshold: float = 0.95,
 ) -> pd.DataFrame:
     if additional_grouper is None:
         additional_grouper = []
@@ -44,6 +49,7 @@ def per_capita_africa(
             data=spending,
             group_by=["year", "country_name"] + additional_grouper,
             value_column="value",
+            threshold=threshold,
         )
         .sort_values(["year", "country_name"])
         .reset_index(drop=True)
@@ -51,7 +57,9 @@ def per_capita_africa(
 
 
 def total_by_income(
-    spending: pd.DataFrame, additional_grouper: str | list = None
+    spending: pd.DataFrame,
+    additional_grouper: str | list = None,
+    threshold: float = 0.95,
 ) -> pd.DataFrame:
     if additional_grouper is None:
         additional_grouper = []
@@ -64,6 +72,7 @@ def total_by_income(
             data=spending,
             group_by=["year", "income_group"] + additional_grouper,
             value_column="value",
+            threshold=threshold,
         )
         .sort_values(["year", "income_group"])
         .reset_index(drop=True)
@@ -71,7 +80,9 @@ def total_by_income(
 
 
 def total_africa(
-    spending: pd.DataFrame, additional_grouper: str | list = None
+    spending: pd.DataFrame,
+    additional_grouper: str | list = None,
+    threshold: float = 0.95,
 ) -> pd.DataFrame:
     if additional_grouper is None:
         additional_grouper = []
@@ -90,6 +101,7 @@ def total_africa(
             data=spending,
             group_by=["year", "country_name"] + additional_grouper,
             value_column="value",
+            threshold=threshold,
         )
         .sort_values(["year", "country_name"])
         .reset_index(drop=True)
@@ -164,3 +176,45 @@ def get_version(
         )
         .filter(columns, axis=1)
     )
+
+
+def df_to_key_number(
+    df: pd.DataFrame,
+    indicator_name: str,
+    id_column: str,
+    value_columns: str | list[str],
+) -> dict:
+    if isinstance(value_columns, str):
+        value_columns = [value_columns]
+
+    return (
+        df.assign(indicator=indicator_name)
+        .filter(["indicator", id_column] + value_columns, axis=1)
+        .groupby(["indicator"])
+        .apply(
+            lambda x: x.set_index(id_column)[value_columns]
+            .astype(str)
+            .to_dict(orient="index")
+        )
+        .to_dict()
+    )
+
+
+def update_key_number(path: str, new_dict: dict) -> None:
+    """Update a key number json by updating it with a new dictionary"""
+    import os
+    import json
+
+    # Check if the file exists, if not create
+    if not os.path.exists(path):
+        with open(path, "w") as f:
+            json.dump({}, f)
+
+    with open(path, "r") as f:
+        data = json.load(f)
+
+    for k in new_dict.keys():
+        data[k] = new_dict[k]
+
+    with open(path, "w") as f:
+        json.dump(data, f, indent=4)
