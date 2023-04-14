@@ -1,5 +1,4 @@
 country_name,income_group,value,year_note,Continent
-Croatia,High income,47.68,2020,Other
 United States of America,High income,10.597,2020,Other
 United Kingdom,High income,10.218,2020,Other
 Germany,High income,9.946,2020,Other
@@ -55,7 +54,6 @@ Singapore,High income,3.145,2020,Other
 Saint Kitts and Nevis,High income,3.046,2020,Other
 Bahrain,High income,2.41,2020,Other
 Brunei Darussalam,High income,2.251,2020,Other
-Croatia,High income,41.791,2019,Other
 Nauru,High income,10.346,2019,Other
 Sweden,High income,9.221,2019,Other
 Japan,High income,9.051,2019,Other
@@ -111,7 +109,6 @@ Singapore,High income,2.275,2019,Other
 United Arab Emirates,High income,2.237,2019,Other
 Bahrain,High income,2.2,2019,Other
 Brunei Darussalam,High income,2.071,2019,Other
-Croatia,High income,41.892,2018,Other
 Nauru,High income,9.779,2018,Other
 Sweden,High income,9.276,2018,Other
 Japan,High income,8.997,2018,Other
@@ -168,7 +165,6 @@ Brunei Darussalam,High income,2.296,2018,Other
 Saint Kitts and Nevis,High income,2.248,2018,Other
 United Arab Emirates,High income,2.114,2018,Other
 Singapore,High income,2.038,2018,Other
-Croatia,High income,41.554,2017,Other
 Sweden,High income,9.136,2017,Other
 Japan,High income,8.974,2017,Other
 Germany,High income,8.785,2017,Other
@@ -225,7 +221,6 @@ United Arab Emirates,High income,2.197,2017,Other
 Saint Kitts and Nevis,High income,2.187,2017,Other
 Brunei Darussalam,High income,2.147,2017,Other
 Singapore,High income,2.107,2017,Other
-Croatia,High income,41.939,2016,Other
 Nauru,High income,9.871,2016,Other
 Sweden,High income,9.144,2016,Other
 Norway,High income,8.991,2016,Other
@@ -282,7 +277,6 @@ Brunei Darussalam,High income,2.421,2016,Other
 United Arab Emirates,High income,2.417,2016,Other
 Saint Kitts and Nevis,High income,2.176,2016,Other
 Singapore,High income,2.078,2016,Other
-Croatia,High income,41.888,2015,Other
 Sweden,High income,9.071,2015,Other
 Japan,High income,9.039,2015,Other
 Denmark,High income,8.715,2015,Other
@@ -339,7 +333,6 @@ Bahamas,High income,2.289,2015,Other
 Brunei Darussalam,High income,2.268,2015,Other
 Singapore,High income,1.968,2015,Other
 Saint Kitts and Nevis,High income,1.936,2015,Other
-Croatia,High income,41.855,2014,Other
 Sweden,High income,9.199,2014,Other
 Japan,High income,9.025,2014,Other
 Denmark,High income,8.705,2014,Other
@@ -396,7 +389,6 @@ Qatar,High income,2.102,2014,Other
 Saint Kitts and Nevis,High income,1.942,2014,Other
 Brunei Darussalam,High income,1.774,2014,Other
 Singapore,High income,1.744,2014,Other
-Croatia,High income,41.174,2013,Other
 Sweden,High income,9.162,2013,Other
 Japan,High income,8.994,2013,Other
 Denmark,High income,8.724,2013,Other
@@ -453,7 +445,6 @@ Saint Kitts and Nevis,High income,1.919,2013,Other
 Qatar,High income,1.748,2013,Other
 Brunei Darussalam,High income,1.72,2013,Other
 Singapore,High income,1.537,2013,Other
-Croatia,High income,47.807,2012,Other
 Sweden,High income,9.041,2012,Other
 Japan,High income,8.957,2012,Other
 Denmark,High income,8.877,2012,Other
@@ -510,7 +501,6 @@ Oman,High income,1.884,2012,Other
 Brunei Darussalam,High income,1.687,2012,Other
 Qatar,High income,1.384,2012,Other
 Singapore,High income,1.308,2012,Other
-Croatia,High income,47.321,2011,Other
 Sweden,High income,8.8,2011,Other
 Japan,High income,8.783,2011,Other
 Denmark,High income,8.735,2011,Other
@@ -567,7 +557,6 @@ Oman,High income,1.83,2011,Other
 Brunei Darussalam,High income,1.706,2011,Other
 Qatar,High income,1.177,2011,Other
 Singapore,High income,1.172,2011,Other
-Croatia,High income,50.202,2010,Other
 Denmark,High income,8.939,2010,Other
 Germany,High income,8.398,2010,Other
 United Kingdom,High income,8.047,2010,Other
@@ -624,7 +613,6 @@ Oman,High income,2.048,2010,Other
 Saint Kitts and Nevis,High income,1.96,2010,Other
 Qatar,High income,1.328,2010,Other
 Singapore,High income,1.149,2010,Other
-Croatia,High income,50.442,2009,Other
 Denmark,High income,9.015,2009,Other
 Germany,High income,8.502,2009,Other
 United Kingdom,High income,8.158,2009,Other
@@ -681,7 +669,6 @@ Oman,High income,2.008,2009,Other
 Saint Kitts and Nevis,High income,1.973,2009,Other
 Qatar,High income,1.693,2009,Other
 Singapore,High income,1.185,2009,Other
-Croatia,High income,48.328,2008,Other
 Nauru,High income,12.601,2008,Other
 Denmark,High income,7.991,2008,Other
 Germany,High income,7.717,2008,Other
@@ -738,7 +725,6 @@ Kuwait,High income,1.502,2008,Other
 Oman,High income,1.384,2008,Other
 Qatar,High income,1.223,2008,Other
 Singapore,High income,1.192,2008,Other
-Croatia,High income,48.223,2007,Other
 Nauru,High income,16.819,2007,Other
 Denmark,High income,7.806,2007,Other
 Germany,High income,7.555,2007,Other
@@ -795,7 +781,6 @@ Qatar,High income,1.548,2007,Other
 United Arab Emirates,High income,1.505,2007,Other
 Kuwait,High income,1.472,2007,Other
 Singapore,High income,0.95,2007,Other
-Croatia,High income,44.089,2006,Other
 Nauru,High income,10.874,2006,Other
 Denmark,High income,7.69,2006,Other
 Germany,High income,7.659,2006,Other
@@ -852,7 +837,6 @@ Brunei Darussalam,High income,1.627,2006,Other
 Kuwait,High income,1.394,2006,Other
 United Arab Emirates,High income,1.333,2006,Other
 Singapore,High income,0.995,2006,Other
-Croatia,High income,43.789,2005,Other
 Nauru,High income,9.725,2005,Other
 Germany,High income,7.803,2005,Other
 Denmark,High income,7.613,2005,Other
@@ -909,7 +893,6 @@ Bahamas,High income,1.588,2005,Other
 Kuwait,High income,1.534,2005,Other
 United Arab Emirates,High income,1.319,2005,Other
 Singapore,High income,1.001,2005,Other
-Croatia,High income,39.113,2004,Other
 Germany,High income,7.7,2004,Other
 Iceland,High income,7.551,2004,Other
 Denmark,High income,7.526,2004,Other
@@ -966,7 +949,6 @@ Kuwait,High income,1.798,2004,Other
 Bahamas,High income,1.612,2004,Other
 United Arab Emirates,High income,1.406,2004,Other
 Singapore,High income,1.023,2004,Other
-Croatia,High income,38.579,2003,Other
 Germany,High income,8.052,2003,Other
 Iceland,High income,7.908,2003,Other
 Norway,High income,7.646,2003,Other
@@ -1022,7 +1004,6 @@ Trinidad and Tobago,High income,1.904,2003,Other
 Bahamas,High income,1.628,2003,Other
 United Arab Emirates,High income,1.622,2003,Other
 Singapore,High income,1.337,2003,Other
-Croatia,High income,36.565,2002,Other
 Germany,High income,7.925,2002,Other
 Iceland,High income,7.653,2002,Other
 Norway,High income,7.445,2002,Other
@@ -1078,7 +1059,6 @@ United Arab Emirates,High income,1.664,2002,Other
 Qatar,High income,1.548,2002,Other
 Bahamas,High income,1.509,2002,Other
 Singapore,High income,1.052,2002,Other
-Croatia,High income,44.418,2001,Other
 Germany,High income,7.755,2001,Other
 France,High income,7.062,2001,Other
 Iceland,High income,7.058,2001,Other
@@ -1134,7 +1114,6 @@ Trinidad and Tobago,High income,1.743,2001,Other
 Bahamas,High income,1.566,2001,Other
 Qatar,High income,1.462,2001,Other
 Singapore,High income,0.882,2001,Other
-Croatia,High income,49.024,2000,Other
 Germany,High income,7.733,2000,Other
 Iceland,High income,7.189,2000,Other
 France,High income,6.971,2000,Other

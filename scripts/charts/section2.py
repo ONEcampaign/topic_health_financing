@@ -116,6 +116,7 @@ def chart_2_2_1() -> None:
         .pipe(clean_data_for_chart)
         .pipe(flag_africa)
         .drop(columns="year")
+        .loc[lambda d: d.country_name != "Croatia"]
     )
     df_gdp.to_csv(config.PATHS.output / "section2_chart2_1.csv", index=False)
 
