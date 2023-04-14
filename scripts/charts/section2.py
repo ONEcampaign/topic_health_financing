@@ -111,7 +111,12 @@ def chart_2_1() -> None:
 
 
 def chart_2_2_1() -> None:
-    df_gdp = get_gdp_spending_shares().pipe(clean_data_for_chart).pipe(flag_africa)
+    df_gdp = (
+        get_gdp_spending_shares()
+        .pipe(clean_data_for_chart)
+        .pipe(flag_africa)
+        .drop(columns="year")
+    )
     df_gdp.to_csv(config.PATHS.output / "section2_chart2_1.csv", index=False)
 
 
