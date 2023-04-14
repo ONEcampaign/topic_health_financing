@@ -122,7 +122,12 @@ def chart_2_2_1() -> None:
 
 
 def chart_2_2_2() -> None:
-    df_pc = get_per_capita_spending().pipe(clean_data_for_chart).pipe(flag_africa)
+    df_pc = (
+        get_per_capita_spending()
+        .pipe(clean_data_for_chart)
+        .pipe(flag_africa)
+        .drop(columns="year")
+    )
     df_pc.to_csv(config.PATHS.output / "section2_chart2_2.csv", index=False)
 
 
