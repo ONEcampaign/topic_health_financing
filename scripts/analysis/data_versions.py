@@ -77,13 +77,13 @@ def save_data_versions(spending_function: callable, dataset_name: str) -> None:
 
     # Save
     for key, value in data.items():
-        value.to_feather(config.PATHS.output / f"{dataset_name}_{key}.feather")
+        value.to_feather(config.PATHS.raw_data / f"{dataset_name}_{key}.feather")
 
 
 def read_spending_data_versions(dataset_name: str) -> dict[str, pd.DataFrame]:
     """Read versions of the LCU data"""
     return {
-        key: pd.read_feather(config.PATHS.output / f"{dataset_name}_{key}.feather")
+        key: pd.read_feather(config.PATHS.raw_data / f"{dataset_name}_{key}.feather")
         for key in [
             "lcu",
             "gdp_share",
