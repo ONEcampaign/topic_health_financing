@@ -54,6 +54,32 @@ def _calculate_pct_change(df: pd.DataFrame) -> pd.DataFrame:
     return df.assign(change=lambda d: d.value.pct_change())
 
 
+def _spending_income(data: pd.DataFrame, income: str) -> dict:
+    numbers = {
+        f"{income}_spending": str(
+            round(
+                data.loc[
+                    (data.entity == income) & (data.year == data.year.max()),
+                    "value",
+                ].sum(),
+                1,
+            )
+        ),
+        f"{income}_spending_change": str(
+            round(
+                data.loc[
+                    (data.entity == income) & (data.year == data.year.max()),
+                    "change",
+                ].sum()
+                * 100,
+                1,
+            )
+        ),
+    }
+
+    return numbers
+
+
 def abuja_count() -> int:
     return (
         _read_gov_spending()
@@ -208,7 +234,40 @@ def africa_spending_trend_line() -> None:
     data.to_csv(PATHS.output / "overview_c3.csv", index=False)
 
 
+def section1_dynamic_text() -> None:
+    """
+    In 2020, low-income countries spent US$20.7 billion on health, a 4% increase
+    from 2019. Lower-middle income countries spent US$325 billion on health,
+    a 1% decrease from 2019. Health’s share of gross domestic product (GDP)
+    increased across all income levels between 2019 and 2020, likely caused
+    by the onset of the COVID-19 pandemic. More data is needed to know if this
+     upward trend will continue beyond 2020.
+    """
+    numbers = {}
+    data = (
+        _read_spending()
+        .pipe(_filter_indicator, indicator="Total spending ($US billion)")
+        .pipe(_filter_income_data)
+        .pipe(_reshape_vertical)
+        .assign(change=lambda d: d.groupby(["entity"])["value"].pct_change())
+    )
+
+    data_total = data.pipe(_summarise_by_year)
+
+    numbers["total_health_spending_2000"] = str(
+        round(data_total.loc[data_total.year == 2000, "value"].sum() / 1e3, 1)
+    )
+
+    low_income = _spending_income(data, "Low income")
+    lower_middle = _spending_income(data, "Lower middle income")
+
+    numbers = numbers | low_income | lower_middle
+
+    update_key_number(PATHS.output / "overview.json", new_dict=numbers)
+
+
 if __name__ == "__main__":
     total_spending_sm()
     total_spending_by_income_bar()
     africa_spending_trend_line()
+    section1_dynamic_text()
