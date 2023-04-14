@@ -319,21 +319,32 @@ def chart_4_1() -> None:
     )
 
     chart = (
-        chart.set_index(
-            [
-                "year",
-                "broad_sector",
-                "flow_name",
-                "region_name",
-                "recipient_name",
-                "Total",
-            ]
+        (
+            chart.set_index(
+                [
+                    "year",
+                    "broad_sector",
+                    "flow_name",
+                    "region_name",
+                    "recipient_name",
+                    "Total",
+                ]
+            )
+            .reset_index()
+            .round(5)
+            .assign(Total=lambda d: round(d.Total, 4))
+            .query("year >= 2016")
         )
-        .reset_index()
-        .round(5)
-        .assign(Total=lambda d: round(d.Total, 4))
-        .query("year >= 2016")
-    ).drop(columns=["broad_sector"])
+        .drop(columns=["broad_sector"])
+        .rename(
+            columns={
+                "flow_name": "Type",
+                "region_name": "Region",
+                "recipient_name": "Recipient",
+                "year": "Year",
+            }
+        )
+    )
 
     chart.to_csv(PATHS.output / "section4_chart_1.csv", index=False)
 
