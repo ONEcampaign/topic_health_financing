@@ -1,8 +1,10 @@
 import pandas as pd
-from bblocks import convert_id
+from bblocks import add_income_level_column, convert_id, set_bblocks_data_path
 
 from scripts.charts.common import update_key_number
 from scripts.config import PATHS
+
+set_bblocks_data_path(PATHS.raw_data)
 
 
 def _read_spending() -> pd.DataFrame:
@@ -80,13 +82,16 @@ def _spending_income(data: pd.DataFrame, income: str) -> dict:
     return numbers
 
 
-def abuja_count() -> int:
-    return (
+def abuja_count() -> str:
+    countries = (
         _read_gov_spending()
         .loc[lambda d: d.year == d.year.max()]
         .loc[lambda d: d.value >= 15]
-        .country_name.nunique()
+        .country_name.unique()
     )
+
+    # save as string separated by comma
+    return ", ".join(countries)
 
 
 def as_smt_dict_total(df: pd.DataFrame, prefix: str) -> dict:
@@ -276,6 +281,57 @@ def section1_dynamic_text() -> None:
     numbers = numbers | low_income | lower_middle
 
     update_key_number(PATHS.output / "overview.json", new_dict=numbers)
+
+
+def section2_dynamic_text() -> None:
+    numbers = {}
+
+    gdp = (
+        _read_spending()
+        .pipe(_filter_indicator, indicator="Share of GDP (%)")
+        .drop(columns=["indicator"])
+        .pipe(_reshape_vertical)
+        .pipe(add_income_level_column, id_column="entity", id_type="regex")
+        .assign(
+            continent=lambda d: convert_id(
+                d.entity, from_type="regex", to_type="continent"
+            )
+        )
+        .loc[lambda d: d.continent == "Africa"]
+        .loc[lambda d: d.value >= 5]
+        .dropna(subset="income_level")
+        .loc[lambda d: d.year == d.year.max()]
+    )
+
+    per_capita = (
+        _read_spending()
+        .pipe(_filter_indicator, indicator="Per capita spending ($US)")
+        .drop(columns=["indicator"])
+        .pipe(_reshape_vertical)
+        .pipe(add_income_level_column, id_column="entity", id_type="regex")
+        .assign(
+            continent=lambda d: convert_id(
+                d.entity, from_type="regex", to_type="continent"
+            )
+        )
+        .loc[lambda d: d.continent == "Africa"]
+        .loc[lambda d: d.value >= 86]
+        .dropna(subset="income_level")
+        .loc[lambda d: d.year == d.year.max()]
+    )
+
+    gdp_entities = set(gdp.entity.unique())
+    per_capita_entities = set(per_capita.entity.unique())
+    in_both = list(gdp_entities.intersection(per_capita_entities))
+
+    data = pd.concat([gdp, per_capita], ignore_index=True)
+
+    both = (
+        data.loc[data.entity.isin(in_both)]
+        .drop_duplicates(subset=["entity"])
+        .groupby("income_level", as_index=False)
+        .count()
+    )
 
 
 if __name__ == "__main__":
