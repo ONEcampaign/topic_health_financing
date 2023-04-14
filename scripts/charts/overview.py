@@ -63,12 +63,12 @@ def abuja_count() -> int:
     )
 
 
-def as_smt_dict_total(df: pd.DataFrame) -> dict:
+def as_smt_dict_total(df: pd.DataFrame, prefix: str) -> dict:
     result = {
-        "latest_year": df.year.max(),
-        "previous_year": df.year.max() - 1,
-        "latest_value": df.query("year == year.max()").value.values[0],
-        "change": df.query("year == year.max()").change.values[0],
+        f"{prefix}_latest_year": f"{df.year.max()}",
+        f"{prefix}_previous_year": f"{df.year.max() - 1}",
+        f"{prefix}_latest_value": df.query("year == year.max()").value.values[0],
+        f"{prefix}_change": df.query("year == year.max()").change.values[0],
     }
 
     return result
@@ -76,7 +76,7 @@ def as_smt_dict_total(df: pd.DataFrame) -> dict:
 
 def as_smt_dict_shares(df: pd.DataFrame) -> dict:
     result = {
-        "year": f"{df.Year.max()}",
+        "income_year": f"{df.Year.max()}",
         "share_high_income": str(df.query("entity == 'High income'").Share.values[0]),
         "share_low_income": str(df.query("entity == 'Low income'").Share.values[0]),
         "share_lower_middle_income": str(
@@ -122,22 +122,22 @@ def total_spending_sm() -> None:
             value=lambda d: round(d.value * 1e6, 1),
             change=lambda d: round(d.change * 100, 1),
         )
-        .pipe(as_smt_dict_total)
+        .pipe(as_smt_dict_total, prefix="total_health")
     )
 
     chart = as_smt_df(
-        title=f"As of {data['latest_year']}",
-        top=data["latest_value"],
-        bottom_text=f"Compared to {data['previous_year']}",
-        bottom=data["change"],
-        centre=data["change"] / 10,
+        title=f"As of {data['total_health_latest_year']}",
+        top=data["total_health_latest_value"],
+        bottom_text=f"Compared to {data['total_health_previous_year']}",
+        bottom=data["total_health_change"],
+        centre=data["total_health_change"] / 10,
     )
 
     kn_dict = {
-        "total_health_spending": f'{data["latest_value"] / 1e9:.1f} trillion',
-        "total_health_spending_year": f'{data["latest_year"]}',
-        "total_health_spending_change": f"{data['change']}%",
-        "total_health_spending_previous_year": f'{data["previous_year"]}',
+        "total_health_spending": f'{data["total_health_latest_value"] / 1e9:.1f} trillion',
+        "total_health_spending_year": f'{data["total_health_latest_year"]}',
+        "total_health_spending_change": f"{data['total_health_change']}%",
+        "total_health_spending_previous_year": f'{data["total_health_previous_year"]}',
     }
 
     update_key_number(PATHS.output / "overview.json", new_dict=kn_dict)
@@ -191,6 +191,19 @@ def africa_spending_trend_line() -> None:
         data_gdp, on=["year", "entity"], suffixes=("_spending", "_gdp")
     ).rename(columns={"value_spending": "Africa", "value_gdp": "Share of GDP (%)"})
 
+    key_numbers = (
+        data_us.pipe(_calculate_pct_change)
+        .assign(
+            value=lambda d: round(d.value, 1),
+            change=lambda d: round(d.change * 100, 1),
+        )
+        .pipe(as_smt_dict_total, prefix="africa_health")
+    )
+
+    key_numbers["met_abuja"] = f"{abuja_count()}"
+
+    update_key_number(PATHS.output / "overview.json", new_dict=key_numbers)
+
     # Save chart
     data.to_csv(PATHS.output / "overview_c3.csv", index=False)
 
@@ -198,3 +211,4 @@ def africa_spending_trend_line() -> None:
 if __name__ == "__main__":
     total_spending_sm()
     total_spending_by_income_bar()
+    africa_spending_trend_line()
