@@ -334,6 +334,7 @@ def chart_4_1() -> None:
             .round(5)
             .assign(Total=lambda d: round(d.Total, 4))
             .query("year >= 2016")
+            .sort_values(["year"], ascending=False)
         )
         .drop(columns=["broad_sector"])
         .rename(
