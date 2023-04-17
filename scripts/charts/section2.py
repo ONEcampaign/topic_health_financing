@@ -1,3 +1,8 @@
+"""
+Analyze health spending data across countries, focusing spending levels against various measures.
+Use to process, filter and aggregate the data
+"""
+
 import json
 from functools import partial
 
@@ -7,59 +12,46 @@ from bblocks import convert_id
 from scripts import config
 from scripts.analysis.data_versions import read_spending_data_versions
 from scripts.charts.common import (
+    flag_africa,
     get_version,
+    reorder_by_income,
 )
 from scripts.tools import value2gdp_share, value2gov_spending_share, value2pc
 
+# Load a dictionary with dataframes for the different versions of "gov_spending" data
+# These include: 'lcu', 'gdp_share','usd_current', 'usd_constant', 'usd_constant_pc'
 GOV_SPENDING = read_spending_data_versions(dataset_name="gov_spending")
 
+# Create a function to get a specific version. It returns a dataframe.
+# Note that the `get_version` function, of which this is a partial implementation,
+# handles some basic transformations of the data (like adding income levels or filtering
+# out certain countries).
 get_spending_version = partial(get_version, versions_dict=GOV_SPENDING)
 
+# Get spending in constant USD
+spending_countries = get_spending_version(version="usd_constant")
 
-def get_government_spending_shares() -> pd.DataFrame:
-    # ---- Share of gov spending ---------------------->
 
-    # Get spending in constant USD
-    spending_countries = get_spending_version(version="usd_constant")
+def get_government_spending_shares(constant_usd_data: pd.DataFrame) -> pd.DataFrame:
+    """Calculate share of government spending"""
+    # Calculate as a share of government spending for individual countries
+    return value2gov_spending_share(constant_usd_data)
 
+
+def get_gdp_spending_shares(constant_usd_data: pd.DataFrame) -> pd.DataFrame:
+    """Calculate share of gdp"""
     # Calculate as a share of government spending for income groups (total)
-    gov_spending_share_countries = value2gov_spending_share(spending_countries)
-
-    df = gov_spending_share_countries.query("country_name != 'Liberia'")
-
-    return df
+    return value2gdp_share(constant_usd_data)
 
 
-def get_gdp_spending_shares() -> pd.DataFrame:
-    # ---- Share of gov spending ---------------------->
-
-    # Get spending in constant USD
-    spending_countries = get_spending_version(version="usd_constant")
-
+def get_per_capita_spending(constant_usd_data: pd.DataFrame) -> pd.DataFrame:
+    """Calculate per capita figures"""
     # Calculate as a share of government spending for income groups (total)
-    gdp_share_countries = value2gdp_share(spending_countries)
-
-    df = gdp_share_countries.query("country_name != 'Liberia'")
-
-    return df
-
-
-def get_per_capita_spending() -> pd.DataFrame:
-    # ---- Share of gov spending ---------------------->
-
-    # Get spending in constant USD
-    spending_countries = get_spending_version(version="usd_constant")
-
-    # Calculate as a share of government spending for income groups (total)
-    per_capita = value2pc(spending_countries)
-
-    df = per_capita.query("country_name != 'Liberia'")
-
-    return df
+    return value2pc(constant_usd_data)
 
 
 def read_au_countries() -> list:
-    # read json file
+    """Read AU member countries"""
     with open(config.PATHS.raw_data / "AU_members.json", "r") as f:
         au_members = json.load(f)
 
@@ -71,36 +63,48 @@ def filter_au_countries(df: pd.DataFrame) -> pd.DataFrame:
 
 
 def clean_data_for_chart(df: pd.DataFrame) -> pd.DataFrame:
-    order = {
-        "High income": 1,
-        "Upper middle income": 2,
-        "Lower middle income": 3,
-        "Low income": 4,
-    }
+    """Clean and reorder the data for the Flourish chart"""
 
     return (
         df.filter(["country_name", "income_group", "value", "year"], axis=1)
+        .pipe(reorder_by_income)
         .assign(
-            order=lambda d: d["income_group"].map(order),
             year_note=lambda d: d["year"].dt.year,
             year=lambda d: d["year"].dt.strftime("%Y-%m-%d"),
         )
-        .sort_values(by=["order", "year", "value"], ascending=(True, False, False))
-        .drop(columns="order")
     )
 
 
-def flag_africa(df: pd.DataFrame) -> pd.DataFrame:
-    return df.assign(
-        Continent=lambda d: convert_id(
-            d.country_name, from_type="regex", to_type="continent"
-        ),
-    ).assign(
-        Continent=lambda d: d.Continent.apply(lambda x: x if x == "Africa" else "Other")
+def chart_2_2_1() -> None:
+    """Data for chart 1 in section 2"""
+    # Pipeline for chart
+    df_gdp = (
+        get_gdp_spending_shares()
+        .pipe(clean_data_for_chart)
+        .pipe(flag_africa)
+        .drop(columns="year")
     )
+
+    # Save
+    df_gdp.to_csv(config.PATHS.output / "section2_chart2_1.csv", index=False)
+
+
+def chart_2_2_2() -> None:
+    """data for chart 2 in section 2"""
+
+    # Pipeline for chart
+    df_pc = (
+        get_per_capita_spending()
+        .pipe(clean_data_for_chart)
+        .pipe(flag_africa)
+        .drop(columns="year")
+    )
+    # Save
+    df_pc.to_csv(config.PATHS.output / "section2_chart2_2.csv", index=False)
 
 
 def chart_2_3() -> None:
+    """data for chart 3 in section 2"""
     df = (
         get_government_spending_shares()
         .pipe(filter_au_countries)
@@ -111,31 +115,7 @@ def chart_2_3() -> None:
     df.to_csv(config.PATHS.output / "section2_chart3.csv", index=False)
 
 
-def chart_2_2_1() -> None:
-    df_gdp = (
-        get_gdp_spending_shares()
-        .pipe(clean_data_for_chart)
-        .pipe(flag_africa)
-        .drop(columns="year")
-        .loc[lambda d: d.country_name != "Croatia"]
-    )
-    df_gdp.to_csv(config.PATHS.output / "section2_chart2_1.csv", index=False)
-
-
-def chart_2_2_2() -> None:
-    df_pc = (
-        get_per_capita_spending()
-        .pipe(clean_data_for_chart)
-        .pipe(flag_africa)
-        .drop(columns="year")
-        .loc[lambda d: d.country_name != "Croatia"]
-    )
-    df_pc.to_csv(config.PATHS.output / "section2_chart2_2.csv", index=False)
-
-
 if __name__ == "__main__":
-    ...
-
     chart_2_2_1()
     chart_2_2_2()
     chart_2_3()
