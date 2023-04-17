@@ -333,9 +333,21 @@ def section2_dynamic_text() -> None:
         .count()
     )
 
+    low = both.query("income_level == 'Low income'")
+
+    if len(low) == 0:
+        numbers["low_income_target"] = 0
+
+    lower_middle = both.query("income_level == 'Lower middle income'")
+
+    numbers["lower_middle_target"] = str(lower_middle.entity.sum())
+
+    update_key_number(PATHS.output / "overview.json", new_dict=numbers)
+
 
 if __name__ == "__main__":
     total_spending_sm()
     total_spending_by_income_bar()
     africa_spending_trend_line()
     section1_dynamic_text()
+    section2_dynamic_text()
