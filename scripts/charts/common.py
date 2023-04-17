@@ -270,7 +270,7 @@ def combine_income_countries(
 
 def _exclude_countries_query() -> str:
     """Create a query string excluding certain countries"""
-    countries = ["VEN", "LBR", "ZWE"]
+    countries = ["VEN", "LBR", "ZWE", "HRV"]
     return f"iso_code not in {countries}"
 
 
@@ -368,3 +368,42 @@ def update_key_number(path: str, new_dict: dict) -> None:
 
     with open(path, "w") as f:
         json.dump(data, f, indent=4)
+
+
+def reorder_by_income(df: pd.DataFrame, ascending=True) -> pd.DataFrame:
+    """Reorder dataframe by income levels"""
+
+    order = {
+        "High income": 1,
+        "Upper middle income": 2,
+        "Lower middle income": 3,
+        "Low income": 4,
+    }
+
+    return (
+        df.assign(order=lambda d: d["income_group"].map(order))
+        .sort_values(by=["order", "year", "value"], ascending=(True, False, False))
+        .drop(columns="order")
+        .reset_index(drop=True)
+    )
+
+
+def flag_africa(df: pd.DataFrame) -> pd.DataFrame:
+    """
+    Identify african countries in a dataframe. Non-african countries get flagged
+    as  'Other'.
+    """
+
+    # Add continents
+    df = df.assign(
+        Continent=lambda d: convert_id(
+            d.country_name,
+            from_type="regex",
+            to_type="continent",
+        )
+    )
+
+    # Identify African countries
+    return df.assign(
+        Continent=lambda d: d.Continent.apply(lambda x: x if x == "Africa" else "Other")
+    )
