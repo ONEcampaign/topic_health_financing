@@ -1,4 +1,88 @@
 year,Country,Domestic Government,External Aid,Other domestic private,Out-of-pocket,tooltip
+2000,Low income,33.88,12.32,6.3,47.5,"<b>Domestic Government:</b> US$ 2,206.8m.<br><b>External Aid:</b> US$ 802.5m.<br><b>Out-of-pocket:</b> US$ 3,094.5m.<br><b>Other domestic private:</b> US$ 410.2m."
+2001,Low income,33.67,13.05,5.11,48.17,"<b>Domestic Government:</b> US$ 2,403.2m.<br><b>External Aid:</b> US$ 931.0m.<br><b>Out-of-pocket:</b> US$ 3,437.6m.<br><b>Other domestic private:</b> US$ 365.0m."
+2002,Low income,30.31,13.56,4.76,51.37,"<b>Domestic Government:</b> US$ 2,510.4m.<br><b>External Aid:</b> US$ 1,122.8m.<br><b>Out-of-pocket:</b> US$ 4,254.8m.<br><b>Other domestic private:</b> US$ 394.2m."
+2003,Low income,30.13,13.91,4.78,51.18,"<b>Domestic Government:</b> US$ 2,809.6m.<br><b>External Aid:</b> US$ 1,297.3m.<br><b>Out-of-pocket:</b> US$ 4,772.7m.<br><b>Other domestic private:</b> US$ 445.9m."
+2004,Low income,27.36,18.28,3.86,50.5,"<b>Domestic Government:</b> US$ 2,814.6m.<br><b>External Aid:</b> US$ 1,880.7m.<br><b>Out-of-pocket:</b> US$ 5,194.7m.<br><b>Other domestic private:</b> US$ 397.4m."
+2005,Low income,25.89,20.09,3.41,50.6,"<b>Domestic Government:</b> US$ 2,848.1m.<br><b>External Aid:</b> US$ 2,209.3m.<br><b>Out-of-pocket:</b> US$ 5,565.7m.<br><b>Other domestic private:</b> US$ 375.5m."
+2006,Low income,23.08,21.61,3.55,51.76,"<b>Domestic Government:</b> US$ 2,837.4m.<br><b>External Aid:</b> US$ 2,656.0m.<br><b>Out-of-pocket:</b> US$ 6,361.9m.<br><b>Other domestic private:</b> US$ 436.9m."
+2007,Low income,23.01,20.94,3.56,52.49,"<b>Domestic Government:</b> US$ 3,053.8m.<br><b>External Aid:</b> US$ 2,779.8m.<br><b>Out-of-pocket:</b> US$ 6,967.1m.<br><b>Other domestic private:</b> US$ 472.3m."
+2008,Low income,20.02,24.07,3.69,52.22,"<b>Domestic Government:</b> US$ 2,712.6m.<br><b>External Aid:</b> US$ 3,262.0m.<br><b>Out-of-pocket:</b> US$ 7,076.1m.<br><b>Other domestic private:</b> US$ 499.5m."
+2009,Low income,20.84,25.83,3.79,49.54,"<b>Domestic Government:</b> US$ 3,172.9m.<br><b>External Aid:</b> US$ 3,933.5m.<br><b>Out-of-pocket:</b> US$ 7,542.8m.<br><b>Other domestic private:</b> US$ 577.4m."
+2010,Low income,20.18,27.29,3.87,48.66,"<b>Domestic Government:</b> US$ 3,117.0m.<br><b>External Aid:</b> US$ 4,215.7m.<br><b>Out-of-pocket:</b> US$ 7,515.7m.<br><b>Other domestic private:</b> US$ 598.1m."
+2011,Low income,18.13,29.78,4.18,47.91,"<b>Domestic Government:</b> US$ 2,764.1m.<br><b>External Aid:</b> US$ 4,540.8m.<br><b>Out-of-pocket:</b> US$ 7,304.4m.<br><b>Other domestic private:</b> US$ 637.5m."
+2012,Low income,20.57,27.86,4.26,47.31,"<b>Domestic Government:</b> US$ 3,189.5m.<br><b>External Aid:</b> US$ 4,318.4m.<br><b>Out-of-pocket:</b> US$ 7,335.1m.<br><b>Other domestic private:</b> US$ 659.9m."
+2013,Low income,19.72,27.56,4.67,48.05,"<b>Domestic Government:</b> US$ 3,383.3m.<br><b>External Aid:</b> US$ 4,728.5m.<br><b>Out-of-pocket:</b> US$ 8,244.8m.<br><b>Other domestic private:</b> US$ 801.1m."
+2014,Low income,20.29,27.31,7.02,45.39,"<b>Domestic Government:</b> US$ 3,664.1m.<br><b>External Aid:</b> US$ 4,932.8m.<br><b>Out-of-pocket:</b> US$ 8,197.4m.<br><b>Other domestic private:</b> US$ 1,267.7m."
+2015,Low income,21.84,26.32,7.08,44.76,"<b>Domestic Government:</b> US$ 4,139.7m.<br><b>External Aid:</b> US$ 4,988.2m.<br><b>Out-of-pocket:</b> US$ 8,484.8m.<br><b>Other domestic private:</b> US$ 1,341.7m."
+2016,Low income,20.81,27.76,6.53,44.89,"<b>Domestic Government:</b> US$ 4,072.7m.<br><b>External Aid:</b> US$ 5,431.5m.<br><b>Out-of-pocket:</b> US$ 8,784.4m.<br><b>Other domestic private:</b> US$ 1,278.5m."
+2017,Low income,20.09,30.77,4.55,44.6,"<b>Domestic Government:</b> US$ 4,159.6m.<br><b>External Aid:</b> US$ 6,372.1m.<br><b>Out-of-pocket:</b> US$ 9,235.7m.<br><b>Other domestic private:</b> US$ 941.9m."
+2018,Low income,20.89,31.77,4.6,42.74,"<b>Domestic Government:</b> US$ 4,026.1m.<br><b>External Aid:</b> US$ 6,122.3m.<br><b>Out-of-pocket:</b> US$ 8,235.6m.<br><b>Other domestic private:</b> US$ 885.5m."
+2019,Low income,21.64,29.96,4.65,43.75,"<b>Domestic Government:</b> US$ 4,314.5m.<br><b>External Aid:</b> US$ 5,974.8m.<br><b>Out-of-pocket:</b> US$ 8,722.8m.<br><b>Other domestic private:</b> US$ 928.0m."
+2020,Low income,25.43,29.51,4.64,40.43,"<b>Domestic Government:</b> US$ 5,287.3m.<br><b>External Aid:</b> US$ 6,135.2m.<br><b>Out-of-pocket:</b> US$ 8,406.7m.<br><b>Other domestic private:</b> US$ 963.8m."
+2000,Lower middle income,31.51,3.56,7.41,57.52,"<b>Domestic Government:</b> US$ 31,640.6m.<br><b>External Aid:</b> US$ 3,578.7m.<br><b>Out-of-pocket:</b> US$ 57,755.0m.<br><b>Other domestic private:</b> US$ 7,441.4m."
+2001,Lower middle income,31.41,3.28,7.81,57.5,"<b>Domestic Government:</b> US$ 34,937.4m.<br><b>External Aid:</b> US$ 3,650.7m.<br><b>Out-of-pocket:</b> US$ 63,959.0m.<br><b>Other domestic private:</b> US$ 8,688.8m."
+2002,Lower middle income,31.29,3.29,7.47,57.96,"<b>Domestic Government:</b> US$ 35,400.7m.<br><b>External Aid:</b> US$ 3,721.8m.<br><b>Out-of-pocket:</b> US$ 65,577.9m.<br><b>Other domestic private:</b> US$ 8,449.3m."
+2003,Lower middle income,30.91,3.36,7.42,58.3,"<b>Domestic Government:</b> US$ 38,733.0m.<br><b>External Aid:</b> US$ 4,210.5m.<br><b>Out-of-pocket:</b> US$ 73,047.1m.<br><b>Other domestic private:</b> US$ 9,301.7m."
+2004,Lower middle income,30.96,3.95,7.64,57.45,"<b>Domestic Government:</b> US$ 40,647.5m.<br><b>External Aid:</b> US$ 5,186.4m.<br><b>Out-of-pocket:</b> US$ 75,425.7m.<br><b>Other domestic private:</b> US$ 10,025.0m."
+2005,Lower middle income,31.2,3.6,6.9,58.29,"<b>Domestic Government:</b> US$ 44,391.7m.<br><b>External Aid:</b> US$ 5,123.3m.<br><b>Out-of-pocket:</b> US$ 82,926.8m.<br><b>Other domestic private:</b> US$ 9,818.4m."
+2006,Lower middle income,32.13,4.04,6.73,57.1,"<b>Domestic Government:</b> US$ 48,780.6m.<br><b>External Aid:</b> US$ 6,137.0m.<br><b>Out-of-pocket:</b> US$ 86,701.7m.<br><b>Other domestic private:</b> US$ 10,211.6m."
+2007,Lower middle income,32.43,3.97,7.18,56.41,"<b>Domestic Government:</b> US$ 52,043.1m.<br><b>External Aid:</b> US$ 6,375.2m.<br><b>Out-of-pocket:</b> US$ 90,517.8m.<br><b>Other domestic private:</b> US$ 11,527.6m."
+2008,Lower middle income,32.6,3.77,7.26,56.36,"<b>Domestic Government:</b> US$ 53,850.8m.<br><b>External Aid:</b> US$ 6,235.8m.<br><b>Out-of-pocket:</b> US$ 93,110.1m.<br><b>Other domestic private:</b> US$ 12,001.2m."
+2009,Lower middle income,33.82,3.72,7.42,55.04,"<b>Domestic Government:</b> US$ 60,176.7m.<br><b>External Aid:</b> US$ 6,613.8m.<br><b>Out-of-pocket:</b> US$ 97,941.3m.<br><b>Other domestic private:</b> US$ 13,198.0m."
+2010,Lower middle income,32.18,3.49,7.91,56.41,"<b>Domestic Government:</b> US$ 60,404.9m.<br><b>External Aid:</b> US$ 6,558.0m.<br><b>Out-of-pocket:</b> US$ 105,874.9m.<br><b>Other domestic private:</b> US$ 14,855.8m."
+2011,Lower middle income,32.66,3.63,8.68,55.03,"<b>Domestic Government:</b> US$ 64,855.6m.<br><b>External Aid:</b> US$ 7,210.4m.<br><b>Out-of-pocket:</b> US$ 109,267.7m.<br><b>Other domestic private:</b> US$ 17,225.1m."
+2012,Lower middle income,33.23,3.6,8.71,54.46,"<b>Domestic Government:</b> US$ 70,059.1m.<br><b>External Aid:</b> US$ 7,599.3m.<br><b>Out-of-pocket:</b> US$ 114,812.5m.<br><b>Other domestic private:</b> US$ 18,353.8m."
+2013,Lower middle income,31.75,3.54,8.3,56.41,"<b>Domestic Government:</b> US$ 72,931.9m.<br><b>External Aid:</b> US$ 8,126.4m.<br><b>Out-of-pocket:</b> US$ 129,564.2m.<br><b>Other domestic private:</b> US$ 19,052.7m."
+2014,Lower middle income,33.07,3.94,8.8,54.19,"<b>Domestic Government:</b> US$ 79,084.7m.<br><b>External Aid:</b> US$ 9,425.1m.<br><b>Out-of-pocket:</b> US$ 129,604.5m.<br><b>Other domestic private:</b> US$ 21,054.1m."
+2015,Lower middle income,34.66,3.3,8.42,53.63,"<b>Domestic Government:</b> US$ 88,491.4m.<br><b>External Aid:</b> US$ 8,414.4m.<br><b>Out-of-pocket:</b> US$ 136,905.9m.<br><b>Other domestic private:</b> US$ 21,489.5m."
+2016,Lower middle income,35.39,3.13,8.44,53.04,"<b>Domestic Government:</b> US$ 95,131.4m.<br><b>External Aid:</b> US$ 8,409.1m.<br><b>Out-of-pocket:</b> US$ 142,555.8m.<br><b>Other domestic private:</b> US$ 22,693.6m."
+2017,Lower middle income,37.65,2.97,9.27,50.11,"<b>Domestic Government:</b> US$ 100,225.4m.<br><b>External Aid:</b> US$ 7,901.2m.<br><b>Out-of-pocket:</b> US$ 133,373.8m.<br><b>Other domestic private:</b> US$ 24,671.0m."
+2018,Lower middle income,38.27,2.77,9.71,49.25,"<b>Domestic Government:</b> US$ 104,036.7m.<br><b>External Aid:</b> US$ 7,525.4m.<br><b>Out-of-pocket:</b> US$ 133,878.1m.<br><b>Other domestic private:</b> US$ 26,394.8m."
+2019,Lower middle income,38.0,3.1,9.63,49.27,"<b>Domestic Government:</b> US$ 106,913.3m.<br><b>External Aid:</b> US$ 8,713.9m.<br><b>Out-of-pocket:</b> US$ 138,600.9m.<br><b>Other domestic private:</b> US$ 27,092.5m."
+2020,Lower middle income,41.29,2.96,8.94,46.81,"<b>Domestic Government:</b> US$ 117,744.4m.<br><b>External Aid:</b> US$ 8,434.2m.<br><b>Out-of-pocket:</b> US$ 133,482.9m.<br><b>Other domestic private:</b> US$ 25,486.7m."
+2000,Upper middle income,40.34,0.28,15.94,43.44,"<b>Domestic Government:</b> US$ 158,411.9m.<br><b>External Aid:</b> US$ 1,090.3m.<br><b>Out-of-pocket:</b> US$ 170,616.6m.<br><b>Other domestic private:</b> US$ 62,615.2m."
+2001,Upper middle income,40.56,0.33,14.16,44.95,"<b>Domestic Government:</b> US$ 165,738.1m.<br><b>External Aid:</b> US$ 1,338.8m.<br><b>Out-of-pocket:</b> US$ 183,656.6m.<br><b>Other domestic private:</b> US$ 57,841.0m."
+2002,Upper middle income,41.57,0.41,13.43,44.59,"<b>Domestic Government:</b> US$ 181,416.0m.<br><b>External Aid:</b> US$ 1,771.2m.<br><b>Out-of-pocket:</b> US$ 194,609.9m.<br><b>Other domestic private:</b> US$ 58,618.4m."
+2003,Upper middle income,42.42,0.51,12.58,44.48,"<b>Domestic Government:</b> US$ 196,360.3m.<br><b>External Aid:</b> US$ 2,369.7m.<br><b>Out-of-pocket:</b> US$ 205,882.4m.<br><b>Other domestic private:</b> US$ 58,230.5m."
+2004,Upper middle income,43.15,0.86,12.27,43.71,"<b>Domestic Government:</b> US$ 211,757.1m.<br><b>External Aid:</b> US$ 4,239.6m.<br><b>Out-of-pocket:</b> US$ 214,491.6m.<br><b>Other domestic private:</b> US$ 60,203.6m."
+2005,Upper middle income,43.8,0.75,11.63,43.82,"<b>Domestic Government:</b> US$ 227,251.6m.<br><b>External Aid:</b> US$ 3,909.0m.<br><b>Out-of-pocket:</b> US$ 227,372.3m.<br><b>Other domestic private:</b> US$ 60,323.9m."
+2006,Upper middle income,45.56,0.52,11.45,42.47,"<b>Domestic Government:</b> US$ 251,143.9m.<br><b>External Aid:</b> US$ 2,868.1m.<br><b>Out-of-pocket:</b> US$ 234,102.2m.<br><b>Other domestic private:</b> US$ 63,135.2m."
+2007,Upper middle income,47.37,0.54,11.93,40.15,"<b>Domestic Government:</b> US$ 278,206.9m.<br><b>External Aid:</b> US$ 3,190.9m.<br><b>Out-of-pocket:</b> US$ 235,792.7m.<br><b>Other domestic private:</b> US$ 70,059.8m."
+2008,Upper middle income,49.99,0.54,11.5,37.98,"<b>Domestic Government:</b> US$ 320,459.0m.<br><b>External Aid:</b> US$ 3,437.1m.<br><b>Out-of-pocket:</b> US$ 243,425.2m.<br><b>Other domestic private:</b> US$ 73,691.5m."
+2009,Upper middle income,52.6,0.5,10.43,36.47,"<b>Domestic Government:</b> US$ 376,908.5m.<br><b>External Aid:</b> US$ 3,585.9m.<br><b>Out-of-pocket:</b> US$ 261,339.1m.<br><b>Other domestic private:</b> US$ 74,767.5m."
+2010,Upper middle income,53.77,0.51,10.71,35.01,"<b>Domestic Government:</b> US$ 398,561.2m.<br><b>External Aid:</b> US$ 3,771.0m.<br><b>Out-of-pocket:</b> US$ 259,553.8m.<br><b>Other domestic private:</b> US$ 79,382.9m."
+2011,Upper middle income,54.91,0.46,10.04,34.6,"<b>Domestic Government:</b> US$ 434,438.1m.<br><b>External Aid:</b> US$ 3,625.8m.<br><b>Out-of-pocket:</b> US$ 273,727.6m.<br><b>Other domestic private:</b> US$ 79,398.7m."
+2012,Upper middle income,55.72,0.4,9.39,34.49,"<b>Domestic Government:</b> US$ 478,235.7m.<br><b>External Aid:</b> US$ 3,415.7m.<br><b>Out-of-pocket:</b> US$ 296,032.0m.<br><b>Other domestic private:</b> US$ 80,620.6m."
+2013,Upper middle income,56.55,0.36,9.2,33.89,"<b>Domestic Government:</b> US$ 523,541.7m.<br><b>External Aid:</b> US$ 3,348.2m.<br><b>Out-of-pocket:</b> US$ 313,691.3m.<br><b>Other domestic private:</b> US$ 85,168.6m."
+2014,Upper middle income,57.28,0.22,9.29,33.21,"<b>Domestic Government:</b> US$ 560,542.6m.<br><b>External Aid:</b> US$ 2,188.4m.<br><b>Out-of-pocket:</b> US$ 324,948.0m.<br><b>Other domestic private:</b> US$ 90,873.4m."
+2015,Upper middle income,57.79,0.16,9.67,32.38,"<b>Domestic Government:</b> US$ 607,791.6m.<br><b>External Aid:</b> US$ 1,663.9m.<br><b>Out-of-pocket:</b> US$ 340,515.9m.<br><b>Other domestic private:</b> US$ 101,680.3m."
+2016,Upper middle income,56.38,0.13,10.3,33.19,"<b>Domestic Government:</b> US$ 616,666.5m.<br><b>External Aid:</b> US$ 1,470.2m.<br><b>Out-of-pocket:</b> US$ 363,052.1m.<br><b>Other domestic private:</b> US$ 112,631.0m."
+2017,Upper middle income,55.6,0.13,11.15,33.12,"<b>Domestic Government:</b> US$ 649,835.9m.<br><b>External Aid:</b> US$ 1,463.0m.<br><b>Out-of-pocket:</b> US$ 387,075.3m.<br><b>Other domestic private:</b> US$ 130,311.0m."
+2018,Upper middle income,55.54,0.11,11.36,32.99,"<b>Domestic Government:</b> US$ 684,189.0m.<br><b>External Aid:</b> US$ 1,295.0m.<br><b>Out-of-pocket:</b> US$ 406,467.3m.<br><b>Other domestic private:</b> US$ 139,975.9m."
+2019,Upper middle income,55.53,0.1,11.82,32.54,"<b>Domestic Government:</b> US$ 732,844.4m.<br><b>External Aid:</b> US$ 1,368.6m.<br><b>Out-of-pocket:</b> US$ 429,425.5m.<br><b>Other domestic private:</b> US$ 156,013.3m."
+2020,Upper middle income,56.6,0.12,12.2,31.09,"<b>Domestic Government:</b> US$ 798,911.0m.<br><b>External Aid:</b> US$ 1,641.5m.<br><b>Out-of-pocket:</b> US$ 438,804.2m.<br><b>Other domestic private:</b> US$ 172,256.5m."
+2000,High income,59.19,0.01,24.62,16.18,"<b>Domestic Government:</b> US$ 2,211,335.8m.<br><b>External Aid:</b> US$ 442.8m.<br><b>Out-of-pocket:</b> US$ 604,428.9m.<br><b>Other domestic private:</b> US$ 919,704.4m."
+2001,High income,59.72,0.01,24.65,15.61,"<b>Domestic Government:</b> US$ 2,350,335.3m.<br><b>External Aid:</b> US$ 422.3m.<br><b>Out-of-pocket:</b> US$ 614,484.9m.<br><b>Other domestic private:</b> US$ 970,171.2m."
+2002,High income,59.42,0.01,25.12,15.45,"<b>Domestic Government:</b> US$ 2,475,645.5m.<br><b>External Aid:</b> US$ 473.5m.<br><b>Out-of-pocket:</b> US$ 643,755.6m.<br><b>Other domestic private:</b> US$ 1,046,792.0m."
+2003,High income,58.89,0.01,25.52,15.58,"<b>Domestic Government:</b> US$ 2,588,285.0m.<br><b>External Aid:</b> US$ 447.6m.<br><b>Out-of-pocket:</b> US$ 684,764.7m.<br><b>Other domestic private:</b> US$ 1,121,810.9m."
+2004,High income,59.0,0.01,25.49,15.5,"<b>Domestic Government:</b> US$ 2,688,774.1m.<br><b>External Aid:</b> US$ 547.3m.<br><b>Out-of-pocket:</b> US$ 706,557.2m.<br><b>Other domestic private:</b> US$ 1,161,574.4m."
+2005,High income,59.18,0.01,25.55,15.26,"<b>Domestic Government:</b> US$ 2,788,819.2m.<br><b>External Aid:</b> US$ 526.6m.<br><b>Out-of-pocket:</b> US$ 719,263.5m.<br><b>Other domestic private:</b> US$ 1,204,030.5m."
+2006,High income,59.33,0.01,25.41,15.25,"<b>Domestic Government:</b> US$ 2,897,183.2m.<br><b>External Aid:</b> US$ 365.1m.<br><b>Out-of-pocket:</b> US$ 744,748.0m.<br><b>Other domestic private:</b> US$ 1,240,518.9m."
+2007,High income,59.39,0.01,25.51,15.09,"<b>Domestic Government:</b> US$ 2,991,165.5m.<br><b>External Aid:</b> US$ 324.7m.<br><b>Out-of-pocket:</b> US$ 760,133.0m.<br><b>Other domestic private:</b> US$ 1,284,825.5m."
+2008,High income,60.11,0.01,24.87,15.01,"<b>Domestic Government:</b> US$ 3,113,926.6m.<br><b>External Aid:</b> US$ 372.6m.<br><b>Out-of-pocket:</b> US$ 777,786.4m.<br><b>Other domestic private:</b> US$ 1,288,485.5m."
+2009,High income,60.86,0.01,24.64,14.5,"<b>Domestic Government:</b> US$ 3,286,328.4m.<br><b>External Aid:</b> US$ 372.6m.<br><b>Out-of-pocket:</b> US$ 782,967.3m.<br><b>Other domestic private:</b> US$ 1,330,568.0m."
+2010,High income,61.03,0.01,24.6,14.36,"<b>Domestic Government:</b> US$ 3,377,904.7m.<br><b>External Aid:</b> US$ 421.4m.<br><b>Out-of-pocket:</b> US$ 794,972.8m.<br><b>Other domestic private:</b> US$ 1,361,870.5m."
+2011,High income,61.38,0.01,24.39,14.22,"<b>Domestic Government:</b> US$ 3,480,837.9m.<br><b>External Aid:</b> US$ 451.6m.<br><b>Out-of-pocket:</b> US$ 806,701.4m.<br><b>Other domestic private:</b> US$ 1,383,198.4m."
+2012,High income,61.19,0.01,24.53,14.27,"<b>Domestic Government:</b> US$ 3,536,577.9m.<br><b>External Aid:</b> US$ 482.7m.<br><b>Out-of-pocket:</b> US$ 824,851.1m.<br><b>Other domestic private:</b> US$ 1,417,725.7m."
+2013,High income,61.56,0.01,24.25,14.18,"<b>Domestic Government:</b> US$ 3,602,923.1m.<br><b>External Aid:</b> US$ 677.5m.<br><b>Out-of-pocket:</b> US$ 829,728.0m.<br><b>Other domestic private:</b> US$ 1,419,159.0m."
+2014,High income,62.16,0.01,23.81,14.02,"<b>Domestic Government:</b> US$ 3,754,328.5m.<br><b>External Aid:</b> US$ 709.9m.<br><b>Out-of-pocket:</b> US$ 846,631.4m.<br><b>Other domestic private:</b> US$ 1,438,293.5m."
+2015,High income,62.37,0.01,23.71,13.91,"<b>Domestic Government:</b> US$ 3,909,410.0m.<br><b>External Aid:</b> US$ 792.5m.<br><b>Out-of-pocket:</b> US$ 871,827.3m.<br><b>Other domestic private:</b> US$ 1,485,934.1m."
+2016,High income,62.25,0.01,23.91,13.83,"<b>Domestic Government:</b> US$ 4,016,817.8m.<br><b>External Aid:</b> US$ 563.2m.<br><b>Out-of-pocket:</b> US$ 892,670.7m.<br><b>Other domestic private:</b> US$ 1,542,698.1m."
+2017,High income,62.2,0.01,24.1,13.69,"<b>Domestic Government:</b> US$ 4,098,816.1m.<br><b>External Aid:</b> US$ 579.0m.<br><b>Out-of-pocket:</b> US$ 902,233.6m.<br><b>Other domestic private:</b> US$ 1,587,856.7m."
+2018,High income,62.29,0.01,24.02,13.69,"<b>Domestic Government:</b> US$ 4,191,254.8m.<br><b>External Aid:</b> US$ 617.7m.<br><b>Out-of-pocket:</b> US$ 920,964.7m.<br><b>Other domestic private:</b> US$ 1,616,245.2m."
+2019,High income,62.44,0.01,23.96,13.58,"<b>Domestic Government:</b> US$ 4,305,688.8m.<br><b>External Aid:</b> US$ 829.3m.<br><b>Out-of-pocket:</b> US$ 936,792.1m.<br><b>Other domestic private:</b> US$ 1,652,472.9m."
+2020,High income,65.85,0.01,22.07,12.07,"<b>Domestic Government:</b> US$ 4,826,826.4m.<br><b>External Aid:</b> US$ 677.9m.<br><b>Out-of-pocket:</b> US$ 884,920.5m.<br><b>Other domestic private:</b> US$ 1,617,719.7m."
 2020,Afghanistan,7.64,16.13,1.42,74.81,"<b>Domestic Government:</b> US$ 238.9m.<br><b>External Aid:</b> US$ 504.6m.<br><b>Out-of-pocket:</b> US$ 2,340.1m.<br><b>Other domestic private:</b> US$ 44.3m."
 2020,Africa,42.57,9.18,12.55,35.7,<b>Domestic Government:</b> US$ 49.9m.<br><b>External Aid:</b> US$ 10.8m.<br><b>Out-of-pocket:</b> US$ 41.9m.<br><b>Other domestic private:</b> US$ 14.7m.
 2020,Albania,100.0,,,,<b>Domestic Government:</b> US$ 444.9m.<br><b>External Aid:</b> US$ -m.<br><b>Out-of-pocket:</b> US$ -m.<br><b>Other domestic private:</b> US$ -m.
@@ -74,7 +158,6 @@ year,Country,Domestic Government,External Aid,Other domestic private,Out-of-pock
 2020,Guinea-Bissau,8.46,24.03,3.11,64.4,<b>Domestic Government:</b> US$ 10.5m.<br><b>External Aid:</b> US$ 29.8m.<br><b>Out-of-pocket:</b> US$ 79.9m.<br><b>Other domestic private:</b> US$ 3.9m.
 2020,Guyana,72.96,1.52,2.04,23.48,<b>Domestic Government:</b> US$ 219.9m.<br><b>External Aid:</b> US$ 4.6m.<br><b>Out-of-pocket:</b> US$ 70.8m.<br><b>Other domestic private:</b> US$ 6.2m.
 2020,Haiti,12.7,29.73,6.2,51.37,<b>Domestic Government:</b> US$ 61.0m.<br><b>External Aid:</b> US$ 142.9m.<br><b>Out-of-pocket:</b> US$ 246.9m.<br><b>Other domestic private:</b> US$ 29.8m.
-2020,High income,65.85,0.01,22.07,12.07,"<b>Domestic Government:</b> US$ 4,826,826.4m.<br><b>External Aid:</b> US$ 677.9m.<br><b>Out-of-pocket:</b> US$ 884,920.5m.<br><b>Other domestic private:</b> US$ 1,617,719.7m."
 2020,Honduras,38.04,5.66,6.26,50.04,"<b>Domestic Government:</b> US$ 813.3m.<br><b>External Aid:</b> US$ 121.0m.<br><b>Out-of-pocket:</b> US$ 1,069.8m.<br><b>Other domestic private:</b> US$ 133.7m."
 2020,Hungary,71.1,0.0,3.37,25.52,"<b>Domestic Government:</b> US$ 8,080.4m.<br><b>External Aid:</b> US$ 0.0m.<br><b>Out-of-pocket:</b> US$ 2,900.6m.<br><b>Other domestic private:</b> US$ 383.4m."
 2020,Iceland,83.3,0.0,1.68,15.02,"<b>Domestic Government:</b> US$ 1,721.8m.<br><b>External Aid:</b> US$ 0.0m.<br><b>Out-of-pocket:</b> US$ 310.4m.<br><b>Other domestic private:</b> US$ 34.8m."
@@ -99,8 +182,6 @@ year,Country,Domestic Government,External Aid,Other domestic private,Out-of-pock
 2020,Lesotho,51.7,33.32,0.42,14.55,<b>Domestic Government:</b> US$ 125.5m.<br><b>External Aid:</b> US$ 80.9m.<br><b>Out-of-pocket:</b> US$ 35.3m.<br><b>Other domestic private:</b> US$ 1.0m.
 2020,Libya,,,,,<b>Domestic Government:</b> US$ -m.<br><b>External Aid:</b> US$ -m.<br><b>Out-of-pocket:</b> US$ -m.<br><b>Other domestic private:</b> US$ -m.
 2020,Lithuania,68.67,0.57,2.07,28.69,"<b>Domestic Government:</b> US$ 2,924.7m.<br><b>External Aid:</b> US$ 24.1m.<br><b>Out-of-pocket:</b> US$ 1,222.2m.<br><b>Other domestic private:</b> US$ 88.4m."
-2020,Low income,25.43,29.51,4.64,40.43,"<b>Domestic Government:</b> US$ 5,287.3m.<br><b>External Aid:</b> US$ 6,135.2m.<br><b>Out-of-pocket:</b> US$ 8,406.7m.<br><b>Other domestic private:</b> US$ 963.8m."
-2020,Lower middle income,41.29,2.96,8.94,46.81,"<b>Domestic Government:</b> US$ 117,744.4m.<br><b>External Aid:</b> US$ 8,434.2m.<br><b>Out-of-pocket:</b> US$ 133,482.9m.<br><b>Other domestic private:</b> US$ 25,486.7m."
 2020,Luxembourg,87.31,1.24,3.03,8.42,"<b>Domestic Government:</b> US$ 3,690.6m.<br><b>External Aid:</b> US$ 52.6m.<br><b>Out-of-pocket:</b> US$ 356.1m.<br><b>Other domestic private:</b> US$ 128.0m."
 2020,Madagascar,37.04,21.79,7.13,34.04,<b>Domestic Government:</b> US$ 187.6m.<br><b>External Aid:</b> US$ 110.4m.<br><b>Out-of-pocket:</b> US$ 172.4m.<br><b>Other domestic private:</b> US$ 36.1m.
 2020,Malawi,36.26,36.23,7.98,19.53,<b>Domestic Government:</b> US$ 233.4m.<br><b>External Aid:</b> US$ 233.2m.<br><b>Out-of-pocket:</b> US$ 125.8m.<br><b>Other domestic private:</b> US$ 51.4m.
@@ -186,7 +267,6 @@ year,Country,Domestic Government,External Aid,Other domestic private,Out-of-pock
 2020,United Kingdom,83.7,0.01,3.75,12.54,"<b>Domestic Government:</b> US$ 276,567.4m.<br><b>External Aid:</b> US$ 43.7m.<br><b>Out-of-pocket:</b> US$ 41,430.3m.<br><b>Other domestic private:</b> US$ 12,404.9m."
 2020,United Republic of Tanzania,42.85,33.2,0.85,23.1,"<b>Domestic Government:</b> US$ 1,033.8m.<br><b>External Aid:</b> US$ 801.1m.<br><b>Out-of-pocket:</b> US$ 557.4m.<br><b>Other domestic private:</b> US$ 20.6m."
 2020,United States of America,56.77,0.0,33.34,9.89,"<b>Domestic Government:</b> US$ 2,231,782.9m.<br><b>External Aid:</b> US$ 0.0m.<br><b>Out-of-pocket:</b> US$ 388,645.9m.<br><b>Other domestic private:</b> US$ 1,310,901.9m."
-2020,Upper middle income,56.6,0.12,12.2,31.09,"<b>Domestic Government:</b> US$ 798,911.0m.<br><b>External Aid:</b> US$ 1,641.5m.<br><b>Out-of-pocket:</b> US$ 438,804.2m.<br><b>Other domestic private:</b> US$ 172,256.5m."
 2020,Uruguay,71.76,0.0,11.56,16.68,"<b>Domestic Government:</b> US$ 3,517.4m.<br><b>External Aid:</b> US$ 0.0m.<br><b>Out-of-pocket:</b> US$ 817.5m.<br><b>Other domestic private:</b> US$ 566.9m."
 2020,Uzbekistan,46.16,0.05,0.68,53.11,"<b>Domestic Government:</b> US$ 1,866.5m.<br><b>External Aid:</b> US$ 2.0m.<br><b>Out-of-pocket:</b> US$ 2,147.8m.<br><b>Other domestic private:</b> US$ 27.5m."
 2020,Vanuatu,65.7,24.24,2.7,7.35,<b>Domestic Government:</b> US$ 25.9m.<br><b>External Aid:</b> US$ 9.6m.<br><b>Out-of-pocket:</b> US$ 2.9m.<br><b>Other domestic private:</b> US$ 1.1m.
@@ -268,7 +348,6 @@ year,Country,Domestic Government,External Aid,Other domestic private,Out-of-pock
 2019,Guinea-Bissau,6.4,25.31,3.14,65.15,<b>Domestic Government:</b> US$ 7.8m.<br><b>External Aid:</b> US$ 30.7m.<br><b>Out-of-pocket:</b> US$ 79.1m.<br><b>Other domestic private:</b> US$ 3.8m.
 2019,Guyana,59.45,2.69,3.03,34.83,<b>Domestic Government:</b> US$ 111.8m.<br><b>External Aid:</b> US$ 5.1m.<br><b>Out-of-pocket:</b> US$ 65.5m.<br><b>Other domestic private:</b> US$ 5.7m.
 2019,Haiti,11.78,43.26,4.84,40.11,<b>Domestic Government:</b> US$ 75.8m.<br><b>External Aid:</b> US$ 278.3m.<br><b>Out-of-pocket:</b> US$ 258.1m.<br><b>Other domestic private:</b> US$ 31.1m.
-2019,High income,62.44,0.01,23.96,13.58,"<b>Domestic Government:</b> US$ 4,305,688.8m.<br><b>External Aid:</b> US$ 829.3m.<br><b>Out-of-pocket:</b> US$ 936,792.1m.<br><b>Other domestic private:</b> US$ 1,652,472.9m."
 2019,Honduras,39.33,2.64,5.56,52.47,<b>Domestic Government:</b> US$ 746.7m.<br><b>External Aid:</b> US$ 50.1m.<br><b>Out-of-pocket:</b> US$ 996.2m.<br><b>Other domestic private:</b> US$ 105.7m.
 2019,Hungary,68.31,0.0,3.89,27.8,"<b>Domestic Government:</b> US$ 7,063.5m.<br><b>External Aid:</b> US$ 0.0m.<br><b>Out-of-pocket:</b> US$ 2,874.8m.<br><b>Other domestic private:</b> US$ 402.2m."
 2019,Iceland,82.8,0.0,1.66,15.55,"<b>Domestic Government:</b> US$ 1,650.6m.<br><b>External Aid:</b> US$ 0.0m.<br><b>Out-of-pocket:</b> US$ 309.9m.<br><b>Other domestic private:</b> US$ 33.0m."
@@ -293,8 +372,6 @@ year,Country,Domestic Government,External Aid,Other domestic private,Out-of-pock
 2019,Lesotho,43.98,41.58,0.41,14.03,<b>Domestic Government:</b> US$ 107.8m.<br><b>External Aid:</b> US$ 101.9m.<br><b>Out-of-pocket:</b> US$ 34.4m.<br><b>Other domestic private:</b> US$ 1.0m.
 2019,Libya,,,,,<b>Domestic Government:</b> US$ -m.<br><b>External Aid:</b> US$ -m.<br><b>Out-of-pocket:</b> US$ -m.<br><b>Other domestic private:</b> US$ -m.
 2019,Lithuania,65.09,0.36,2.28,32.27,"<b>Domestic Government:</b> US$ 2,585.5m.<br><b>External Aid:</b> US$ 14.3m.<br><b>Out-of-pocket:</b> US$ 1,281.8m.<br><b>Other domestic private:</b> US$ 90.6m."
-2019,Low income,21.64,29.96,4.65,43.75,"<b>Domestic Government:</b> US$ 4,314.5m.<br><b>External Aid:</b> US$ 5,974.8m.<br><b>Out-of-pocket:</b> US$ 8,722.8m.<br><b>Other domestic private:</b> US$ 928.0m."
-2019,Lower middle income,38.0,3.1,9.63,49.27,"<b>Domestic Government:</b> US$ 106,913.3m.<br><b>External Aid:</b> US$ 8,713.9m.<br><b>Out-of-pocket:</b> US$ 138,600.9m.<br><b>Other domestic private:</b> US$ 27,092.5m."
 2019,Luxembourg,85.87,1.33,3.21,9.59,"<b>Domestic Government:</b> US$ 3,500.7m.<br><b>External Aid:</b> US$ 54.3m.<br><b>Out-of-pocket:</b> US$ 390.9m.<br><b>Other domestic private:</b> US$ 130.8m."
 2019,Madagascar,32.34,28.36,7.03,32.27,<b>Domestic Government:</b> US$ 171.7m.<br><b>External Aid:</b> US$ 150.6m.<br><b>Out-of-pocket:</b> US$ 171.3m.<br><b>Other domestic private:</b> US$ 37.3m.
 2019,Malawi,32.59,43.56,6.99,16.86,<b>Domestic Government:</b> US$ 196.5m.<br><b>External Aid:</b> US$ 262.7m.<br><b>Out-of-pocket:</b> US$ 101.7m.<br><b>Other domestic private:</b> US$ 42.1m.
@@ -380,7 +457,6 @@ year,Country,Domestic Government,External Aid,Other domestic private,Out-of-pock
 2019,United Kingdom,80.23,0.01,4.48,15.28,"<b>Domestic Government:</b> US$ 242,826.9m.<br><b>External Aid:</b> US$ 41.4m.<br><b>Out-of-pocket:</b> US$ 46,257.4m.<br><b>Other domestic private:</b> US$ 13,549.2m."
 2019,United Republic of Tanzania,40.49,36.78,0.81,21.91,<b>Domestic Government:</b> US$ 982.9m.<br><b>External Aid:</b> US$ 892.8m.<br><b>Out-of-pocket:</b> US$ 531.9m.<br><b>Other domestic private:</b> US$ 19.7m.
 2019,United States of America,51.54,0.0,37.13,11.33,"<b>Domestic Government:</b> US$ 1,861,121.4m.<br><b>External Aid:</b> US$ 0.0m.<br><b>Out-of-pocket:</b> US$ 408,951.5m.<br><b>Other domestic private:</b> US$ 1,340,639.3m."
-2019,Upper middle income,55.53,0.1,11.82,32.54,"<b>Domestic Government:</b> US$ 732,844.4m.<br><b>External Aid:</b> US$ 1,368.6m.<br><b>Out-of-pocket:</b> US$ 429,425.5m.<br><b>Other domestic private:</b> US$ 156,013.3m."
 2019,Uruguay,66.6,0.0,17.94,15.46,"<b>Domestic Government:</b> US$ 3,567.7m.<br><b>External Aid:</b> US$ 0.0m.<br><b>Out-of-pocket:</b> US$ 828.2m.<br><b>Other domestic private:</b> US$ 960.9m."
 2019,Uzbekistan,41.59,0.05,0.68,57.68,"<b>Domestic Government:</b> US$ 1,325.4m.<br><b>External Aid:</b> US$ 1.7m.<br><b>Out-of-pocket:</b> US$ 1,838.4m.<br><b>Other domestic private:</b> US$ 21.5m."
 2019,Vanuatu,57.45,31.5,2.97,8.08,<b>Domestic Government:</b> US$ 20.2m.<br><b>External Aid:</b> US$ 11.1m.<br><b>Out-of-pocket:</b> US$ 2.8m.<br><b>Other domestic private:</b> US$ 1.0m.
@@ -462,7 +538,6 @@ year,Country,Domestic Government,External Aid,Other domestic private,Out-of-pock
 2018,Guinea-Bissau,7.26,25.73,3.08,63.92,<b>Domestic Government:</b> US$ 7.7m.<br><b>External Aid:</b> US$ 27.3m.<br><b>Out-of-pocket:</b> US$ 67.8m.<br><b>Other domestic private:</b> US$ 3.3m.
 2018,Guyana,60.17,3.16,2.93,33.73,<b>Domestic Government:</b> US$ 106.8m.<br><b>External Aid:</b> US$ 5.6m.<br><b>Out-of-pocket:</b> US$ 59.9m.<br><b>Other domestic private:</b> US$ 5.2m.
 2018,Haiti,12.97,40.56,5.0,41.46,<b>Domestic Government:</b> US$ 82.6m.<br><b>External Aid:</b> US$ 258.3m.<br><b>Out-of-pocket:</b> US$ 264.0m.<br><b>Other domestic private:</b> US$ 31.9m.
-2018,High income,62.29,0.01,24.02,13.69,"<b>Domestic Government:</b> US$ 4,191,254.8m.<br><b>External Aid:</b> US$ 617.7m.<br><b>Out-of-pocket:</b> US$ 920,964.7m.<br><b>Other domestic private:</b> US$ 1,616,245.2m."
 2018,Honduras,39.41,2.96,5.48,52.14,<b>Domestic Government:</b> US$ 721.4m.<br><b>External Aid:</b> US$ 54.1m.<br><b>Out-of-pocket:</b> US$ 954.3m.<br><b>Other domestic private:</b> US$ 100.4m.
 2018,Hungary,69.2,0.0,3.99,26.8,"<b>Domestic Government:</b> US$ 7,146.9m.<br><b>External Aid:</b> US$ 0.0m.<br><b>Out-of-pocket:</b> US$ 2,768.1m.<br><b>Other domestic private:</b> US$ 412.3m."
 2018,Iceland,82.38,0.0,1.68,15.94,"<b>Domestic Government:</b> US$ 1,575.3m.<br><b>External Aid:</b> US$ 0.0m.<br><b>Out-of-pocket:</b> US$ 304.8m.<br><b>Other domestic private:</b> US$ 32.2m."
@@ -487,8 +562,6 @@ year,Country,Domestic Government,External Aid,Other domestic private,Out-of-pock
 2018,Lesotho,47.78,37.52,0.42,14.28,<b>Domestic Government:</b> US$ 112.4m.<br><b>External Aid:</b> US$ 88.2m.<br><b>Out-of-pocket:</b> US$ 33.6m.<br><b>Other domestic private:</b> US$ 1.0m.
 2018,Libya,,,,,<b>Domestic Government:</b> US$ -m.<br><b>External Aid:</b> US$ -m.<br><b>Out-of-pocket:</b> US$ -m.<br><b>Other domestic private:</b> US$ -m.
 2018,Lithuania,65.99,0.31,2.18,31.52,"<b>Domestic Government:</b> US$ 2,340.1m.<br><b>External Aid:</b> US$ 11.1m.<br><b>Out-of-pocket:</b> US$ 1,117.6m.<br><b>Other domestic private:</b> US$ 77.3m."
-2018,Low income,20.89,31.77,4.6,42.74,"<b>Domestic Government:</b> US$ 4,026.1m.<br><b>External Aid:</b> US$ 6,122.3m.<br><b>Out-of-pocket:</b> US$ 8,235.6m.<br><b>Other domestic private:</b> US$ 885.5m."
-2018,Lower middle income,38.27,2.77,9.71,49.25,"<b>Domestic Government:</b> US$ 104,036.7m.<br><b>External Aid:</b> US$ 7,525.4m.<br><b>Out-of-pocket:</b> US$ 133,878.1m.<br><b>Other domestic private:</b> US$ 26,394.8m."
 2018,Luxembourg,84.92,1.41,3.23,10.44,"<b>Domestic Government:</b> US$ 3,265.8m.<br><b>External Aid:</b> US$ 54.3m.<br><b>Out-of-pocket:</b> US$ 401.3m.<br><b>Other domestic private:</b> US$ 124.2m."
 2018,Madagascar,35.21,29.54,6.27,28.99,<b>Domestic Government:</b> US$ 202.4m.<br><b>External Aid:</b> US$ 169.8m.<br><b>Out-of-pocket:</b> US$ 166.7m.<br><b>Other domestic private:</b> US$ 36.0m.
 2018,Malawi,24.44,57.44,5.3,12.82,<b>Domestic Government:</b> US$ 187.0m.<br><b>External Aid:</b> US$ 439.6m.<br><b>Out-of-pocket:</b> US$ 98.1m.<br><b>Other domestic private:</b> US$ 40.6m.
@@ -574,7 +647,6 @@ year,Country,Domestic Government,External Aid,Other domestic private,Out-of-pock
 2018,United Kingdom,80.1,0.01,4.57,15.32,"<b>Domestic Government:</b> US$ 233,436.1m.<br><b>External Aid:</b> US$ 37.3m.<br><b>Out-of-pocket:</b> US$ 44,649.0m.<br><b>Other domestic private:</b> US$ 13,325.6m."
 2018,United Republic of Tanzania,37.56,40.83,0.77,20.84,<b>Domestic Government:</b> US$ 913.8m.<br><b>External Aid:</b> US$ 993.2m.<br><b>Out-of-pocket:</b> US$ 506.9m.<br><b>Other domestic private:</b> US$ 18.7m.
 2018,United States of America,51.3,0.0,37.38,11.32,"<b>Domestic Government:</b> US$ 1,807,055.8m.<br><b>External Aid:</b> US$ 0.0m.<br><b>Out-of-pocket:</b> US$ 398,604.5m.<br><b>Other domestic private:</b> US$ 1,316,903.5m."
-2018,Upper middle income,55.54,0.11,11.36,32.99,"<b>Domestic Government:</b> US$ 684,189.0m.<br><b>External Aid:</b> US$ 1,295.0m.<br><b>Out-of-pocket:</b> US$ 406,467.3m.<br><b>Other domestic private:</b> US$ 139,975.9m."
 2018,Uruguay,69.12,0.0,14.63,16.25,"<b>Domestic Government:</b> US$ 3,542.0m.<br><b>External Aid:</b> US$ 0.0m.<br><b>Out-of-pocket:</b> US$ 832.6m.<br><b>Other domestic private:</b> US$ 749.9m."
 2018,Uzbekistan,38.17,0.81,0.68,60.34,"<b>Domestic Government:</b> US$ 1,074.8m.<br><b>External Aid:</b> US$ 22.8m.<br><b>Out-of-pocket:</b> US$ 1,699.2m.<br><b>Other domestic private:</b> US$ 19.1m."
 2018,Vanuatu,64.52,23.76,3.15,8.57,<b>Domestic Government:</b> US$ 22.0m.<br><b>External Aid:</b> US$ 8.1m.<br><b>Out-of-pocket:</b> US$ 2.9m.<br><b>Other domestic private:</b> US$ 1.1m.
@@ -656,7 +728,6 @@ year,Country,Domestic Government,External Aid,Other domestic private,Out-of-pock
 2017,Guinea-Bissau,7.12,21.17,3.3,68.41,<b>Domestic Government:</b> US$ 6.9m.<br><b>External Aid:</b> US$ 20.5m.<br><b>Out-of-pocket:</b> US$ 66.3m.<br><b>Other domestic private:</b> US$ 3.2m.
 2017,Guyana,64.64,4.01,2.51,28.84,<b>Domestic Government:</b> US$ 96.7m.<br><b>External Aid:</b> US$ 6.0m.<br><b>Out-of-pocket:</b> US$ 43.2m.<br><b>Other domestic private:</b> US$ 3.8m.
 2017,Haiti,12.18,44.96,4.61,38.24,<b>Domestic Government:</b> US$ 80.0m.<br><b>External Aid:</b> US$ 295.4m.<br><b>Out-of-pocket:</b> US$ 251.3m.<br><b>Other domestic private:</b> US$ 30.3m.
-2017,High income,62.2,0.01,24.1,13.69,"<b>Domestic Government:</b> US$ 4,098,816.1m.<br><b>External Aid:</b> US$ 579.0m.<br><b>Out-of-pocket:</b> US$ 902,233.6m.<br><b>Other domestic private:</b> US$ 1,587,856.7m."
 2017,Honduras,40.73,3.69,5.87,49.7,<b>Domestic Government:</b> US$ 695.9m.<br><b>External Aid:</b> US$ 63.1m.<br><b>Out-of-pocket:</b> US$ 849.1m.<br><b>Other domestic private:</b> US$ 100.3m.
 2017,Hungary,68.44,0.0,4.29,27.27,"<b>Domestic Government:</b> US$ 6,874.7m.<br><b>External Aid:</b> US$ 0.0m.<br><b>Out-of-pocket:</b> US$ 2,739.0m.<br><b>Other domestic private:</b> US$ 431.2m."
 2017,Iceland,81.86,0.0,1.69,16.45,"<b>Domestic Government:</b> US$ 1,471.6m.<br><b>External Aid:</b> US$ 0.0m.<br><b>Out-of-pocket:</b> US$ 295.7m.<br><b>Other domestic private:</b> US$ 30.3m."
@@ -681,8 +752,6 @@ year,Country,Domestic Government,External Aid,Other domestic private,Out-of-pock
 2017,Lesotho,54.53,28.52,0.46,16.49,<b>Domestic Government:</b> US$ 124.1m.<br><b>External Aid:</b> US$ 64.9m.<br><b>Out-of-pocket:</b> US$ 37.5m.<br><b>Other domestic private:</b> US$ 1.1m.
 2017,Libya,,,,,<b>Domestic Government:</b> US$ -m.<br><b>External Aid:</b> US$ -m.<br><b>Out-of-pocket:</b> US$ -m.<br><b>Other domestic private:</b> US$ -m.
 2017,Lithuania,65.16,0.15,2.1,32.59,"<b>Domestic Government:</b> US$ 2,203.0m.<br><b>External Aid:</b> US$ 5.1m.<br><b>Out-of-pocket:</b> US$ 1,101.9m.<br><b>Other domestic private:</b> US$ 71.1m."
-2017,Low income,20.09,30.77,4.55,44.6,"<b>Domestic Government:</b> US$ 4,159.6m.<br><b>External Aid:</b> US$ 6,372.1m.<br><b>Out-of-pocket:</b> US$ 9,235.7m.<br><b>Other domestic private:</b> US$ 941.9m."
-2017,Lower middle income,37.65,2.97,9.27,50.11,"<b>Domestic Government:</b> US$ 100,225.4m.<br><b>External Aid:</b> US$ 7,901.2m.<br><b>Out-of-pocket:</b> US$ 133,373.8m.<br><b>Other domestic private:</b> US$ 24,671.0m."
 2017,Luxembourg,84.78,1.38,3.18,10.66,"<b>Domestic Government:</b> US$ 3,133.0m.<br><b>External Aid:</b> US$ 51.0m.<br><b>Out-of-pocket:</b> US$ 394.0m.<br><b>Other domestic private:</b> US$ 117.4m."
 2017,Madagascar,46.37,22.73,5.49,25.41,<b>Domestic Government:</b> US$ 293.0m.<br><b>External Aid:</b> US$ 143.6m.<br><b>Out-of-pocket:</b> US$ 160.6m.<br><b>Other domestic private:</b> US$ 34.7m.
 2017,Malawi,22.67,59.86,4.78,12.7,<b>Domestic Government:</b> US$ 183.4m.<br><b>External Aid:</b> US$ 484.2m.<br><b>Out-of-pocket:</b> US$ 102.7m.<br><b>Other domestic private:</b> US$ 38.7m.
@@ -768,7 +837,6 @@ year,Country,Domestic Government,External Aid,Other domestic private,Out-of-pock
 2017,United Kingdom,80.37,0.01,4.54,15.08,"<b>Domestic Government:</b> US$ 228,163.1m.<br><b>External Aid:</b> US$ 35.4m.<br><b>Out-of-pocket:</b> US$ 42,822.2m.<br><b>Other domestic private:</b> US$ 12,879.3m."
 2017,United Republic of Tanzania,38.65,39.21,0.79,21.35,<b>Domestic Government:</b> US$ 862.3m.<br><b>External Aid:</b> US$ 874.8m.<br><b>Out-of-pocket:</b> US$ 476.4m.<br><b>Other domestic private:</b> US$ 17.6m.
 2017,United States of America,51.06,0.0,37.53,11.41,"<b>Domestic Government:</b> US$ 1,761,278.6m.<br><b>External Aid:</b> US$ 0.0m.<br><b>Out-of-pocket:</b> US$ 393,435.1m.<br><b>Other domestic private:</b> US$ 1,294,563.2m."
-2017,Upper middle income,55.6,0.13,11.15,33.12,"<b>Domestic Government:</b> US$ 649,835.9m.<br><b>External Aid:</b> US$ 1,463.0m.<br><b>Out-of-pocket:</b> US$ 387,075.3m.<br><b>Other domestic private:</b> US$ 130,311.0m."
 2017,Uruguay,69.3,0.01,14.2,16.5,"<b>Domestic Government:</b> US$ 3,458.6m.<br><b>External Aid:</b> US$ 0.3m.<br><b>Out-of-pocket:</b> US$ 823.4m.<br><b>Other domestic private:</b> US$ 708.7m."
 2017,Uzbekistan,41.5,1.05,0.76,56.69,"<b>Domestic Government:</b> US$ 1,056.4m.<br><b>External Aid:</b> US$ 26.9m.<br><b>Out-of-pocket:</b> US$ 1,443.1m.<br><b>Other domestic private:</b> US$ 19.3m."
 2017,Vanuatu,53.25,31.97,3.98,10.81,<b>Domestic Government:</b> US$ 14.7m.<br><b>External Aid:</b> US$ 8.8m.<br><b>Out-of-pocket:</b> US$ 3.0m.<br><b>Other domestic private:</b> US$ 1.1m.
@@ -850,7 +918,6 @@ year,Country,Domestic Government,External Aid,Other domestic private,Out-of-pock
 2016,Guinea-Bissau,5.82,26.69,2.9,64.58,<b>Domestic Government:</b> US$ 6.4m.<br><b>External Aid:</b> US$ 29.4m.<br><b>Out-of-pocket:</b> US$ 71.0m.<br><b>Other domestic private:</b> US$ 3.2m.
 2016,Guyana,63.01,4.45,2.6,29.94,<b>Domestic Government:</b> US$ 84.6m.<br><b>External Aid:</b> US$ 6.0m.<br><b>Out-of-pocket:</b> US$ 40.2m.<br><b>Other domestic private:</b> US$ 3.5m.
 2016,Haiti,11.02,49.43,4.26,35.29,<b>Domestic Government:</b> US$ 77.6m.<br><b>External Aid:</b> US$ 348.1m.<br><b>Out-of-pocket:</b> US$ 248.5m.<br><b>Other domestic private:</b> US$ 30.0m.
-2016,High income,62.25,0.01,23.91,13.83,"<b>Domestic Government:</b> US$ 4,016,817.8m.<br><b>External Aid:</b> US$ 563.2m.<br><b>Out-of-pocket:</b> US$ 892,670.7m.<br><b>Other domestic private:</b> US$ 1,542,698.1m."
 2016,Honduras,40.12,4.96,5.16,49.77,<b>Domestic Government:</b> US$ 719.4m.<br><b>External Aid:</b> US$ 88.9m.<br><b>Out-of-pocket:</b> US$ 892.3m.<br><b>Other domestic private:</b> US$ 92.5m.
 2016,Hungary,67.71,0.0,4.6,27.69,"<b>Domestic Government:</b> US$ 6,763.3m.<br><b>External Aid:</b> US$ 0.0m.<br><b>Out-of-pocket:</b> US$ 2,765.8m.<br><b>Other domestic private:</b> US$ 459.4m."
 2016,Iceland,81.51,0.0,1.62,16.87,"<b>Domestic Government:</b> US$ 1,378.3m.<br><b>External Aid:</b> US$ 0.0m.<br><b>Out-of-pocket:</b> US$ 285.2m.<br><b>Other domestic private:</b> US$ 27.5m."
@@ -875,8 +942,6 @@ year,Country,Domestic Government,External Aid,Other domestic private,Out-of-pock
 2016,Lesotho,58.41,24.55,0.52,16.51,<b>Domestic Government:</b> US$ 120.5m.<br><b>External Aid:</b> US$ 50.6m.<br><b>Out-of-pocket:</b> US$ 34.1m.<br><b>Other domestic private:</b> US$ 1.1m.
 2016,Libya,,,,,<b>Domestic Government:</b> US$ -m.<br><b>External Aid:</b> US$ -m.<br><b>Out-of-pocket:</b> US$ -m.<br><b>Other domestic private:</b> US$ -m.
 2016,Lithuania,65.76,0.23,1.69,32.32,"<b>Domestic Government:</b> US$ 2,185.5m.<br><b>External Aid:</b> US$ 7.7m.<br><b>Out-of-pocket:</b> US$ 1,074.1m.<br><b>Other domestic private:</b> US$ 56.3m."
-2016,Low income,20.81,27.76,6.53,44.89,"<b>Domestic Government:</b> US$ 4,072.7m.<br><b>External Aid:</b> US$ 5,431.5m.<br><b>Out-of-pocket:</b> US$ 8,784.4m.<br><b>Other domestic private:</b> US$ 1,278.5m."
-2016,Lower middle income,35.39,3.13,8.44,53.04,"<b>Domestic Government:</b> US$ 95,131.4m.<br><b>External Aid:</b> US$ 8,409.1m.<br><b>Out-of-pocket:</b> US$ 142,555.8m.<br><b>Other domestic private:</b> US$ 22,693.6m."
 2016,Luxembourg,84.44,1.32,3.5,10.74,"<b>Domestic Government:</b> US$ 3,041.1m.<br><b>External Aid:</b> US$ 47.5m.<br><b>Out-of-pocket:</b> US$ 387.0m.<br><b>Other domestic private:</b> US$ 126.0m."
 2016,Madagascar,45.12,26.44,5.06,23.39,<b>Domestic Government:</b> US$ 297.7m.<br><b>External Aid:</b> US$ 174.4m.<br><b>Out-of-pocket:</b> US$ 154.3m.<br><b>Other domestic private:</b> US$ 33.4m.
 2016,Malawi,24.73,53.71,9.14,12.41,<b>Domestic Government:</b> US$ 196.0m.<br><b>External Aid:</b> US$ 425.6m.<br><b>Out-of-pocket:</b> US$ 98.4m.<br><b>Other domestic private:</b> US$ 72.4m.
@@ -962,7 +1027,6 @@ year,Country,Domestic Government,External Aid,Other domestic private,Out-of-pock
 2016,United Kingdom,80.87,0.01,4.29,14.83,"<b>Domestic Government:</b> US$ 227,241.7m.<br><b>External Aid:</b> US$ 32.0m.<br><b>Out-of-pocket:</b> US$ 41,681.3m.<br><b>Other domestic private:</b> US$ 12,046.8m."
 2016,United Republic of Tanzania,40.62,36.41,1.07,21.89,<b>Domestic Government:</b> US$ 824.1m.<br><b>External Aid:</b> US$ 738.7m.<br><b>Out-of-pocket:</b> US$ 444.1m.<br><b>Other domestic private:</b> US$ 21.7m.
 2016,United States of America,51.14,0.0,37.22,11.65,"<b>Domestic Government:</b> US$ 1,727,564.6m.<br><b>External Aid:</b> US$ 0.0m.<br><b>Out-of-pocket:</b> US$ 393,422.1m.<br><b>Other domestic private:</b> US$ 1,257,343.4m."
-2016,Upper middle income,56.38,0.13,10.3,33.19,"<b>Domestic Government:</b> US$ 616,666.5m.<br><b>External Aid:</b> US$ 1,470.2m.<br><b>Out-of-pocket:</b> US$ 363,052.1m.<br><b>Other domestic private:</b> US$ 112,631.0m."
 2016,Uruguay,69.53,0.02,14.01,16.44,"<b>Domestic Government:</b> US$ 3,357.9m.<br><b>External Aid:</b> US$ 1.0m.<br><b>Out-of-pocket:</b> US$ 794.0m.<br><b>Other domestic private:</b> US$ 676.8m."
 2016,Uzbekistan,43.59,0.96,0.78,54.66,"<b>Domestic Government:</b> US$ 1,036.0m.<br><b>External Aid:</b> US$ 22.9m.<br><b>Out-of-pocket:</b> US$ 1,299.0m.<br><b>Other domestic private:</b> US$ 18.6m."
 2016,Vanuatu,45.3,39.6,4.06,11.04,<b>Domestic Government:</b> US$ 12.5m.<br><b>External Aid:</b> US$ 10.9m.<br><b>Out-of-pocket:</b> US$ 3.0m.<br><b>Other domestic private:</b> US$ 1.1m.
@@ -1044,7 +1108,6 @@ year,Country,Domestic Government,External Aid,Other domestic private,Out-of-pock
 2015,Guinea-Bissau,6.61,23.46,3.0,66.92,<b>Domestic Government:</b> US$ 6.7m.<br><b>External Aid:</b> US$ 23.9m.<br><b>Out-of-pocket:</b> US$ 68.2m.<br><b>Other domestic private:</b> US$ 3.1m.
 2015,Guyana,58.59,4.76,2.93,33.71,<b>Domestic Government:</b> US$ 75.8m.<br><b>External Aid:</b> US$ 6.2m.<br><b>Out-of-pocket:</b> US$ 43.6m.<br><b>Other domestic private:</b> US$ 3.8m.
 2015,Haiti,11.05,50.88,4.1,33.96,<b>Domestic Government:</b> US$ 80.7m.<br><b>External Aid:</b> US$ 371.5m.<br><b>Out-of-pocket:</b> US$ 248.0m.<br><b>Other domestic private:</b> US$ 30.0m.
-2015,High income,62.37,0.01,23.71,13.91,"<b>Domestic Government:</b> US$ 3,909,410.0m.<br><b>External Aid:</b> US$ 792.5m.<br><b>Out-of-pocket:</b> US$ 871,827.3m.<br><b>Other domestic private:</b> US$ 1,485,934.1m."
 2015,Honduras,39.39,5.03,4.92,50.66,<b>Domestic Government:</b> US$ 659.9m.<br><b>External Aid:</b> US$ 84.2m.<br><b>Out-of-pocket:</b> US$ 848.7m.<br><b>Other domestic private:</b> US$ 82.4m.
 2015,Hungary,67.79,0.0,4.73,27.49,"<b>Domestic Government:</b> US$ 6,498.1m.<br><b>External Aid:</b> US$ 0.0m.<br><b>Out-of-pocket:</b> US$ 2,635.1m.<br><b>Other domestic private:</b> US$ 453.1m."
 2015,Iceland,80.81,0.0,1.55,17.64,"<b>Domestic Government:</b> US$ 1,281.1m.<br><b>External Aid:</b> US$ 0.0m.<br><b>Out-of-pocket:</b> US$ 279.7m.<br><b>Other domestic private:</b> US$ 24.6m."
@@ -1069,8 +1132,6 @@ year,Country,Domestic Government,External Aid,Other domestic private,Out-of-pock
 2015,Lesotho,59.3,24.37,0.49,15.84,<b>Domestic Government:</b> US$ 123.3m.<br><b>External Aid:</b> US$ 50.7m.<br><b>Out-of-pocket:</b> US$ 32.9m.<br><b>Other domestic private:</b> US$ 1.0m.
 2015,Libya,,,,,<b>Domestic Government:</b> US$ -m.<br><b>External Aid:</b> US$ -m.<br><b>Out-of-pocket:</b> US$ -m.<br><b>Other domestic private:</b> US$ -m.
 2015,Lithuania,66.09,0.29,1.78,31.84,"<b>Domestic Government:</b> US$ 2,095.0m.<br><b>External Aid:</b> US$ 9.3m.<br><b>Out-of-pocket:</b> US$ 1,009.2m.<br><b>Other domestic private:</b> US$ 56.5m."
-2015,Low income,21.84,26.32,7.08,44.76,"<b>Domestic Government:</b> US$ 4,139.7m.<br><b>External Aid:</b> US$ 4,988.2m.<br><b>Out-of-pocket:</b> US$ 8,484.8m.<br><b>Other domestic private:</b> US$ 1,341.7m."
-2015,Lower middle income,34.66,3.3,8.42,53.63,"<b>Domestic Government:</b> US$ 88,491.4m.<br><b>External Aid:</b> US$ 8,414.4m.<br><b>Out-of-pocket:</b> US$ 136,905.9m.<br><b>Other domestic private:</b> US$ 21,489.5m."
 2015,Luxembourg,84.51,1.38,3.39,10.72,"<b>Domestic Government:</b> US$ 2,905.1m.<br><b>External Aid:</b> US$ 47.6m.<br><b>Out-of-pocket:</b> US$ 368.4m.<br><b>Other domestic private:</b> US$ 116.7m."
 2015,Madagascar,40.02,28.39,6.24,25.35,<b>Domestic Government:</b> US$ 240.2m.<br><b>External Aid:</b> US$ 170.4m.<br><b>Out-of-pocket:</b> US$ 152.1m.<br><b>Other domestic private:</b> US$ 37.4m.
 2015,Malawi,28.65,53.5,6.87,10.98,<b>Domestic Government:</b> US$ 190.4m.<br><b>External Aid:</b> US$ 355.6m.<br><b>Out-of-pocket:</b> US$ 73.0m.<br><b>Other domestic private:</b> US$ 45.6m.
@@ -1156,7 +1217,6 @@ year,Country,Domestic Government,External Aid,Other domestic private,Out-of-pock
 2015,United Kingdom,80.38,0.01,4.73,14.88,"<b>Domestic Government:</b> US$ 222,187.2m.<br><b>External Aid:</b> US$ 29.2m.<br><b>Out-of-pocket:</b> US$ 41,122.5m.<br><b>Other domestic private:</b> US$ 13,065.0m."
 2015,United Republic of Tanzania,34.45,37.84,1.88,25.83,<b>Domestic Government:</b> US$ 602.1m.<br><b>External Aid:</b> US$ 661.5m.<br><b>Out-of-pocket:</b> US$ 451.5m.<br><b>Other domestic private:</b> US$ 32.8m.
 2015,United States of America,51.37,0.0,36.87,11.76,"<b>Domestic Government:</b> US$ 1,675,355.9m.<br><b>External Aid:</b> US$ 0.0m.<br><b>Out-of-pocket:</b> US$ 383,569.4m.<br><b>Other domestic private:</b> US$ 1,202,240.5m."
-2015,Upper middle income,57.79,0.16,9.67,32.38,"<b>Domestic Government:</b> US$ 607,791.6m.<br><b>External Aid:</b> US$ 1,663.9m.<br><b>Out-of-pocket:</b> US$ 340,515.9m.<br><b>Other domestic private:</b> US$ 101,680.3m."
 2015,Uruguay,68.4,0.02,14.66,16.92,"<b>Domestic Government:</b> US$ 3,105.3m.<br><b>External Aid:</b> US$ 0.9m.<br><b>Out-of-pocket:</b> US$ 768.2m.<br><b>Other domestic private:</b> US$ 665.3m."
 2015,Uzbekistan,49.78,1.38,0.43,48.41,"<b>Domestic Government:</b> US$ 1,121.8m.<br><b>External Aid:</b> US$ 31.0m.<br><b>Out-of-pocket:</b> US$ 1,091.0m.<br><b>Other domestic private:</b> US$ 9.7m."
 2015,Vanuatu,48.57,40.98,2.81,7.64,<b>Domestic Government:</b> US$ 18.8m.<br><b>External Aid:</b> US$ 15.9m.<br><b>Out-of-pocket:</b> US$ 3.0m.<br><b>Other domestic private:</b> US$ 1.1m.
@@ -1238,7 +1298,6 @@ year,Country,Domestic Government,External Aid,Other domestic private,Out-of-pock
 2014,Guinea-Bissau,5.98,36.08,2.55,55.39,<b>Domestic Government:</b> US$ 7.0m.<br><b>External Aid:</b> US$ 42.5m.<br><b>Out-of-pocket:</b> US$ 65.2m.<br><b>Other domestic private:</b> US$ 3.0m.
 2014,Guyana,55.1,5.82,3.13,35.95,<b>Domestic Government:</b> US$ 69.5m.<br><b>External Aid:</b> US$ 7.3m.<br><b>Out-of-pocket:</b> US$ 45.4m.<br><b>Other domestic private:</b> US$ 3.9m.
 2014,Haiti,10.36,54.94,3.68,31.02,<b>Domestic Government:</b> US$ 65.7m.<br><b>External Aid:</b> US$ 348.4m.<br><b>Out-of-pocket:</b> US$ 196.7m.<br><b>Other domestic private:</b> US$ 23.3m.
-2014,High income,62.16,0.01,23.81,14.02,"<b>Domestic Government:</b> US$ 3,754,328.5m.<br><b>External Aid:</b> US$ 709.9m.<br><b>Out-of-pocket:</b> US$ 846,631.4m.<br><b>Other domestic private:</b> US$ 1,438,293.5m."
 2014,Honduras,40.34,6.25,4.71,48.69,<b>Domestic Government:</b> US$ 688.3m.<br><b>External Aid:</b> US$ 106.7m.<br><b>Out-of-pocket:</b> US$ 830.7m.<br><b>Other domestic private:</b> US$ 80.4m.
 2014,Hungary,66.72,,4.94,28.34,"<b>Domestic Government:</b> US$ 6,340.8m.<br><b>External Aid:</b> US$ -m.<br><b>Out-of-pocket:</b> US$ 2,693.1m.<br><b>Other domestic private:</b> US$ 469.4m."
 2014,Iceland,80.49,0.0,1.53,17.98,"<b>Domestic Government:</b> US$ 1,246.0m.<br><b>External Aid:</b> US$ 0.0m.<br><b>Out-of-pocket:</b> US$ 278.3m.<br><b>Other domestic private:</b> US$ 23.6m."
@@ -1263,8 +1322,6 @@ year,Country,Domestic Government,External Aid,Other domestic private,Out-of-pock
 2014,Lesotho,54.3,29.92,0.48,15.3,<b>Domestic Government:</b> US$ 111.1m.<br><b>External Aid:</b> US$ 61.2m.<br><b>Out-of-pocket:</b> US$ 31.3m.<br><b>Other domestic private:</b> US$ 1.0m.
 2014,Libya,,,,,<b>Domestic Government:</b> US$ -m.<br><b>External Aid:</b> US$ -m.<br><b>Out-of-pocket:</b> US$ -m.<br><b>Other domestic private:</b> US$ -m.
 2014,Lithuania,66.57,0.13,1.8,31.49,"<b>Domestic Government:</b> US$ 1,973.9m.<br><b>External Aid:</b> US$ 3.9m.<br><b>Out-of-pocket:</b> US$ 933.7m.<br><b>Other domestic private:</b> US$ 53.4m."
-2014,Low income,20.29,27.31,7.02,45.39,"<b>Domestic Government:</b> US$ 3,664.1m.<br><b>External Aid:</b> US$ 4,932.8m.<br><b>Out-of-pocket:</b> US$ 8,197.4m.<br><b>Other domestic private:</b> US$ 1,267.7m."
-2014,Lower middle income,33.07,3.94,8.8,54.19,"<b>Domestic Government:</b> US$ 79,084.7m.<br><b>External Aid:</b> US$ 9,425.1m.<br><b>Out-of-pocket:</b> US$ 129,604.5m.<br><b>Other domestic private:</b> US$ 21,054.1m."
 2014,Luxembourg,84.26,1.4,3.27,11.07,"<b>Domestic Government:</b> US$ 2,915.7m.<br><b>External Aid:</b> US$ 48.4m.<br><b>Out-of-pocket:</b> US$ 383.1m.<br><b>Other domestic private:</b> US$ 113.1m."
 2014,Madagascar,39.48,25.15,6.99,28.38,<b>Domestic Government:</b> US$ 204.6m.<br><b>External Aid:</b> US$ 130.3m.<br><b>Out-of-pocket:</b> US$ 147.1m.<br><b>Other domestic private:</b> US$ 36.2m.
 2014,Malawi,22.73,63.04,6.05,8.18,<b>Domestic Government:</b> US$ 152.7m.<br><b>External Aid:</b> US$ 423.5m.<br><b>Out-of-pocket:</b> US$ 55.0m.<br><b>Other domestic private:</b> US$ 40.6m.
@@ -1350,7 +1407,6 @@ year,Country,Domestic Government,External Aid,Other domestic private,Out-of-pock
 2014,United Kingdom,80.45,0.01,4.8,14.74,"<b>Domestic Government:</b> US$ 218,725.2m.<br><b>External Aid:</b> US$ 26.2m.<br><b>Out-of-pocket:</b> US$ 40,076.3m.<br><b>Other domestic private:</b> US$ 13,050.9m."
 2014,United Republic of Tanzania,29.87,43.57,0.57,25.98,<b>Domestic Government:</b> US$ 541.1m.<br><b>External Aid:</b> US$ 789.2m.<br><b>Out-of-pocket:</b> US$ 470.6m.<br><b>Other domestic private:</b> US$ 10.4m.
 2014,United States of America,50.81,0.0,37.21,11.97,"<b>Domestic Government:</b> US$ 1,585,178.8m.<br><b>External Aid:</b> US$ 0.0m.<br><b>Out-of-pocket:</b> US$ 373,555.1m.<br><b>Other domestic private:</b> US$ 1,160,877.7m."
-2014,Upper middle income,57.28,0.22,9.29,33.21,"<b>Domestic Government:</b> US$ 560,542.6m.<br><b>External Aid:</b> US$ 2,188.4m.<br><b>Out-of-pocket:</b> US$ 324,948.0m.<br><b>Other domestic private:</b> US$ 90,873.4m."
 2014,Uruguay,68.12,0.05,14.73,17.1,"<b>Domestic Government:</b> US$ 2,999.6m.<br><b>External Aid:</b> US$ 2.4m.<br><b>Out-of-pocket:</b> US$ 752.8m.<br><b>Other domestic private:</b> US$ 648.7m."
 2014,Uzbekistan,52.2,1.92,0.47,45.41,"<b>Domestic Government:</b> US$ 1,026.5m.<br><b>External Aid:</b> US$ 37.8m.<br><b>Out-of-pocket:</b> US$ 892.9m.<br><b>Other domestic private:</b> US$ 9.2m."
 2014,Vanuatu,16.12,71.79,3.25,8.84,<b>Domestic Government:</b> US$ 5.3m.<br><b>External Aid:</b> US$ 23.4m.<br><b>Out-of-pocket:</b> US$ 2.9m.<br><b>Other domestic private:</b> US$ 1.1m.
@@ -1432,7 +1488,6 @@ year,Country,Domestic Government,External Aid,Other domestic private,Out-of-pock
 2013,Guinea-Bissau,7.84,24.07,3.76,64.34,<b>Domestic Government:</b> US$ 6.5m.<br><b>External Aid:</b> US$ 19.8m.<br><b>Out-of-pocket:</b> US$ 53.0m.<br><b>Other domestic private:</b> US$ 3.1m.
 2013,Guyana,49.66,9.08,3.3,37.96,<b>Domestic Government:</b> US$ 59.3m.<br><b>External Aid:</b> US$ 10.9m.<br><b>Out-of-pocket:</b> US$ 45.4m.<br><b>Other domestic private:</b> US$ 3.9m.
 2013,Haiti,11.58,48.39,3.78,36.24,<b>Domestic Government:</b> US$ 65.6m.<br><b>External Aid:</b> US$ 274.0m.<br><b>Out-of-pocket:</b> US$ 205.2m.<br><b>Other domestic private:</b> US$ 21.4m.
-2013,High income,61.56,0.01,24.25,14.18,"<b>Domestic Government:</b> US$ 3,602,923.1m.<br><b>External Aid:</b> US$ 677.5m.<br><b>Out-of-pocket:</b> US$ 829,728.0m.<br><b>Other domestic private:</b> US$ 1,419,159.0m."
 2013,Honduras,41.21,5.26,4.26,49.26,<b>Domestic Government:</b> US$ 730.8m.<br><b>External Aid:</b> US$ 93.4m.<br><b>Out-of-pocket:</b> US$ 873.5m.<br><b>Other domestic private:</b> US$ 75.6m.
 2013,Hungary,66.21,,5.43,28.36,"<b>Domestic Government:</b> US$ 6,197.5m.<br><b>External Aid:</b> US$ -m.<br><b>Out-of-pocket:</b> US$ 2,654.7m.<br><b>Other domestic private:</b> US$ 508.3m."
 2013,Iceland,80.23,0.0,1.51,18.26,"<b>Domestic Government:</b> US$ 1,213.4m.<br><b>External Aid:</b> US$ 0.0m.<br><b>Out-of-pocket:</b> US$ 276.1m.<br><b>Other domestic private:</b> US$ 22.9m."
@@ -1457,8 +1512,6 @@ year,Country,Domestic Government,External Aid,Other domestic private,Out-of-pock
 2013,Lesotho,48.92,34.72,0.49,15.87,<b>Domestic Government:</b> US$ 102.2m.<br><b>External Aid:</b> US$ 72.5m.<br><b>Out-of-pocket:</b> US$ 33.1m.<br><b>Other domestic private:</b> US$ 1.0m.
 2013,Libya,,,,,<b>Domestic Government:</b> US$ -m.<br><b>External Aid:</b> US$ -m.<br><b>Out-of-pocket:</b> US$ -m.<br><b>Other domestic private:</b> US$ -m.
 2013,Lithuania,65.59,0.14,1.44,32.82,"<b>Domestic Government:</b> US$ 1,857.8m.<br><b>External Aid:</b> US$ 4.1m.<br><b>Out-of-pocket:</b> US$ 929.6m.<br><b>Other domestic private:</b> US$ 40.9m."
-2013,Low income,19.72,27.56,4.67,48.05,"<b>Domestic Government:</b> US$ 3,383.3m.<br><b>External Aid:</b> US$ 4,728.5m.<br><b>Out-of-pocket:</b> US$ 8,244.8m.<br><b>Other domestic private:</b> US$ 801.1m."
-2013,Lower middle income,31.75,3.54,8.3,56.41,"<b>Domestic Government:</b> US$ 72,931.9m.<br><b>External Aid:</b> US$ 8,126.4m.<br><b>Out-of-pocket:</b> US$ 129,564.2m.<br><b>Other domestic private:</b> US$ 19,052.7m."
 2013,Luxembourg,83.86,1.46,3.48,11.2,"<b>Domestic Government:</b> US$ 2,830.4m.<br><b>External Aid:</b> US$ 49.4m.<br><b>Out-of-pocket:</b> US$ 378.0m.<br><b>Other domestic private:</b> US$ 117.4m."
 2013,Madagascar,34.88,20.36,9.05,35.71,<b>Domestic Government:</b> US$ 147.7m.<br><b>External Aid:</b> US$ 86.2m.<br><b>Out-of-pocket:</b> US$ 151.2m.<br><b>Other domestic private:</b> US$ 38.3m.
 2013,Malawi,18.02,68.25,7.02,6.71,<b>Domestic Government:</b> US$ 136.6m.<br><b>External Aid:</b> US$ 517.2m.<br><b>Out-of-pocket:</b> US$ 50.8m.<br><b>Other domestic private:</b> US$ 53.2m.
@@ -1544,7 +1597,6 @@ year,Country,Domestic Government,External Aid,Other domestic private,Out-of-pock
 2013,United Kingdom,80.41,0.01,4.89,14.69,"<b>Domestic Government:</b> US$ 211,921.3m.<br><b>External Aid:</b> US$ 25.9m.<br><b>Out-of-pocket:</b> US$ 38,727.2m.<br><b>Other domestic private:</b> US$ 12,890.2m."
 2013,United Republic of Tanzania,25.51,48.49,1.92,24.09,<b>Domestic Government:</b> US$ 501.0m.<br><b>External Aid:</b> US$ 952.3m.<br><b>Out-of-pocket:</b> US$ 473.1m.<br><b>Other domestic private:</b> US$ 37.6m.
 2013,United States of America,49.52,0.0,38.2,12.28,"<b>Domestic Government:</b> US$ 1,491,206.5m.<br><b>External Aid:</b> US$ 0.0m.<br><b>Out-of-pocket:</b> US$ 369,732.5m.<br><b>Other domestic private:</b> US$ 1,150,209.5m."
-2013,Upper middle income,56.55,0.36,9.2,33.89,"<b>Domestic Government:</b> US$ 523,541.7m.<br><b>External Aid:</b> US$ 3,348.2m.<br><b>Out-of-pocket:</b> US$ 313,691.3m.<br><b>Other domestic private:</b> US$ 85,168.6m."
 2013,Uruguay,66.44,0.03,15.83,17.69,"<b>Domestic Government:</b> US$ 2,849.9m.<br><b>External Aid:</b> US$ 1.5m.<br><b>Out-of-pocket:</b> US$ 759.0m.<br><b>Other domestic private:</b> US$ 679.1m."
 2013,Uzbekistan,41.99,1.58,0.38,56.05,"<b>Domestic Government:</b> US$ 997.1m.<br><b>External Aid:</b> US$ 37.6m.<br><b>Out-of-pocket:</b> US$ 1,331.1m.<br><b>Other domestic private:</b> US$ 9.0m."
 2013,Vanuatu,51.13,38.96,2.67,7.25,<b>Domestic Government:</b> US$ 19.5m.<br><b>External Aid:</b> US$ 14.8m.<br><b>Out-of-pocket:</b> US$ 2.8m.<br><b>Other domestic private:</b> US$ 1.0m.
@@ -1626,7 +1678,6 @@ year,Country,Domestic Government,External Aid,Other domestic private,Out-of-pock
 2012,Guinea-Bissau,8.49,28.21,4.57,58.73,<b>Domestic Government:</b> US$ 5.7m.<br><b>External Aid:</b> US$ 19.0m.<br><b>Out-of-pocket:</b> US$ 39.5m.<br><b>Other domestic private:</b> US$ 3.1m.
 2012,Guyana,48.46,9.26,3.38,38.9,<b>Domestic Government:</b> US$ 54.5m.<br><b>External Aid:</b> US$ 10.4m.<br><b>Out-of-pocket:</b> US$ 43.7m.<br><b>Other domestic private:</b> US$ 3.8m.
 2012,Haiti,8.22,60.74,2.6,28.44,<b>Domestic Government:</b> US$ 60.5m.<br><b>External Aid:</b> US$ 446.8m.<br><b>Out-of-pocket:</b> US$ 209.2m.<br><b>Other domestic private:</b> US$ 19.1m.
-2012,High income,61.19,0.01,24.53,14.27,"<b>Domestic Government:</b> US$ 3,536,577.9m.<br><b>External Aid:</b> US$ 482.7m.<br><b>Out-of-pocket:</b> US$ 824,851.1m.<br><b>Other domestic private:</b> US$ 1,417,725.7m."
 2012,Honduras,39.08,7.07,3.99,49.86,<b>Domestic Government:</b> US$ 688.4m.<br><b>External Aid:</b> US$ 124.5m.<br><b>Out-of-pocket:</b> US$ 878.3m.<br><b>Other domestic private:</b> US$ 70.3m.
 2012,Hungary,64.84,,5.79,29.37,"<b>Domestic Government:</b> US$ 6,107.1m.<br><b>External Aid:</b> US$ -m.<br><b>Out-of-pocket:</b> US$ 2,766.4m.<br><b>Other domestic private:</b> US$ 545.2m."
 2012,Iceland,79.92,0.0,1.51,18.57,"<b>Domestic Government:</b> US$ 1,156.9m.<br><b>External Aid:</b> US$ 0.0m.<br><b>Out-of-pocket:</b> US$ 268.8m.<br><b>Other domestic private:</b> US$ 21.9m."
@@ -1651,8 +1702,6 @@ year,Country,Domestic Government,External Aid,Other domestic private,Out-of-pock
 2012,Lesotho,52.31,29.06,0.56,18.07,<b>Domestic Government:</b> US$ 104.1m.<br><b>External Aid:</b> US$ 57.9m.<br><b>Out-of-pocket:</b> US$ 36.0m.<br><b>Other domestic private:</b> US$ 1.1m.
 2012,Libya,,,,,<b>Domestic Government:</b> US$ -m.<br><b>External Aid:</b> US$ -m.<br><b>Out-of-pocket:</b> US$ -m.<br><b>Other domestic private:</b> US$ -m.
 2012,Lithuania,66.62,0.14,1.45,31.8,"<b>Domestic Government:</b> US$ 1,866.8m.<br><b>External Aid:</b> US$ 3.9m.<br><b>Out-of-pocket:</b> US$ 891.2m.<br><b>Other domestic private:</b> US$ 40.5m."
-2012,Low income,20.57,27.86,4.26,47.31,"<b>Domestic Government:</b> US$ 3,189.5m.<br><b>External Aid:</b> US$ 4,318.4m.<br><b>Out-of-pocket:</b> US$ 7,335.1m.<br><b>Other domestic private:</b> US$ 659.9m."
-2012,Lower middle income,33.23,3.6,8.71,54.46,"<b>Domestic Government:</b> US$ 70,059.1m.<br><b>External Aid:</b> US$ 7,599.3m.<br><b>Out-of-pocket:</b> US$ 114,812.5m.<br><b>Other domestic private:</b> US$ 18,353.8m."
 2012,Luxembourg,83.63,1.53,3.37,11.47,"<b>Domestic Government:</b> US$ 2,766.5m.<br><b>External Aid:</b> US$ 50.5m.<br><b>Out-of-pocket:</b> US$ 379.4m.<br><b>Other domestic private:</b> US$ 111.5m."
 2012,Madagascar,38.97,19.64,8.14,33.24,<b>Domestic Government:</b> US$ 164.9m.<br><b>External Aid:</b> US$ 83.1m.<br><b>Out-of-pocket:</b> US$ 140.6m.<br><b>Other domestic private:</b> US$ 34.4m.
 2012,Malawi,15.88,70.79,3.09,10.24,<b>Domestic Government:</b> US$ 83.8m.<br><b>External Aid:</b> US$ 373.4m.<br><b>Out-of-pocket:</b> US$ 54.0m.<br><b>Other domestic private:</b> US$ 16.3m.
@@ -1738,7 +1787,6 @@ year,Country,Domestic Government,External Aid,Other domestic private,Out-of-pock
 2012,United Kingdom,80.62,0.01,4.86,14.51,"<b>Domestic Government:</b> US$ 210,330.6m.<br><b>External Aid:</b> US$ 23.5m.<br><b>Out-of-pocket:</b> US$ 37,843.8m.<br><b>Other domestic private:</b> US$ 12,689.4m."
 2012,United Republic of Tanzania,23.43,48.33,3.55,24.69,<b>Domestic Government:</b> US$ 465.4m.<br><b>External Aid:</b> US$ 960.0m.<br><b>Out-of-pocket:</b> US$ 490.4m.<br><b>Other domestic private:</b> US$ 70.4m.
 2012,United States of America,48.84,0.0,38.83,12.33,"<b>Domestic Government:</b> US$ 1,455,834.6m.<br><b>External Aid:</b> US$ 0.0m.<br><b>Out-of-pocket:</b> US$ 367,545.2m.<br><b>Other domestic private:</b> US$ 1,157,354.8m."
-2012,Upper middle income,55.72,0.4,9.39,34.49,"<b>Domestic Government:</b> US$ 478,235.7m.<br><b>External Aid:</b> US$ 3,415.7m.<br><b>Out-of-pocket:</b> US$ 296,032.0m.<br><b>Other domestic private:</b> US$ 80,620.6m."
 2012,Uruguay,64.22,0.03,17.29,18.46,"<b>Domestic Government:</b> US$ 2,615.9m.<br><b>External Aid:</b> US$ 1.2m.<br><b>Out-of-pocket:</b> US$ 752.1m.<br><b>Other domestic private:</b> US$ 704.1m."
 2012,Uzbekistan,42.11,1.27,0.38,56.25,"<b>Domestic Government:</b> US$ 904.1m.<br><b>External Aid:</b> US$ 27.2m.<br><b>Out-of-pocket:</b> US$ 1,207.7m.<br><b>Other domestic private:</b> US$ 8.2m."
 2012,Vanuatu,58.44,30.6,2.94,8.01,<b>Domestic Government:</b> US$ 19.8m.<br><b>External Aid:</b> US$ 10.4m.<br><b>Out-of-pocket:</b> US$ 2.7m.<br><b>Other domestic private:</b> US$ 1.0m.
@@ -1820,7 +1868,6 @@ year,Country,Domestic Government,External Aid,Other domestic private,Out-of-pock
 2011,Guinea-Bissau,7.03,52.93,4.21,35.82,<b>Domestic Government:</b> US$ 5.0m.<br><b>External Aid:</b> US$ 37.9m.<br><b>Out-of-pocket:</b> US$ 25.7m.<br><b>Other domestic private:</b> US$ 3.0m.
 2011,Guyana,48.58,13.57,3.03,34.81,<b>Domestic Government:</b> US$ 58.5m.<br><b>External Aid:</b> US$ 16.3m.<br><b>Out-of-pocket:</b> US$ 41.9m.<br><b>Other domestic private:</b> US$ 3.6m.
 2011,Haiti,7.13,64.68,2.1,26.09,<b>Domestic Government:</b> US$ 55.5m.<br><b>External Aid:</b> US$ 503.0m.<br><b>Out-of-pocket:</b> US$ 202.9m.<br><b>Other domestic private:</b> US$ 16.3m.
-2011,High income,61.38,0.01,24.39,14.22,"<b>Domestic Government:</b> US$ 3,480,837.9m.<br><b>External Aid:</b> US$ 451.6m.<br><b>Out-of-pocket:</b> US$ 806,701.4m.<br><b>Other domestic private:</b> US$ 1,383,198.4m."
 2011,Honduras,44.29,6.13,3.78,45.8,<b>Domestic Government:</b> US$ 760.9m.<br><b>External Aid:</b> US$ 105.4m.<br><b>Out-of-pocket:</b> US$ 786.8m.<br><b>Other domestic private:</b> US$ 65.0m.
 2011,Hungary,66.22,,5.57,28.22,"<b>Domestic Government:</b> US$ 6,376.0m.<br><b>External Aid:</b> US$ -m.<br><b>Out-of-pocket:</b> US$ 2,716.9m.<br><b>Other domestic private:</b> US$ 536.0m."
 2011,Iceland,80.01,0.0,1.49,18.5,"<b>Domestic Government:</b> US$ 1,149.0m.<br><b>External Aid:</b> US$ 0.0m.<br><b>Out-of-pocket:</b> US$ 265.7m.<br><b>Other domestic private:</b> US$ 21.4m."
@@ -1845,8 +1892,6 @@ year,Country,Domestic Government,External Aid,Other domestic private,Out-of-pock
 2011,Lesotho,56.52,25.33,0.55,17.6,<b>Domestic Government:</b> US$ 110.3m.<br><b>External Aid:</b> US$ 49.4m.<br><b>Out-of-pocket:</b> US$ 34.3m.<br><b>Other domestic private:</b> US$ 1.1m.
 2011,Libya,63.29,0.04,0.0,36.67,"<b>Domestic Government:</b> US$ 1,156.2m.<br><b>External Aid:</b> US$ 0.7m.<br><b>Out-of-pocket:</b> US$ 669.8m.<br><b>Other domestic private:</b> US$ 0.0m."
 2011,Lithuania,70.33,0.17,1.27,28.22,"<b>Domestic Government:</b> US$ 1,962.0m.<br><b>External Aid:</b> US$ 4.8m.<br><b>Out-of-pocket:</b> US$ 787.3m.<br><b>Other domestic private:</b> US$ 35.6m."
-2011,Low income,18.13,29.78,4.18,47.91,"<b>Domestic Government:</b> US$ 2,764.1m.<br><b>External Aid:</b> US$ 4,540.8m.<br><b>Out-of-pocket:</b> US$ 7,304.4m.<br><b>Other domestic private:</b> US$ 637.5m."
-2011,Lower middle income,32.66,3.63,8.68,55.03,"<b>Domestic Government:</b> US$ 64,855.6m.<br><b>External Aid:</b> US$ 7,210.4m.<br><b>Out-of-pocket:</b> US$ 109,267.7m.<br><b>Other domestic private:</b> US$ 17,225.1m."
 2011,Luxembourg,83.56,0.0,5.65,10.78,"<b>Domestic Government:</b> US$ 3,085.2m.<br><b>External Aid:</b> US$ 0.1m.<br><b>Out-of-pocket:</b> US$ 398.1m.<br><b>Other domestic private:</b> US$ 208.7m."
 2011,Madagascar,37.81,26.61,7.08,28.5,<b>Domestic Government:</b> US$ 180.3m.<br><b>External Aid:</b> US$ 126.9m.<br><b>Out-of-pocket:</b> US$ 135.9m.<br><b>Other domestic private:</b> US$ 33.8m.
 2011,Malawi,21.65,64.42,4.97,8.96,<b>Domestic Government:</b> US$ 99.1m.<br><b>External Aid:</b> US$ 294.8m.<br><b>Out-of-pocket:</b> US$ 41.0m.<br><b>Other domestic private:</b> US$ 22.7m.
@@ -1932,7 +1977,6 @@ year,Country,Domestic Government,External Aid,Other domestic private,Out-of-pock
 2011,United Kingdom,80.88,0.01,4.85,14.26,"<b>Domestic Government:</b> US$ 207,327.3m.<br><b>External Aid:</b> US$ 21.8m.<br><b>Out-of-pocket:</b> US$ 36,558.1m.<br><b>Other domestic private:</b> US$ 12,433.9m."
 2011,United Republic of Tanzania,25.45,44.91,1.68,27.95,<b>Domestic Government:</b> US$ 484.5m.<br><b>External Aid:</b> US$ 854.9m.<br><b>Out-of-pocket:</b> US$ 532.1m.<br><b>Other domestic private:</b> US$ 32.0m.
 2011,United States of America,48.95,0.0,38.74,12.31,"<b>Domestic Government:</b> US$ 1,428,315.8m.<br><b>External Aid:</b> US$ 0.0m.<br><b>Out-of-pocket:</b> US$ 359,341.9m.<br><b>Other domestic private:</b> US$ 1,130,347.8m."
-2011,Upper middle income,54.91,0.46,10.04,34.6,"<b>Domestic Government:</b> US$ 434,438.1m.<br><b>External Aid:</b> US$ 3,625.8m.<br><b>Out-of-pocket:</b> US$ 273,727.6m.<br><b>Other domestic private:</b> US$ 79,398.7m."
 2011,Uruguay,61.49,0.03,19.04,19.43,"<b>Domestic Government:</b> US$ 2,383.6m.<br><b>External Aid:</b> US$ 1.3m.<br><b>Out-of-pocket:</b> US$ 753.2m.<br><b>Other domestic private:</b> US$ 738.2m."
 2011,Uzbekistan,39.69,1.72,0.4,58.18,"<b>Domestic Government:</b> US$ 754.8m.<br><b>External Aid:</b> US$ 32.8m.<br><b>Out-of-pocket:</b> US$ 1,106.4m.<br><b>Other domestic private:</b> US$ 7.6m."
 2011,Vanuatu,65.6,22.78,3.12,8.49,<b>Domestic Government:</b> US$ 20.2m.<br><b>External Aid:</b> US$ 7.0m.<br><b>Out-of-pocket:</b> US$ 2.6m.<br><b>Other domestic private:</b> US$ 1.0m.
@@ -2014,7 +2058,6 @@ year,Country,Domestic Government,External Aid,Other domestic private,Out-of-pock
 2010,Guinea-Bissau,16.58,41.64,4.4,37.38,<b>Domestic Government:</b> US$ 11.1m.<br><b>External Aid:</b> US$ 27.8m.<br><b>Out-of-pocket:</b> US$ 25.0m.<br><b>Other domestic private:</b> US$ 2.9m.
 2010,Guyana,43.12,19.11,3.02,34.75,<b>Domestic Government:</b> US$ 49.8m.<br><b>External Aid:</b> US$ 22.1m.<br><b>Out-of-pocket:</b> US$ 40.1m.<br><b>Other domestic private:</b> US$ 3.5m.
 2010,Haiti,17.87,46.15,2.67,33.31,<b>Domestic Government:</b> US$ 101.7m.<br><b>External Aid:</b> US$ 262.7m.<br><b>Out-of-pocket:</b> US$ 189.6m.<br><b>Other domestic private:</b> US$ 15.2m.
-2010,High income,61.03,0.01,24.6,14.36,"<b>Domestic Government:</b> US$ 3,377,904.7m.<br><b>External Aid:</b> US$ 421.4m.<br><b>Out-of-pocket:</b> US$ 794,972.8m.<br><b>Other domestic private:</b> US$ 1,361,870.5m."
 2010,Honduras,42.36,7.54,3.84,46.26,<b>Domestic Government:</b> US$ 695.6m.<br><b>External Aid:</b> US$ 123.8m.<br><b>Out-of-pocket:</b> US$ 759.7m.<br><b>Other domestic private:</b> US$ 63.1m.
 2010,Hungary,66.63,,5.96,27.42,"<b>Domestic Government:</b> US$ 6,270.2m.<br><b>External Aid:</b> US$ -m.<br><b>Out-of-pocket:</b> US$ 2,580.1m.<br><b>Other domestic private:</b> US$ 560.8m."
 2010,Iceland,79.86,0.0,1.48,18.66,"<b>Domestic Government:</b> US$ 1,147.9m.<br><b>External Aid:</b> US$ 0.0m.<br><b>Out-of-pocket:</b> US$ 268.2m.<br><b>Other domestic private:</b> US$ 21.2m."
@@ -2039,8 +2082,6 @@ year,Country,Domestic Government,External Aid,Other domestic private,Out-of-pock
 2010,Lesotho,56.44,20.17,2.82,20.56,<b>Domestic Government:</b> US$ 92.2m.<br><b>External Aid:</b> US$ 32.9m.<br><b>Out-of-pocket:</b> US$ 33.6m.<br><b>Other domestic private:</b> US$ 4.6m.
 2010,Libya,69.94,0.09,0.0,29.97,"<b>Domestic Government:</b> US$ 2,099.9m.<br><b>External Aid:</b> US$ 2.6m.<br><b>Out-of-pocket:</b> US$ 900.0m.<br><b>Other domestic private:</b> US$ 0.0m."
 2010,Lithuania,71.09,0.17,1.15,27.59,"<b>Domestic Government:</b> US$ 1,964.5m.<br><b>External Aid:</b> US$ 4.6m.<br><b>Out-of-pocket:</b> US$ 762.4m.<br><b>Other domestic private:</b> US$ 31.8m."
-2010,Low income,20.18,27.29,3.87,48.66,"<b>Domestic Government:</b> US$ 3,117.0m.<br><b>External Aid:</b> US$ 4,215.7m.<br><b>Out-of-pocket:</b> US$ 7,515.7m.<br><b>Other domestic private:</b> US$ 598.1m."
-2010,Lower middle income,32.18,3.49,7.91,56.41,"<b>Domestic Government:</b> US$ 60,404.9m.<br><b>External Aid:</b> US$ 6,558.0m.<br><b>Out-of-pocket:</b> US$ 105,874.9m.<br><b>Other domestic private:</b> US$ 14,855.8m."
 2010,Luxembourg,85.93,,3.84,10.23,"<b>Domestic Government:</b> US$ 3,482.6m.<br><b>External Aid:</b> US$ -m.<br><b>Out-of-pocket:</b> US$ 414.7m.<br><b>Other domestic private:</b> US$ 155.5m."
 2010,Madagascar,40.16,15.96,7.37,36.51,<b>Domestic Government:</b> US$ 197.6m.<br><b>External Aid:</b> US$ 78.5m.<br><b>Out-of-pocket:</b> US$ 179.6m.<br><b>Other domestic private:</b> US$ 36.3m.
 2010,Malawi,22.01,62.77,4.3,10.93,<b>Domestic Government:</b> US$ 92.8m.<br><b>External Aid:</b> US$ 264.7m.<br><b>Out-of-pocket:</b> US$ 46.1m.<br><b>Other domestic private:</b> US$ 18.1m.
@@ -2126,7 +2167,6 @@ year,Country,Domestic Government,External Aid,Other domestic private,Out-of-pock
 2010,United Kingdom,80.87,0.01,4.77,14.35,"<b>Domestic Government:</b> US$ 205,186.7m.<br><b>External Aid:</b> US$ 19.8m.<br><b>Out-of-pocket:</b> US$ 36,397.4m.<br><b>Other domestic private:</b> US$ 12,107.2m."
 2010,United Republic of Tanzania,27.76,39.42,0.93,31.89,<b>Domestic Government:</b> US$ 505.9m.<br><b>External Aid:</b> US$ 718.5m.<br><b>Out-of-pocket:</b> US$ 581.3m.<br><b>Other domestic private:</b> US$ 17.0m.
 2010,United States of America,48.87,0.0,38.77,12.36,"<b>Domestic Government:</b> US$ 1,409,259.3m.<br><b>External Aid:</b> US$ 0.0m.<br><b>Out-of-pocket:</b> US$ 356,506.3m.<br><b>Other domestic private:</b> US$ 1,118,018.6m."
-2010,Upper middle income,53.77,0.51,10.71,35.01,"<b>Domestic Government:</b> US$ 398,561.2m.<br><b>External Aid:</b> US$ 3,771.0m.<br><b>Out-of-pocket:</b> US$ 259,553.8m.<br><b>Other domestic private:</b> US$ 79,382.9m."
 2010,Uruguay,60.0,0.04,19.48,20.47,"<b>Domestic Government:</b> US$ 2,201.2m.<br><b>External Aid:</b> US$ 1.5m.<br><b>Out-of-pocket:</b> US$ 751.1m.<br><b>Other domestic private:</b> US$ 714.7m."
 2010,Uzbekistan,40.06,1.5,0.4,58.05,"<b>Domestic Government:</b> US$ 713.4m.<br><b>External Aid:</b> US$ 26.7m.<br><b>Out-of-pocket:</b> US$ 1,033.7m.<br><b>Other domestic private:</b> US$ 7.1m."
 2010,Vanuatu,55.02,32.87,3.26,8.85,<b>Domestic Government:</b> US$ 16.1m.<br><b>External Aid:</b> US$ 9.6m.<br><b>Out-of-pocket:</b> US$ 2.6m.<br><b>Other domestic private:</b> US$ 1.0m.
@@ -2208,7 +2248,6 @@ year,Country,Domestic Government,External Aid,Other domestic private,Out-of-pock
 2009,Guinea-Bissau,38.39,22.3,4.14,35.18,<b>Domestic Government:</b> US$ 26.9m.<br><b>External Aid:</b> US$ 15.7m.<br><b>Out-of-pocket:</b> US$ 24.7m.<br><b>Other domestic private:</b> US$ 2.9m.
 2009,Guyana,43.22,21.08,2.86,32.85,<b>Domestic Government:</b> US$ 49.3m.<br><b>External Aid:</b> US$ 24.1m.<br><b>Out-of-pocket:</b> US$ 37.5m.<br><b>Other domestic private:</b> US$ 3.3m.
 2009,Haiti,22.33,35.12,3.27,39.27,<b>Domestic Government:</b> US$ 103.8m.<br><b>External Aid:</b> US$ 163.2m.<br><b>Out-of-pocket:</b> US$ 182.5m.<br><b>Other domestic private:</b> US$ 15.2m.
-2009,High income,60.86,0.01,24.64,14.5,"<b>Domestic Government:</b> US$ 3,286,328.4m.<br><b>External Aid:</b> US$ 372.6m.<br><b>Out-of-pocket:</b> US$ 782,967.3m.<br><b>Other domestic private:</b> US$ 1,330,568.0m."
 2009,Honduras,44.1,8.34,2.65,44.91,<b>Domestic Government:</b> US$ 719.8m.<br><b>External Aid:</b> US$ 136.1m.<br><b>Out-of-pocket:</b> US$ 733.0m.<br><b>Other domestic private:</b> US$ 43.3m.
 2009,Hungary,67.98,,5.78,26.23,"<b>Domestic Government:</b> US$ 6,137.3m.<br><b>External Aid:</b> US$ -m.<br><b>Out-of-pocket:</b> US$ 2,368.4m.<br><b>Other domestic private:</b> US$ 522.1m."
 2009,Iceland,81.64,0.0,1.49,16.87,"<b>Domestic Government:</b> US$ 1,267.4m.<br><b>External Aid:</b> US$ 0.0m.<br><b>Out-of-pocket:</b> US$ 262.0m.<br><b>Other domestic private:</b> US$ 23.1m."
@@ -2233,8 +2272,6 @@ year,Country,Domestic Government,External Aid,Other domestic private,Out-of-pock
 2009,Lesotho,54.07,25.81,0.0,20.12,<b>Domestic Government:</b> US$ 90.5m.<br><b>External Aid:</b> US$ 43.2m.<br><b>Out-of-pocket:</b> US$ 33.7m.<br><b>Other domestic private:</b> US$ 0.0m.
 2009,Libya,68.79,0.11,0.0,31.1,"<b>Domestic Government:</b> US$ 2,147.8m.<br><b>External Aid:</b> US$ 3.3m.<br><b>Out-of-pocket:</b> US$ 971.0m.<br><b>Other domestic private:</b> US$ 0.0m."
 2009,Lithuania,71.88,0.11,1.2,26.82,"<b>Domestic Government:</b> US$ 2,112.0m.<br><b>External Aid:</b> US$ 3.1m.<br><b>Out-of-pocket:</b> US$ 788.0m.<br><b>Other domestic private:</b> US$ 35.3m."
-2009,Low income,20.84,25.83,3.79,49.54,"<b>Domestic Government:</b> US$ 3,172.9m.<br><b>External Aid:</b> US$ 3,933.5m.<br><b>Out-of-pocket:</b> US$ 7,542.8m.<br><b>Other domestic private:</b> US$ 577.4m."
-2009,Lower middle income,33.82,3.72,7.42,55.04,"<b>Domestic Government:</b> US$ 60,176.7m.<br><b>External Aid:</b> US$ 6,613.8m.<br><b>Out-of-pocket:</b> US$ 97,941.3m.<br><b>Other domestic private:</b> US$ 13,198.0m."
 2009,Luxembourg,86.71,,3.39,9.89,"<b>Domestic Government:</b> US$ 3,533.5m.<br><b>External Aid:</b> US$ -m.<br><b>Out-of-pocket:</b> US$ 403.2m.<br><b>Other domestic private:</b> US$ 138.1m."
 2009,Madagascar,27.99,26.16,8.47,37.38,<b>Domestic Government:</b> US$ 130.0m.<br><b>External Aid:</b> US$ 121.5m.<br><b>Out-of-pocket:</b> US$ 173.6m.<br><b>Other domestic private:</b> US$ 39.3m.
 2009,Malawi,17.98,62.12,8.66,11.24,<b>Domestic Government:</b> US$ 81.0m.<br><b>External Aid:</b> US$ 279.9m.<br><b>Out-of-pocket:</b> US$ 50.6m.<br><b>Other domestic private:</b> US$ 39.0m.
@@ -2320,7 +2357,6 @@ year,Country,Domestic Government,External Aid,Other domestic private,Out-of-pock
 2009,United Kingdom,81.03,0.01,4.77,14.19,"<b>Domestic Government:</b> US$ 203,061.0m.<br><b>External Aid:</b> US$ 18.3m.<br><b>Out-of-pocket:</b> US$ 35,571.2m.<br><b>Other domestic private:</b> US$ 11,957.0m."
 2009,United Republic of Tanzania,29.33,34.98,1.04,34.65,<b>Domestic Government:</b> US$ 487.1m.<br><b>External Aid:</b> US$ 581.1m.<br><b>Out-of-pocket:</b> US$ 575.5m.<br><b>Other domestic private:</b> US$ 17.3m.
 2009,United States of America,48.52,0.0,38.84,12.64,"<b>Domestic Government:</b> US$ 1,362,569.5m.<br><b>External Aid:</b> US$ 0.0m.<br><b>Out-of-pocket:</b> US$ 355,042.9m.<br><b>Other domestic private:</b> US$ 1,090,668.6m."
-2009,Upper middle income,52.6,0.5,10.43,36.47,"<b>Domestic Government:</b> US$ 376,908.5m.<br><b>External Aid:</b> US$ 3,585.9m.<br><b>Out-of-pocket:</b> US$ 261,339.1m.<br><b>Other domestic private:</b> US$ 74,767.5m."
 2009,Uruguay,59.33,0.04,19.87,20.75,"<b>Domestic Government:</b> US$ 2,028.9m.<br><b>External Aid:</b> US$ 1.4m.<br><b>Out-of-pocket:</b> US$ 709.6m.<br><b>Other domestic private:</b> US$ 679.6m."
 2009,Uzbekistan,41.64,1.51,0.43,56.42,<b>Domestic Government:</b> US$ 626.7m.<br><b>External Aid:</b> US$ 22.8m.<br><b>Out-of-pocket:</b> US$ 849.2m.<br><b>Other domestic private:</b> US$ 6.4m.
 2009,Vanuatu,61.6,26.15,3.29,8.96,<b>Domestic Government:</b> US$ 16.4m.<br><b>External Aid:</b> US$ 7.0m.<br><b>Out-of-pocket:</b> US$ 2.4m.<br><b>Other domestic private:</b> US$ 0.9m.
@@ -2402,7 +2438,6 @@ year,Country,Domestic Government,External Aid,Other domestic private,Out-of-pock
 2008,Guinea-Bissau,31.44,28.09,4.26,36.21,<b>Domestic Government:</b> US$ 21.8m.<br><b>External Aid:</b> US$ 19.5m.<br><b>Out-of-pocket:</b> US$ 25.1m.<br><b>Other domestic private:</b> US$ 3.0m.
 2008,Guyana,40.33,21.27,3.07,35.33,<b>Domestic Government:</b> US$ 43.0m.<br><b>External Aid:</b> US$ 22.7m.<br><b>Out-of-pocket:</b> US$ 37.7m.<br><b>Other domestic private:</b> US$ 3.3m.
 2008,Haiti,22.15,35.82,3.44,38.58,<b>Domestic Government:</b> US$ 104.3m.<br><b>External Aid:</b> US$ 168.6m.<br><b>Out-of-pocket:</b> US$ 181.6m.<br><b>Other domestic private:</b> US$ 16.2m.
-2008,High income,60.11,0.01,24.87,15.01,"<b>Domestic Government:</b> US$ 3,113,926.6m.<br><b>External Aid:</b> US$ 372.6m.<br><b>Out-of-pocket:</b> US$ 777,786.4m.<br><b>Other domestic private:</b> US$ 1,288,485.5m."
 2008,Honduras,38.57,7.17,2.84,51.42,<b>Domestic Government:</b> US$ 617.2m.<br><b>External Aid:</b> US$ 114.7m.<br><b>Out-of-pocket:</b> US$ 822.6m.<br><b>Other domestic private:</b> US$ 45.5m.
 2008,Hungary,67.75,,5.9,26.35,"<b>Domestic Government:</b> US$ 6,426.8m.<br><b>External Aid:</b> US$ -m.<br><b>Out-of-pocket:</b> US$ 2,499.6m.<br><b>Other domestic private:</b> US$ 560.1m."
 2008,Iceland,82.21,0.0,1.52,16.27,"<b>Domestic Government:</b> US$ 1,314.2m.<br><b>External Aid:</b> US$ 0.0m.<br><b>Out-of-pocket:</b> US$ 260.1m.<br><b>Other domestic private:</b> US$ 24.2m."
@@ -2427,8 +2462,6 @@ year,Country,Domestic Government,External Aid,Other domestic private,Out-of-pock
 2008,Lesotho,56.74,20.89,0.0,22.37,<b>Domestic Government:</b> US$ 81.0m.<br><b>External Aid:</b> US$ 29.8m.<br><b>Out-of-pocket:</b> US$ 31.9m.<br><b>Other domestic private:</b> US$ 0.0m.
 2008,Libya,67.66,0.08,0.0,32.27,"<b>Domestic Government:</b> US$ 1,384.2m.<br><b>External Aid:</b> US$ 1.6m.<br><b>Out-of-pocket:</b> US$ 660.1m.<br><b>Other domestic private:</b> US$ 0.0m."
 2008,Lithuania,70.72,0.1,1.01,28.17,"<b>Domestic Government:</b> US$ 2,085.2m.<br><b>External Aid:</b> US$ 2.9m.<br><b>Out-of-pocket:</b> US$ 830.7m.<br><b>Other domestic private:</b> US$ 29.7m."
-2008,Low income,20.02,24.07,3.69,52.22,"<b>Domestic Government:</b> US$ 2,712.6m.<br><b>External Aid:</b> US$ 3,262.0m.<br><b>Out-of-pocket:</b> US$ 7,076.1m.<br><b>Other domestic private:</b> US$ 499.5m."
-2008,Lower middle income,32.6,3.77,7.26,56.36,"<b>Domestic Government:</b> US$ 53,850.8m.<br><b>External Aid:</b> US$ 6,235.8m.<br><b>Out-of-pocket:</b> US$ 93,110.1m.<br><b>Other domestic private:</b> US$ 12,001.2m."
 2008,Luxembourg,87.65,,2.29,10.06,"<b>Domestic Government:</b> US$ 3,309.3m.<br><b>External Aid:</b> US$ -m.<br><b>Out-of-pocket:</b> US$ 379.9m.<br><b>Other domestic private:</b> US$ 86.6m."
 2008,Madagascar,33.95,20.37,8.72,36.96,<b>Domestic Government:</b> US$ 152.6m.<br><b>External Aid:</b> US$ 91.6m.<br><b>Out-of-pocket:</b> US$ 166.2m.<br><b>Other domestic private:</b> US$ 39.2m.
 2008,Malawi,22.39,57.17,10.07,10.37,<b>Domestic Government:</b> US$ 96.8m.<br><b>External Aid:</b> US$ 247.2m.<br><b>Out-of-pocket:</b> US$ 44.8m.<br><b>Other domestic private:</b> US$ 43.5m.
@@ -2514,7 +2547,6 @@ year,Country,Domestic Government,External Aid,Other domestic private,Out-of-pock
 2008,United Kingdom,81.39,0.01,5.29,13.32,"<b>Domestic Government:</b> US$ 191,902.7m.<br><b>External Aid:</b> US$ 18.4m.<br><b>Out-of-pocket:</b> US$ 31,402.2m.<br><b>Other domestic private:</b> US$ 12,471.2m."
 2008,United Republic of Tanzania,40.63,25.77,1.01,32.59,<b>Domestic Government:</b> US$ 702.8m.<br><b>External Aid:</b> US$ 445.8m.<br><b>Out-of-pocket:</b> US$ 563.7m.<br><b>Other domestic private:</b> US$ 17.5m.
 2008,United States of America,47.51,0.0,39.14,13.35,"<b>Domestic Government:</b> US$ 1,285,806.0m.<br><b>External Aid:</b> US$ 0.0m.<br><b>Out-of-pocket:</b> US$ 361,417.8m.<br><b>Other domestic private:</b> US$ 1,059,140.5m."
-2008,Upper middle income,49.99,0.54,11.5,37.98,"<b>Domestic Government:</b> US$ 320,459.0m.<br><b>External Aid:</b> US$ 3,437.1m.<br><b>Out-of-pocket:</b> US$ 243,425.2m.<br><b>Other domestic private:</b> US$ 73,691.5m."
 2008,Uruguay,56.31,0.06,22.33,21.29,"<b>Domestic Government:</b> US$ 1,888.1m.<br><b>External Aid:</b> US$ 2.0m.<br><b>Out-of-pocket:</b> US$ 713.9m.<br><b>Other domestic private:</b> US$ 748.8m."
 2008,Uzbekistan,40.73,1.52,0.44,57.32,<b>Domestic Government:</b> US$ 556.2m.<br><b>External Aid:</b> US$ 20.7m.<br><b>Out-of-pocket:</b> US$ 782.7m.<br><b>Other domestic private:</b> US$ 6.0m.
 2008,Vanuatu,72.46,15.27,3.3,8.97,<b>Domestic Government:</b> US$ 18.1m.<br><b>External Aid:</b> US$ 3.8m.<br><b>Out-of-pocket:</b> US$ 2.2m.<br><b>Other domestic private:</b> US$ 0.8m.
@@ -2596,7 +2628,6 @@ year,Country,Domestic Government,External Aid,Other domestic private,Out-of-pock
 2007,Guinea-Bissau,34.67,29.05,3.82,32.46,<b>Domestic Government:</b> US$ 23.9m.<br><b>External Aid:</b> US$ 20.0m.<br><b>Out-of-pocket:</b> US$ 22.3m.<br><b>Other domestic private:</b> US$ 2.6m.
 2007,Guyana,39.33,24.81,2.87,32.99,<b>Domestic Government:</b> US$ 41.9m.<br><b>External Aid:</b> US$ 26.4m.<br><b>Out-of-pocket:</b> US$ 35.2m.<br><b>Other domestic private:</b> US$ 3.1m.
 2007,Haiti,21.73,34.89,3.26,40.12,<b>Domestic Government:</b> US$ 96.7m.<br><b>External Aid:</b> US$ 155.3m.<br><b>Out-of-pocket:</b> US$ 178.6m.<br><b>Other domestic private:</b> US$ 14.5m.
-2007,High income,59.39,0.01,25.51,15.09,"<b>Domestic Government:</b> US$ 2,991,165.5m.<br><b>External Aid:</b> US$ 324.7m.<br><b>Out-of-pocket:</b> US$ 760,133.0m.<br><b>Other domestic private:</b> US$ 1,284,825.5m."
 2007,Honduras,41.24,5.82,3.14,49.8,<b>Domestic Government:</b> US$ 594.8m.<br><b>External Aid:</b> US$ 84.0m.<br><b>Out-of-pocket:</b> US$ 718.3m.<br><b>Other domestic private:</b> US$ 45.3m.
 2007,Hungary,67.79,,5.95,26.26,"<b>Domestic Government:</b> US$ 6,470.6m.<br><b>External Aid:</b> US$ -m.<br><b>Out-of-pocket:</b> US$ 2,506.7m.<br><b>Other domestic private:</b> US$ 568.0m."
 2007,Iceland,82.02,0.0,1.51,16.47,"<b>Domestic Government:</b> US$ 1,284.3m.<br><b>External Aid:</b> US$ 0.0m.<br><b>Out-of-pocket:</b> US$ 257.9m.<br><b>Other domestic private:</b> US$ 23.7m."
@@ -2621,8 +2652,6 @@ year,Country,Domestic Government,External Aid,Other domestic private,Out-of-pock
 2007,Lesotho,63.72,11.62,0.0,24.66,<b>Domestic Government:</b> US$ 82.8m.<br><b>External Aid:</b> US$ 15.1m.<br><b>Out-of-pocket:</b> US$ 32.1m.<br><b>Other domestic private:</b> US$ 0.0m.
 2007,Libya,66.53,0.03,0.0,33.44,"<b>Domestic Government:</b> US$ 1,469.5m.<br><b>External Aid:</b> US$ 0.6m.<br><b>Out-of-pocket:</b> US$ 738.7m.<br><b>Other domestic private:</b> US$ 0.0m."
 2007,Lithuania,65.83,0.09,5.67,28.4,"<b>Domestic Government:</b> US$ 1,732.2m.<br><b>External Aid:</b> US$ 2.4m.<br><b>Out-of-pocket:</b> US$ 747.4m.<br><b>Other domestic private:</b> US$ 149.3m."
-2007,Low income,23.01,20.94,3.56,52.49,"<b>Domestic Government:</b> US$ 3,053.8m.<br><b>External Aid:</b> US$ 2,779.8m.<br><b>Out-of-pocket:</b> US$ 6,967.1m.<br><b>Other domestic private:</b> US$ 472.3m."
-2007,Lower middle income,32.43,3.97,7.18,56.41,"<b>Domestic Government:</b> US$ 52,043.1m.<br><b>External Aid:</b> US$ 6,375.2m.<br><b>Out-of-pocket:</b> US$ 90,517.8m.<br><b>Other domestic private:</b> US$ 11,527.6m."
 2007,Luxembourg,85.36,,4.34,10.31,"<b>Domestic Government:</b> US$ 3,195.0m.<br><b>External Aid:</b> US$ -m.<br><b>Out-of-pocket:</b> US$ 385.8m.<br><b>Other domestic private:</b> US$ 162.3m."
 2007,Madagascar,41.9,17.1,7.52,33.49,<b>Domestic Government:</b> US$ 193.2m.<br><b>External Aid:</b> US$ 78.8m.<br><b>Out-of-pocket:</b> US$ 154.4m.<br><b>Other domestic private:</b> US$ 34.7m.
 2007,Malawi,13.5,65.27,9.52,11.72,<b>Domestic Government:</b> US$ 48.3m.<br><b>External Aid:</b> US$ 233.7m.<br><b>Out-of-pocket:</b> US$ 42.0m.<br><b>Other domestic private:</b> US$ 34.1m.
@@ -2708,7 +2737,6 @@ year,Country,Domestic Government,External Aid,Other domestic private,Out-of-pock
 2007,United Kingdom,81.75,0.01,5.26,12.98,"<b>Domestic Government:</b> US$ 184,421.4m.<br><b>External Aid:</b> US$ 17.6m.<br><b>Out-of-pocket:</b> US$ 29,283.5m.<br><b>Other domestic private:</b> US$ 11,858.4m."
 2007,United Republic of Tanzania,28.2,42.41,0.92,28.47,<b>Domestic Government:</b> US$ 572.4m.<br><b>External Aid:</b> US$ 860.9m.<br><b>Out-of-pocket:</b> US$ 578.0m.<br><b>Other domestic private:</b> US$ 18.7m.
 2007,United States of America,46.35,0.0,40.06,13.6,"<b>Domestic Government:</b> US$ 1,228,907.4m.<br><b>External Aid:</b> US$ 0.0m.<br><b>Out-of-pocket:</b> US$ 360,490.5m.<br><b>Other domestic private:</b> US$ 1,062,038.1m."
-2007,Upper middle income,47.37,0.54,11.93,40.15,"<b>Domestic Government:</b> US$ 278,206.9m.<br><b>External Aid:</b> US$ 3,190.9m.<br><b>Out-of-pocket:</b> US$ 235,792.7m.<br><b>Other domestic private:</b> US$ 70,059.8m."
 2007,Uruguay,48.53,,28.1,23.36,"<b>Domestic Government:</b> US$ 1,400.2m.<br><b>External Aid:</b> US$ -m.<br><b>Out-of-pocket:</b> US$ 674.0m.<br><b>Other domestic private:</b> US$ 810.8m."
 2007,Uzbekistan,39.57,1.85,0.45,58.13,<b>Domestic Government:</b> US$ 478.7m.<br><b>External Aid:</b> US$ 22.3m.<br><b>Out-of-pocket:</b> US$ 703.3m.<br><b>Other domestic private:</b> US$ 5.4m.
 2007,Vanuatu,71.54,15.56,3.47,9.43,<b>Domestic Government:</b> US$ 16.7m.<br><b>External Aid:</b> US$ 3.6m.<br><b>Out-of-pocket:</b> US$ 2.2m.<br><b>Other domestic private:</b> US$ 0.8m.
@@ -2790,7 +2818,6 @@ year,Country,Domestic Government,External Aid,Other domestic private,Out-of-pock
 2006,Guinea-Bissau,34.13,25.88,4.21,35.79,<b>Domestic Government:</b> US$ 22.9m.<br><b>External Aid:</b> US$ 17.4m.<br><b>Out-of-pocket:</b> US$ 24.0m.<br><b>Other domestic private:</b> US$ 2.8m.
 2006,Guyana,42.02,19.62,3.07,35.29,<b>Domestic Government:</b> US$ 38.4m.<br><b>External Aid:</b> US$ 17.9m.<br><b>Out-of-pocket:</b> US$ 32.3m.<br><b>Other domestic private:</b> US$ 2.8m.
 2006,Haiti,8.32,45.22,3.39,43.06,<b>Domestic Government:</b> US$ 33.7m.<br><b>External Aid:</b> US$ 183.4m.<br><b>Out-of-pocket:</b> US$ 174.7m.<br><b>Other domestic private:</b> US$ 13.8m.
-2006,High income,59.33,0.01,25.41,15.25,"<b>Domestic Government:</b> US$ 2,897,183.2m.<br><b>External Aid:</b> US$ 365.1m.<br><b>Out-of-pocket:</b> US$ 744,748.0m.<br><b>Other domestic private:</b> US$ 1,240,518.9m."
 2006,Honduras,41.64,5.17,3.33,49.86,<b>Domestic Government:</b> US$ 550.1m.<br><b>External Aid:</b> US$ 68.4m.<br><b>Out-of-pocket:</b> US$ 658.7m.<br><b>Other domestic private:</b> US$ 43.9m.
 2006,Hungary,70.35,,4.63,25.01,"<b>Domestic Government:</b> US$ 7,230.6m.<br><b>External Aid:</b> US$ -m.<br><b>Out-of-pocket:</b> US$ 2,570.6m.<br><b>Other domestic private:</b> US$ 476.4m."
 2006,Iceland,81.58,0.0,1.47,16.95,"<b>Domestic Government:</b> US$ 1,206.6m.<br><b>External Aid:</b> US$ 0.0m.<br><b>Out-of-pocket:</b> US$ 250.6m.<br><b>Other domestic private:</b> US$ 21.8m."
@@ -2815,8 +2842,6 @@ year,Country,Domestic Government,External Aid,Other domestic private,Out-of-pock
 2006,Lesotho,56.41,13.57,0.0,30.02,<b>Domestic Government:</b> US$ 58.7m.<br><b>External Aid:</b> US$ 14.1m.<br><b>Out-of-pocket:</b> US$ 31.2m.<br><b>Other domestic private:</b> US$ 0.0m.
 2006,Libya,65.36,0.01,0.0,34.63,"<b>Domestic Government:</b> US$ 1,291.9m.<br><b>External Aid:</b> US$ 0.3m.<br><b>Out-of-pocket:</b> US$ 684.5m.<br><b>Other domestic private:</b> US$ 0.0m."
 2006,Lithuania,62.43,0.07,5.65,31.86,"<b>Domestic Government:</b> US$ 1,499.0m.<br><b>External Aid:</b> US$ 1.6m.<br><b>Out-of-pocket:</b> US$ 764.9m.<br><b>Other domestic private:</b> US$ 135.7m."
-2006,Low income,23.08,21.61,3.55,51.76,"<b>Domestic Government:</b> US$ 2,837.4m.<br><b>External Aid:</b> US$ 2,656.0m.<br><b>Out-of-pocket:</b> US$ 6,361.9m.<br><b>Other domestic private:</b> US$ 436.9m."
-2006,Lower middle income,32.13,4.04,6.73,57.1,"<b>Domestic Government:</b> US$ 48,780.6m.<br><b>External Aid:</b> US$ 6,137.0m.<br><b>Out-of-pocket:</b> US$ 86,701.7m.<br><b>Other domestic private:</b> US$ 10,211.6m."
 2006,Luxembourg,83.78,,2.85,13.37,"<b>Domestic Government:</b> US$ 3,126.6m.<br><b>External Aid:</b> US$ -m.<br><b>Out-of-pocket:</b> US$ 499.1m.<br><b>Other domestic private:</b> US$ 106.4m."
 2006,Madagascar,37.07,24.55,6.76,31.63,<b>Domestic Government:</b> US$ 182.6m.<br><b>External Aid:</b> US$ 121.0m.<br><b>Out-of-pocket:</b> US$ 155.8m.<br><b>Other domestic private:</b> US$ 33.3m.
 2006,Malawi,19.21,62.61,9.25,8.92,<b>Domestic Government:</b> US$ 56.7m.<br><b>External Aid:</b> US$ 184.6m.<br><b>Out-of-pocket:</b> US$ 26.3m.<br><b>Other domestic private:</b> US$ 27.3m.
@@ -2902,7 +2927,6 @@ year,Country,Domestic Government,External Aid,Other domestic private,Out-of-pock
 2006,United Kingdom,81.54,0.01,5.23,13.22,"<b>Domestic Government:</b> US$ 179,543.6m.<br><b>External Aid:</b> US$ 17.8m.<br><b>Out-of-pocket:</b> US$ 29,114.4m.<br><b>Other domestic private:</b> US$ 11,515.5m."
 2006,United Republic of Tanzania,31.32,42.03,0.88,25.77,<b>Domestic Government:</b> US$ 647.0m.<br><b>External Aid:</b> US$ 868.2m.<br><b>Out-of-pocket:</b> US$ 532.4m.<br><b>Other domestic private:</b> US$ 18.1m.
 2006,United States of America,46.31,0.0,40.01,13.68,"<b>Domestic Government:</b> US$ 1,186,536.7m.<br><b>External Aid:</b> US$ 0.0m.<br><b>Out-of-pocket:</b> US$ 350,544.7m.<br><b>Other domestic private:</b> US$ 1,025,324.8m."
-2006,Upper middle income,45.56,0.52,11.45,42.47,"<b>Domestic Government:</b> US$ 251,143.9m.<br><b>External Aid:</b> US$ 2,868.1m.<br><b>Out-of-pocket:</b> US$ 234,102.2m.<br><b>Other domestic private:</b> US$ 63,135.2m."
 2006,Uruguay,47.69,,28.54,23.77,"<b>Domestic Government:</b> US$ 1,334.3m.<br><b>External Aid:</b> US$ -m.<br><b>Out-of-pocket:</b> US$ 665.1m.<br><b>Other domestic private:</b> US$ 798.7m."
 2006,Uzbekistan,40.58,2.1,0.43,56.9,<b>Domestic Government:</b> US$ 468.9m.<br><b>External Aid:</b> US$ 24.2m.<br><b>Out-of-pocket:</b> US$ 657.5m.<br><b>Other domestic private:</b> US$ 5.0m.
 2006,Vanuatu,64.6,22.91,3.37,9.13,<b>Domestic Government:</b> US$ 15.7m.<br><b>External Aid:</b> US$ 5.6m.<br><b>Out-of-pocket:</b> US$ 2.2m.<br><b>Other domestic private:</b> US$ 0.8m.
@@ -2984,7 +3008,6 @@ year,Country,Domestic Government,External Aid,Other domestic private,Out-of-pock
 2005,Guinea-Bissau,37.09,25.87,3.9,33.15,<b>Domestic Government:</b> US$ 24.1m.<br><b>External Aid:</b> US$ 16.8m.<br><b>Out-of-pocket:</b> US$ 21.5m.<br><b>Other domestic private:</b> US$ 2.5m.
 2005,Guyana,46.93,14.9,3.05,35.12,<b>Domestic Government:</b> US$ 39.4m.<br><b>External Aid:</b> US$ 12.5m.<br><b>Out-of-pocket:</b> US$ 29.5m.<br><b>Other domestic private:</b> US$ 2.6m.
 2005,Haiti,17.65,33.01,3.32,46.02,<b>Domestic Government:</b> US$ 66.8m.<br><b>External Aid:</b> US$ 125.0m.<br><b>Out-of-pocket:</b> US$ 174.2m.<br><b>Other domestic private:</b> US$ 12.6m.
-2005,High income,59.18,0.01,25.55,15.26,"<b>Domestic Government:</b> US$ 2,788,819.2m.<br><b>External Aid:</b> US$ 526.6m.<br><b>Out-of-pocket:</b> US$ 719,263.5m.<br><b>Other domestic private:</b> US$ 1,204,030.5m."
 2005,Honduras,38.93,8.48,3.52,49.06,<b>Domestic Government:</b> US$ 460.3m.<br><b>External Aid:</b> US$ 100.3m.<br><b>Out-of-pocket:</b> US$ 580.2m.<br><b>Other domestic private:</b> US$ 41.7m.
 2005,Hungary,70.16,,4.08,25.76,"<b>Domestic Government:</b> US$ 7,120.9m.<br><b>External Aid:</b> US$ -m.<br><b>Out-of-pocket:</b> US$ 2,615.0m.<br><b>Other domestic private:</b> US$ 413.9m."
 2005,Iceland,81.0,0.0,1.41,17.59,"<b>Domestic Government:</b> US$ 1,178.1m.<br><b>External Aid:</b> US$ 0.0m.<br><b>Out-of-pocket:</b> US$ 255.8m.<br><b>Other domestic private:</b> US$ 20.5m."
@@ -3009,8 +3032,6 @@ year,Country,Domestic Government,External Aid,Other domestic private,Out-of-pock
 2005,Lesotho,48.26,17.35,0.0,34.39,<b>Domestic Government:</b> US$ 42.8m.<br><b>External Aid:</b> US$ 15.4m.<br><b>Out-of-pocket:</b> US$ 30.5m.<br><b>Other domestic private:</b> US$ 0.0m.
 2005,Libya,64.65,0.0,0.0,35.35,"<b>Domestic Government:</b> US$ 1,394.7m.<br><b>External Aid:</b> US$ 0.0m.<br><b>Out-of-pocket:</b> US$ 762.5m.<br><b>Other domestic private:</b> US$ 0.0m."
 2005,Lithuania,60.7,0.08,6.43,32.78,"<b>Domestic Government:</b> US$ 1,311.4m.<br><b>External Aid:</b> US$ 1.8m.<br><b>Out-of-pocket:</b> US$ 708.1m.<br><b>Other domestic private:</b> US$ 139.0m."
-2005,Low income,25.89,20.09,3.41,50.6,"<b>Domestic Government:</b> US$ 2,848.1m.<br><b>External Aid:</b> US$ 2,209.3m.<br><b>Out-of-pocket:</b> US$ 5,565.7m.<br><b>Other domestic private:</b> US$ 375.5m."
-2005,Lower middle income,31.2,3.6,6.9,58.29,"<b>Domestic Government:</b> US$ 44,391.7m.<br><b>External Aid:</b> US$ 5,123.3m.<br><b>Out-of-pocket:</b> US$ 82,926.8m.<br><b>Other domestic private:</b> US$ 9,818.4m."
 2005,Luxembourg,84.15,,2.93,12.93,"<b>Domestic Government:</b> US$ 3,178.8m.<br><b>External Aid:</b> US$ -m.<br><b>Out-of-pocket:</b> US$ 488.4m.<br><b>Other domestic private:</b> US$ 110.6m."
 2005,Madagascar,37.27,23.2,6.42,33.11,<b>Domestic Government:</b> US$ 178.6m.<br><b>External Aid:</b> US$ 111.2m.<br><b>Out-of-pocket:</b> US$ 158.6m.<br><b>Other domestic private:</b> US$ 30.7m.
 2005,Malawi,24.48,62.46,3.96,9.1,<b>Domestic Government:</b> US$ 60.4m.<br><b>External Aid:</b> US$ 154.0m.<br><b>Out-of-pocket:</b> US$ 22.4m.<br><b>Other domestic private:</b> US$ 9.8m.
@@ -3096,7 +3117,6 @@ year,Country,Domestic Government,External Aid,Other domestic private,Out-of-pock
 2005,United Kingdom,81.41,0.01,5.35,13.23,"<b>Domestic Government:</b> US$ 170,168.7m.<br><b>External Aid:</b> US$ 16.6m.<br><b>Out-of-pocket:</b> US$ 27,645.7m.<br><b>Other domestic private:</b> US$ 11,188.7m."
 2005,United Republic of Tanzania,36.55,28.57,1.17,33.71,<b>Domestic Government:</b> US$ 600.3m.<br><b>External Aid:</b> US$ 469.2m.<br><b>Out-of-pocket:</b> US$ 553.7m.<br><b>Other domestic private:</b> US$ 19.1m.
 2005,United States of America,45.48,0.0,40.61,13.91,"<b>Domestic Government:</b> US$ 1,123,841.7m.<br><b>External Aid:</b> US$ 0.0m.<br><b>Out-of-pocket:</b> US$ 343,829.0m.<br><b>Other domestic private:</b> US$ 1,003,468.8m."
-2005,Upper middle income,43.8,0.75,11.63,43.82,"<b>Domestic Government:</b> US$ 227,251.6m.<br><b>External Aid:</b> US$ 3,909.0m.<br><b>Out-of-pocket:</b> US$ 227,372.3m.<br><b>Other domestic private:</b> US$ 60,323.9m."
 2005,Uruguay,45.18,,28.88,25.94,"<b>Domestic Government:</b> US$ 1,216.5m.<br><b>External Aid:</b> US$ -m.<br><b>Out-of-pocket:</b> US$ 698.5m.<br><b>Other domestic private:</b> US$ 777.7m."
 2005,Uzbekistan,37.96,3.98,0.43,57.63,<b>Domestic Government:</b> US$ 410.7m.<br><b>External Aid:</b> US$ 43.0m.<br><b>Out-of-pocket:</b> US$ 623.5m.<br><b>Other domestic private:</b> US$ 4.7m.
 2005,Vanuatu,64.76,21.84,3.6,9.8,<b>Domestic Government:</b> US$ 14.4m.<br><b>External Aid:</b> US$ 4.9m.<br><b>Out-of-pocket:</b> US$ 2.2m.<br><b>Other domestic private:</b> US$ 0.8m.
@@ -3178,7 +3198,6 @@ year,Country,Domestic Government,External Aid,Other domestic private,Out-of-pock
 2004,Guinea-Bissau,43.09,22.52,3.62,30.77,<b>Domestic Government:</b> US$ 27.1m.<br><b>External Aid:</b> US$ 14.2m.<br><b>Out-of-pocket:</b> US$ 19.4m.<br><b>Other domestic private:</b> US$ 2.3m.
 2004,Guyana,50.61,9.01,3.23,37.15,<b>Domestic Government:</b> US$ 39.3m.<br><b>External Aid:</b> US$ 7.0m.<br><b>Out-of-pocket:</b> US$ 28.8m.<br><b>Other domestic private:</b> US$ 2.5m.
 2004,Haiti,17.1,33.4,3.01,46.49,<b>Domestic Government:</b> US$ 65.2m.<br><b>External Aid:</b> US$ 127.3m.<br><b>Out-of-pocket:</b> US$ 177.1m.<br><b>Other domestic private:</b> US$ 11.5m.
-2004,High income,59.0,0.01,25.49,15.5,"<b>Domestic Government:</b> US$ 2,688,774.1m.<br><b>External Aid:</b> US$ 547.3m.<br><b>Out-of-pocket:</b> US$ 706,557.2m.<br><b>Other domestic private:</b> US$ 1,161,574.4m."
 2004,Honduras,35.76,9.75,4.43,50.06,<b>Domestic Government:</b> US$ 364.4m.<br><b>External Aid:</b> US$ 99.4m.<br><b>Out-of-pocket:</b> US$ 510.1m.<br><b>Other domestic private:</b> US$ 45.1m.
 2004,Hungary,69.62,,4.54,25.83,"<b>Domestic Government:</b> US$ 6,583.6m.<br><b>External Aid:</b> US$ -m.<br><b>Out-of-pocket:</b> US$ 2,442.6m.<br><b>Other domestic private:</b> US$ 429.6m."
 2004,Iceland,80.95,0.0,1.35,17.7,"<b>Domestic Government:</b> US$ 1,156.8m.<br><b>External Aid:</b> US$ 0.0m.<br><b>Out-of-pocket:</b> US$ 253.0m.<br><b>Other domestic private:</b> US$ 19.2m."
@@ -3203,8 +3222,6 @@ year,Country,Domestic Government,External Aid,Other domestic private,Out-of-pock
 2004,Lesotho,57.03,11.47,0.0,31.5,<b>Domestic Government:</b> US$ 54.6m.<br><b>External Aid:</b> US$ 11.0m.<br><b>Out-of-pocket:</b> US$ 30.1m.<br><b>Other domestic private:</b> US$ 0.0m.
 2004,Libya,65.79,0.0,0.0,34.21,"<b>Domestic Government:</b> US$ 1,724.5m.<br><b>External Aid:</b> US$ 0.0m.<br><b>Out-of-pocket:</b> US$ 896.8m.<br><b>Other domestic private:</b> US$ 0.0m."
 2004,Lithuania,62.63,0.06,4.39,32.92,"<b>Domestic Government:</b> US$ 1,225.5m.<br><b>External Aid:</b> US$ 1.2m.<br><b>Out-of-pocket:</b> US$ 644.2m.<br><b>Other domestic private:</b> US$ 85.9m."
-2004,Low income,27.36,18.28,3.86,50.5,"<b>Domestic Government:</b> US$ 2,814.6m.<br><b>External Aid:</b> US$ 1,880.7m.<br><b>Out-of-pocket:</b> US$ 5,194.7m.<br><b>Other domestic private:</b> US$ 397.4m."
-2004,Lower middle income,30.96,3.95,7.64,57.45,"<b>Domestic Government:</b> US$ 40,647.5m.<br><b>External Aid:</b> US$ 5,186.4m.<br><b>Out-of-pocket:</b> US$ 75,425.7m.<br><b>Other domestic private:</b> US$ 10,025.0m."
 2004,Luxembourg,84.5,,2.73,12.77,"<b>Domestic Government:</b> US$ 3,183.4m.<br><b>External Aid:</b> US$ -m.<br><b>Out-of-pocket:</b> US$ 481.2m.<br><b>Other domestic private:</b> US$ 102.8m."
 2004,Madagascar,41.7,21.21,6.52,30.56,<b>Domestic Government:</b> US$ 192.6m.<br><b>External Aid:</b> US$ 98.0m.<br><b>Out-of-pocket:</b> US$ 141.2m.<br><b>Other domestic private:</b> US$ 30.1m.
 2004,Malawi,21.06,66.07,3.16,9.7,<b>Domestic Government:</b> US$ 47.6m.<br><b>External Aid:</b> US$ 149.4m.<br><b>Out-of-pocket:</b> US$ 21.9m.<br><b>Other domestic private:</b> US$ 7.2m.
@@ -3290,7 +3307,6 @@ year,Country,Domestic Government,External Aid,Other domestic private,Out-of-pock
 2004,United Kingdom,80.45,0.01,5.19,14.36,"<b>Domestic Government:</b> US$ 162,510.4m.<br><b>External Aid:</b> US$ 15.6m.<br><b>Out-of-pocket:</b> US$ 29,000.9m.<br><b>Other domestic private:</b> US$ 10,479.0m."
 2004,United Republic of Tanzania,34.28,27.03,1.32,37.37,<b>Domestic Government:</b> US$ 475.8m.<br><b>External Aid:</b> US$ 375.2m.<br><b>Out-of-pocket:</b> US$ 518.7m.<br><b>Other domestic private:</b> US$ 18.3m.
 2004,United States of America,45.43,0.0,40.6,13.97,"<b>Domestic Government:</b> US$ 1,082,774.1m.<br><b>External Aid:</b> US$ 0.0m.<br><b>Out-of-pocket:</b> US$ 333,047.2m.<br><b>Other domestic private:</b> US$ 967,591.1m."
-2004,Upper middle income,43.15,0.86,12.27,43.71,"<b>Domestic Government:</b> US$ 211,757.1m.<br><b>External Aid:</b> US$ 4,239.6m.<br><b>Out-of-pocket:</b> US$ 214,491.6m.<br><b>Other domestic private:</b> US$ 60,203.6m."
 2004,Uruguay,52.31,0.09,23.3,24.3,"<b>Domestic Government:</b> US$ 1,402.8m.<br><b>External Aid:</b> US$ 2.5m.<br><b>Out-of-pocket:</b> US$ 651.5m.<br><b>Other domestic private:</b> US$ 624.9m."
 2004,Uzbekistan,37.29,2.73,0.43,59.56,<b>Domestic Government:</b> US$ 381.6m.<br><b>External Aid:</b> US$ 27.9m.<br><b>Out-of-pocket:</b> US$ 609.6m.<br><b>Other domestic private:</b> US$ 4.4m.
 2004,Vanuatu,65.66,21.46,3.46,9.41,<b>Domestic Government:</b> US$ 14.9m.<br><b>External Aid:</b> US$ 4.9m.<br><b>Out-of-pocket:</b> US$ 2.1m.<br><b>Other domestic private:</b> US$ 0.8m.
@@ -3372,7 +3388,6 @@ year,Country,Domestic Government,External Aid,Other domestic private,Out-of-pock
 2003,Guinea-Bissau,38.2,23.51,4.03,34.27,<b>Domestic Government:</b> US$ 18.7m.<br><b>External Aid:</b> US$ 11.5m.<br><b>Out-of-pocket:</b> US$ 16.7m.<br><b>Other domestic private:</b> US$ 2.0m.
 2003,Guyana,52.9,5.3,3.35,38.46,<b>Domestic Government:</b> US$ 38.4m.<br><b>External Aid:</b> US$ 3.8m.<br><b>Out-of-pocket:</b> US$ 27.9m.<br><b>Other domestic private:</b> US$ 2.4m.
 2003,Haiti,14.62,34.38,2.95,48.06,<b>Domestic Government:</b> US$ 58.2m.<br><b>External Aid:</b> US$ 136.9m.<br><b>Out-of-pocket:</b> US$ 191.4m.<br><b>Other domestic private:</b> US$ 11.7m.
-2003,High income,58.89,0.01,25.52,15.58,"<b>Domestic Government:</b> US$ 2,588,285.0m.<br><b>External Aid:</b> US$ 447.6m.<br><b>Out-of-pocket:</b> US$ 684,764.7m.<br><b>Other domestic private:</b> US$ 1,121,810.9m."
 2003,Honduras,37.93,9.52,4.23,48.32,<b>Domestic Government:</b> US$ 365.7m.<br><b>External Aid:</b> US$ 91.8m.<br><b>Out-of-pocket:</b> US$ 465.9m.<br><b>Other domestic private:</b> US$ 40.8m.
 2003,Hungary,69.98,,3.66,26.36,"<b>Domestic Government:</b> US$ 6,596.7m.<br><b>External Aid:</b> US$ -m.<br><b>Out-of-pocket:</b> US$ 2,484.3m.<br><b>Other domestic private:</b> US$ 345.3m."
 2003,Iceland,81.28,0.0,1.34,17.39,"<b>Domestic Government:</b> US$ 1,123.7m.<br><b>External Aid:</b> US$ 0.0m.<br><b>Out-of-pocket:</b> US$ 240.4m.<br><b>Other domestic private:</b> US$ 18.5m."
@@ -3397,8 +3412,6 @@ year,Country,Domestic Government,External Aid,Other domestic private,Out-of-pock
 2003,Lesotho,58.88,8.66,0.0,32.47,<b>Domestic Government:</b> US$ 54.9m.<br><b>External Aid:</b> US$ 8.1m.<br><b>Out-of-pocket:</b> US$ 30.3m.<br><b>Other domestic private:</b> US$ 0.0m.
 2003,Libya,66.24,0.0,0.0,33.76,"<b>Domestic Government:</b> US$ 1,926.6m.<br><b>External Aid:</b> US$ 0.0m.<br><b>Out-of-pocket:</b> US$ 981.7m.<br><b>Other domestic private:</b> US$ 0.0m."
 2003,Lithuania,74.31,0.15,1.36,24.18,"<b>Domestic Government:</b> US$ 1,531.6m.<br><b>External Aid:</b> US$ 3.0m.<br><b>Out-of-pocket:</b> US$ 498.4m.<br><b>Other domestic private:</b> US$ 28.0m."
-2003,Low income,30.13,13.91,4.78,51.18,"<b>Domestic Government:</b> US$ 2,809.6m.<br><b>External Aid:</b> US$ 1,297.3m.<br><b>Out-of-pocket:</b> US$ 4,772.7m.<br><b>Other domestic private:</b> US$ 445.9m."
-2003,Lower middle income,30.91,3.36,7.42,58.3,"<b>Domestic Government:</b> US$ 38,733.0m.<br><b>External Aid:</b> US$ 4,210.5m.<br><b>Out-of-pocket:</b> US$ 73,047.1m.<br><b>Other domestic private:</b> US$ 9,301.7m."
 2003,Luxembourg,83.86,,2.87,13.26,"<b>Domestic Government:</b> US$ 2,897.6m.<br><b>External Aid:</b> US$ -m.<br><b>Out-of-pocket:</b> US$ 458.2m.<br><b>Other domestic private:</b> US$ 99.3m."
 2003,Madagascar,45.03,11.27,7.31,36.39,<b>Domestic Government:</b> US$ 178.6m.<br><b>External Aid:</b> US$ 44.7m.<br><b>Out-of-pocket:</b> US$ 144.3m.<br><b>Other domestic private:</b> US$ 29.0m.
 2003,Malawi,35.39,45.88,6.66,12.07,<b>Domestic Government:</b> US$ 61.9m.<br><b>External Aid:</b> US$ 80.2m.<br><b>Out-of-pocket:</b> US$ 21.1m.<br><b>Other domestic private:</b> US$ 11.6m.
@@ -3484,7 +3497,6 @@ year,Country,Domestic Government,External Aid,Other domestic private,Out-of-pock
 2003,United Kingdom,78.69,0.01,5.55,15.75,"<b>Domestic Government:</b> US$ 150,702.1m.<br><b>External Aid:</b> US$ 16.0m.<br><b>Out-of-pocket:</b> US$ 30,170.3m.<br><b>Other domestic private:</b> US$ 10,623.7m."
 2003,United Republic of Tanzania,27.92,27.04,5.02,40.01,<b>Domestic Government:</b> US$ 334.7m.<br><b>External Aid:</b> US$ 324.1m.<br><b>Out-of-pocket:</b> US$ 479.6m.<br><b>Other domestic private:</b> US$ 60.2m.
 2003,United States of America,44.98,0.0,40.87,14.15,"<b>Domestic Government:</b> US$ 1,029,174.8m.<br><b>External Aid:</b> US$ 0.0m.<br><b>Out-of-pocket:</b> US$ 323,691.4m.<br><b>Other domestic private:</b> US$ 934,951.8m."
-2003,Upper middle income,42.42,0.51,12.58,44.48,"<b>Domestic Government:</b> US$ 196,360.3m.<br><b>External Aid:</b> US$ 2,369.7m.<br><b>Out-of-pocket:</b> US$ 205,882.4m.<br><b>Other domestic private:</b> US$ 58,230.5m."
 2003,Uruguay,52.37,0.07,26.21,21.36,"<b>Domestic Government:</b> US$ 1,549.4m.<br><b>External Aid:</b> US$ 2.0m.<br><b>Out-of-pocket:</b> US$ 632.0m.<br><b>Other domestic private:</b> US$ 775.4m."
 2003,Uzbekistan,36.54,3.86,0.32,59.29,<b>Domestic Government:</b> US$ 373.2m.<br><b>External Aid:</b> US$ 39.4m.<br><b>Out-of-pocket:</b> US$ 605.6m.<br><b>Other domestic private:</b> US$ 3.2m.
 2003,Vanuatu,71.0,15.83,3.54,9.63,<b>Domestic Government:</b> US$ 15.3m.<br><b>External Aid:</b> US$ 3.4m.<br><b>Out-of-pocket:</b> US$ 2.1m.<br><b>Other domestic private:</b> US$ 0.8m.
@@ -3566,7 +3578,6 @@ year,Country,Domestic Government,External Aid,Other domestic private,Out-of-pock
 2002,Guinea-Bissau,29.78,27.56,4.49,38.17,<b>Domestic Government:</b> US$ 14.5m.<br><b>External Aid:</b> US$ 13.4m.<br><b>Out-of-pocket:</b> US$ 18.5m.<br><b>Other domestic private:</b> US$ 2.2m.
 2002,Guyana,54.34,1.85,3.51,40.3,<b>Domestic Government:</b> US$ 38.8m.<br><b>External Aid:</b> US$ 1.3m.<br><b>Out-of-pocket:</b> US$ 28.8m.<br><b>Other domestic private:</b> US$ 2.5m.
 2002,Haiti,14.24,34.87,2.71,48.18,<b>Domestic Government:</b> US$ 53.2m.<br><b>External Aid:</b> US$ 130.2m.<br><b>Out-of-pocket:</b> US$ 179.9m.<br><b>Other domestic private:</b> US$ 10.1m.
-2002,High income,59.42,0.01,25.12,15.45,"<b>Domestic Government:</b> US$ 2,475,645.5m.<br><b>External Aid:</b> US$ 473.5m.<br><b>Out-of-pocket:</b> US$ 643,755.6m.<br><b>Other domestic private:</b> US$ 1,046,792.0m."
 2002,Honduras,40.68,4.28,3.2,51.85,<b>Domestic Government:</b> US$ 340.0m.<br><b>External Aid:</b> US$ 35.7m.<br><b>Out-of-pocket:</b> US$ 433.4m.<br><b>Other domestic private:</b> US$ 26.7m.
 2002,Hungary,69.24,,3.25,27.51,"<b>Domestic Government:</b> US$ 5,499.2m.<br><b>External Aid:</b> US$ -m.<br><b>Out-of-pocket:</b> US$ 2,185.1m.<br><b>Other domestic private:</b> US$ 257.9m."
 2002,Iceland,81.38,0.0,1.32,17.3,"<b>Domestic Government:</b> US$ 1,064.6m.<br><b>External Aid:</b> US$ 0.0m.<br><b>Out-of-pocket:</b> US$ 226.4m.<br><b>Other domestic private:</b> US$ 17.2m."
@@ -3591,8 +3602,6 @@ year,Country,Domestic Government,External Aid,Other domestic private,Out-of-pock
 2002,Lesotho,52.68,10.63,7.47,29.22,<b>Domestic Government:</b> US$ 52.7m.<br><b>External Aid:</b> US$ 10.6m.<br><b>Out-of-pocket:</b> US$ 29.2m.<br><b>Other domestic private:</b> US$ 7.5m.
 2002,Libya,66.91,0.0,0.0,33.09,"<b>Domestic Government:</b> US$ 1,998.1m.<br><b>External Aid:</b> US$ 0.0m.<br><b>Out-of-pocket:</b> US$ 988.1m.<br><b>Other domestic private:</b> US$ 0.0m."
 2002,Lithuania,72.81,0.13,1.45,25.6,"<b>Domestic Government:</b> US$ 1,348.1m.<br><b>External Aid:</b> US$ 2.4m.<br><b>Out-of-pocket:</b> US$ 474.0m.<br><b>Other domestic private:</b> US$ 26.9m."
-2002,Low income,30.31,13.56,4.76,51.37,"<b>Domestic Government:</b> US$ 2,510.4m.<br><b>External Aid:</b> US$ 1,122.8m.<br><b>Out-of-pocket:</b> US$ 4,254.8m.<br><b>Other domestic private:</b> US$ 394.2m."
-2002,Lower middle income,31.29,3.29,7.47,57.96,"<b>Domestic Government:</b> US$ 35,400.7m.<br><b>External Aid:</b> US$ 3,721.8m.<br><b>Out-of-pocket:</b> US$ 65,577.9m.<br><b>Other domestic private:</b> US$ 8,449.3m."
 2002,Luxembourg,83.96,,2.17,13.87,"<b>Domestic Government:</b> US$ 2,745.6m.<br><b>External Aid:</b> US$ -m.<br><b>Out-of-pocket:</b> US$ 453.4m.<br><b>Other domestic private:</b> US$ 71.0m."
 2002,Madagascar,36.0,19.59,7.15,37.26,<b>Domestic Government:</b> US$ 136.1m.<br><b>External Aid:</b> US$ 74.1m.<br><b>Out-of-pocket:</b> US$ 140.9m.<br><b>Other domestic private:</b> US$ 27.1m.
 2002,Malawi,36.35,46.03,2.81,14.81,<b>Domestic Government:</b> US$ 48.6m.<br><b>External Aid:</b> US$ 61.5m.<br><b>Out-of-pocket:</b> US$ 19.8m.<br><b>Other domestic private:</b> US$ 3.8m.
@@ -3678,7 +3687,6 @@ year,Country,Domestic Government,External Aid,Other domestic private,Out-of-pock
 2002,United Kingdom,79.69,0.01,6.01,14.29,"<b>Domestic Government:</b> US$ 140,990.4m.<br><b>External Aid:</b> US$ 14.3m.<br><b>Out-of-pocket:</b> US$ 25,289.2m.<br><b>Other domestic private:</b> US$ 10,633.3m."
 2002,United Republic of Tanzania,28.41,27.41,1.66,42.52,<b>Domestic Government:</b> US$ 279.6m.<br><b>External Aid:</b> US$ 269.8m.<br><b>Out-of-pocket:</b> US$ 418.5m.<br><b>Other domestic private:</b> US$ 16.4m.
 2002,United States of America,45.21,0.0,40.46,14.32,"<b>Domestic Government:</b> US$ 970,923.3m.<br><b>External Aid:</b> US$ 0.0m.<br><b>Out-of-pocket:</b> US$ 307,609.5m.<br><b>Other domestic private:</b> US$ 868,859.3m."
-2002,Upper middle income,41.57,0.41,13.43,44.59,"<b>Domestic Government:</b> US$ 181,416.0m.<br><b>External Aid:</b> US$ 1,771.2m.<br><b>Out-of-pocket:</b> US$ 194,609.9m.<br><b>Other domestic private:</b> US$ 58,618.4m."
 2002,Uruguay,47.93,0.02,30.35,21.7,"<b>Domestic Government:</b> US$ 1,416.3m.<br><b>External Aid:</b> US$ 0.6m.<br><b>Out-of-pocket:</b> US$ 641.1m.<br><b>Other domestic private:</b> US$ 896.7m."
 2002,Uzbekistan,37.61,0.0,0.32,62.07,<b>Domestic Government:</b> US$ 365.4m.<br><b>External Aid:</b> US$ 0.0m.<br><b>Out-of-pocket:</b> US$ 603.0m.<br><b>Other domestic private:</b> US$ 3.1m.
 2002,Vanuatu,67.2,23.94,0.0,8.86,<b>Domestic Government:</b> US$ 15.5m.<br><b>External Aid:</b> US$ 5.5m.<br><b>Out-of-pocket:</b> US$ 2.0m.<br><b>Other domestic private:</b> US$ 0.0m.
@@ -3760,7 +3768,6 @@ year,Country,Domestic Government,External Aid,Other domestic private,Out-of-pock
 2001,Guinea-Bissau,43.05,13.3,4.59,39.06,<b>Domestic Government:</b> US$ 23.2m.<br><b>External Aid:</b> US$ 7.2m.<br><b>Out-of-pocket:</b> US$ 21.1m.<br><b>Other domestic private:</b> US$ 2.5m.
 2001,Guyana,53.43,0.64,3.68,42.26,<b>Domestic Government:</b> US$ 36.1m.<br><b>External Aid:</b> US$ 0.4m.<br><b>Out-of-pocket:</b> US$ 28.5m.<br><b>Other domestic private:</b> US$ 2.5m.
 2001,Haiti,19.39,33.01,2.4,45.21,<b>Domestic Government:</b> US$ 78.3m.<br><b>External Aid:</b> US$ 133.3m.<br><b>Out-of-pocket:</b> US$ 182.5m.<br><b>Other domestic private:</b> US$ 9.7m.
-2001,High income,59.72,0.01,24.65,15.61,"<b>Domestic Government:</b> US$ 2,350,335.3m.<br><b>External Aid:</b> US$ 422.3m.<br><b>Out-of-pocket:</b> US$ 614,484.9m.<br><b>Other domestic private:</b> US$ 970,171.2m."
 2001,Honduras,42.01,1.85,3.62,52.52,<b>Domestic Government:</b> US$ 321.4m.<br><b>External Aid:</b> US$ 14.2m.<br><b>Out-of-pocket:</b> US$ 401.8m.<br><b>Other domestic private:</b> US$ 27.7m.
 2001,Hungary,66.9,,4.28,28.81,"<b>Domestic Government:</b> US$ 4,862.9m.<br><b>External Aid:</b> US$ -m.<br><b>Out-of-pocket:</b> US$ 2,094.4m.<br><b>Other domestic private:</b> US$ 311.4m."
 2001,Iceland,82.35,0.0,-0.81,18.46,<b>Domestic Government:</b> US$ 976.5m.<br><b>External Aid:</b> US$ 0.0m.<br><b>Out-of-pocket:</b> US$ 219.0m.<br><b>Other domestic private:</b> US$ -9.6m.
@@ -3785,8 +3792,6 @@ year,Country,Domestic Government,External Aid,Other domestic private,Out-of-pock
 2001,Lesotho,54.72,6.78,10.11,28.39,<b>Domestic Government:</b> US$ 58.1m.<br><b>External Aid:</b> US$ 7.2m.<br><b>Out-of-pocket:</b> US$ 30.1m.<br><b>Other domestic private:</b> US$ 10.7m.
 2001,Libya,54.47,0.0,0.0,45.53,"<b>Domestic Government:</b> US$ 1,399.9m.<br><b>External Aid:</b> US$ 0.0m.<br><b>Out-of-pocket:</b> US$ 1,170.1m.<br><b>Other domestic private:</b> US$ 0.0m."
 2001,Lithuania,70.2,0.07,2.14,27.59,"<b>Domestic Government:</b> US$ 1,191.6m.<br><b>External Aid:</b> US$ 1.2m.<br><b>Out-of-pocket:</b> US$ 468.2m.<br><b>Other domestic private:</b> US$ 36.3m."
-2001,Low income,33.67,13.05,5.11,48.17,"<b>Domestic Government:</b> US$ 2,403.2m.<br><b>External Aid:</b> US$ 931.0m.<br><b>Out-of-pocket:</b> US$ 3,437.6m.<br><b>Other domestic private:</b> US$ 365.0m."
-2001,Lower middle income,31.41,3.28,7.81,57.5,"<b>Domestic Government:</b> US$ 34,937.4m.<br><b>External Aid:</b> US$ 3,650.7m.<br><b>Out-of-pocket:</b> US$ 63,959.0m.<br><b>Other domestic private:</b> US$ 8,688.8m."
 2001,Luxembourg,84.05,,2.29,13.66,"<b>Domestic Government:</b> US$ 2,512.8m.<br><b>External Aid:</b> US$ -m.<br><b>Out-of-pocket:</b> US$ 408.5m.<br><b>Other domestic private:</b> US$ 68.4m."
 2001,Madagascar,39.5,19.85,7.11,33.54,<b>Domestic Government:</b> US$ 163.2m.<br><b>External Aid:</b> US$ 82.0m.<br><b>Out-of-pocket:</b> US$ 138.6m.<br><b>Other domestic private:</b> US$ 29.4m.
 2001,Malawi,49.39,35.76,2.37,12.48,<b>Domestic Government:</b> US$ 41.0m.<br><b>External Aid:</b> US$ 29.7m.<br><b>Out-of-pocket:</b> US$ 10.4m.<br><b>Other domestic private:</b> US$ 2.0m.
@@ -3872,7 +3877,6 @@ year,Country,Domestic Government,External Aid,Other domestic private,Out-of-pock
 2001,United Kingdom,78.06,0.01,6.27,15.66,"<b>Domestic Government:</b> US$ 129,999.8m.<br><b>External Aid:</b> US$ 13.2m.<br><b>Out-of-pocket:</b> US$ 26,085.4m.<br><b>Other domestic private:</b> US$ 10,449.8m."
 2001,United Republic of Tanzania,25.71,31.58,1.8,40.91,<b>Domestic Government:</b> US$ 213.3m.<br><b>External Aid:</b> US$ 262.0m.<br><b>Out-of-pocket:</b> US$ 339.4m.<br><b>Other domestic private:</b> US$ 14.9m.
 2001,United States of America,45.34,0.0,40.25,14.41,"<b>Domestic Government:</b> US$ 900,719.2m.<br><b>External Aid:</b> US$ 0.0m.<br><b>Out-of-pocket:</b> US$ 286,361.5m.<br><b>Other domestic private:</b> US$ 799,680.1m."
-2001,Upper middle income,40.56,0.33,14.16,44.95,"<b>Domestic Government:</b> US$ 165,738.1m.<br><b>External Aid:</b> US$ 1,338.8m.<br><b>Out-of-pocket:</b> US$ 183,656.6m.<br><b>Other domestic private:</b> US$ 57,841.0m."
 2001,Uruguay,44.9,0.02,31.01,24.06,"<b>Domestic Government:</b> US$ 1,455.3m.<br><b>External Aid:</b> US$ 0.7m.<br><b>Out-of-pocket:</b> US$ 779.9m.<br><b>Other domestic private:</b> US$ 1,005.1m."
 2001,Uzbekistan,38.84,0.0,0.31,60.84,<b>Domestic Government:</b> US$ 369.6m.<br><b>External Aid:</b> US$ 0.0m.<br><b>Out-of-pocket:</b> US$ 579.0m.<br><b>Other domestic private:</b> US$ 3.0m.
 2001,Vanuatu,74.28,14.83,0.0,10.89,<b>Domestic Government:</b> US$ 15.7m.<br><b>External Aid:</b> US$ 3.1m.<br><b>Out-of-pocket:</b> US$ 2.3m.<br><b>Other domestic private:</b> US$ 0.0m.
@@ -3954,7 +3958,6 @@ year,Country,Domestic Government,External Aid,Other domestic private,Out-of-pock
 2000,Guinea-Bissau,46.68,11.18,4.44,37.71,<b>Domestic Government:</b> US$ 24.2m.<br><b>External Aid:</b> US$ 5.8m.<br><b>Out-of-pocket:</b> US$ 19.5m.<br><b>Other domestic private:</b> US$ 2.3m.
 2000,Guyana,56.11,0.14,3.5,40.25,<b>Domestic Government:</b> US$ 38.7m.<br><b>External Aid:</b> US$ 0.1m.<br><b>Out-of-pocket:</b> US$ 27.7m.<br><b>Other domestic private:</b> US$ 2.4m.
 2000,Haiti,21.82,31.49,2.32,44.37,<b>Domestic Government:</b> US$ 94.1m.<br><b>External Aid:</b> US$ 135.8m.<br><b>Out-of-pocket:</b> US$ 191.4m.<br><b>Other domestic private:</b> US$ 10.0m.
-2000,High income,59.19,0.01,24.62,16.18,"<b>Domestic Government:</b> US$ 2,211,335.8m.<br><b>External Aid:</b> US$ 442.8m.<br><b>Out-of-pocket:</b> US$ 604,428.9m.<br><b>Other domestic private:</b> US$ 919,704.4m."
 2000,Honduras,48.23,2.78,3.04,45.95,<b>Domestic Government:</b> US$ 379.6m.<br><b>External Aid:</b> US$ 21.9m.<br><b>Out-of-pocket:</b> US$ 361.7m.<br><b>Other domestic private:</b> US$ 24.0m.
 2000,Hungary,68.85,,3.83,27.33,"<b>Domestic Government:</b> US$ 4,774.4m.<br><b>External Aid:</b> US$ -m.<br><b>Out-of-pocket:</b> US$ 1,895.1m.<br><b>Other domestic private:</b> US$ 265.4m."
 2000,Iceland,80.78,0.0,1.21,18.02,<b>Domestic Government:</b> US$ 956.1m.<br><b>External Aid:</b> US$ 0.0m.<br><b>Out-of-pocket:</b> US$ 213.3m.<br><b>Other domestic private:</b> US$ 14.3m.
@@ -3979,8 +3982,6 @@ year,Country,Domestic Government,External Aid,Other domestic private,Out-of-pock
 2000,Lesotho,56.41,3.87,0.0,39.73,<b>Domestic Government:</b> US$ 44.7m.<br><b>External Aid:</b> US$ 3.1m.<br><b>Out-of-pocket:</b> US$ 31.5m.<br><b>Other domestic private:</b> US$ 0.0m.
 2000,Libya,48.71,0.0,0.0,51.29,"<b>Domestic Government:</b> US$ 1,031.3m.<br><b>External Aid:</b> US$ 0.0m.<br><b>Out-of-pocket:</b> US$ 1,086.0m.<br><b>Other domestic private:</b> US$ 0.0m."
 2000,Lithuania,67.26,0.04,5.55,27.15,"<b>Domestic Government:</b> US$ 1,104.8m.<br><b>External Aid:</b> US$ 0.7m.<br><b>Out-of-pocket:</b> US$ 446.0m.<br><b>Other domestic private:</b> US$ 91.2m."
-2000,Low income,33.88,12.32,6.3,47.5,"<b>Domestic Government:</b> US$ 2,206.8m.<br><b>External Aid:</b> US$ 802.5m.<br><b>Out-of-pocket:</b> US$ 3,094.5m.<br><b>Other domestic private:</b> US$ 410.2m."
-2000,Lower middle income,31.51,3.56,7.41,57.52,"<b>Domestic Government:</b> US$ 31,640.6m.<br><b>External Aid:</b> US$ 3,578.7m.<br><b>Out-of-pocket:</b> US$ 57,755.0m.<br><b>Other domestic private:</b> US$ 7,441.4m."
 2000,Luxembourg,83.25,,2.5,14.25,"<b>Domestic Government:</b> US$ 2,243.0m.<br><b>External Aid:</b> US$ -m.<br><b>Out-of-pocket:</b> US$ 384.0m.<br><b>Other domestic private:</b> US$ 67.5m."
 2000,Madagascar,39.55,13.99,7.77,38.68,<b>Domestic Government:</b> US$ 144.9m.<br><b>External Aid:</b> US$ 51.3m.<br><b>Out-of-pocket:</b> US$ 141.7m.<br><b>Other domestic private:</b> US$ 28.5m.
 2000,Malawi,51.87,35.13,2.07,10.92,<b>Domestic Government:</b> US$ 51.8m.<br><b>External Aid:</b> US$ 35.1m.<br><b>Out-of-pocket:</b> US$ 10.9m.<br><b>Other domestic private:</b> US$ 2.1m.
@@ -4066,7 +4067,6 @@ year,Country,Domestic Government,External Aid,Other domestic private,Out-of-pock
 2000,United Kingdom,76.58,0.01,6.09,17.32,"<b>Domestic Government:</b> US$ 121,510.7m.<br><b>External Aid:</b> US$ 12.4m.<br><b>Out-of-pocket:</b> US$ 27,482.4m.<br><b>Other domestic private:</b> US$ 9,669.0m."
 2000,United Republic of Tanzania,21.84,37.63,2.06,38.47,<b>Domestic Government:</b> US$ 137.8m.<br><b>External Aid:</b> US$ 237.5m.<br><b>Out-of-pocket:</b> US$ 242.8m.<br><b>Other domestic private:</b> US$ 13.0m.
 2000,United States of America,44.39,0.0,40.5,15.11,"<b>Domestic Government:</b> US$ 828,624.5m.<br><b>External Aid:</b> US$ 0.0m.<br><b>Out-of-pocket:</b> US$ 282,145.8m.<br><b>Other domestic private:</b> US$ 755,924.6m."
-2000,Upper middle income,40.34,0.28,15.94,43.44,"<b>Domestic Government:</b> US$ 158,411.9m.<br><b>External Aid:</b> US$ 1,090.3m.<br><b>Out-of-pocket:</b> US$ 170,616.6m.<br><b>Other domestic private:</b> US$ 62,615.2m."
 2000,Uruguay,41.55,0.02,33.27,25.17,"<b>Domestic Government:</b> US$ 1,316.4m.<br><b>External Aid:</b> US$ 0.7m.<br><b>Out-of-pocket:</b> US$ 797.4m.<br><b>Other domestic private:</b> US$ 1,054.0m."
 2000,Uzbekistan,39.1,0.0,0.32,60.58,<b>Domestic Government:</b> US$ 349.9m.<br><b>External Aid:</b> US$ 0.0m.<br><b>Out-of-pocket:</b> US$ 542.2m.<br><b>Other domestic private:</b> US$ 2.9m.
 2000,Vanuatu,74.68,14.92,0.0,10.4,<b>Domestic Government:</b> US$ 15.9m.<br><b>External Aid:</b> US$ 3.2m.<br><b>Out-of-pocket:</b> US$ 2.2m.<br><b>Other domestic private:</b> US$ 0.0m.
