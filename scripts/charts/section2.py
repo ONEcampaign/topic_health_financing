@@ -9,7 +9,7 @@ from functools import partial
 import pandas as pd
 
 from scripts import config
-from scripts.analysis.data_versions import read_spending_data_versions
+from scripts.analysis.read_data_versions import read_spending_data_versions
 from scripts.charts.common import (
     flag_africa,
     get_version,
