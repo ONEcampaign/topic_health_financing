@@ -22,11 +22,11 @@
     "low_income_target": 0,
     "lower_middle_target": "6",
     "low_income_external_change": "17.2",
-    "low_income_external_direction": "increase",
+    "low_income_external_direction": "increased",
     "lmic_external_change": "0.6",
-    "lmic_income_external_direction": "decrease",
+    "lmic_income_external_direction": "decreased",
     "low_income_domestic_change": "8.5",
-    "low_income_domestic_direction": "decrease",
+    "low_income_domestic_direction": "decreased",
     "lmic_domestic_change": "9.8",
-    "lmic_income_domestic_direction": "increase"
+    "lmic_income_domestic_direction": "increased"
 }
