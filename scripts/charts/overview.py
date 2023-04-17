@@ -108,7 +108,7 @@ def _change_direction(
         .round(1)
     )
 
-    result_direction = "increase" if result > 0 else "decrease"
+    result_direction = "increased" if result > 0 else "decreased"
 
     return result, result_direction
 
