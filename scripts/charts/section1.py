@@ -1,4 +1,10 @@
-"""How much do countries spend on health?"""
+"""
+Analyze health spending data across countries, focusing on per capita spending,
+total spending, share of GDP, and share of government spending.
+
+Use to process, filter and aggregate the data
+
+"""
 from functools import partial
 
 import pandas as pd
@@ -21,26 +27,28 @@ from scripts.tools import (
     value2gov_spending_share_group,
 )
 
+# Load a dictionary with dataframes for the different versions of "health_spending" data
+# These include: 'lcu', 'gdp_share','usd_current', 'usd_constant', 'usd_constant_pc'
 SPENDING = read_spending_data_versions(dataset_name="health_spending")
 
-
+# Create a function to get a specific version. It returns a dataframe.
+# Note that the `get_version` function, of which this is a partial implementation,
+# handles some basic transformations of the data (like adding income levels or filtering
+# out certain countries).
 get_spending_version = partial(get_version, versions_dict=SPENDING)
 
 
-def chart1_1_pipeline() -> None:
-    # Get total spending in constant USD
-    total_spending = get_spending_version(version="usd_constant")
-
-    # ---- Per capita spending ---------------------->
+def per_capita_spending(usd_constant_data: pd.DataFrame) -> pd.DataFrame:
+    """Function to calculate per capita spending for countries and groups"""
 
     # Get per capita spending in constant USD
     pc_spending_countries = get_spending_version(version="usd_constant_pc")
 
-    # Calcualte per capita spending for income groups (total)
-    pc_spending_income = per_capita_by_income(total_spending)
+    # Calculate per capita spending for income groups (total)
+    pc_spending_income = per_capita_by_income(usd_constant_data)
 
     # Calculate per capita spending for Africa (total)
-    pc_spending_africa = per_capita_africa(total_spending)
+    pc_spending_africa = per_capita_africa(usd_constant_data)
 
     # Combine the datasets
     combined_pc = combine_income_countries(
@@ -49,20 +57,24 @@ def chart1_1_pipeline() -> None:
         africa=pc_spending_africa,
     ).assign(indicator="Per capita spending ($US)")
 
-    # ---- Total spending ---------------------->
+    return combined_pc
+
+
+def total_usd_spending(usd_constant_data: pd.DataFrame) -> pd.DataFrame:
+    """Function to calculate total (in constant usd) spending for countries and groups."""
 
     # Calculate total spending for income groups (total)
-    total_spending_income = total_by_income(total_spending).assign(
+    total_spending_income = total_by_income(usd_constant_data).assign(
         value=lambda d: round(d.value / 1e9, 3)
     )
 
     # Get total spending per country (in billion)
-    total_spending_countries = total_spending.assign(
+    total_spending_countries = usd_constant_data.assign(
         value=lambda d: round(d.value / 1e9, 3)
     )
 
     # Get total spending for Africa (in bilion)
-    total_spending_africa = total_africa(total_spending).assign(
+    total_spending_africa = total_africa(usd_constant_data).assign(
         value=lambda d: round(d.value / 1e9, 3)
     )
 
@@ -73,56 +85,62 @@ def chart1_1_pipeline() -> None:
         africa=total_spending_africa,
     ).assign(indicator="Total spending ($US billion)")
 
-    # ---- Share of GDP ---------------------->
+    return combined_total
+
+
+def _data_as_share(
+    usd_constant_data: pd.DataFrame,
+    share_callable: callable,
+    share_callable_group: callable,
+    group_by: list,
+    indicator_name: str,
+) -> pd.DataFrame:
+    """Helper function to calculate spending as a share of something else."""
+
     # Calculate % of GDP by income
-    gdp_share_income = value2gdp_share_group(
-        total_spending, group_by=["income_group", "year"]
+    share_income = share_callable_group(data=usd_constant_data, group_by=group_by)
+
+    # identify Africa data
+    afr_data = usd_constant_data.assign(
+        country_name=lambda d: convert_id(
+            d.iso_code,
+            from_type="ISO3",
+            to_type="continent",
+        )
+    ).query("country_name == 'Africa'")
+
+    # Calculate % of gdp for Africa
+    share_africa = share_callable_group(
+        data=afr_data, group_by=["country_name", "year"]
     )
 
-    gpd_share_africa = value2gdp_share_group(
-        total_spending.assign(
-            country_name=lambda d: convert_id(
-                d.iso_code, from_type="ISO3", to_type="continent"
-            )
-        ).query("country_name == 'Africa'"),
-        group_by=["country_name", "year"],
-    )
-
-    gdp_share_countries = value2gdp_share(total_spending)
+    # Calculate % of gdp for individual countries
+    share_countries = share_callable(usd_constant_data)
 
     # Combine the datasets
-    combined_gdp = combine_income_countries(
-        income=gdp_share_income,
-        country=gdp_share_countries,
-        africa=gpd_share_africa,
-    ).assign(indicator="Share of GDP (%)")
+    combined = combine_income_countries(
+        income=share_income,
+        country=share_countries,
+        africa=share_africa,
+    ).assign(indicator=indicator_name)
 
-    # ---- Share of Government spending ---------------------->
-    # Calculate % of government spending
-    govx_share_income = value2gov_spending_share_group(
-        total_spending, group_by=["income_group", "year"]
+    return combined
+
+
+def spending_share_of_gdp(usd_constant_data: pd.DataFrame) -> pd.DataFrame:
+    """Calculate spending as a share of gdp for countries and groups"""
+
+    return _data_as_share(
+        usd_constant_data=usd_constant_data,
+        share_callable=value2gdp_share,
+        share_callable_group=value2gdp_share_group,
+        group_by=["income_group", "year"],
+        indicator_name="Share of GDP (%)",
     )
 
-    # Africa
-    govx_share_africa = value2gov_spending_share_group(
-        total_spending.assign(
-            country_name=lambda d: convert_id(
-                d.iso_code, from_type="ISO3", to_type="continent"
-            )
-        ).query("country_name == 'Africa'"),
-        group_by=["country_name", "year"],
-    )
 
-    govx_share_countries = value2gov_spending_share(total_spending)
-
-    # Combine the datasets
-    combined_govx = combine_income_countries(
-        income=govx_share_income,
-        country=govx_share_countries,
-        africa=govx_share_africa,
-    ).assign(indicator="Share of government spending (%)")
-
-    # ---- Combine all -------------------------->
+def clean_chart(data: pd.DataFrame) -> pd.DataFrame:
+    """Sort and clean data for chart"""
 
     indicator_order = {
         "Total spending ($US billion)": 1,
@@ -132,27 +150,71 @@ def chart1_1_pipeline() -> None:
     }
 
     # Combine both views of the data
-    df = (
-        pd.concat(
-            [
-                combined_pc,
-                combined_total,
-                combined_gdp,
-                combined_govx,
-            ],
-            ignore_index=True,
-        )
-        .assign(order=lambda d: d.indicator.map(indicator_order))
+    return (
+        data.assign(order=lambda d: d.indicator.map(indicator_order))
         .sort_values(["order", "year"], ascending=(True, True))
         .drop(columns=["order"])
         .set_index(["year", "indicator"])
         .reset_index()
     )
 
-    # Copy to clipboard
+
+def spending_share_of_government(usd_constant_data: pd.DataFrame) -> pd.DataFrame:
+    """Calculate spending as a share of government spending for countries and groups"""
+
+    return _data_as_share(
+        usd_constant_data=usd_constant_data,
+        share_callable=value2gov_spending_share,
+        share_callable_group=value2gov_spending_share_group,
+        group_by=["income_group", "year"],
+        indicator_name="Share of government spending (%)",
+    )
+
+
+def chart1_1_pipeline() -> None:
+    """This function processes various data sources related to health spending
+    and generates a combined dataset that includes information on per capita spending,
+    total spending, share of GDP, and share of government spending.
+    The resulting dataset is saved in CSV format to a specified file location."""
+
+    # Get total spending in constant USD (pd.DataFrame)
+    total_spending_usd_constant = get_spending_version(version="usd_constant")
+
+    # ---- Per capita spending ---------------------->
+
+    # Get data in per capita terms (for countries and groups) (pd.DataFrame)
+    combined_pc = per_capita_spending(usd_constant_data=total_spending_usd_constant)
+
+    # ---- Total spending ---------------------->
+
+    # Get data in total usd terms (for countries and groups) (pd.DataFrame)
+    combined_total = total_usd_spending(usd_constant_data=total_spending_usd_constant)
+
+    # ---- Share of GDP ---------------------->
+    combined_gdp = spending_share_of_gdp(usd_constant_data=total_spending_usd_constant)
+
+    # ---- Share of Government spending ---------------------->
+
+    combined_govx = spending_share_of_government(
+        usd_constant_data=total_spending_usd_constant
+    )
+
+    # ---- Combine all -------------------------->
+
+    # Combine the different views of the data
+    df = pd.concat(
+        [combined_pc, combined_total, combined_gdp, combined_govx],
+        ignore_index=True,
+    )
+
+    # Sort and clean the data
+    df = clean_chart(data=df)
+
+    # ---- Export ------------------------------->
+
+    # Save
     df.to_csv(PATHS.output / "section1_chart1.csv", index=False)
 
 
 if __name__ == "__main__":
-    ...
     chart1_1_pipeline()
