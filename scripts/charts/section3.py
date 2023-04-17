@@ -54,6 +54,24 @@ def _rebuild_private_spending(
     )
 
 
+def _incomes_first(df: pd.DataFrame) -> pd.DataFrame:
+    income_levels = {
+        "Low income": 1,
+        "Lower middle income": 2,
+        "Upper middle income": 3,
+        "High income": 4,
+    }
+    top = (
+        df.loc[lambda d: d.Country.isin(income_levels)]
+        .assign(order=lambda d: d.Country.map(income_levels))
+        .sort_values(["order", "year"], ascending=(True, True))
+        .drop(columns="order")
+    )
+    bottom = df.loc[lambda d: ~d.Country.isin(income_levels)]
+
+    return pd.concat([top, bottom], ignore_index=True)
+
+
 def get_spending(version="usd_constant") -> pd.DataFrame:
     # Get spending in constant USD
     spending_countries = get_agg_spending_version(version=version)
@@ -304,6 +322,10 @@ def chart_3_1():
     share_df = share_df.merge(tooltip_df, on=["Country", "year"], how="left").drop(
         ["indicator"], axis=1
     )
+
+    # incomes first
+
+    share_df = _incomes_first(share_df)
 
     # Copy to clipboard
     share_df.to_csv(PATHS.output / "section3_chart1.csv", index=False)
