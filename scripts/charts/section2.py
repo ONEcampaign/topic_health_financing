@@ -55,6 +55,7 @@ def read_au_countries() -> list:
 
 
 def filter_au_countries(df: pd.DataFrame) -> pd.DataFrame:
+    """Filter a dataframe to keep only AU countries"""
     return df.query(f"iso_code in {read_au_countries()}")
 
 
@@ -89,7 +90,7 @@ def chart_2_2_1() -> None:
 
 
 def chart_2_2_2() -> None:
-    """data for chart 2 in section 2"""
+    """Data for chart 2 in section 2"""
     # Get spending in constant USD
     constant_data = get_spending_version(version="usd_constant")
 
@@ -105,7 +106,7 @@ def chart_2_2_2() -> None:
 
 
 def chart_2_3() -> None:
-    """data for chart 3 in section 2"""
+    """Data for chart 3 in section 2"""
     # Get spending in constant USD
     constant_data = get_spending_version(version="usd_constant")
 
