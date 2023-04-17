@@ -23,7 +23,7 @@ def _validate_additional_grouper(grouper: list | str) -> list:
     return grouper
 
 
-def _filter_african_countries(data: pd.DataRame) -> pd.DataFrame:
+def _filter_african_countries(data: pd.DataFrame) -> pd.DataFrame:
     """
     Helper function which assigns the name 'Africa' as 'country_name'
     to all African countries.
