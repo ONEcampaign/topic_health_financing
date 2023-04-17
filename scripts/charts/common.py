@@ -318,15 +318,15 @@ def get_version(
     # Create a countries (exclude) filter
     countries_filter = _exclude_countries_query()
 
-    # Validate any additional filter passed
-    if additional_filter is None:
-        additional_filter = ""
-
     # get data
     data = versions_dict[version]
 
     # filter data
-    data = data.query(year_filter).query(countries_filter).query(additional_filter)
+    data = data.query(year_filter).query(countries_filter)
+
+    # Validate any additional filter passed
+    if additional_filter is not None:
+        data = data.query(additional_filter)
 
     # Add income levels
     data = data.pipe(

@@ -28,9 +28,6 @@ GOV_SPENDING = read_spending_data_versions(dataset_name="gov_spending")
 # out certain countries).
 get_spending_version = partial(get_version, versions_dict=GOV_SPENDING)
 
-# Get spending in constant USD
-spending_countries = get_spending_version(version="usd_constant")
-
 
 def get_government_spending_shares(constant_usd_data: pd.DataFrame) -> pd.DataFrame:
     """Calculate share of government spending"""
@@ -77,9 +74,12 @@ def clean_data_for_chart(df: pd.DataFrame) -> pd.DataFrame:
 
 def chart_2_2_1() -> None:
     """Data for chart 1 in section 2"""
-    # Pipeline for chart
+    # Get spending in constant USD
+    constant_data = get_spending_version(version="usd_constant")
+
+    # Transform
     df_gdp = (
-        get_gdp_spending_shares()
+        get_gdp_spending_shares(constant_usd_data=constant_data)
         .pipe(clean_data_for_chart)
         .pipe(flag_africa)
         .drop(columns="year")
@@ -91,10 +91,12 @@ def chart_2_2_1() -> None:
 
 def chart_2_2_2() -> None:
     """data for chart 2 in section 2"""
+    # Get spending in constant USD
+    constant_data = get_spending_version(version="usd_constant")
 
-    # Pipeline for chart
+    # Transform
     df_pc = (
-        get_per_capita_spending()
+        get_per_capita_spending(constant_usd_data=constant_data)
         .pipe(clean_data_for_chart)
         .pipe(flag_africa)
         .drop(columns="year")
@@ -105,8 +107,12 @@ def chart_2_2_2() -> None:
 
 def chart_2_3() -> None:
     """data for chart 3 in section 2"""
+    # Get spending in constant USD
+    constant_data = get_spending_version(version="usd_constant")
+
+    # Transform
     df = (
-        get_government_spending_shares()
+        get_government_spending_shares(constant_usd_data=constant_data)
         .pipe(filter_au_countries)
         .pipe(clean_data_for_chart)
         .drop(columns="year")
