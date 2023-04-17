@@ -7,7 +7,6 @@ import json
 from functools import partial
 
 import pandas as pd
-from bblocks import convert_id
 
 from scripts import config
 from scripts.analysis.data_versions import read_spending_data_versions
