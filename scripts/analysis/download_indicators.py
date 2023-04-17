@@ -54,15 +54,3 @@ def current_lcu_data(
         additional_filter = {}
     full_filter = additional_filter | {"units": "national currency unit, millions"}
     return spending_func(additional_filter=full_filter)
-
-
-if __name__ == "__main__":
-    exp = get_current_health_exp()
-
-    exp_source = get_health_exp_by_source()
-
-    exp_function = get_health_exp_by_function()
-
-    exp_disease = get_health_exp_by_disease()
-
-    exp_scheme = get_health_exp_by_financing_scheme()

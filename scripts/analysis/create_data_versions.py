@@ -1,11 +1,9 @@
 from functools import partial
 
-import pandas as pd
-
 from scripts import config
-from scripts.analysis.indicators import (
-    get_current_health_exp,
+from scripts.analysis.download_indicators import (
     current_lcu_data,
+    get_current_health_exp,
     get_health_exp_by_disease,
     get_health_exp_by_financing_scheme,
     get_health_exp_by_function,
@@ -13,11 +11,11 @@ from scripts.analysis.indicators import (
 )
 from scripts.tools import (
     lcu2gdp,
-    mn2units,
-    year2date,
-    lcu2usd_current,
     lcu2usd_constant,
+    lcu2usd_current,
+    mn2units,
     value2pc,
+    year2date,
 )
 
 # Function to get the overall spending data in local currency units.
@@ -80,21 +78,7 @@ def save_data_versions(spending_function: callable, dataset_name: str) -> None:
         value.to_feather(config.PATHS.raw_data / f"{dataset_name}_{key}.feather")
 
 
-def read_spending_data_versions(dataset_name: str) -> dict[str, pd.DataFrame]:
-    """Read versions of the LCU data"""
-    return {
-        key: pd.read_feather(config.PATHS.raw_data / f"{dataset_name}_{key}.feather")
-        for key in [
-            "lcu",
-            "gdp_share",
-            "usd_current",
-            "usd_constant",
-            "usd_constant_pc",
-        ]
-    }
-
-
-def pipeline() -> None:
+def save_data_pipeline() -> None:
     # Overall health spending
     save_data_versions(
         spending_function=health_exp_current_lcu, dataset_name="health_spending"
@@ -125,20 +109,4 @@ def pipeline() -> None:
     save_data_versions(
         spending_function=health_exp_by_disease_current_lcu,
         dataset_name="health_spending_by_disease",
-    )
-
-
-if __name__ == "__main__":
-    # Run the pipeline
-    pipeline()
-
-    overall_spending = read_spending_data_versions(dataset_name="health_spending")
-    covid_spending = read_spending_data_versions(dataset_name="covid_spending")
-    gov_spending = read_spending_data_versions(dataset_name="gov_spending")
-    scheme_spending = read_spending_data_versions(
-        dataset_name="health_spending_by_source"
-    )
-    oop_spending = read_spending_data_versions(dataset_name="health_spending_oop")
-    disease_spending = read_spending_data_versions(
-        dataset_name="health_spending_by_disease"
     )

@@ -3,7 +3,7 @@ from functools import partial
 import pandas as pd
 from bblocks import convert_id, format_number
 
-from scripts.analysis.data_versions import read_spending_data_versions
+from scripts.analysis.read_data_versions import read_spending_data_versions
 from scripts.charts.common import (
     combine_income_countries,
     get_version,
