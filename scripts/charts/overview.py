@@ -19,6 +19,12 @@ def _read_gov_spending() -> pd.DataFrame:
     ).rename(columns={"year_note": "year"})
 
 
+def _read_external() -> pd.DataFrame:
+    return pd.read_csv(
+        PATHS.output / "section3_chart1.csv",
+    )
+
+
 def _filter_latest2y(df: pd.DataFrame) -> pd.DataFrame:
     return df.query("year in [year.max(),year.max()-1]")
 
@@ -38,6 +44,17 @@ def _filter_income_data(df: pd.DataFrame) -> pd.DataFrame:
         ],
         axis=1,
     )
+
+
+def _filter_income_data_rows(df: pd.DataFrame, column: str = "Country") -> pd.DataFrame:
+    incomes = [
+        "High income",
+        "Low income",
+        "Lower middle income",
+        "Upper middle income",
+    ]
+
+    return df.query(f"{column} in {incomes}").reset_index(drop=True)
 
 
 def _filter_africa_data(df: pd.DataFrame) -> pd.DataFrame:
@@ -80,6 +97,20 @@ def _spending_income(data: pd.DataFrame, income: str) -> dict:
     }
 
     return numbers
+
+
+def _change_direction(
+    data: pd.DataFrame, variable: str, entity: str
+) -> tuple[float, str]:
+    result = (
+        data.query(f"variable == '{variable}' and Country == '{entity}'")
+        .difference.sum()
+        .round(1)
+    )
+
+    result_direction = "increase" if result > 0 else "decrease"
+
+    return result, result_direction
 
 
 def abuja_count() -> str:
@@ -345,9 +376,56 @@ def section2_dynamic_text() -> None:
     update_key_number(PATHS.output / "overview.json", new_dict=numbers)
 
 
+def section3_dynamic_text() -> None:
+    spending = (
+        _read_external()
+        .filter(["year", "Country", "External Aid", "Domestic Government"], axis=1)
+        .melt(id_vars=["year", "Country"])
+        .loc[lambda d: d.year.isin([2000, d.year.max()])]
+        .sort_values(by=["Country", "variable", "year"])
+        .pipe(_filter_income_data_rows)
+        .assign(
+            difference=lambda d: d.groupby(
+                ["Country", "variable"], as_index=False, group_keys=False
+            ).value.diff()
+        )
+        .loc[lambda d: d.year == d.year.max()]
+    )
+
+    low_external, low_external_change = _change_direction(
+        spending, "External Aid", "Low income"
+    )
+
+    low_domestic, low_domestic_change = _change_direction(
+        spending, "Domestic Government", "Low income"
+    )
+
+    lmic_external, lmic_external_change = _change_direction(
+        spending, "External Aid", "Lower middle income"
+    )
+
+    lmic_domestic, lmic_domestic_change = _change_direction(
+        spending, "Domestic Government", "Lower middle income"
+    )
+
+    numbers = {
+        "low_income_external_change": f"{abs(low_external)}",
+        "low_income_external_direction": f"{low_external_change}",
+        "lmic_external_change": f"{abs(lmic_external)}",
+        "lmic_income_external_direction": f"{lmic_external_change}",
+        "low_income_domestic_change": f"{abs(low_domestic)}",
+        "low_income_domestic_direction": f"{low_domestic_change}",
+        "lmic_domestic_change": f"{abs(lmic_domestic)}",
+        "lmic_income_domestic_direction": f"{lmic_domestic_change}",
+    }
+
+    update_key_number(PATHS.output / "overview.json", new_dict=numbers)
+
+
 if __name__ == "__main__":
     total_spending_sm()
     total_spending_by_income_bar()
     africa_spending_trend_line()
     section1_dynamic_text()
     section2_dynamic_text()
+    section3_dynamic_text()
