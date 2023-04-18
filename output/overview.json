@@ -28,5 +28,8 @@
     "low_income_domestic_change": "8.5",
     "low_income_domestic_direction": "decreased",
     "lmic_domestic_change": "9.8",
-    "lmic_income_domestic_direction": "increased"
+    "lmic_income_domestic_direction": "increased",
+    "mdb_year": "2021",
+    "mbd_total": "11.5",
+    "mbd_hard_loans": "65.0"
 }

@@ -25,6 +25,12 @@ def _read_external() -> pd.DataFrame:
     )
 
 
+def _read_mbd() -> pd.DataFrame:
+    return pd.read_csv(
+        PATHS.output / "section4_chart_1.csv",
+    )
+
+
 def _filter_latest2y(df: pd.DataFrame) -> pd.DataFrame:
     return df.query("year in [year.max(),year.max()-1]")
 
@@ -422,6 +428,41 @@ def section3_dynamic_text() -> None:
     update_key_number(PATHS.output / "overview.json", new_dict=numbers)
 
 
+def section4_dynamic_text() -> None:
+    # Read chart data
+    df = _read_mbd()
+
+    # Get the max year
+    mdb_year = df.Year.max()
+
+    # Get the total spending for the max year
+    total = round(
+        df.filter(["Year", "Total"]).query(f"Year == {mdb_year}").Total.sum() / 1e3, 1
+    )
+
+    hard_loans = round(
+        100
+        * (
+            df.filter(["Year", "Type", "Total"])
+            .query(
+                f"Year == {mdb_year} and Type == 'Other Official Flows (non Export Credit)'"
+            )
+            .Total.sum()
+            / 1e3
+        )
+        / total,
+        1,
+    )
+
+    numbers = {
+        "mdb_year": f"{mdb_year}",
+        "mbd_total": f"{total}",
+        "mbd_hard_loans": f"{hard_loans}",
+    }
+
+    update_key_number(PATHS.output / "overview.json", new_dict=numbers)
+
+
 if __name__ == "__main__":
     total_spending_sm()
     total_spending_by_income_bar()
@@ -429,3 +470,4 @@ if __name__ == "__main__":
     section1_dynamic_text()
     section2_dynamic_text()
     section3_dynamic_text()
+    section4_dynamic_text()
