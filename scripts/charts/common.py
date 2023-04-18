@@ -36,7 +36,9 @@ def _filter_african_countries(data: pd.DataFrame) -> pd.DataFrame:
     )
 
     # Return keeping only Africa
-    return data.query("country_name == 'Africa'")
+    return data.query("country_name == 'Africa'").assign(
+        country_name="Africa", income_group="Africa"
+    )
 
 
 def _callable_by(

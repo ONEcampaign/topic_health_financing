@@ -155,7 +155,7 @@ def clean_chart(data: pd.DataFrame) -> pd.DataFrame:
         .sort_values(["order", "year"], ascending=(True, True))
         .drop(columns=["order"])
         .set_index(["year", "indicator"])
-        .reset_index()
+        .reset_index(drop=False)
     )
 
 
