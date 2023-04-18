@@ -1,78 +1,129 @@
+"""
+Analyse health spending data across countries, focusin on spending shares of total.
+Use to process, filter and aggregate the data
+"""
 from functools import partial
 
 import pandas as pd
-from bblocks import convert_id, format_number
+from bblocks import format_number
 
 from scripts.analysis.read_data_versions import read_spending_data_versions
 from scripts.charts.common import (
-    combine_income_countries,
     get_version,
-    per_capita_africa,
-    per_capita_by_income,
-    total_africa,
-    total_by_income,
+    per_capita_spending,
+    spending_share_of_gdp,
+    total_usd_spending,
 )
 from scripts.config import PATHS
-from scripts.tools import (
-    value2gdp_share,
-    value2gdp_share_group,
-    value2gov_spending_share,
-    value2pc,
-)
 
+# Load a dictionary with dataframes for the different versions of "health_spending_by_source" data
+# These include: 'lcu', 'gdp_share','usd_current', 'usd_constant', 'usd_constant_pc'
 spending_full = read_spending_data_versions(dataset_name="health_spending_by_source")
+
+# As above, but for out-of-pocket spending
 spending_oop = read_spending_data_versions(dataset_name="health_spending_oop")
 
+# Create a function to get a specific version. It returns a dataframe. This function
+# will make sure to keep the "source" dimension contianed in the data
 get_agg_spending_version = partial(
     get_version, versions_dict=spending_full, additional_cols="source"
 )
+
+# As above, but for out-of-pocket spending
 get_oop_spending_version = partial(get_version, versions_dict=spending_oop)
 
 
 def _rebuild_private_spending(
     by_source: pd.DataFrame, oop: pd.DataFrame
 ) -> pd.DataFrame:
-    return (
-        by_source.query("source == 'domestic private'")
-        .drop(columns=["source"])
-        .merge(
-            oop,
-            on=["iso_code", "country_name", "year", "income_group"],
-            suffixes=("_agg", "_oop"),
-        )
-        .assign(
-            out_of_pocket_private=lambda d: d.value_oop,
-            other_domestic_private=lambda d: d.value_agg - d.value_oop,
-        )
-        .drop(columns=["value_agg", "value_oop"])
-        .melt(
-            id_vars=["iso_code", "country_name", "year", "income_group"],
-            value_vars=["out_of_pocket_private", "other_domestic_private"],
-            var_name="source",
-            value_name="value",
-        )
+    """
+    Rebuilds a DataFrame containing spending data for domestic private sources.
+    This is done by merging a DataFrame containing spending data by source with
+    a DataFrame containing out-of-pocket spending data.
+
+    Parameters:
+    - by_source: A DataFrame containing healthcare spending data by source.
+    - oop: A DataFrame containing out-of-pocket healthcare spending data
+
+    Returns:
+    - A DataFrame which splits private into out-of-pocket and other domestic private.
+    """
+
+    # Keep only domestic private and drop source column
+    by_source = by_source.query("source == 'domestic private'").drop(columns=["source"])
+
+    # Merge the two dataframes
+    data = by_source.merge(
+        oop,
+        on=["iso_code", "country_name", "year", "income_group"],
+        suffixes=("_agg", "_oop"),
+    )
+
+    # create the two totals
+    data = data.assign(
+        out_of_pocket_private=lambda d: d.value_oop,
+        other_domestic_private=lambda d: d.value_agg - d.value_oop,
+    )
+
+    # Clean and return
+    return data.drop(columns=["value_agg", "value_oop"]).melt(
+        id_vars=["iso_code", "country_name", "year", "income_group"],
+        value_vars=["out_of_pocket_private", "other_domestic_private"],
+        var_name="source",
+        value_name="value",
     )
 
 
 def _incomes_first(df: pd.DataFrame) -> pd.DataFrame:
+    """
+    Sorts a DataFrame so that countries are ordered by income level first, with lower
+     income countries appearing first, and higher income countries appearing last.
+
+    Parameters:
+        - df: A DataFrame to resort
+
+    Returns:
+        - A DataFrame, where the countries are ordered by income level first,
+        with lower income countries appearing first, and higher income countries
+        appearing last.
+
+    """
+
+    # Define the order of income levels
     income_levels = {
         "Low income": 1,
         "Lower middle income": 2,
         "Upper middle income": 3,
         "High income": 4,
     }
+
+    # filter the income level data and sort it
     top = (
         df.loc[lambda d: d.Country.isin(income_levels)]
         .assign(order=lambda d: d.Country.map(income_levels))
         .sort_values(["order", "year"], ascending=(True, True))
         .drop(columns="order")
     )
+
+    # filter the dataframe to keep only non-income level data
     bottom = df.loc[lambda d: ~d.Country.isin(income_levels)]
 
+    # combine the two dataframes
     return pd.concat([top, bottom], ignore_index=True)
 
 
 def get_spending(version="usd_constant") -> pd.DataFrame:
+    """
+    Returns a DataFrame containing spending data by country and year, with
+    the private spending data split into out-of-pocket and other domestic private
+    categories.
+
+    Parameters:
+        - version (optional): A string representing the version of the spending data
+        to retrieve. Default is 'usd_constant'.
+
+    """
+
     # Get spending in constant USD
     spending_countries = get_agg_spending_version(version=version)
 
@@ -84,55 +135,27 @@ def get_spending(version="usd_constant") -> pd.DataFrame:
         by_source=spending_countries, oop=oop_spending_countries
     )
 
+    # Remove the original private spending data
     data = spending_countries.query("source != 'domestic private'")
 
+    # Combine the two dataframes
     return pd.concat([data, data_private], ignore_index=True)
 
 
-def get_spending_share_of_total() -> pd.DataFrame:
-    data = get_spending()
-
-    return data.assign(
-        value=lambda d: d.groupby(
-            ["iso_code", "country_name", "year"], group_keys=False
-        )["value"].apply(lambda x: round(100 * x / x.sum(), 2))
-    )
-
-
-def get_government_spending_shares() -> pd.DataFrame:
-    # ---- Share of gov spending ---------------------->
-
-    data = get_spending()
-
-    # Calculate as a share of government spending for income groups (total)
-    return value2gov_spending_share(data)
-
-
-def get_gdp_spending_shares() -> pd.DataFrame:
-    # ---- Share of gdp  ---------------------->
-
-    data = get_spending()
-
-    # Calculate as a share of gdp for income groups (total)
-    return value2gdp_share(data)
-
-
-def get_per_capita_spending() -> pd.DataFrame:
-    # ---- per capita spending ---------------------->
-
-    data = get_spending()
-
-    return value2pc(data)
-
-
 def clean_chart_3_1(df: pd.DataFrame, full_df: pd.DataFrame) -> pd.DataFrame:
+    """Clean the data for use in Flourish"""
+
+    # Set the right indicator ordr
     indicator_order = {
-        "Per capita spending ($US)": 2,
         "Total spending ($US billion)": 1,
+        "Per capita spending ($US)": 2,
         "Share of GDP (%)": 3,
     }
 
+    # set the right country order
     country_order = list(full_df.country_name.unique()) + ["Africa"]
+
+    # Set the income levels
     income_levels = [
         "High income",
         "Upper middle income",
@@ -140,8 +163,10 @@ def clean_chart_3_1(df: pd.DataFrame, full_df: pd.DataFrame) -> pd.DataFrame:
         "Low income",
     ]
 
+    # Specify the new column order
     column_order = ["year", "source", "indicator"] + income_levels + country_order
 
+    # Set the source names
     source_names = {
         "domestic general government": "Domestic Government",
         "external": "External Aid",
@@ -161,21 +186,49 @@ def clean_chart_3_1(df: pd.DataFrame, full_df: pd.DataFrame) -> pd.DataFrame:
 
 
 def reshape_chart_3_1(df: pd.DataFrame) -> pd.DataFrame:
+    """Change the structure of the data. This first melts by year, source, indicator,
+    and then pivots to that the source becomes columns"""
+
+    # Reshape to vertical
+    data = df.melt(
+        id_vars=["year", "source", "indicator"],
+        value_name="value",
+        var_name="Country",
+    )
+
+    # Pivot to horizontal so sources become columns
+    data = data.pivot(
+        index=["year", "indicator", "Country"], columns="source", values="value"
+    ).reset_index()
+
+    # sort and return
+    return data.sort_values(
+        ["year", "indicator", "Country"], ascending=(False, True, True)
+    )
+
+
+def calculate_share_of_total_spending(df: pd.DataFrame) -> pd.DataFrame:
+    """Share of source out of total spending"""
     return (
-        df.melt(
-            id_vars=["year", "source", "indicator"],
-            value_name="value",
-            var_name="Country",
+        df.melt(id_vars=["year", "source", "indicator"], var_name="Country")
+        .assign(
+            value=lambda d: d.groupby(["Country", "year"], group_keys=False)[
+                "value"
+            ].apply(lambda x: round(100 * x / x.sum(), 2)),
+            indicator="Share of total spending (%)",
         )
-        .pivot(index=["year", "indicator", "Country"], columns="source", values="value")
+        .pivot(index=["year", "indicator", "source"], columns="Country", values="value")
         .reset_index()
-        .sort_values(["year", "indicator", "Country"], ascending=(False, True, True))
     )
 
 
 def create_tooltip_3_1(df: pd.DataFrame) -> pd.DataFrame:
+    """Create the text for the tooltips to be used on the chart"""
+
+    # Get only total spending (as a DataFrame copy)
     df = df.query("indicator == 'Total spending ($US million)'").copy(deep=True)
 
+    # For every column, replace any NaNs with a dash and format the numbers
     for column in [
         "Domestic Government",
         "External Aid",
@@ -186,6 +239,7 @@ def create_tooltip_3_1(df: pd.DataFrame) -> pd.DataFrame:
             "nan", "-"
         )
 
+    # Create the tooltip text
     df["tooltip"] = (
         "<b>Domestic Government:</b> US$ "
         + df["Domestic Government"]
@@ -200,117 +254,55 @@ def create_tooltip_3_1(df: pd.DataFrame) -> pd.DataFrame:
         + df["Other domestic private"]
         + "m."
     )
+    # Return a dataframe with country, year and tooltip
     return df.filter(["Country", "year", "tooltip"], axis=1)
 
 
 def chart_3_1():
+    """Pipeline to create the chart"""
+
     # Get total spending in constant USD
     total_spending = get_spending(version="usd_constant")
 
     # ---- Per capita spending ---------------------->
-
-    # Get per capita spending in constant USD
-    pc_spending_countries = get_spending(version="usd_constant_pc")
-
-    # Calculate per capita spending for income groups (total)
-    pc_spending_income = per_capita_by_income(
-        total_spending,
-        additional_grouper="source",
+    combined_pc = per_capita_spending(
+        spending_version_callable=get_spending,
+        usd_constant_data=total_spending,
+        additional_grouper=["source"],
         threshold=0.5,
     )
-
-    # Africa pc spending
-    pc_spending_africa = per_capita_africa(
-        total_spending,
-        additional_grouper="source",
-        threshold=0.5,
-    )
-
-    # Combine the datasets
-    combined_pc = combine_income_countries(
-        income=pc_spending_income,
-        country=pc_spending_countries,
-        africa=pc_spending_africa,
-        additional_grouper="source",
-    ).assign(indicator="Per capita spending ($US)")
 
     # ---- Total spending ---------------------->
-
-    # Calculate total spending for income groups (total)
-    total_spending_income = (
-        total_by_income(total_spending, additional_grouper="source", threshold=0.5)
-        .assign(value=lambda d: round(d.value / 1e6, 3))
-        .dropna(subset=["income_group"])
-    )
-
-    # Get total spending per country (in billion)
-    total_spending_countries = total_spending.assign(
-        value=lambda d: round(d.value / 1e6, 3)
-    )
-
-    # Get total spending for Africa (in bilion)
-    total_spending_africa = total_africa(
-        total_spending,
-        additional_grouper="source",
+    combined_total = total_usd_spending(
+        usd_constant_data=total_spending,
+        additional_grouper=["source"],
         threshold=0.5,
-    ).assign(value=lambda d: round(d.value / 1e9, 3))
-
-    # Combine the datasets
-    combined_total = combine_income_countries(
-        income=total_spending_income,
-        country=total_spending_countries,
-        africa=total_spending_africa,
-        additional_grouper="source",
-    ).assign(indicator="Total spending ($US million)")
+        factor=1e6,
+        units="million",
+    )
 
     # ---- Share of total spending ---------------------->
-    total_with_share = (
-        combined_total.melt(id_vars=["year", "source", "indicator"], var_name="Country")
-        .assign(
-            value=lambda d: d.groupby(["Country", "year"], group_keys=False)[
-                "value"
-            ].apply(lambda x: round(100 * x / x.sum(), 2)),
-            indicator="Share of total spending (%)",
-        )
-        .pivot(index=["year", "indicator", "source"], columns="Country", values="value")
-        .reset_index()
-    )
+    total_with_share = calculate_share_of_total_spending(df=combined_total)
 
     # ---- Share of GDP ---------------------->
-    # Calculate % of GDP by income
-    gdp_share_income = value2gdp_share_group(
-        total_spending, group_by=["income_group", "year", "source"], threshold=0.5
-    )
-
-    gdp_share_africa = value2gdp_share_group(
-        total_spending.assign(
-            country_name=lambda d: convert_id(
-                d.iso_code, from_type="ISO3", to_type="continent"
-            )
-        ).query("country_name == 'Africa'"),
-        group_by=["country_name", "year", "source"],
+    combined_gdp = spending_share_of_gdp(
+        usd_constant_data=total_spending,
+        group_by=["income_group", "year", "source"],
+        additional_group_by=["source"],
         threshold=0.5,
     )
 
-    gdp_share_countries = value2gdp_share(total_spending)
-
-    # Combine the datasets
-    combined_gdp = combine_income_countries(
-        income=gdp_share_income,
-        country=gdp_share_countries,
-        africa=gdp_share_africa,
-        additional_grouper="source",
-    ).assign(indicator="Share of GDP (%)")
-
     # ---- Combine all -------------------------->
-
-    # Combine both views of the data
+    # Combine all views of the data
     df = pd.concat(
         [combined_pc, combined_total, combined_gdp, total_with_share], ignore_index=True
-    ).pipe(clean_chart_3_1, full_df=total_spending)
+    )
+
+    # Clean the data
+    df = df.pipe(clean_chart_3_1, full_df=total_spending)
 
     # Reshape the data
-    df = reshape_chart_3_1(df)
+    df = df.pipe(reshape_chart_3_1)
 
     # Get only share data
     share_df = df.query("indicator == 'Share of total spending (%)'")
@@ -324,7 +316,6 @@ def chart_3_1():
     )
 
     # incomes first
-
     share_df = _incomes_first(share_df)
 
     # Copy to clipboard
