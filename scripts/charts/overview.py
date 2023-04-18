@@ -436,28 +436,30 @@ def section4_dynamic_text() -> None:
     mdb_year = df.Year.max()
 
     # Get the total spending for the max year
-    total = round(
-        df.filter(["Year", "Total"]).query(f"Year == {mdb_year}").Total.sum() / 1e3, 1
+    total = df.filter(["Year", "Total"]).query(f"Year == {mdb_year}").Total.sum()
+
+    # Get total previous year
+    total_previous = (
+        df.filter(["Year", "Total"]).query(f"Year == {mdb_year-1}").Total.sum()
     )
 
-    hard_loans = round(
-        100
-        * (
-            df.filter(["Year", "Type", "Total"])
-            .query(
-                f"Year == {mdb_year} and Type == 'Other Official Flows (non Export Credit)'"
-            )
-            .Total.sum()
-            / 1e3
+    change = total / total_previous - 1
+
+    hard_loans = (
+        df.filter(["Year", "Type", "Total"])
+        .query(
+            f"Year == {mdb_year} and Type == 'Other Official Flows (non Export Credit)'"
         )
-        / total,
-        1,
-    )
+        .Total.sum()
+    ) / total
 
     numbers = {
         "mdb_year": f"{mdb_year}",
-        "mbd_total": f"{total}",
-        "mbd_hard_loans": f"{hard_loans}",
+        "mdb_year_previous": f"{mdb_year-1}",
+        "mdb_change": f"{round(100*change,1)}",
+        "mbd_total": f"{round(total/1e3,1)}",
+        "mbd_total_previous": f"{round(total_previous/1e3,1)}",
+        "mbd_hard_loans": f"{round(100*hard_loans,1)}",
     }
 
     update_key_number(PATHS.output / "overview.json", new_dict=numbers)

@@ -31,5 +31,8 @@
     "lmic_income_domestic_direction": "increased",
     "mdb_year": "2021",
     "mbd_total": "11.5",
-    "mbd_hard_loans": "65.0"
+    "mbd_hard_loans": "65.2",
+    "mdb_year_previous": "2020",
+    "mdb_change": "10.2",
+    "mbd_total_previous": "10.4"
 }
