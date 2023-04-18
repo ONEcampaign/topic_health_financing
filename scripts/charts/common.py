@@ -2,7 +2,12 @@
 import pandas as pd
 from bblocks import add_income_level_column, convert_id
 
-from scripts.tools import value2pc_group, value_total_group
+from scripts.tools import (
+    value2gdp_share,
+    value2gdp_share_group,
+    value2pc_group,
+    value_total_group,
+)
 
 
 def _validate_additional_grouper(grouper: list | str) -> list:
@@ -408,4 +413,146 @@ def flag_africa(df: pd.DataFrame) -> pd.DataFrame:
     # Identify African countries
     return df.assign(
         Continent=lambda d: d.Continent.apply(lambda x: x if x == "Africa" else "Other")
+    )
+
+
+def per_capita_spending(
+    spending_version_callable: callable,
+    usd_constant_data: pd.DataFrame,
+    additional_grouper: None | list = None,
+    threshold: float = 0.95,
+) -> pd.DataFrame:
+    """Function to calculate per capita spending for countries and groups"""
+
+    # Get per capita spending in constant USD
+    pc_spending_countries = spending_version_callable(version="usd_constant_pc")
+
+    # Calculate per capita spending for income groups (total)
+    pc_spending_income = per_capita_by_income(
+        usd_constant_data, additional_grouper=additional_grouper, threshold=threshold
+    )
+
+    # Calculate per capita spending for Africa (total)
+    pc_spending_africa = per_capita_africa(
+        usd_constant_data, additional_grouper=additional_grouper, threshold=threshold
+    )
+
+    # Combine the datasets
+    combined_pc = combine_income_countries(
+        income=pc_spending_income,
+        country=pc_spending_countries,
+        africa=pc_spending_africa,
+        additional_grouper=additional_grouper,
+    ).assign(indicator="Per capita spending ($US)")
+
+    return combined_pc
+
+
+def total_usd_spending(
+    usd_constant_data: pd.DataFrame,
+    factor: int | float = 1e9,
+    units: str = "billion",
+    additional_grouper: None | list = None,
+    threshold: float = 0.95,
+) -> pd.DataFrame:
+    """Function to calculate total (in constant usd) spending for countries and groups."""
+
+    # Calculate total spending for income groups (total)
+    total_spending_income = (
+        total_by_income(
+            usd_constant_data,
+            additional_grouper=additional_grouper,
+            threshold=threshold,
+        )
+        .assign(value=lambda d: round(d.value / factor, 3))
+        .dropna(subset=["income_group"])
+    )
+
+    # Get total spending per country
+    total_spending_countries = usd_constant_data.assign(
+        value=lambda d: round(d.value / factor, 3)
+    )
+
+    # Get total spending for Africa
+    total_spending_africa = total_africa(
+        spending=usd_constant_data,
+        additional_grouper=additional_grouper,
+        threshold=threshold,
+    ).assign(value=lambda d: round(d.value / factor, 3))
+
+    # Combine the datasets
+    combined_total = combine_income_countries(
+        income=total_spending_income,
+        country=total_spending_countries,
+        africa=total_spending_africa,
+        additional_grouper=additional_grouper,
+    ).assign(indicator=f"Total spending ($US {units})")
+
+    return combined_total
+
+
+def _data_as_share(
+    usd_constant_data: pd.DataFrame,
+    share_callable: callable,
+    share_callable_group: callable,
+    group_by: list,
+    indicator_name: str,
+    additional_group_by: None | list = None,
+    threshold: float = 0.95,
+) -> pd.DataFrame:
+    """Helper function to calculate spending as a share of something else."""
+    if additional_group_by is None:
+        additional_group_by = []
+
+    # Calculate % of GDP by income
+    share_income = share_callable_group(
+        data=usd_constant_data, group_by=group_by, threshold=threshold
+    )
+
+    # identify Africa data
+    afr_data = usd_constant_data.assign(
+        country_name=lambda d: convert_id(
+            d.iso_code,
+            from_type="ISO3",
+            to_type="continent",
+        )
+    ).query("country_name == 'Africa'")
+
+    # Calculate % of gdp for Africa
+    share_africa = share_callable_group(
+        data=afr_data,
+        group_by=["country_name", "year"] + additional_group_by,
+        threshold=threshold,
+    )
+
+    # Calculate % of gdp for individual countries
+    share_countries = share_callable(usd_constant_data)
+
+    # Combine the datasets
+    combined = combine_income_countries(
+        income=share_income,
+        country=share_countries,
+        africa=share_africa,
+        additional_grouper=additional_group_by,
+    ).assign(indicator=indicator_name)
+
+    return combined
+
+
+def spending_share_of_gdp(
+    usd_constant_data: pd.DataFrame,
+    group_by: str | list,
+    additional_group_by: None | list = None,
+    threshold: float = 0.95,
+) -> pd.DataFrame:
+    """Calculate spending as a share of gdp for countries and groups"""
+
+    return _data_as_share(
+        usd_constant_data=usd_constant_data,
+        share_callable=value2gdp_share,
+        share_callable_group=value2gdp_share_group,
+        group_by=group_by,
+        additional_group_by=additional_group_by,
+        indicator_name="Share of GDP (%)",
+        threshold=threshold,
     )

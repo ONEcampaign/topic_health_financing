@@ -305,6 +305,7 @@ def value2gov_spending_share_group(
     value_column: str = "value",
     group_by: str | list = None,
     constant: bool = True,
+    threshold: float = 0.95,
 ) -> pd.DataFrame:
     """Convert units to per capita figures"""
 
@@ -321,6 +322,7 @@ def value2gov_spending_share_group(
         factor=100,
         value_column=value_column,
         group_by=group_by,
+        threshold=threshold,
     )
 
 
