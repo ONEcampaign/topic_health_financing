@@ -18,8 +18,8 @@ year,source,country,value
 2016-01-01,domestic general government,High income,3386.636
 2017-01-01,domestic general government,High income,3437.067
 2018-01-01,domestic general government,High income,3496.266
-2019-01-01,domestic general government,High income,3660.044
-2020-01-01,domestic general government,High income,4097.044
+2019-01-01,domestic general government,High income,3574.389
+2020-01-01,domestic general government,High income,3997.997
 2000-01-01,domestic general government,High income,2190137.163
 2001-01-01,domestic general government,High income,2330530.958
 2002-01-01,domestic general government,High income,2458392.972
@@ -60,8 +60,8 @@ year,source,country,value
 2016-01-01,domestic general government,High income,7.738
 2017-01-01,domestic general government,High income,7.712
 2018-01-01,domestic general government,High income,7.704
-2019-01-01,domestic general government,High income,7.835
-2020-01-01,domestic general government,High income,9.188
+2019-01-01,domestic general government,High income,7.777
+2020-01-01,domestic general government,High income,9.114
 2000-01-01,domestic general government,High income,59.02
 2001-01-01,domestic general government,High income,59.58
 2002-01-01,domestic general government,High income,59.31
@@ -99,8 +99,8 @@ year,source,country,value
 2013-01-01,domestic general government,Low income,6.696
 2014-01-01,domestic general government,Low income,7.039
 2015-01-01,domestic general government,Low income,7.723
-2016-01-01,domestic general government,Low income,7.603
-2017-01-01,domestic general government,Low income,7.393
+2016-01-01,domestic general government,Low income,7.379
+2017-01-01,domestic general government,Low income,7.18
 2018-01-01,domestic general government,Low income,7.123
 2019-01-01,domestic general government,Low income,7.418
 2020-01-01,domestic general government,Low income,8.832
@@ -141,8 +141,8 @@ year,source,country,value
 2013-01-01,domestic general government,Low income,1.034
 2014-01-01,domestic general government,Low income,1.059
 2015-01-01,domestic general government,Low income,1.17
-2016-01-01,domestic general government,Low income,1.153
-2017-01-01,domestic general government,Low income,1.104
+2016-01-01,domestic general government,Low income,1.115
+2017-01-01,domestic general government,Low income,1.073
 2018-01-01,domestic general government,Low income,1.047
 2019-01-01,domestic general government,Low income,1.068
 2020-01-01,domestic general government,Low income,1.299
@@ -263,8 +263,8 @@ year,source,country,value
 2009-01-01,domestic general government,Upper middle income,163.645
 2010-01-01,domestic general government,Upper middle income,171.663
 2011-01-01,domestic general government,Upper middle income,185.598
-2012-01-01,domestic general government,Upper middle income,202.634
-2013-01-01,domestic general government,Upper middle income,219.953
+2012-01-01,domestic general government,Upper middle income,202.62
+2013-01-01,domestic general government,Upper middle income,219.886
 2014-01-01,domestic general government,Upper middle income,233.993
 2015-01-01,domestic general government,Upper middle income,251.627
 2016-01-01,domestic general government,Upper middle income,253.371
@@ -305,8 +305,8 @@ year,source,country,value
 2009-01-01,domestic general government,Upper middle income,2.804
 2010-01-01,domestic general government,Upper middle income,2.733
 2011-01-01,domestic general government,Upper middle income,2.784
-2012-01-01,domestic general government,Upper middle income,2.896
-2013-01-01,domestic general government,Upper middle income,3.0
+2012-01-01,domestic general government,Upper middle income,2.888
+2013-01-01,domestic general government,Upper middle income,2.994
 2014-01-01,domestic general government,Upper middle income,3.067
 2015-01-01,domestic general government,Upper middle income,3.185
 2016-01-01,domestic general government,Upper middle income,3.094
@@ -347,8 +347,8 @@ year,source,country,value
 2009-01-01,domestic general government,Africa,35.557
 2010-01-01,domestic general government,Africa,35.155
 2011-01-01,domestic general government,Africa,35.315
-2012-01-01,domestic general government,Africa,35.483
-2013-01-01,domestic general government,Africa,36.004
+2012-01-01,domestic general government,Africa,36.37
+2013-01-01,domestic general government,Africa,36.862
 2014-01-01,domestic general government,Africa,36.958
 2015-01-01,domestic general government,Africa,39.222
 2016-01-01,domestic general government,Africa,37.906
@@ -389,8 +389,8 @@ year,source,country,value
 2009-01-01,domestic general government,Africa,1.987
 2010-01-01,domestic general government,Africa,1.905
 2011-01-01,domestic general government,Africa,1.94
-2012-01-01,domestic general government,Africa,1.964
-2013-01-01,domestic general government,Africa,1.962
+2012-01-01,domestic general government,Africa,1.938
+2013-01-01,domestic general government,Africa,1.951
 2014-01-01,domestic general government,Africa,1.979
 2015-01-01,domestic general government,Africa,2.086
 2016-01-01,domestic general government,Africa,2.03

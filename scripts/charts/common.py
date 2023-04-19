@@ -50,6 +50,7 @@ def _callable_by(
     spending: pd.DataFrame,
     calculation_callable: callable,
     optional_group_callable: callable = None,
+    main_group_by: list = None,
     additional_grouper: str | list = None,
     threshold: float = 0.95,
 ) -> pd.DataFrame:
@@ -74,6 +75,9 @@ def _callable_by(
     - A pandas DataFrame containing the per capita spending
     """
 
+    if main_group_by is None:
+        main_group_by = ["year", "income_group"]
+
     # validate additional grouper
     additional_grouper = _validate_additional_grouper(grouper=additional_grouper)
 
@@ -84,13 +88,13 @@ def _callable_by(
     # Calculate data
     data = calculation_callable(
         data=spending,
-        group_by=["year", "income_group"] + additional_grouper,
+        group_by=main_group_by + additional_grouper,
         value_column="value",
         threshold=threshold,
     )
 
     # Sort and return
-    return data.sort_values(["year", "income_group"]).reset_index(drop=True)
+    return data.sort_values(main_group_by).reset_index(drop=True)
 
 
 def per_capita_by_income(
@@ -126,6 +130,7 @@ def per_capita_by_income(
 
 def per_capita_africa(
     spending: pd.DataFrame,
+    main_group_by: list = None,
     additional_grouper: str | list = None,
     threshold: float = 0.95,
 ) -> pd.DataFrame:
@@ -145,12 +150,16 @@ def per_capita_africa(
     Returns:
     - A pandas DataFrame representing the per capita spending for Africa."""
 
+    if main_group_by is None:
+        main_group_by = ["year", "income_level"]
+
     return _callable_by(
         spending=spending,
         calculation_callable=value2pc_group,
         optional_group_callable=_filter_african_countries,
         additional_grouper=additional_grouper,
         threshold=threshold,
+        main_group_by=main_group_by,
     )
 
 
@@ -188,6 +197,7 @@ def total_africa(
     spending: pd.DataFrame,
     additional_grouper: str | list = None,
     threshold: float = 0.95,
+    main_group_by: list = None,
 ) -> pd.DataFrame:
     """
     Calculates the total spending for 'Africa' as a whole, based on a DataFrame
@@ -206,12 +216,15 @@ def total_africa(
     - A pandas DataFrame representing the total spending for Africa.
 
     """
+    if main_group_by is None:
+        main_group_by = ["year", "country_name"]
     return _callable_by(
         spending=spending,
         calculation_callable=value_total_group,
         optional_group_callable=_filter_african_countries,
         additional_grouper=additional_grouper,
         threshold=threshold,
+        main_group_by=main_group_by,
     )
 
 
@@ -434,7 +447,10 @@ def per_capita_spending(
 
     # Calculate per capita spending for Africa (total)
     pc_spending_africa = per_capita_africa(
-        usd_constant_data, additional_grouper=additional_grouper, threshold=threshold
+        usd_constant_data,
+        main_group_by=["year", "country_name"],
+        additional_grouper=additional_grouper,
+        threshold=threshold,
     )
 
     # Combine the datasets
@@ -478,6 +494,7 @@ def total_usd_spending(
         spending=usd_constant_data,
         additional_grouper=additional_grouper,
         threshold=threshold,
+        main_group_by=["year", "country_name"],
     ).assign(value=lambda d: round(d.value / factor, 3))
 
     # Combine the datasets

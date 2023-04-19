@@ -18,8 +18,8 @@ year,indicator,country,value
 2016-01-01,Share of government spending (%),High income,31.918
 2017-01-01,Share of government spending (%),High income,32.185
 2018-01-01,Share of government spending (%),High income,32.125
-2019-01-01,Share of government spending (%),High income,32.22
-2020-01-01,Share of government spending (%),High income,29.963
+2019-01-01,Share of government spending (%),High income,32.021
+2020-01-01,Share of government spending (%),High income,29.778
 2000-01-01,Share of government spending (%),Lower middle income,16.735
 2001-01-01,Share of government spending (%),Lower middle income,16.333
 2002-01-01,Share of government spending (%),Lower middle income,16.021
@@ -53,15 +53,15 @@ year,indicator,country,value
 2009-01-01,Share of government spending (%),Upper middle income,18.068
 2010-01-01,Share of government spending (%),Upper middle income,17.698
 2011-01-01,Share of government spending (%),Upper middle income,17.349
-2012-01-01,Share of government spending (%),Upper middle income,17.364
-2013-01-01,Share of government spending (%),Upper middle income,17.531
+2012-01-01,Share of government spending (%),Upper middle income,17.284
+2013-01-01,Share of government spending (%),Upper middle income,17.397
 2014-01-01,Share of government spending (%),Upper middle income,17.559
 2015-01-01,Share of government spending (%),Upper middle income,17.071
 2016-01-01,Share of government spending (%),Upper middle income,16.767
 2017-01-01,Share of government spending (%),Upper middle income,17.189
 2018-01-01,Share of government spending (%),Upper middle income,17.129
-2019-01-01,Share of government spending (%),Upper middle income,17.199
-2020-01-01,Share of government spending (%),Upper middle income,17.381
+2019-01-01,Share of government spending (%),Upper middle income,17.202
+2020-01-01,Share of government spending (%),Upper middle income,17.383
 2000-01-01,Share of government spending (%),Low income,
 2001-01-01,Share of government spending (%),Low income,
 2002-01-01,Share of government spending (%),Low income,25.742
@@ -78,8 +78,8 @@ year,indicator,country,value
 2013-01-01,Share of government spending (%),Low income,26.393
 2014-01-01,Share of government spending (%),Low income,25.898
 2015-01-01,Share of government spending (%),Low income,27.969
-2016-01-01,Share of government spending (%),Low income,
-2017-01-01,Share of government spending (%),Low income,27.954
+2016-01-01,Share of government spending (%),Low income,29.715
+2017-01-01,Share of government spending (%),Low income,28.66
 2018-01-01,Share of government spending (%),Low income,26.362
 2019-01-01,Share of government spending (%),Low income,25.273
 2020-01-01,Share of government spending (%),Low income,26.108
@@ -95,8 +95,8 @@ year,indicator,country,value
 2009-01-01,Share of government spending (%),Africa,18.395
 2010-01-01,Share of government spending (%),Africa,18.473
 2011-01-01,Share of government spending (%),Africa,19.53
-2012-01-01,Share of government spending (%),Africa,20.101
-2013-01-01,Share of government spending (%),Africa,20.397
+2012-01-01,Share of government spending (%),Africa,19.148
+2013-01-01,Share of government spending (%),Africa,18.84
 2014-01-01,Share of government spending (%),Africa,19.923
 2015-01-01,Share of government spending (%),Africa,21.172
 2016-01-01,Share of government spending (%),Africa,21.814

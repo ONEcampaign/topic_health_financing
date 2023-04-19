@@ -162,7 +162,7 @@ def _value2_group(
         on=["iso_code", "year"],
         how="left",
         suffixes=("", "_other"),
-    ).dropna(subset=["value"], how="any")
+    )
 
     # fill gaps
     data = fill_gaps_by_group(data, value_columns=["value", "value_other"])
