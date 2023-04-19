@@ -1,6 +1,6 @@
 """
-Analyse health spending data across countries, focusin on spending shares of total.
-Use to process, filter and aggregate the data
+Analyse health spending data across countries, focusing on spending shares of total.
+Use to process, filter and aggregate the data.
 """
 from functools import partial
 
