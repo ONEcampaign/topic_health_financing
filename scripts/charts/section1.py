@@ -119,7 +119,7 @@ def chart1_1_pipeline() -> None:
     df_long = df.melt(
         id_vars=["year", "indicator"], var_name="country", value_name="value"
     )
-    for indicator in df_long.indicator:
+    for indicator in df_long.indicator.unique():
         df_long.query(f"indicator == '{indicator}'").to_csv(
             PATHS.output / f"{indicator}.csv", index=False
         )
