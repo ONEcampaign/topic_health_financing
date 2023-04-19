@@ -112,8 +112,17 @@ def chart1_1_pipeline() -> None:
 
     # ---- Export ------------------------------->
 
-    # Save
+    # Save chart data
     df.to_csv(PATHS.output / "section1_chart1.csv", index=False)
+
+    # Export long data
+    df_long = df.melt(
+        id_vars=["year", "indicator"], var_name="country", value_name="value"
+    )
+    for indicator in df_long.indicator:
+        df_long.query(f"indicator == '{indicator}'").to_csv(
+            PATHS.output / f"{indicator}.csv", index=False
+        )
 
 
 if __name__ == "__main__":

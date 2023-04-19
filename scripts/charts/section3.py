@@ -298,6 +298,15 @@ def chart_3_1():
         [combined_pc, combined_total, combined_gdp, total_with_share], ignore_index=True
     )
 
+    # Export intermediate outputs
+    df_long = df.melt(
+        id_vars=["year", "source"], var_name="country", value_name="value"
+    )
+    for source in df_long.source:
+        df_long.query(f"source == '{source}'").to_csv(
+            PATHS.output / f"{source}.csv", index=False
+        )
+
     # Clean the data
     df = df.pipe(clean_chart_3_1, full_df=total_spending)
 
