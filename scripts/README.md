@@ -1,4 +1,4 @@
-# Charts
+# Scripts
 
 This module contains a series of scripts and sub-modules to download, process, and analyse data from the GHED database
 and the OECD DAC CRS. Additionally, it can download population data from the UN World Population Prospects, and income
