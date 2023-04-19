@@ -5,22 +5,23 @@ from oda_data import read_crs, set_data_path
 from pydeflate import deflate, set_pydeflate_path
 
 from scripts import config
-from scripts.config import PATHS
+from scripts.config import MULTI_END_YEAR, MULTI_START_YEAR, PATHS
 
+# Set path to raw data folders
 set_data_path(PATHS.raw_data)
 set_pydeflate_path(PATHS.pydeflate_data)
 
-START_YEAR: int = 2006
-END_YEAR: int = 2021
-
+# ----------------------------- Sector Groups ------------------------------------------
 health = [120]
 health_general = list(range(121 * 100, 122 * 100)) + [121]
 health_basic = list(range(122 * 100, 123 * 100)) + [122]
 health_NCDs = list(range(123 * 100, 124 * 100)) + [123]
 pop_RH = list(range(130 * 100, 131 * 100)) + [130]
 
+# All health purpose codes
 all_health = health + health_general + health_basic + health_NCDs + pop_RH
 
+# Create broader health sub-groups
 health_group = {
     "Health": health,
     "Health, General": health_general,
@@ -29,6 +30,7 @@ health_group = {
     "Population Policies/Programmes & Reproductive Health": pop_RH,
 }
 
+# Create a 'Health' sector with a mapping for all relevant purpose codes.
 health_broad_group = {
     "Health": "Health",
     "Health, General": "Health",
@@ -37,6 +39,9 @@ health_broad_group = {
     "Population Policies/Programmes & Reproductive Health": "Health",
 }
 
+# ----------------------------- Multilaterals ------------------------------------------
+
+# Define all the multilaterals used for the analysis.
 MULTILATERALS: dict = {
     901: ("International Bank for Reconstruction and Development", [1]),
     905: ("International Development Association", [1]),
@@ -61,6 +66,8 @@ MULTILATERALS: dict = {
 
 
 # -------------------------------------------------------------------------------------
+
+# helper function to convert from current to constant prices, using DAC data
 to_constant_dac = partial(
     deflate,
     base_year=config.CONSTANT_YEAR,
@@ -80,7 +87,7 @@ to_constant_dac = partial(
 
 def read_raw_data() -> pd.DataFrame:
     """Read the CRS for the years under study"""
-    return read_crs(years=range(START_YEAR, END_YEAR + 1)).filter(
+    return read_crs(years=range(MULTI_START_YEAR, MULTI_END_YEAR + 1)).filter(
         [
             "year",
             "donor_code",
@@ -148,111 +155,24 @@ def filter_mdb_data(data: pd.DataFrame) -> pd.DataFrame:
 
 def summarise_by_donor_recipient_year_flow_sector(df: pd.DataFrame) -> pd.DataFrame:
     """Summarise the data by  donor, recipient, year and sector"""
-
-    return df.groupby(
-        [
-            "donor_code",
-            "donor_name",
-            "recipient_code",
-            "recipient_name",
-            "region_code",
-            "flow_name",
-            "year",
-            "sector",
-            "broad_sector",
-        ],
-        observed=True,
-        dropna=False,
-        as_index=False,
-    )["usd_disbursement"].sum(numeric_only=True)
-
-
-def summarise_all_flows(df: pd.DataFrame) -> pd.DataFrame:
-    """Summarise the data all columns but flows"""
-
-    cols = [c for c in df.columns if c not in ["flow_name", "usd_disbursement"]]
-
-    return (
-        df.groupby(cols, observed=True, dropna=False, as_index=False)[
-            "usd_disbursement"
-        ]
-        .sum(numeric_only=True)
-        .assign(flow_name="Total (ODA + OOF)")
-    )
-
-
-def summarise_all_sectors(df: pd.DataFrame) -> pd.DataFrame:
-    """Summarise the data all columns but sectors"""
-
-    cols = [c for c in df.columns if c not in ["sector", "usd_disbursement"]]
-
-    return (
-        df.groupby(cols, observed=True, dropna=False, as_index=False)[
-            "usd_disbursement"
-        ]
-        .sum(numeric_only=True)
-        .assign(sector="Total")
-    )
-
-
-def summarise_all_broad_sectors(df: pd.DataFrame) -> pd.DataFrame:
-    """Summarise the data all columns but broad sectors"""
-
-    cols = [c for c in df.columns if c not in ["broad_sector", "usd_disbursement"]]
-
-    return (
-        df.groupby(cols, observed=True, dropna=False, as_index=False)[
-            "usd_disbursement"
-        ]
-        .sum(numeric_only=True)
-        .assign(broad_sector="Total")
-    )
-
-
-def get_africa_total(df: pd.DataFrame) -> pd.DataFrame:
-    regions = [r for r in df.region_name.unique() if ("frica" in r or "ahara" in r)]
-    columns = [
-        c
-        for c in df.columns
-        if c
-        not in ["usd_disbursement", "region_name", "recipient_name", "recipient_code"]
+    group_by = [
+        "donor_code",
+        "donor_name",
+        "recipient_code",
+        "recipient_name",
+        "region_code",
+        "flow_name",
+        "year",
+        "sector",
+        "broad_sector",
     ]
-
-    return (
-        df.query(f"region_name in {regions}")
-        .groupby(columns, as_index=False, dropna=False, observed=True)[
-            "usd_disbursement"
-        ]
-        .sum(numeric_only=True)
-        .assign(recipient_name="Africa")
-    )
-
-
-def get_income_totals(df: pd.DataFrame) -> pd.DataFrame:
-    from bblocks import add_income_level_column
-
-    df = add_income_level_column(
-        df, id_column="recipient_name", id_type="regex"
-    ).fillna({"income_level": "Not classified by income"})
-
-    columns = [
-        c
-        for c in df.columns
-        if c
-        not in ["usd_disbursement", "recipient_name", "recipient_code", "region_name"]
-    ]
-
-    return (
-        df.groupby(columns, as_index=False, dropna=False, observed=True)[
-            "usd_disbursement"
-        ]
-        .sum(numeric_only=True)
-        .assign(recipient_name=lambda d: d.income_level)
-        .drop(columns=["income_level"])
-    )
+    return df.groupby(group_by, observed=True, dropna=False, as_index=False)[
+        "usd_disbursement"
+    ].sum(numeric_only=True)
 
 
 def add_income_levels(df: pd.DataFrame) -> pd.DataFrame:
+    """Add an income level column to the data"""
     from bblocks import add_income_level_column
 
     return add_income_level_column(
@@ -261,6 +181,7 @@ def add_income_levels(df: pd.DataFrame) -> pd.DataFrame:
 
 
 def add_region_groups(df: pd.DataFrame) -> pd.DataFrame:
+    """Group sub-regions together into full regions"""
     regions = {
         10003: "Africa",
         10006: "South America",

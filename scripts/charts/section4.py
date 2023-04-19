@@ -1,3 +1,4 @@
+"""Clean and analyse CRS data for multilateral (MDB) donors."""
 import pandas as pd
 
 from scripts.analysis.multilateral import (
@@ -152,7 +153,6 @@ def chart_4_1() -> None:
     )
 
     chart.to_csv(PATHS.output / "section4_chart_1.csv", index=False)
-
 
 
 if __name__ == "__main__":
