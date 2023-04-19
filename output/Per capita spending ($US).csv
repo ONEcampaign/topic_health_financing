@@ -18,8 +18,8 @@ year,indicator,country,value
 2016-01-01,Per capita spending ($US),High income,5448.515
 2017-01-01,Per capita spending ($US),High income,5533.942
 2018-01-01,Per capita spending ($US),High income,5621.918
-2019-01-01,Per capita spending ($US),High income,5873.48
-2020-01-01,Per capita spending ($US),High income,6231.245
+2019-01-01,Per capita spending ($US),High income,5731.673
+2020-01-01,Per capita spending ($US),High income,6078.26
 2000-01-01,Per capita spending ($US),Lower middle income,41.087
 2001-01-01,Per capita spending ($US),Lower middle income,44.678
 2002-01-01,Per capita spending ($US),Lower middle income,44.645
@@ -53,15 +53,15 @@ year,indicator,country,value
 2009-01-01,Per capita spending ($US),Upper middle income,311.122
 2010-01-01,Per capita spending ($US),Upper middle income,319.256
 2011-01-01,Per capita spending ($US),Upper middle income,338.013
-2012-01-01,Per capita spending ($US),Upper middle income,363.779
-2013-01-01,Per capita spending ($US),Upper middle income,388.988
+2012-01-01,Per capita spending ($US),Upper middle income,363.648
+2013-01-01,Per capita spending ($US),Upper middle income,388.777
 2014-01-01,Per capita spending ($US),Upper middle income,408.452
 2015-01-01,Per capita spending ($US),Upper middle income,435.386
 2016-01-01,Per capita spending ($US),Upper middle income,449.421
 2017-01-01,Per capita spending ($US),Upper middle income,476.701
 2018-01-01,Per capita spending ($US),Upper middle income,499.181
-2019-01-01,Per capita spending ($US),Upper middle income,531.926
-2020-01-01,Per capita spending ($US),Upper middle income,566.514
+2019-01-01,Per capita spending ($US),Upper middle income,531.723
+2020-01-01,Per capita spending ($US),Upper middle income,566.274
 2000-01-01,Per capita spending ($US),Low income,
 2001-01-01,Per capita spending ($US),Low income,
 2002-01-01,Per capita spending ($US),Low income,22.76
@@ -78,8 +78,8 @@ year,indicator,country,value
 2013-01-01,Per capita spending ($US),Low income,33.959
 2014-01-01,Per capita spending ($US),Low income,34.699
 2015-01-01,Per capita spending ($US),Low income,35.362
-2016-01-01,Per capita spending ($US),Low income,
-2017-01-01,Per capita spending ($US),Low income,35.933
+2016-01-01,Per capita spending ($US),Low income,35.45
+2017-01-01,Per capita spending ($US),Low income,35.747
 2018-01-01,Per capita spending ($US),Low income,34.094
 2019-01-01,Per capita spending ($US),Low income,34.282
 2020-01-01,Per capita spending ($US),Low income,34.734
@@ -95,8 +95,8 @@ year,indicator,country,value
 2009-01-01,Per capita spending ($US),Africa,89.93
 2010-01-01,Per capita spending ($US),Africa,89.933
 2011-01-01,Per capita spending ($US),Africa,90.589
-2012-01-01,Per capita spending ($US),Africa,90.78
-2013-01-01,Per capita spending ($US),Africa,93.792
+2012-01-01,Per capita spending ($US),Africa,91.991
+2013-01-01,Per capita spending ($US),Africa,94.946
 2014-01-01,Per capita spending ($US),Africa,94.19
 2015-01-01,Per capita spending ($US),Africa,97.698
 2016-01-01,Per capita spending ($US),Africa,96.267

@@ -18,8 +18,8 @@ year,indicator,country,value
 2016-01-01,Share of GDP (%),High income,12.449
 2017-01-01,Share of GDP (%),High income,12.417
 2018-01-01,Share of GDP (%),High income,12.388
-2019-01-01,Share of GDP (%),High income,12.573
-2020-01-01,Share of GDP (%),High income,13.974
+2019-01-01,Share of GDP (%),High income,12.471
+2020-01-01,Share of GDP (%),High income,13.856
 2000-01-01,Share of GDP (%),Lower middle income,3.629
 2001-01-01,Share of GDP (%),Lower middle income,3.853
 2002-01-01,Share of GDP (%),Lower middle income,3.742
@@ -53,14 +53,14 @@ year,indicator,country,value
 2009-01-01,Share of GDP (%),Upper middle income,5.331
 2010-01-01,Share of GDP (%),Upper middle income,5.084
 2011-01-01,Share of GDP (%),Upper middle income,5.07
-2012-01-01,Share of GDP (%),Upper middle income,5.199
-2013-01-01,Share of GDP (%),Upper middle income,5.305
+2012-01-01,Share of GDP (%),Upper middle income,5.183
+2013-01-01,Share of GDP (%),Upper middle income,5.294
 2014-01-01,Share of GDP (%),Upper middle income,5.354
 2015-01-01,Share of GDP (%),Upper middle income,5.512
 2016-01-01,Share of GDP (%),Upper middle income,5.489
 2017-01-01,Share of GDP (%),Upper middle income,5.573
 2018-01-01,Share of GDP (%),Upper middle income,5.59
-2019-01-01,Share of GDP (%),Upper middle income,5.742
+2019-01-01,Share of GDP (%),Upper middle income,5.743
 2020-01-01,Share of GDP (%),Upper middle income,6.167
 2000-01-01,Share of GDP (%),Low income,
 2001-01-01,Share of GDP (%),Low income,
@@ -78,8 +78,8 @@ year,indicator,country,value
 2013-01-01,Share of GDP (%),Low income,5.245
 2014-01-01,Share of GDP (%),Low income,5.22
 2015-01-01,Share of GDP (%),Low income,5.355
-2016-01-01,Share of GDP (%),Low income,
-2017-01-01,Share of GDP (%),Low income,5.365
+2016-01-01,Share of GDP (%),Low income,5.358
+2017-01-01,Share of GDP (%),Low income,5.343
 2018-01-01,Share of GDP (%),Low income,5.011
 2019-01-01,Share of GDP (%),Low income,4.935
 2020-01-01,Share of GDP (%),Low income,5.11
@@ -95,8 +95,8 @@ year,indicator,country,value
 2009-01-01,Share of GDP (%),Africa,5.026
 2010-01-01,Share of GDP (%),Africa,4.873
 2011-01-01,Share of GDP (%),Africa,4.976
-2012-01-01,Share of GDP (%),Africa,5.024
-2013-01-01,Share of GDP (%),Africa,5.11
+2012-01-01,Share of GDP (%),Africa,4.903
+2013-01-01,Share of GDP (%),Africa,5.026
 2014-01-01,Share of GDP (%),Africa,5.045
 2015-01-01,Share of GDP (%),Africa,5.196
 2016-01-01,Share of GDP (%),Africa,5.155

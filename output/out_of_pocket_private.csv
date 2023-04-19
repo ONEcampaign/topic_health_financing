@@ -18,8 +18,8 @@ year,source,country,value
 2016-01-01,out_of_pocket_private,High income,754.45
 2017-01-01,out_of_pocket_private,High income,758.391
 2018-01-01,out_of_pocket_private,High income,770.26
-2019-01-01,out_of_pocket_private,High income,797.852
-2020-01-01,out_of_pocket_private,High income,751.389
+2019-01-01,out_of_pocket_private,High income,779.375
+2020-01-01,out_of_pocket_private,High income,734.242
 2000-01-01,out_of_pocket_private,High income,600973.027
 2001-01-01,out_of_pocket_private,High income,611017.931
 2002-01-01,out_of_pocket_private,High income,639687.092
@@ -60,8 +60,8 @@ year,source,country,value
 2016-01-01,out_of_pocket_private,High income,1.724
 2017-01-01,out_of_pocket_private,High income,1.702
 2018-01-01,out_of_pocket_private,High income,1.697
-2019-01-01,out_of_pocket_private,High income,1.708
-2020-01-01,out_of_pocket_private,High income,1.685
+2019-01-01,out_of_pocket_private,High income,1.696
+2020-01-01,out_of_pocket_private,High income,1.674
 2000-01-01,out_of_pocket_private,High income,16.19
 2001-01-01,out_of_pocket_private,High income,15.62
 2002-01-01,out_of_pocket_private,High income,15.43
@@ -99,8 +99,8 @@ year,source,country,value
 2013-01-01,out_of_pocket_private,Low income,16.318
 2014-01-01,out_of_pocket_private,Low income,15.748
 2015-01-01,out_of_pocket_private,Low income,15.829
-2016-01-01,out_of_pocket_private,Low income,15.301
-2017-01-01,out_of_pocket_private,Low income,15.382
+2016-01-01,out_of_pocket_private,Low income,15.915
+2017-01-01,out_of_pocket_private,Low income,15.942
 2018-01-01,out_of_pocket_private,Low income,14.571
 2019-01-01,out_of_pocket_private,Low income,14.997
 2020-01-01,out_of_pocket_private,Low income,14.043
@@ -141,8 +141,8 @@ year,source,country,value
 2013-01-01,out_of_pocket_private,Low income,2.52
 2014-01-01,out_of_pocket_private,Low income,2.369
 2015-01-01,out_of_pocket_private,Low income,2.397
-2016-01-01,out_of_pocket_private,Low income,2.322
-2017-01-01,out_of_pocket_private,Low income,2.296
+2016-01-01,out_of_pocket_private,Low income,2.405
+2017-01-01,out_of_pocket_private,Low income,2.383
 2018-01-01,out_of_pocket_private,Low income,2.142
 2019-01-01,out_of_pocket_private,Low income,2.159
 2020-01-01,out_of_pocket_private,Low income,2.066
@@ -263,15 +263,15 @@ year,source,country,value
 2009-01-01,out_of_pocket_private,Upper middle income,113.467
 2010-01-01,out_of_pocket_private,Upper middle income,111.792
 2011-01-01,out_of_pocket_private,Upper middle income,116.94
-2012-01-01,out_of_pocket_private,Upper middle income,125.452
-2013-01-01,out_of_pocket_private,Upper middle income,131.799
+2012-01-01,out_of_pocket_private,Upper middle income,125.424
+2013-01-01,out_of_pocket_private,Upper middle income,131.749
 2014-01-01,out_of_pocket_private,Upper middle income,135.646
 2015-01-01,out_of_pocket_private,Upper middle income,140.974
 2016-01-01,out_of_pocket_private,Upper middle income,149.168
 2017-01-01,out_of_pocket_private,Upper middle income,157.886
 2018-01-01,out_of_pocket_private,Upper middle income,164.702
-2019-01-01,out_of_pocket_private,Upper middle income,172.997
-2020-01-01,out_of_pocket_private,Upper middle income,175.998
+2019-01-01,out_of_pocket_private,Upper middle income,173.03
+2020-01-01,out_of_pocket_private,Upper middle income,176.028
 2000-01-01,out_of_pocket_private,Upper middle income,170616.636
 2001-01-01,out_of_pocket_private,Upper middle income,183656.648
 2002-01-01,out_of_pocket_private,Upper middle income,194609.948
@@ -305,15 +305,15 @@ year,source,country,value
 2009-01-01,out_of_pocket_private,Upper middle income,1.944
 2010-01-01,out_of_pocket_private,Upper middle income,1.78
 2011-01-01,out_of_pocket_private,Upper middle income,1.754
-2012-01-01,out_of_pocket_private,Upper middle income,1.793
-2013-01-01,out_of_pocket_private,Upper middle income,1.797
+2012-01-01,out_of_pocket_private,Upper middle income,1.788
+2013-01-01,out_of_pocket_private,Upper middle income,1.794
 2014-01-01,out_of_pocket_private,Upper middle income,1.778
 2015-01-01,out_of_pocket_private,Upper middle income,1.785
 2016-01-01,out_of_pocket_private,Upper middle income,1.822
 2017-01-01,out_of_pocket_private,Upper middle income,1.846
 2018-01-01,out_of_pocket_private,Upper middle income,1.845
-2019-01-01,out_of_pocket_private,Upper middle income,1.868
-2020-01-01,out_of_pocket_private,Upper middle income,1.916
+2019-01-01,out_of_pocket_private,Upper middle income,1.869
+2020-01-01,out_of_pocket_private,Upper middle income,1.917
 2000-01-01,out_of_pocket_private,Upper middle income,43.44
 2001-01-01,out_of_pocket_private,Upper middle income,44.95
 2002-01-01,out_of_pocket_private,Upper middle income,44.59
@@ -347,8 +347,8 @@ year,source,country,value
 2009-01-01,out_of_pocket_private,Africa,34.017
 2010-01-01,out_of_pocket_private,Africa,34.157
 2011-01-01,out_of_pocket_private,Africa,34.02
-2012-01-01,out_of_pocket_private,Africa,33.418
-2013-01-01,out_of_pocket_private,Africa,34.509
+2012-01-01,out_of_pocket_private,Africa,33.862
+2013-01-01,out_of_pocket_private,Africa,34.931
 2014-01-01,out_of_pocket_private,Africa,33.741
 2015-01-01,out_of_pocket_private,Africa,35.761
 2016-01-01,out_of_pocket_private,Africa,35.901
@@ -389,8 +389,8 @@ year,source,country,value
 2009-01-01,out_of_pocket_private,Africa,1.901
 2010-01-01,out_of_pocket_private,Africa,1.851
 2011-01-01,out_of_pocket_private,Africa,1.869
-2012-01-01,out_of_pocket_private,Africa,1.85
-2013-01-01,out_of_pocket_private,Africa,1.88
+2012-01-01,out_of_pocket_private,Africa,1.805
+2013-01-01,out_of_pocket_private,Africa,1.849
 2014-01-01,out_of_pocket_private,Africa,1.807
 2015-01-01,out_of_pocket_private,Africa,1.902
 2016-01-01,out_of_pocket_private,Africa,1.922

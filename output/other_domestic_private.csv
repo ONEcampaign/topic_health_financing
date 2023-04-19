@@ -18,8 +18,8 @@ year,source,country,value
 2016-01-01,other_domestic_private,High income,1306.957
 2017-01-01,other_domestic_private,High income,1337.994
 2018-01-01,other_domestic_private,High income,1354.875
-2019-01-01,other_domestic_private,High income,1416.052
-2020-01-01,other_domestic_private,High income,1382.232
+2019-01-01,other_domestic_private,High income,1378.363
+2020-01-01,other_domestic_private,High income,1345.459
 2000-01-01,other_domestic_private,High income,919426.722
 2001-01-01,other_domestic_private,High income,969349.553
 2002-01-01,other_domestic_private,High income,1046277.585
@@ -60,8 +60,8 @@ year,source,country,value
 2016-01-01,other_domestic_private,High income,2.986
 2017-01-01,other_domestic_private,High income,3.002
 2018-01-01,other_domestic_private,High income,2.985
-2019-01-01,other_domestic_private,High income,3.031
-2020-01-01,other_domestic_private,High income,3.1
+2019-01-01,other_domestic_private,High income,2.999
+2020-01-01,other_domestic_private,High income,3.067
 2000-01-01,other_domestic_private,High income,24.78
 2001-01-01,other_domestic_private,High income,24.78
 2002-01-01,other_domestic_private,High income,25.24
@@ -99,8 +99,8 @@ year,source,country,value
 2013-01-01,other_domestic_private,Low income,1.586
 2014-01-01,other_domestic_private,Low income,2.435
 2015-01-01,other_domestic_private,Low income,2.503
-2016-01-01,other_domestic_private,Low income,2.426
-2017-01-01,other_domestic_private,Low income,1.696
+2016-01-01,other_domestic_private,Low income,2.316
+2017-01-01,other_domestic_private,Low income,1.626
 2018-01-01,other_domestic_private,Low income,1.567
 2019-01-01,other_domestic_private,Low income,1.595
 2020-01-01,other_domestic_private,Low income,1.61
@@ -141,8 +141,8 @@ year,source,country,value
 2013-01-01,other_domestic_private,Low income,0.245
 2014-01-01,other_domestic_private,Low income,0.366
 2015-01-01,other_domestic_private,Low income,0.379
-2016-01-01,other_domestic_private,Low income,0.368
-2017-01-01,other_domestic_private,Low income,0.253
+2016-01-01,other_domestic_private,Low income,0.35
+2017-01-01,other_domestic_private,Low income,0.243
 2018-01-01,other_domestic_private,Low income,0.23
 2019-01-01,other_domestic_private,Low income,0.23
 2020-01-01,other_domestic_private,Low income,0.237
@@ -263,15 +263,15 @@ year,source,country,value
 2009-01-01,other_domestic_private,Upper middle income,32.462
 2010-01-01,other_domestic_private,Upper middle income,34.191
 2011-01-01,other_domestic_private,Upper middle income,33.92
-2012-01-01,other_domestic_private,Upper middle income,34.243
-2013-01-01,other_domestic_private,Upper middle income,35.861
+2012-01-01,other_domestic_private,Upper middle income,34.158
+2013-01-01,other_domestic_private,Upper middle income,35.771
 2014-01-01,other_domestic_private,Upper middle income,37.934
 2015-01-01,other_domestic_private,Upper middle income,42.096
 2016-01-01,other_domestic_private,Upper middle income,46.277
 2017-01-01,other_domestic_private,Upper middle income,53.153
 2018-01-01,other_domestic_private,Upper middle income,56.719
-2019-01-01,other_domestic_private,Upper middle income,62.936
-2020-01-01,other_domestic_private,Upper middle income,69.181
+2019-01-01,other_domestic_private,Upper middle income,62.863
+2020-01-01,other_domestic_private,Upper middle income,69.101
 2000-01-01,other_domestic_private,Upper middle income,62615.183
 2001-01-01,other_domestic_private,Upper middle income,57840.985
 2002-01-01,other_domestic_private,Upper middle income,58618.448
@@ -305,8 +305,8 @@ year,source,country,value
 2009-01-01,other_domestic_private,Upper middle income,0.556
 2010-01-01,other_domestic_private,Upper middle income,0.544
 2011-01-01,other_domestic_private,Upper middle income,0.509
-2012-01-01,other_domestic_private,Upper middle income,0.489
-2013-01-01,other_domestic_private,Upper middle income,0.489
+2012-01-01,other_domestic_private,Upper middle income,0.487
+2013-01-01,other_domestic_private,Upper middle income,0.487
 2014-01-01,other_domestic_private,Upper middle income,0.497
 2015-01-01,other_domestic_private,Upper middle income,0.533
 2016-01-01,other_domestic_private,Upper middle income,0.565
@@ -347,8 +347,8 @@ year,source,country,value
 2009-01-01,other_domestic_private,Africa,11.297
 2010-01-01,other_domestic_private,Africa,11.389
 2011-01-01,other_domestic_private,Africa,11.664
-2012-01-01,other_domestic_private,Africa,12.6
-2013-01-01,other_domestic_private,Africa,13.318
+2012-01-01,other_domestic_private,Africa,12.531
+2013-01-01,other_domestic_private,Africa,13.246
 2014-01-01,other_domestic_private,Africa,14.701
 2015-01-01,other_domestic_private,Africa,14.275
 2016-01-01,other_domestic_private,Africa,14.03
@@ -389,8 +389,8 @@ year,source,country,value
 2009-01-01,other_domestic_private,Africa,0.631
 2010-01-01,other_domestic_private,Africa,0.617
 2011-01-01,other_domestic_private,Africa,0.641
-2012-01-01,other_domestic_private,Africa,0.697
-2013-01-01,other_domestic_private,Africa,0.726
+2012-01-01,other_domestic_private,Africa,0.668
+2013-01-01,other_domestic_private,Africa,0.701
 2014-01-01,other_domestic_private,Africa,0.787
 2015-01-01,other_domestic_private,Africa,0.759
 2016-01-01,other_domestic_private,Africa,0.751
