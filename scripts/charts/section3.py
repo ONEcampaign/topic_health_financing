@@ -302,7 +302,7 @@ def chart_3_1():
     df_long = df.melt(
         id_vars=["year", "source"], var_name="country", value_name="value"
     )
-    for source in df_long.source:
+    for source in df_long.source.unique():
         df_long.query(f"source == '{source}'").to_csv(
             PATHS.output / f"{source}.csv", index=False
         )
