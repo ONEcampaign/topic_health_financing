@@ -14,6 +14,7 @@ from scripts.charts.common import (
     spending_share_of_gdp,
     total_usd_spending,
 )
+from scripts.charts.section1 import spending_share_of_government
 from scripts.config import PATHS
 
 # Load a dictionary with dataframes for the different versions of "health_spending_by_source" data
@@ -258,6 +259,43 @@ def create_tooltip_3_1(df: pd.DataFrame) -> pd.DataFrame:
     return df.filter(["Country", "year", "tooltip"], axis=1)
 
 
+def create_tooltip_1_2(df: pd.DataFrame) -> pd.DataFrame:
+    """Create the text for the tooltips to be used on the chart"""
+
+    # Get only total spending (as a DataFrame copy)
+    df = (
+        df.query(
+            "source == 'domestic general government' and "
+            "indicator != 'Share of government spending (%)'"
+        )
+        .copy(deep=True)
+        .melt(id_vars=["year", "source", "indicator"], var_name="Country")
+        .pivot(index=["year", "source", "entity"], columns="indicator", values="value")
+        .reset_index()
+    )
+
+    # For every column, replace any NaNs with a dash and format the numbers
+    for column in [
+        "Per capita spending ($US)",
+        "Share of GDP (%)",
+    ]:
+        df[column] = format_number(df[column], as_units=True, decimals=1).replace(
+            "nan", "-"
+        )
+
+    # Create the tooltip text
+    df["tooltip"] = (
+        "<b>Per person:</b> US$ "
+        + df["Per capita spending ($US)"]
+        + "<br>"
+        + "<b>As a share of GDP:</b> "
+        + df["Share of GDP (%)"]
+        + "%<br>"
+    )
+    # Return a dataframe with country, year and tooltip
+    return df.filter(["Country", "year", "tooltip"], axis=1)
+
+
 def chart_3_1():
     """Pipeline to create the chart"""
 
@@ -287,7 +325,7 @@ def chart_3_1():
     # ---- Share of GDP ---------------------->
     combined_gdp = spending_share_of_gdp(
         usd_constant_data=total_spending,
-        group_by=["income_group", "year", "source"],
+        group_by=["income_group", "year"],
         additional_group_by=["source"],
         threshold=0.5,
     )
@@ -331,5 +369,39 @@ def chart_3_1():
     share_df.to_csv(PATHS.output / "section3_chart1.csv", index=False)
 
 
+def chart1_2_pipeline() -> None:
+    # Get total spending in constant USD
+    total_spending = get_spending(version="usd_constant")
+
+    # # ---- Per capita spending ---------------------->
+    # combined_pc = per_capita_spending(
+    #     spending_version_callable=get_spending,
+    #     usd_constant_data=total_spending,
+    #     additional_grouper=["source"],
+    #     threshold=0.5,
+    # )
+    #
+    # # ---- Share of GDP ---------------------->
+    # combined_gdp = spending_share_of_gdp(
+    #     usd_constant_data=total_spending,
+    #     group_by=["income_group", "year"],
+    #     additional_group_by=["source"],
+    #     threshold=0.5,
+    # )
+    # # ---- Share of Government spending ---------------------->
+
+    combined_govx = spending_share_of_government(
+        usd_constant_data=total_spending, additional_grouper=["source"]
+    )
+
+    data = pd.concat([combined_govx], ignore_index=True)
+
+    data = data.query("source == 'domestic general government'")
+
+    data.to_csv(PATHS.output / "section1_chart2.csv", index=False)
+
+
 if __name__ == "__main__":
     chart_3_1()
+    chart1_2_pipeline()
+
