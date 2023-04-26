@@ -523,7 +523,9 @@ def _data_as_share(
 
     # Calculate % of GDP by income
     share_income = share_callable_group(
-        data=usd_constant_data, group_by=group_by, threshold=threshold
+        data=usd_constant_data,
+        group_by=group_by + additional_group_by,
+        threshold=threshold,
     )
 
     # identify Africa data
