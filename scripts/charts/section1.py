@@ -54,14 +54,18 @@ def clean_chart(data: pd.DataFrame) -> pd.DataFrame:
     )
 
 
-def spending_share_of_government(usd_constant_data: pd.DataFrame) -> pd.DataFrame:
+def spending_share_of_government(
+    usd_constant_data: pd.DataFrame, additional_grouper: list | None = None
+) -> pd.DataFrame:
     """Calculate spending as a share of government spending for countries and groups"""
-
+    if additional_grouper is None:
+        additional_grouper = []
     return _data_as_share(
         usd_constant_data=usd_constant_data,
         share_callable=value2gov_spending_share,
         share_callable_group=value2gov_spending_share_group,
         group_by=["income_group", "year"],
+        additional_group_by=additional_grouper,
         indicator_name="Share of government spending (%)",
     )
 
@@ -93,17 +97,11 @@ def chart1_1_pipeline() -> None:
         usd_constant_data=total_spending_usd_constant, group_by=["income_group", "year"]
     )
 
-    # ---- Share of Government spending ---------------------->
-
-    combined_govx = spending_share_of_government(
-        usd_constant_data=total_spending_usd_constant
-    )
-
     # ---- Combine all -------------------------->
 
     # Combine the different views of the data
     df = pd.concat(
-        [combined_pc, combined_total, combined_gdp, combined_govx],
+        [combined_pc, combined_total, combined_gdp],
         ignore_index=True,
     )
 
