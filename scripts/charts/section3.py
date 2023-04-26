@@ -396,7 +396,9 @@ def chart1_2_pipeline() -> None:
 
     data = pd.concat([combined_govx], ignore_index=True)
 
-    data = data.query("source == 'domestic general government'")
+    data = data.query("source == 'domestic general government'").drop(
+        ["source", "indicator"], axis=1
+    )
 
     data.to_csv(PATHS.output / "section1_chart2.csv", index=False)
 
@@ -404,4 +406,3 @@ def chart1_2_pipeline() -> None:
 if __name__ == "__main__":
     chart_3_1()
     chart1_2_pipeline()
-
