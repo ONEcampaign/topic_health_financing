@@ -3,7 +3,6 @@ Analyze disease specific financing
 """
 
 from functools import partial
-
 import pandas as pd
 
 from scripts import config
