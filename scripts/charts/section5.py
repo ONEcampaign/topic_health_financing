@@ -137,7 +137,7 @@ def chart_5_2(spending: pd.DataFrame) -> None:
 
 
 if __name__ == "__main__":
-    spending = get_disease_spending()  # get disease specific spending
-    chart_5_1(spending)  # create line chart
-    chart_5_2(spending)  # create sankey chart
+    spending_data = get_disease_spending()  # get disease specific spending
+    chart_5_1(spending_data)  # create line chart
+    chart_5_2(spending_data)  # create sankey chart
     logger.debug("Successfully created charts for section 5")
