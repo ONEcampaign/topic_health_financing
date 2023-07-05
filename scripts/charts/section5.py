@@ -10,11 +10,18 @@ from scripts.logger import logger
 from scripts.analysis.read_data_versions import read_spending_data_versions
 from scripts.charts.common import get_version, total_usd_spending
 
+# Load a dictionary with dataframes for the different versions of "health_spending_by_disease" data
+# These include: 'lcu', 'gdp_share','usd_current', 'usd_constant', 'usd_constant_pc'
 DISEASE = read_spending_data_versions(dataset_name="health_spending_by_disease")
 
+# Create a function to get a specific version. It returns a dataframe.
+# Note that the `get_version` function, of which this is a partial implementation,
+# handles some basic transformations of the data (like adding income levels or filtering
+# out certain countries).
 get_spending_version: callable = partial(get_version, versions_dict=DISEASE)
 
-indicators = {
+# define a global dict of indicators by type and subtype
+INDICATORS: dict[str, dict] = {
     "type": {
         " Nutritional Deficiencies": "Nutritional deficiencies",
         "Noncommunicable Diseases (NCDs)": "Noncommunicable diseases",
@@ -32,25 +39,24 @@ indicators = {
 
 
 def get_disease_spending():
-    """Get disease specific spending data in USD constant values for specific diseases"""
+    """Get disease specific spending data in USD constant values for specific diseases."""
     return (
         get_spending_version(
             version="usd_constant", additional_cols=["source", "type", "subtype"]
         )
-        # keep only the relevant diseases and contitions
+        # keep only the relevant diseases and conditions
         .loc[
             lambda d: (
-                (d.subtype.isin(indicators["subtype"].keys()))
-                | ((d.type.isin(indicators["type"])) & (d.subtype.isna()))
+                (d.subtype.isin(INDICATORS["subtype"]))
+                | ((d.type.isin(INDICATORS["type"])) & (d.subtype.isna()))
             )
         ]
         .assign(
             disease=lambda d: d.subtype.fillna(d["type"]).replace(
-                {**indicators["type"], **indicators["subtype"]}
+                {**INDICATORS["type"], **INDICATORS["subtype"]}
             )
         )
-        .loc[
-            :,
+        .filter(
             [
                 "iso_code",
                 "year",
@@ -60,7 +66,7 @@ def get_disease_spending():
                 "country_name",
                 "source",
             ],
-        ]
+        )
         # calculate aggregates
         .pipe(total_usd_spending, additional_grouper=["disease", "source"], factor=1e6)
     )
