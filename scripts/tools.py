@@ -338,7 +338,7 @@ def fill_gaps_by_group(
             group_keys=False,
         )
         .apply(lambda group: group.ffill(limit=2))
-        .dropna(subset=["value"])  # drop rows with that still have NaNs
+        # .dropna(subset=["value"])  # drop rows with that still have NaNs
     )
 
 
@@ -365,7 +365,8 @@ def filter_by_threshold(
     value_columns = {k: "sum" for k in value_columns}
 
     return (
-        df.groupby(group, observed=True, dropna=False, as_index=False)
+        df.dropna(subset=value_columns, how="all")
+        .groupby(group, observed=True, dropna=False, as_index=False)
         .agg(value_columns | {"iso_code": "count", counts_column: "max"})
         .query(f"iso_code >= {threshold} * {counts_column}")
         .reset_index(drop=True)
