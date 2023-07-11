@@ -32,7 +32,7 @@ INDICATORS: dict[str, dict] = {
         "HIV/AIDS and Sexually Transmitted Diseases (STDs)": "HIV/AIDS and other STDs",
         "Tuberculosis (TB)": "Tuberculosis",
         "Malaria": "Malaria",
-        "Maternal Conditions": "Maternal conditions",
+        "Maternal Conditions": "Maternal health",
         "Contraceptive Management (Family Planning)": "Family planning",
     },
 }
@@ -82,6 +82,7 @@ def chart_5_1(spending: pd.DataFrame) -> None:
         .drop(columns=["source"])
         .dropna(subset="value")
         .pivot(index=["year", "country_name"], columns="disease", values="value")
+        .sort_values(["country_name", "year"])
         .reset_index()
     )
 
@@ -120,7 +121,7 @@ def chart_5_2(spending: pd.DataFrame) -> None:
                     "HIV/AIDS and other STDs",
                     "Tuberculosis",
                     "Malaria",
-                    "Maternal conditions",
+                    "Maternal health",
                     "Family planning",
                     "Noncommunicable diseases",
                     "Injuries",
