@@ -1,0 +1,1546 @@
+iso_code,year,disease,value,income_group,country_name,source
+AFG,2020,HIV/AIDS and other STDs,221040.66263167738,Low income,Afghanistan,Domestic government
+AFG,2020,HIV/AIDS and other STDs,2849082.193820853,Low income,Afghanistan,External aid
+AFG,2020,HIV/AIDS and other STDs,35416426.55604317,Low income,Afghanistan,Out-of-pocket & other private *
+ARM,2020,HIV/AIDS and other STDs,3911928.0784631525,Upper middle income,Armenia,Domestic government
+ARM,2020,HIV/AIDS and other STDs,3286734.3547819997,Upper middle income,Armenia,External aid
+ARM,2020,HIV/AIDS and other STDs,5204804.518939776,Upper middle income,Armenia,Out-of-pocket & other private *
+BLR,2020,HIV/AIDS and other STDs,10210734.471901959,Upper middle income,Belarus,Domestic government
+BLR,2020,HIV/AIDS and other STDs,2680999.9885992873,Upper middle income,Belarus,External aid
+BLR,2020,HIV/AIDS and other STDs,713581.4067221221,Upper middle income,Belarus,Out-of-pocket & other private *
+BEN,2018,HIV/AIDS and other STDs,4565042.487374789,Lower middle income,Benin,Domestic government
+BEN,2018,HIV/AIDS and other STDs,17976683.44858939,Lower middle income,Benin,External aid
+BEN,2018,HIV/AIDS and other STDs,233357.24308300545,Lower middle income,Benin,Out-of-pocket & other private *
+BTN,2020,HIV/AIDS and other STDs,53555.2422952817,Lower middle income,Bhutan,Domestic government
+BTN,2020,HIV/AIDS and other STDs,9358.110888924944,Lower middle income,Bhutan,External aid
+BTN,2020,HIV/AIDS and other STDs,239747.84617881244,Lower middle income,Bhutan,Out-of-pocket & other private *
+BWA,2019,HIV/AIDS and other STDs,102437712.49487361,Upper middle income,Botswana,Domestic government
+BWA,2019,HIV/AIDS and other STDs,92004384.94288431,Upper middle income,Botswana,External aid
+BWA,2019,HIV/AIDS and other STDs,11818605.543916194,Upper middle income,Botswana,Out-of-pocket & other private *
+BFA,2020,HIV/AIDS and other STDs,9109020.252719713,Low income,Burkina Faso,Domestic government
+BFA,2020,HIV/AIDS and other STDs,29445252.036533732,Low income,Burkina Faso,External aid
+BFA,2020,HIV/AIDS and other STDs,818860.5447857807,Low income,Burkina Faso,Out-of-pocket & other private *
+BDI,2019,HIV/AIDS and other STDs,1535553.995737228,Low income,Burundi,Domestic government
+BDI,2019,HIV/AIDS and other STDs,7400479.967052913,Low income,Burundi,External aid
+BDI,2019,HIV/AIDS and other STDs,68938.32870689593,Low income,Burundi,Out-of-pocket & other private *
+CPV,2019,HIV/AIDS and other STDs,190500.7630572856,Lower middle income,Cabo Verde Republic of,Domestic government
+CPV,2019,HIV/AIDS and other STDs,3907773.6346091926,Lower middle income,Cabo Verde Republic of,External aid
+CPV,2014,HIV/AIDS and other STDs,40116.49814139431,Lower middle income,Cabo Verde Republic of,Out-of-pocket & other private *
+KHM,2019,HIV/AIDS and other STDs,2513010.639545892,Lower middle income,Cambodia,Domestic government
+KHM,2019,HIV/AIDS and other STDs,23452479.308358163,Lower middle income,Cambodia,External aid
+KHM,2019,HIV/AIDS and other STDs,2157652.0482353335,Lower middle income,Cambodia,Out-of-pocket & other private *
+CMR,2019,HIV/AIDS and other STDs,11320723.459655488,Lower middle income,Cameroon,Domestic government
+CMR,2019,HIV/AIDS and other STDs,79394717.20999713,Lower middle income,Cameroon,External aid
+CMR,2019,HIV/AIDS and other STDs,4179352.0007213145,Lower middle income,Cameroon,Out-of-pocket & other private *
+CAF,2019,HIV/AIDS and other STDs,454668.8115109969,Low income,Central African Republic,Domestic government
+CAF,2019,HIV/AIDS and other STDs,5060613.5900155045,Low income,Central African Republic,External aid
+CAF,2019,HIV/AIDS and other STDs,2705713.053680852,Low income,Central African Republic,Out-of-pocket & other private *
+TCD,2019,HIV/AIDS and other STDs,5993907.377376999,Low income,Chad,Domestic government
+TCD,2019,HIV/AIDS and other STDs,12392746.535046648,Low income,Chad,External aid
+TCD,2019,HIV/AIDS and other STDs,21218072.244054757,Low income,Chad,Out-of-pocket & other private *
+COM,2019,HIV/AIDS and other STDs,1001099.0744978954,Lower middle income,Comoros,Domestic government
+COM,2019,HIV/AIDS and other STDs,1616610.6446094627,Lower middle income,Comoros,External aid
+COM,2019,HIV/AIDS and other STDs,324427.74796711624,Lower middle income,Comoros,Out-of-pocket & other private *
+COG,2020,HIV/AIDS and other STDs,14704945.283078033,Lower middle income,Congo,Domestic government
+COG,2020,HIV/AIDS and other STDs,1628064.84298727,Lower middle income,Congo,External aid
+COG,2020,HIV/AIDS and other STDs,4619213.015531012,Lower middle income,Congo,Out-of-pocket & other private *
+CIV,2019,HIV/AIDS and other STDs,91343480.34676005,Lower middle income,Côte d'Ivoire,Domestic government
+CIV,2019,HIV/AIDS and other STDs,190892064.29806948,Lower middle income,Côte d'Ivoire,External aid
+CIV,2019,HIV/AIDS and other STDs,1931723.2729914004,Lower middle income,Côte d'Ivoire,Out-of-pocket & other private *
+COD,2020,HIV/AIDS and other STDs,39893815.15114382,Low income,Democratic Republic of the Congo,Domestic government
+COD,2020,HIV/AIDS and other STDs,114334503.87916937,Low income,Democratic Republic of the Congo,External aid
+COD,2020,HIV/AIDS and other STDs,16219966.55148018,Low income,Democratic Republic of the Congo,Out-of-pocket & other private *
+DJI,2018,HIV/AIDS and other STDs,219051.96440028827,Lower middle income,Djibouti,Domestic government
+DJI,2018,HIV/AIDS and other STDs,443495.845431087,Lower middle income,Djibouti,External aid
+DJI,2018,HIV/AIDS and other STDs,96085.02893835113,Lower middle income,Djibouti,Out-of-pocket & other private *
+SWZ,2019,HIV/AIDS and other STDs,13719536.727995561,Lower middle income,Eswatini,Domestic government
+SWZ,2019,HIV/AIDS and other STDs,53261591.04443559,Lower middle income,Eswatini,External aid
+SWZ,2019,HIV/AIDS and other STDs,1628201.6851825232,Lower middle income,Eswatini,Out-of-pocket & other private *
+ETH,2020,HIV/AIDS and other STDs,71335299.35490611,Low income,Ethiopia,Domestic government
+ETH,2020,HIV/AIDS and other STDs,116664371.12657318,Low income,Ethiopia,External aid
+ETH,2020,HIV/AIDS and other STDs,27116074.62171318,Low income,Ethiopia,Out-of-pocket & other private *
+GAB,2019,HIV/AIDS and other STDs,15801705.695593525,Upper middle income,Gabon,Domestic government
+GAB,2019,HIV/AIDS and other STDs,236333.50973112526,Upper middle income,Gabon,External aid
+GAB,2019,HIV/AIDS and other STDs,3384181.280815469,Upper middle income,Gabon,Out-of-pocket & other private *
+GMB,2019,HIV/AIDS and other STDs,745533.2656730666,Low income,Gambia,Domestic government
+GMB,2019,HIV/AIDS and other STDs,2579783.1702622217,Low income,Gambia,External aid
+GEO,2018,HIV/AIDS and other STDs,5893447.505378568,Upper middle income,Georgia,Domestic government
+GEO,2018,HIV/AIDS and other STDs,4481714.012814481,Upper middle income,Georgia,External aid
+GEO,2018,HIV/AIDS and other STDs,94452.1507897466,Upper middle income,Georgia,Out-of-pocket & other private *
+GHA,2018,HIV/AIDS and other STDs,3031870.9211941026,Lower middle income,Ghana,Domestic government
+GHA,2018,HIV/AIDS and other STDs,91946025.09680596,Lower middle income,Ghana,External aid
+GHA,2018,HIV/AIDS and other STDs,2049079.1191930524,Lower middle income,Ghana,Out-of-pocket & other private *
+GIN,2019,HIV/AIDS and other STDs,5159114.581098925,Low income,Guinea,Domestic government
+GIN,2019,HIV/AIDS and other STDs,16422106.718317673,Low income,Guinea,External aid
+GIN,2019,HIV/AIDS and other STDs,29327562.326064214,Low income,Guinea,Out-of-pocket & other private *
+GUY,2019,HIV/AIDS and other STDs,6701677.243464688,Upper middle income,Guyana,Domestic government
+GUY,2019,HIV/AIDS and other STDs,2980149.8977871537,Upper middle income,Guyana,External aid
+GUY,2019,HIV/AIDS and other STDs,1086533.6840377396,Upper middle income,Guyana,Out-of-pocket & other private *
+HTI,2019,HIV/AIDS and other STDs,3342535.151604032,Lower middle income,Haiti,Domestic government
+HTI,2019,HIV/AIDS and other STDs,83783280.67522284,Lower middle income,Haiti,External aid
+HTI,2019,HIV/AIDS and other STDs,0.0,Lower middle income,Haiti,Out-of-pocket & other private *
+KEN,2019,HIV/AIDS and other STDs,206721513.1894465,Lower middle income,Kenya,Domestic government
+KEN,2019,HIV/AIDS and other STDs,557582984.686648,Lower middle income,Kenya,External aid
+KEN,2019,HIV/AIDS and other STDs,65014650.82926075,Lower middle income,Kenya,Out-of-pocket & other private *
+KGZ,2019,HIV/AIDS and other STDs,2447961.807318022,Lower middle income,Kyrgyzstan,Domestic government
+KGZ,2019,HIV/AIDS and other STDs,5981351.036908651,Lower middle income,Kyrgyzstan,External aid
+KGZ,2019,HIV/AIDS and other STDs,130014.40002859307,Lower middle income,Kyrgyzstan,Out-of-pocket & other private *
+LAO,2019,HIV/AIDS and other STDs,43636314.29311682,Lower middle income,Lao People's Democratic Republic,Domestic government
+LAO,2019,HIV/AIDS and other STDs,4461907.037005347,Lower middle income,Lao People's Democratic Republic,External aid
+MWI,2019,HIV/AIDS and other STDs,57013326.26785924,Low income,Malawi,Domestic government
+MWI,2019,HIV/AIDS and other STDs,114152452.93333532,Low income,Malawi,External aid
+MWI,2019,HIV/AIDS and other STDs,41546837.81180478,Low income,Malawi,Out-of-pocket & other private *
+MLI,2019,HIV/AIDS and other STDs,85191677.90844534,Low income,Mali,Domestic government
+MLI,2019,HIV/AIDS and other STDs,28941174.613214437,Low income,Mali,External aid
+MLI,2019,HIV/AIDS and other STDs,564413.0548501445,Low income,Mali,Out-of-pocket & other private *
+MRT,2019,HIV/AIDS and other STDs,850120.5002950698,Lower middle income,Mauritania,Domestic government
+MRT,2019,HIV/AIDS and other STDs,7092741.566001155,Lower middle income,Mauritania,External aid
+MRT,2019,HIV/AIDS and other STDs,1446528.503975745,Lower middle income,Mauritania,Out-of-pocket & other private *
+MUS,2019,HIV/AIDS and other STDs,2875735.3586233663,Upper middle income,Mauritius,Domestic government
+MUS,2019,HIV/AIDS and other STDs,1599212.3476569434,Upper middle income,Mauritius,External aid
+MUS,2019,HIV/AIDS and other STDs,476588.59615585546,Upper middle income,Mauritius,Out-of-pocket & other private *
+MNE,2020,HIV/AIDS and other STDs,2070848.512851779,Upper middle income,Montenegro,Domestic government
+MNE,2020,HIV/AIDS and other STDs,0.0,Upper middle income,Montenegro,External aid
+MNE,2020,HIV/AIDS and other STDs,13595.5861433176,Upper middle income,Montenegro,Out-of-pocket & other private *
+MOZ,2018,HIV/AIDS and other STDs,55820496.58155357,Low income,Mozambique,Domestic government
+MOZ,2018,HIV/AIDS and other STDs,426165086.2711019,Low income,Mozambique,External aid
+MOZ,2018,HIV/AIDS and other STDs,28437826.560987342,Low income,Mozambique,Out-of-pocket & other private *
+MMR,2019,HIV/AIDS and other STDs,44963205.44870854,Lower middle income,Myanmar,Domestic government
+MMR,2019,HIV/AIDS and other STDs,77539858.5525229,Lower middle income,Myanmar,External aid
+MMR,2019,HIV/AIDS and other STDs,4947678.68290613,Lower middle income,Myanmar,Out-of-pocket & other private *
+NAM,2019,HIV/AIDS and other STDs,61915127.813764736,Upper middle income,Namibia,Domestic government
+NAM,2019,HIV/AIDS and other STDs,35949901.13682792,Upper middle income,Namibia,External aid
+NAM,2019,HIV/AIDS and other STDs,27148384.86475572,Upper middle income,Namibia,Out-of-pocket & other private *
+NPL,2020,HIV/AIDS and other STDs,2511035.0868666023,Lower middle income,Nepal,Domestic government
+NPL,2020,HIV/AIDS and other STDs,8403210.906990018,Lower middle income,Nepal,External aid
+NPL,2020,HIV/AIDS and other STDs,2960993.7167340447,Lower middle income,Nepal,Out-of-pocket & other private *
+NER,2020,HIV/AIDS and other STDs,950277.0159606743,Low income,Niger,Domestic government
+NER,2020,HIV/AIDS and other STDs,3722283.954887894,Low income,Niger,External aid
+NER,2020,HIV/AIDS and other STDs,100800.12224776493,Low income,Niger,Out-of-pocket & other private *
+NGA,2020,HIV/AIDS and other STDs,462594212.47230977,Lower middle income,Nigeria,Domestic government
+NGA,2020,HIV/AIDS and other STDs,8585.347711453525,Lower middle income,Nigeria,External aid
+NGA,2020,HIV/AIDS and other STDs,12568.098495357779,Lower middle income,Nigeria,Out-of-pocket & other private *
+MDA,2018,HIV/AIDS and other STDs,1121451.7154517556,Upper middle income,Republic of Moldova,Domestic government
+MDA,2018,HIV/AIDS and other STDs,58449.33623412947,Upper middle income,Republic of Moldova,External aid
+MDA,2018,HIV/AIDS and other STDs,181893.09015937045,Upper middle income,Republic of Moldova,Out-of-pocket & other private *
+WSM,2018,HIV/AIDS and other STDs,20285.159791112266,Lower middle income,Samoa,Domestic government
+WSM,2018,HIV/AIDS and other STDs,590740.685195046,Lower middle income,Samoa,External aid
+WSM,2018,HIV/AIDS and other STDs,0.0,Lower middle income,Samoa,Out-of-pocket & other private *
+STP,2019,HIV/AIDS and other STDs,116134.03149087064,Lower middle income,Sao Tome and Principe,Domestic government
+STP,2019,HIV/AIDS and other STDs,485469.5192684141,Lower middle income,Sao Tome and Principe,External aid
+STP,2019,HIV/AIDS and other STDs,12405.828453728398,Lower middle income,Sao Tome and Principe,Out-of-pocket & other private *
+SEN,2020,HIV/AIDS and other STDs,6732122.19359033,Lower middle income,Senegal,Domestic government
+SEN,2020,HIV/AIDS and other STDs,10717963.78486879,Lower middle income,Senegal,External aid
+SEN,2020,HIV/AIDS and other STDs,7703818.33288653,Lower middle income,Senegal,Out-of-pocket & other private *
+SYC,2019,HIV/AIDS and other STDs,656447.5101027142,High income,Seychelles,Domestic government
+SYC,2018,HIV/AIDS and other STDs,45573.77342691668,High income,Seychelles,External aid
+SLE,2019,HIV/AIDS and other STDs,5746702.922232439,Low income,Sierra Leone,Domestic government
+SLE,2019,HIV/AIDS and other STDs,8960767.475640696,Low income,Sierra Leone,External aid
+SLE,2019,HIV/AIDS and other STDs,348069.5478435497,Low income,Sierra Leone,Out-of-pocket & other private *
+ZAF,2019,HIV/AIDS and other STDs,2743430290.9346504,Upper middle income,South Africa,Domestic government
+ZAF,2019,HIV/AIDS and other STDs,306718123.66644305,Upper middle income,South Africa,External aid
+ZAF,2015,HIV/AIDS and other STDs,9030.77491035039,Upper middle income,South Africa,Out-of-pocket & other private *
+SSD,2019,HIV/AIDS and other STDs,291437.6463035467,Low income,South Sudan,Domestic government
+SSD,2019,HIV/AIDS and other STDs,14850030.336655881,Low income,South Sudan,External aid
+SSD,2019,HIV/AIDS and other STDs,273974.4501661892,Low income,South Sudan,Out-of-pocket & other private *
+LKA,2019,HIV/AIDS and other STDs,5128747.796000951,Lower middle income,Sri Lanka,Domestic government
+LKA,2019,HIV/AIDS and other STDs,131074.8335614792,Lower middle income,Sri Lanka,External aid
+LKA,2019,HIV/AIDS and other STDs,36470103.00162318,Lower middle income,Sri Lanka,Out-of-pocket & other private *
+SDN,2019,HIV/AIDS and other STDs,1319137.9448861142,Low income,Sudan,Domestic government
+SDN,2019,HIV/AIDS and other STDs,3829620.3627290865,Low income,Sudan,External aid
+SDN,2019,HIV/AIDS and other STDs,744755.8359046571,Low income,Sudan,Out-of-pocket & other private *
+TJK,2019,HIV/AIDS and other STDs,2930242.087559384,Lower middle income,Tajikistan,Domestic government
+TJK,2019,HIV/AIDS and other STDs,4413584.80482474,Lower middle income,Tajikistan,External aid
+TJK,2019,HIV/AIDS and other STDs,392012.21877265035,Lower middle income,Tajikistan,Out-of-pocket & other private *
+MKD,2020,HIV/AIDS and other STDs,2129343.0854559476,Upper middle income,The Republic of North Macedonia,Domestic government
+MKD,2020,HIV/AIDS and other STDs,0.0,Upper middle income,The Republic of North Macedonia,External aid
+MKD,2020,HIV/AIDS and other STDs,32004.839720594482,Upper middle income,The Republic of North Macedonia,Out-of-pocket & other private *
+TGO,2019,HIV/AIDS and other STDs,5814172.524577768,Low income,Togo,Domestic government
+TGO,2019,HIV/AIDS and other STDs,7530521.604542107,Low income,Togo,External aid
+TGO,2019,HIV/AIDS and other STDs,6320934.193799339,Low income,Togo,Out-of-pocket & other private *
+TUN,2018,HIV/AIDS and other STDs,1407418.1841712494,Lower middle income,Tunisia,Domestic government
+TUN,2018,HIV/AIDS and other STDs,8849577.091618758,Lower middle income,Tunisia,External aid
+TUN,2018,HIV/AIDS and other STDs,3982520.6486162106,Lower middle income,Tunisia,Out-of-pocket & other private *
+UGA,2019,HIV/AIDS and other STDs,3760548.1129689384,Low income,Uganda,Domestic government
+UGA,2019,HIV/AIDS and other STDs,357317027.52398276,Low income,Uganda,External aid
+UGA,2019,HIV/AIDS and other STDs,3990994.5869782134,Low income,Uganda,Out-of-pocket & other private *
+UKR,2020,HIV/AIDS and other STDs,18049189.648206558,Lower middle income,Ukraine,Domestic government
+UKR,2020,HIV/AIDS and other STDs,3740168.865789284,Lower middle income,Ukraine,Out-of-pocket & other private *
+TZA,2019,HIV/AIDS and other STDs,94981131.31304272,Lower middle income,United Republic of Tanzania,Domestic government
+TZA,2019,HIV/AIDS and other STDs,542027099.9577148,Lower middle income,United Republic of Tanzania,External aid
+TZA,2019,HIV/AIDS and other STDs,87298771.81740925,Lower middle income,United Republic of Tanzania,Out-of-pocket & other private *
+UZB,2019,HIV/AIDS and other STDs,18879761.804237302,Lower middle income,Uzbekistan,Domestic government
+UZB,2018,HIV/AIDS and other STDs,3699608.622306019,Lower middle income,Uzbekistan,External aid
+UZB,2018,HIV/AIDS and other STDs,0.0,Lower middle income,Uzbekistan,Out-of-pocket & other private *
+ZMB,2019,HIV/AIDS and other STDs,51009245.28160009,Low income,Zambia,Domestic government
+ZMB,2019,HIV/AIDS and other STDs,309463007.8602255,Low income,Zambia,External aid
+ZMB,2019,HIV/AIDS and other STDs,18025832.692949273,Low income,Zambia,Out-of-pocket & other private *
+AFG,2020,Tuberculosis,221730.1300033245,Low income,Afghanistan,Domestic government
+AFG,2020,Tuberculosis,9712640.864659982,Low income,Afghanistan,External aid
+AFG,2020,Tuberculosis,42879613.880823076,Low income,Afghanistan,Out-of-pocket & other private *
+ARM,2020,Tuberculosis,3984417.241428126,Upper middle income,Armenia,Domestic government
+ARM,2020,Tuberculosis,101839.55408567986,Upper middle income,Armenia,External aid
+ARM,2020,Tuberculosis,1207534.8530073974,Upper middle income,Armenia,Out-of-pocket & other private *
+BLR,2020,Tuberculosis,31516446.608890824,Upper middle income,Belarus,Domestic government
+BLR,2020,Tuberculosis,6334868.967810939,Upper middle income,Belarus,External aid
+BLR,2020,Tuberculosis,650748.083304351,Upper middle income,Belarus,Out-of-pocket & other private *
+BEN,2018,Tuberculosis,836645.6703547429,Lower middle income,Benin,Domestic government
+BEN,2018,Tuberculosis,1250605.3661435847,Lower middle income,Benin,External aid
+BEN,2018,Tuberculosis,5990.773447432806,Lower middle income,Benin,Out-of-pocket & other private *
+BTN,2020,Tuberculosis,742886.4682654288,Lower middle income,Bhutan,Domestic government
+BTN,2020,Tuberculosis,112231.24902026734,Lower middle income,Bhutan,External aid
+BTN,2020,Tuberculosis,9482.222261287547,Lower middle income,Bhutan,Out-of-pocket & other private *
+BWA,2019,Tuberculosis,29375266.746893786,Upper middle income,Botswana,Domestic government
+BWA,2019,Tuberculosis,432452.97595180175,Upper middle income,Botswana,External aid
+BWA,2019,Tuberculosis,4099662.3349373112,Upper middle income,Botswana,Out-of-pocket & other private *
+BFA,2020,Tuberculosis,36792.624261379155,Low income,Burkina Faso,Domestic government
+BFA,2020,Tuberculosis,2862458.46949688,Low income,Burkina Faso,External aid
+BFA,2019,Tuberculosis,2851.3527355870497,Low income,Burkina Faso,Out-of-pocket & other private *
+BDI,2019,Tuberculosis,143521.70069059194,Low income,Burundi,Domestic government
+BDI,2019,Tuberculosis,369736.60307335516,Low income,Burundi,External aid
+BDI,2019,Tuberculosis,1118.561252693283,Low income,Burundi,Out-of-pocket & other private *
+CPV,2019,Tuberculosis,68761.84214340603,Lower middle income,Cabo Verde Republic of,Domestic government
+CPV,2019,Tuberculosis,1243.1105685196899,Lower middle income,Cabo Verde Republic of,External aid
+CPV,2014,Tuberculosis,3673.039213809645,Lower middle income,Cabo Verde Republic of,Out-of-pocket & other private *
+KHM,2019,Tuberculosis,6601620.166211711,Lower middle income,Cambodia,Domestic government
+KHM,2019,Tuberculosis,26591575.90230492,Lower middle income,Cambodia,External aid
+KHM,2019,Tuberculosis,10651750.935407497,Lower middle income,Cambodia,Out-of-pocket & other private *
+CMR,2019,Tuberculosis,10831041.222913375,Lower middle income,Cameroon,Domestic government
+CMR,2019,Tuberculosis,1937315.2537557993,Lower middle income,Cameroon,External aid
+CMR,2019,Tuberculosis,854439.2923510509,Lower middle income,Cameroon,Out-of-pocket & other private *
+CAF,2019,Tuberculosis,38872.767330457085,Low income,Central African Republic,Domestic government
+CAF,2019,Tuberculosis,98384.21827211935,Low income,Central African Republic,External aid
+CAF,2019,Tuberculosis,319845.2827065557,Low income,Central African Republic,Out-of-pocket & other private *
+TCD,2019,Tuberculosis,1665283.6450853362,Low income,Chad,Domestic government
+TCD,2019,Tuberculosis,878430.4684066828,Low income,Chad,External aid
+TCD,2019,Tuberculosis,6757205.139551042,Low income,Chad,Out-of-pocket & other private *
+COM,2019,Tuberculosis,17772.652878433782,Lower middle income,Comoros,Domestic government
+COM,2019,Tuberculosis,750499.063929302,Lower middle income,Comoros,External aid
+COM,2019,Tuberculosis,4820.422021477964,Lower middle income,Comoros,Out-of-pocket & other private *
+COG,2020,Tuberculosis,1722453.0144784297,Lower middle income,Congo,Domestic government
+COG,2020,Tuberculosis,474566.5744829207,Lower middle income,Congo,External aid
+COG,2020,Tuberculosis,797609.3250701834,Lower middle income,Congo,Out-of-pocket & other private *
+CIV,2019,Tuberculosis,2341433.6994649735,Lower middle income,Côte d'Ivoire,Domestic government
+CIV,2019,Tuberculosis,7872699.377828404,Lower middle income,Côte d'Ivoire,External aid
+CIV,2019,Tuberculosis,10296.91305700026,Lower middle income,Côte d'Ivoire,Out-of-pocket & other private *
+COD,2020,Tuberculosis,1415469.3756878057,Low income,Democratic Republic of the Congo,Domestic government
+COD,2020,Tuberculosis,33056343.795144655,Low income,Democratic Republic of the Congo,External aid
+COD,2020,Tuberculosis,3245000.848939452,Low income,Democratic Republic of the Congo,Out-of-pocket & other private *
+DJI,2018,Tuberculosis,92370.55803343798,Lower middle income,Djibouti,Domestic government
+DJI,2018,Tuberculosis,893163.0292982273,Lower middle income,Djibouti,External aid
+DJI,2018,Tuberculosis,56435.337539239044,Lower middle income,Djibouti,Out-of-pocket & other private *
+SWZ,2019,Tuberculosis,4457617.843012211,Lower middle income,Eswatini,Domestic government
+SWZ,2019,Tuberculosis,9373456.702068642,Lower middle income,Eswatini,External aid
+SWZ,2019,Tuberculosis,212779.6910347946,Lower middle income,Eswatini,Out-of-pocket & other private *
+ETH,2020,Tuberculosis,6453532.759194756,Low income,Ethiopia,Domestic government
+ETH,2020,Tuberculosis,34628596.05593861,Low income,Ethiopia,External aid
+ETH,2020,Tuberculosis,98342194.30824026,Low income,Ethiopia,Out-of-pocket & other private *
+GAB,2019,Tuberculosis,3400507.6852296367,Upper middle income,Gabon,Domestic government
+GAB,2019,Tuberculosis,237048.53450702204,Upper middle income,Gabon,External aid
+GAB,2019,Tuberculosis,1524013.5450925885,Upper middle income,Gabon,Out-of-pocket & other private *
+GMB,2018,Tuberculosis,217638.96982425405,Low income,Gambia,External aid
+GEO,2018,Tuberculosis,4883419.159859446,Upper middle income,Georgia,Domestic government
+GEO,2018,Tuberculosis,1654921.6418074053,Upper middle income,Georgia,External aid
+GEO,2018,Tuberculosis,335660.4925694008,Upper middle income,Georgia,Out-of-pocket & other private *
+GHA,2018,Tuberculosis,812890.4780970993,Lower middle income,Ghana,Domestic government
+GHA,2018,Tuberculosis,25629128.1217896,Lower middle income,Ghana,External aid
+GHA,2018,Tuberculosis,387854.62789210206,Lower middle income,Ghana,Out-of-pocket & other private *
+GIN,2019,Tuberculosis,831685.4347926626,Low income,Guinea,Domestic government
+GIN,2019,Tuberculosis,2914200.5115685924,Low income,Guinea,External aid
+GIN,2019,Tuberculosis,2849983.6459378772,Low income,Guinea,Out-of-pocket & other private *
+GUY,2019,Tuberculosis,654823.2197885038,Upper middle income,Guyana,Domestic government
+GUY,2019,Tuberculosis,90161.33226246569,Upper middle income,Guyana,External aid
+GUY,2019,Tuberculosis,54569.7019939335,Upper middle income,Guyana,Out-of-pocket & other private *
+HTI,2019,Tuberculosis,659057.5043523192,Lower middle income,Haiti,Domestic government
+HTI,2019,Tuberculosis,167121.3707391801,Lower middle income,Haiti,External aid
+HTI,2019,Tuberculosis,0.0,Lower middle income,Haiti,Out-of-pocket & other private *
+KEN,2019,Tuberculosis,43695876.918598145,Lower middle income,Kenya,Domestic government
+KEN,2019,Tuberculosis,20879156.551902108,Lower middle income,Kenya,External aid
+KEN,2019,Tuberculosis,21437464.773666058,Lower middle income,Kenya,Out-of-pocket & other private *
+KGZ,2019,Tuberculosis,8104276.844155192,Lower middle income,Kyrgyzstan,Domestic government
+KGZ,2019,Tuberculosis,126708.94918040847,Lower middle income,Kyrgyzstan,External aid
+KGZ,2019,Tuberculosis,620873.8509840015,Lower middle income,Kyrgyzstan,Out-of-pocket & other private *
+LAO,2019,Tuberculosis,882425.095901781,Lower middle income,Lao People's Democratic Republic,Domestic government
+LAO,2019,Tuberculosis,3423190.8081341544,Lower middle income,Lao People's Democratic Republic,External aid
+MWI,2019,Tuberculosis,5895520.440156128,Low income,Malawi,Domestic government
+MWI,2019,Tuberculosis,3991404.1705839736,Low income,Malawi,External aid
+MWI,2019,Tuberculosis,4292969.404454629,Low income,Malawi,Out-of-pocket & other private *
+MLI,2019,Tuberculosis,1283873.9699785202,Low income,Mali,Domestic government
+MLI,2019,Tuberculosis,2943673.6935031293,Low income,Mali,External aid
+MLI,2019,Tuberculosis,804837.3745830669,Low income,Mali,Out-of-pocket & other private *
+MRT,2019,Tuberculosis,1273046.3529072995,Lower middle income,Mauritania,Domestic government
+MRT,2019,Tuberculosis,1821010.5461059154,Lower middle income,Mauritania,External aid
+MRT,2015,Tuberculosis,56270.50340447457,Lower middle income,Mauritania,Out-of-pocket & other private *
+MUS,2019,Tuberculosis,1142.1208890729758,Upper middle income,Mauritius,Domestic government
+MUS,2019,Tuberculosis,35.18094270077436,Upper middle income,Mauritius,External aid
+MNE,2020,Tuberculosis,26870.328153080452,Upper middle income,Montenegro,Domestic government
+MNE,2020,Tuberculosis,0.0,Upper middle income,Montenegro,External aid
+MNE,2020,Tuberculosis,174.23610994535906,Upper middle income,Montenegro,Out-of-pocket & other private *
+MOZ,2018,Tuberculosis,64339.07959636079,Low income,Mozambique,Domestic government
+MOZ,2018,Tuberculosis,7105133.5828436585,Low income,Mozambique,External aid
+MMR,2019,Tuberculosis,5040828.662480426,Lower middle income,Myanmar,Domestic government
+MMR,2019,Tuberculosis,48579765.76712481,Lower middle income,Myanmar,External aid
+MMR,2019,Tuberculosis,22661277.515010707,Lower middle income,Myanmar,Out-of-pocket & other private *
+NAM,2019,Tuberculosis,27250807.97605635,Upper middle income,Namibia,Domestic government
+NAM,2019,Tuberculosis,4520116.174705908,Upper middle income,Namibia,External aid
+NAM,2019,Tuberculosis,56341.00190103383,Upper middle income,Namibia,Out-of-pocket & other private *
+NPL,2020,Tuberculosis,3834631.0617707153,Lower middle income,Nepal,Domestic government
+NPL,2020,Tuberculosis,1399494.0022980876,Lower middle income,Nepal,External aid
+NPL,2020,Tuberculosis,2751309.2728938716,Lower middle income,Nepal,Out-of-pocket & other private *
+NER,2020,Tuberculosis,841534.5742823002,Low income,Niger,Domestic government
+NER,2020,Tuberculosis,1584345.1420767913,Low income,Niger,External aid
+NER,2020,Tuberculosis,239057.501549811,Low income,Niger,Out-of-pocket & other private *
+NGA,2020,Tuberculosis,164180045.95960417,Lower middle income,Nigeria,Domestic government
+NGA,2020,Tuberculosis,67841228.45083426,Lower middle income,Nigeria,External aid
+NGA,2020,Tuberculosis,607540551.9414506,Lower middle income,Nigeria,Out-of-pocket & other private *
+MDA,2018,Tuberculosis,1705702.9081909847,Upper middle income,Republic of Moldova,Domestic government
+MDA,2018,Tuberculosis,88900.12987031546,Upper middle income,Republic of Moldova,External aid
+MDA,2018,Tuberculosis,276655.2975356496,Upper middle income,Republic of Moldova,Out-of-pocket & other private *
+WSM,2018,Tuberculosis,15213.87079337459,Lower middle income,Samoa,Domestic government
+WSM,2018,Tuberculosis,12150.799971819524,Lower middle income,Samoa,External aid
+WSM,2018,Tuberculosis,7402.40310132401,Lower middle income,Samoa,Out-of-pocket & other private *
+STP,2019,Tuberculosis,38213.663624087916,Lower middle income,Sao Tome and Principe,Domestic government
+STP,2019,Tuberculosis,604813.1675366104,Lower middle income,Sao Tome and Principe,External aid
+STP,2019,Tuberculosis,609.3729711465272,Lower middle income,Sao Tome and Principe,Out-of-pocket & other private *
+SEN,2020,Tuberculosis,1785807.2723133492,Lower middle income,Senegal,Domestic government
+SEN,2020,Tuberculosis,4021063.7711887234,Lower middle income,Senegal,External aid
+SEN,2020,Tuberculosis,3153903.6671737335,Lower middle income,Senegal,Out-of-pocket & other private *
+SLE,2019,Tuberculosis,786570.285813847,Low income,Sierra Leone,Domestic government
+SLE,2019,Tuberculosis,10366342.959875252,Low income,Sierra Leone,External aid
+SLE,2019,Tuberculosis,36484.019480625255,Low income,Sierra Leone,Out-of-pocket & other private *
+ZAF,2019,Tuberculosis,362551852.06678563,Upper middle income,South Africa,Domestic government
+ZAF,2019,Tuberculosis,12498451.577621313,Upper middle income,South Africa,External aid
+ZAF,2015,Tuberculosis,1899.0744228246585,Upper middle income,South Africa,Out-of-pocket & other private *
+SSD,2019,Tuberculosis,7920268.853327893,Low income,South Sudan,External aid
+SSD,2019,Tuberculosis,3.903922906100667,Low income,South Sudan,Out-of-pocket & other private *
+LKA,2019,Tuberculosis,8718331.412263328,Lower middle income,Sri Lanka,Domestic government
+LKA,2018,Tuberculosis,3948600.094963388,Lower middle income,Sri Lanka,External aid
+LKA,2019,Tuberculosis,1633459.6929875624,Lower middle income,Sri Lanka,Out-of-pocket & other private *
+SDN,2019,Tuberculosis,1167943.6486140797,Low income,Sudan,Domestic government
+SDN,2019,Tuberculosis,3441840.550483914,Low income,Sudan,External aid
+SDN,2019,Tuberculosis,498359.5559128628,Low income,Sudan,Out-of-pocket & other private *
+TJK,2019,Tuberculosis,5630004.629408215,Lower middle income,Tajikistan,Domestic government
+TJK,2018,Tuberculosis,2799538.9554658243,Lower middle income,Tajikistan,External aid
+TJK,2019,Tuberculosis,373298.0676252123,Lower middle income,Tajikistan,Out-of-pocket & other private *
+MKD,2020,Tuberculosis,317678.2783169934,Upper middle income,The Republic of North Macedonia,Domestic government
+MKD,2020,Tuberculosis,0.0,Upper middle income,The Republic of North Macedonia,External aid
+MKD,2020,Tuberculosis,1367.6337291770826,Upper middle income,The Republic of North Macedonia,Out-of-pocket & other private *
+TGO,2019,Tuberculosis,473361.662878655,Low income,Togo,Domestic government
+TGO,2019,Tuberculosis,206717.7040667261,Low income,Togo,External aid
+TGO,2019,Tuberculosis,2063851.8674907987,Low income,Togo,Out-of-pocket & other private *
+TUN,2018,Tuberculosis,1376315.5820156678,Lower middle income,Tunisia,Domestic government
+TUN,2018,Tuberculosis,1606231.4462324264,Lower middle income,Tunisia,External aid
+TUN,2018,Tuberculosis,85140.09118938791,Lower middle income,Tunisia,Out-of-pocket & other private *
+UGA,2019,Tuberculosis,209402.26044879112,Low income,Uganda,Domestic government
+UGA,2019,Tuberculosis,13086482.082419967,Low income,Uganda,External aid
+UGA,2019,Tuberculosis,659052.8862740697,Low income,Uganda,Out-of-pocket & other private *
+UKR,2020,Tuberculosis,77720263.29170506,Lower middle income,Ukraine,Domestic government
+UKR,2020,Tuberculosis,5358510.664290396,Lower middle income,Ukraine,Out-of-pocket & other private *
+TZA,2019,Tuberculosis,6198283.554713609,Lower middle income,United Republic of Tanzania,Domestic government
+TZA,2019,Tuberculosis,13270255.832338093,Lower middle income,United Republic of Tanzania,External aid
+TZA,2019,Tuberculosis,4548733.310000078,Lower middle income,United Republic of Tanzania,Out-of-pocket & other private *
+UZB,2019,Tuberculosis,76602940.77663453,Lower middle income,Uzbekistan,Domestic government
+UZB,2018,Tuberculosis,2042424.2950526397,Lower middle income,Uzbekistan,External aid
+UZB,2018,Tuberculosis,63422648.58968697,Lower middle income,Uzbekistan,Out-of-pocket & other private *
+ZMB,2019,Tuberculosis,4795057.239729429,Low income,Zambia,Domestic government
+ZMB,2019,Tuberculosis,1735935.1853628068,Low income,Zambia,Out-of-pocket & other private *
+AFG,2020,Malaria,215429.5330236542,Low income,Afghanistan,Domestic government
+AFG,2020,Malaria,2177308.808908129,Low income,Afghanistan,External aid
+AFG,2020,Malaria,26024136.073402278,Low income,Afghanistan,Out-of-pocket & other private *
+ARM,2020,Malaria,0.0,Upper middle income,Armenia,Domestic government
+ARM,2020,Malaria,0.0,Upper middle income,Armenia,External aid
+ARM,2018,Malaria,0.0,Upper middle income,Armenia,Out-of-pocket & other private *
+BLR,2020,Malaria,45.111439999098415,Upper middle income,Belarus,Domestic government
+BLR,2020,Malaria,0.0,Upper middle income,Belarus,External aid
+BEN,2018,Malaria,7912869.814491482,Lower middle income,Benin,Domestic government
+BEN,2018,Malaria,30630091.848905824,Lower middle income,Benin,External aid
+BEN,2018,Malaria,29047744.539527897,Lower middle income,Benin,Out-of-pocket & other private *
+BTN,2020,Malaria,89704.70958887653,Lower middle income,Bhutan,Domestic government
+BTN,2020,Malaria,1715.7895614236445,Lower middle income,Bhutan,External aid
+BTN,2020,Malaria,2998.0186626420336,Lower middle income,Bhutan,Out-of-pocket & other private *
+BWA,2019,Malaria,47581138.10186875,Upper middle income,Botswana,Domestic government
+BWA,2019,Malaria,1509016.2446962446,Upper middle income,Botswana,External aid
+BWA,2019,Malaria,8843160.321575012,Upper middle income,Botswana,Out-of-pocket & other private *
+BFA,2020,Malaria,64897375.54154996,Low income,Burkina Faso,Domestic government
+BFA,2020,Malaria,65821646.61460373,Low income,Burkina Faso,External aid
+BFA,2020,Malaria,60903979.899546295,Low income,Burkina Faso,Out-of-pocket & other private *
+BDI,2019,Malaria,22114012.022597656,Low income,Burundi,Domestic government
+BDI,2019,Malaria,10732738.37916315,Low income,Burundi,External aid
+BDI,2019,Malaria,20432064.003016267,Low income,Burundi,Out-of-pocket & other private *
+CPV,2019,Malaria,54883.90000629985,Lower middle income,Cabo Verde Republic of,Domestic government
+CPV,2019,Malaria,795224.286712363,Lower middle income,Cabo Verde Republic of,External aid
+CPV,2014,Malaria,15601.78844301505,Lower middle income,Cabo Verde Republic of,Out-of-pocket & other private *
+KHM,2019,Malaria,1572277.5982053427,Lower middle income,Cambodia,Domestic government
+KHM,2019,Malaria,9575368.775696464,Lower middle income,Cambodia,External aid
+KHM,2019,Malaria,1479631.2863893888,Lower middle income,Cambodia,Out-of-pocket & other private *
+CMR,2019,Malaria,18981026.42996075,Lower middle income,Cameroon,Domestic government
+CMR,2019,Malaria,26213458.489500556,Lower middle income,Cameroon,External aid
+CMR,2019,Malaria,139839301.56650695,Lower middle income,Cameroon,Out-of-pocket & other private *
+CAF,2019,Malaria,5299814.261240544,Low income,Central African Republic,Domestic government
+CAF,2019,Malaria,17871308.53482084,Low income,Central African Republic,External aid
+CAF,2019,Malaria,42726946.232705474,Low income,Central African Republic,Out-of-pocket & other private *
+TCD,2019,Malaria,15494708.126767674,Low income,Chad,Domestic government
+TCD,2019,Malaria,12938161.709537491,Low income,Chad,External aid
+TCD,2019,Malaria,63754592.08337636,Low income,Chad,Out-of-pocket & other private *
+COM,2019,Malaria,14180.30809247696,Lower middle income,Comoros,Domestic government
+COM,2019,Malaria,2458283.608306364,Lower middle income,Comoros,External aid
+COM,2019,Malaria,724118.9594804257,Lower middle income,Comoros,Out-of-pocket & other private *
+COG,2020,Malaria,69651030.7987245,Lower middle income,Congo,Domestic government
+COG,2020,Malaria,10819052.307533123,Lower middle income,Congo,External aid
+COG,2020,Malaria,59865611.05927803,Lower middle income,Congo,Out-of-pocket & other private *
+CIV,2019,Malaria,80310926.42701508,Lower middle income,Côte d'Ivoire,Domestic government
+CIV,2019,Malaria,48310999.96305993,Lower middle income,Côte d'Ivoire,External aid
+CIV,2019,Malaria,288997179.6204587,Lower middle income,Côte d'Ivoire,Out-of-pocket & other private *
+COD,2020,Malaria,39048828.064416304,Low income,Democratic Republic of the Congo,Domestic government
+COD,2020,Malaria,172358733.04725236,Low income,Democratic Republic of the Congo,External aid
+COD,2020,Malaria,128686683.67890106,Low income,Democratic Republic of the Congo,Out-of-pocket & other private *
+DJI,2018,Malaria,251789.2880366514,Lower middle income,Djibouti,Domestic government
+DJI,2018,Malaria,49444.266313541084,Lower middle income,Djibouti,External aid
+DJI,2018,Malaria,153834.684239449,Lower middle income,Djibouti,Out-of-pocket & other private *
+SWZ,2019,Malaria,1034963.6253296406,Lower middle income,Eswatini,Domestic government
+SWZ,2019,Malaria,1762722.3855661056,Lower middle income,Eswatini,External aid
+SWZ,2019,Malaria,2559745.9218249363,Lower middle income,Eswatini,Out-of-pocket & other private *
+ETH,2020,Malaria,42534475.57735769,Low income,Ethiopia,Domestic government
+ETH,2020,Malaria,79802197.356841,Low income,Ethiopia,External aid
+ETH,2020,Malaria,74978678.82079893,Low income,Ethiopia,Out-of-pocket & other private *
+GAB,2019,Malaria,19560444.094865017,Upper middle income,Gabon,Domestic government
+GAB,2019,Malaria,110376.61869064075,Upper middle income,Gabon,External aid
+GAB,2019,Malaria,17299380.94550097,Upper middle income,Gabon,Out-of-pocket & other private *
+GMB,2019,Malaria,1190597.0701330542,Low income,Gambia,Domestic government
+GMB,2019,Malaria,6714351.8068097085,Low income,Gambia,External aid
+GMB,2019,Malaria,8495922.200918524,Low income,Gambia,Out-of-pocket & other private *
+GEO,2018,Malaria,3081.2737740159723,Upper middle income,Georgia,Domestic government
+GEO,2018,Malaria,0.0,Upper middle income,Georgia,External aid
+GEO,2018,Malaria,718.6813686515716,Upper middle income,Georgia,Out-of-pocket & other private *
+GHA,2018,Malaria,199807327.11820364,Lower middle income,Ghana,Domestic government
+GHA,2018,Malaria,104301595.43920596,Lower middle income,Ghana,External aid
+GHA,2018,Malaria,161014355.0771326,Lower middle income,Ghana,Out-of-pocket & other private *
+GIN,2019,Malaria,25599614.191852577,Low income,Guinea,Domestic government
+GIN,2019,Malaria,9144867.762308214,Low income,Guinea,External aid
+GIN,2019,Malaria,101863556.55467623,Low income,Guinea,Out-of-pocket & other private *
+GUY,2019,Malaria,1863682.5930740496,Upper middle income,Guyana,Domestic government
+GUY,2019,Malaria,42027.59567709918,Upper middle income,Guyana,External aid
+GUY,2019,Malaria,1040116.9462101484,Upper middle income,Guyana,Out-of-pocket & other private *
+HTI,2019,Malaria,604628.5037911371,Lower middle income,Haiti,Domestic government
+HTI,2019,Malaria,5604152.8593685385,Lower middle income,Haiti,External aid
+HTI,2019,Malaria,1966662.4398981396,Lower middle income,Haiti,Out-of-pocket & other private *
+KEN,2019,Malaria,131143473.408088,Lower middle income,Kenya,Domestic government
+KEN,2019,Malaria,39644285.70867716,Lower middle income,Kenya,External aid
+KEN,2019,Malaria,148394504.81546432,Lower middle income,Kenya,Out-of-pocket & other private *
+KGZ,2019,Malaria,0.0,Lower middle income,Kyrgyzstan,Domestic government
+KGZ,2019,Malaria,0.0,Lower middle income,Kyrgyzstan,External aid
+KGZ,2019,Malaria,0.0,Lower middle income,Kyrgyzstan,Out-of-pocket & other private *
+LAO,2019,Malaria,947758.6631602832,Lower middle income,Lao People's Democratic Republic,Domestic government
+LAO,2019,Malaria,7441846.626322383,Lower middle income,Lao People's Democratic Republic,External aid
+MWI,2019,Malaria,39303469.54316404,Low income,Malawi,Domestic government
+MWI,2019,Malaria,20057685.00497939,Low income,Malawi,External aid
+MWI,2019,Malaria,28647794.765527345,Low income,Malawi,Out-of-pocket & other private *
+MLI,2019,Malaria,37633546.29387359,Low income,Mali,Domestic government
+MLI,2019,Malaria,108720781.79208682,Low income,Mali,External aid
+MLI,2019,Malaria,922966.0326434098,Low income,Mali,Out-of-pocket & other private *
+MRT,2019,Malaria,9250406.792751323,Lower middle income,Mauritania,Domestic government
+MRT,2019,Malaria,10659922.494818017,Lower middle income,Mauritania,External aid
+MRT,2019,Malaria,15911814.386207515,Lower middle income,Mauritania,Out-of-pocket & other private *
+MUS,2019,Malaria,0.0,Upper middle income,Mauritius,Domestic government
+MUS,2019,Malaria,0.0,Upper middle income,Mauritius,External aid
+MNE,2020,Malaria,84.42485861774732,Upper middle income,Montenegro,Domestic government
+MNE,2020,Malaria,0.0,Upper middle income,Montenegro,External aid
+MNE,2020,Malaria,0.0,Upper middle income,Montenegro,Out-of-pocket & other private *
+MOZ,2018,Malaria,20847612.412304394,Low income,Mozambique,Domestic government
+MOZ,2018,Malaria,73410457.41107301,Low income,Mozambique,External aid
+MOZ,2018,Malaria,8873380.284760905,Low income,Mozambique,Out-of-pocket & other private *
+MMR,2019,Malaria,1590075.9312053435,Lower middle income,Myanmar,Domestic government
+MMR,2019,Malaria,47029662.58268853,Lower middle income,Myanmar,External aid
+MMR,2019,Malaria,3492473.092001135,Lower middle income,Myanmar,Out-of-pocket & other private *
+NAM,2019,Malaria,6429599.583059144,Upper middle income,Namibia,Domestic government
+NAM,2019,Malaria,2250724.9660233883,Upper middle income,Namibia,External aid
+NAM,2019,Malaria,1011803.0267989225,Upper middle income,Namibia,Out-of-pocket & other private *
+NPL,2020,Malaria,1049104.9779723582,Lower middle income,Nepal,Domestic government
+NPL,2020,Malaria,102155.78782335504,Lower middle income,Nepal,External aid
+NPL,2020,Malaria,1235667.4205251401,Lower middle income,Nepal,Out-of-pocket & other private *
+NER,2020,Malaria,57365019.395726584,Low income,Niger,Domestic government
+NER,2020,Malaria,64101903.410365224,Low income,Niger,External aid
+NER,2020,Malaria,88950300.61573839,Low income,Niger,Out-of-pocket & other private *
+NGA,2020,Malaria,379779083.6716721,Lower middle income,Nigeria,Domestic government
+NGA,2020,Malaria,164930052.8696888,Lower middle income,Nigeria,External aid
+NGA,2020,Malaria,4836580791.635078,Lower middle income,Nigeria,Out-of-pocket & other private *
+MDA,2018,Malaria,0.0,Upper middle income,Republic of Moldova,Domestic government
+MDA,2018,Malaria,0.0,Upper middle income,Republic of Moldova,External aid
+MDA,2018,Malaria,0.0,Upper middle income,Republic of Moldova,Out-of-pocket & other private *
+WSM,2018,Malaria,0.0,Lower middle income,Samoa,Domestic government
+WSM,2018,Malaria,0.0,Lower middle income,Samoa,External aid
+WSM,2018,Malaria,0.0,Lower middle income,Samoa,Out-of-pocket & other private *
+STP,2019,Malaria,798462.6105292276,Lower middle income,Sao Tome and Principe,Domestic government
+STP,2019,Malaria,3615108.5540695945,Lower middle income,Sao Tome and Principe,External aid
+STP,2019,Malaria,351180.8329217568,Lower middle income,Sao Tome and Principe,Out-of-pocket & other private *
+SEN,2020,Malaria,4054700.817223229,Lower middle income,Senegal,Domestic government
+SEN,2020,Malaria,15312329.099794082,Lower middle income,Senegal,External aid
+SEN,2020,Malaria,14513361.586697945,Lower middle income,Senegal,Out-of-pocket & other private *
+SYC,2019,Malaria,0.0,High income,Seychelles,Domestic government
+SYC,2019,Malaria,0.0,High income,Seychelles,External aid
+SLE,2019,Malaria,16642630.612873696,Low income,Sierra Leone,Domestic government
+SLE,2019,Malaria,21227332.140645888,Low income,Sierra Leone,External aid
+SLE,2019,Malaria,75025968.86267835,Low income,Sierra Leone,Out-of-pocket & other private *
+ZAF,2019,Malaria,8662650.808396848,Upper middle income,South Africa,Domestic government
+SSD,2019,Malaria,10344530.049564626,Low income,South Sudan,Domestic government
+SSD,2019,Malaria,42011163.84718269,Low income,South Sudan,External aid
+SSD,2019,Malaria,27645136.619638234,Low income,South Sudan,Out-of-pocket & other private *
+LKA,2019,Malaria,1779620.4373590215,Lower middle income,Sri Lanka,Domestic government
+LKA,2019,Malaria,10385.001409345175,Lower middle income,Sri Lanka,Out-of-pocket & other private *
+SDN,2019,Malaria,11189584.81094188,Low income,Sudan,Domestic government
+SDN,2019,Malaria,21971510.836100116,Low income,Sudan,External aid
+SDN,2019,Malaria,2208672.5180131574,Low income,Sudan,Out-of-pocket & other private *
+TJK,2019,Malaria,726897.0287794371,Lower middle income,Tajikistan,Domestic government
+TJK,2018,Malaria,0.0,Lower middle income,Tajikistan,External aid
+TJK,2018,Malaria,0.0,Lower middle income,Tajikistan,Out-of-pocket & other private *
+MKD,2020,Malaria,3248.744981291063,Upper middle income,The Republic of North Macedonia,Domestic government
+MKD,2020,Malaria,0.0,Upper middle income,The Republic of North Macedonia,External aid
+MKD,2020,Malaria,29.163491307071297,Upper middle income,The Republic of North Macedonia,Out-of-pocket & other private *
+TGO,2019,Malaria,22410556.979785167,Low income,Togo,Domestic government
+TGO,2019,Malaria,14213719.059258923,Low income,Togo,External aid
+TGO,2019,Malaria,82349465.90825741,Low income,Togo,Out-of-pocket & other private *
+TUN,2018,Malaria,106715.78887425407,Lower middle income,Tunisia,Domestic government
+TUN,2018,Malaria,0.0,Lower middle income,Tunisia,External aid
+TUN,2018,Malaria,0.0,Lower middle income,Tunisia,Out-of-pocket & other private *
+UGA,2019,Malaria,26201605.57862095,Low income,Uganda,Domestic government
+UGA,2019,Malaria,70759675.76109737,Low income,Uganda,External aid
+UGA,2019,Malaria,115084136.83511162,Low income,Uganda,Out-of-pocket & other private *
+TZA,2019,Malaria,359144039.89605856,Lower middle income,United Republic of Tanzania,Domestic government
+TZA,2019,Malaria,101590240.91822277,Lower middle income,United Republic of Tanzania,External aid
+TZA,2019,Malaria,163989522.9175165,Lower middle income,United Republic of Tanzania,Out-of-pocket & other private *
+UZB,2018,Malaria,0.0,Lower middle income,Uzbekistan,Domestic government
+UZB,2018,Malaria,0.0,Lower middle income,Uzbekistan,External aid
+UZB,2018,Malaria,0.0,Lower middle income,Uzbekistan,Out-of-pocket & other private *
+ZMB,2019,Malaria,102839653.85747935,Low income,Zambia,Domestic government
+ZMB,2019,Malaria,32786805.38847295,Low income,Zambia,External aid
+ZMB,2019,Malaria,21259980.41137956,Low income,Zambia,Out-of-pocket & other private *
+AFG,2020,Maternal conditions,3861714.1664209254,Low income,Afghanistan,Domestic government
+AFG,2020,Maternal conditions,25815808.522800837,Low income,Afghanistan,External aid
+AFG,2020,Maternal conditions,561113553.1872765,Low income,Afghanistan,Out-of-pocket & other private *
+ARM,2020,Maternal conditions,14228996.715110134,Upper middle income,Armenia,Domestic government
+ARM,2020,Maternal conditions,651189.7808823474,Upper middle income,Armenia,External aid
+ARM,2020,Maternal conditions,7997012.5565012535,Upper middle income,Armenia,Out-of-pocket & other private *
+BLR,2020,Maternal conditions,74369214.62981363,Upper middle income,Belarus,Domestic government
+BLR,2020,Maternal conditions,0.0,Upper middle income,Belarus,External aid
+BLR,2020,Maternal conditions,13588949.046939744,Upper middle income,Belarus,Out-of-pocket & other private *
+BEN,2018,Maternal conditions,8882128.203262616,Lower middle income,Benin,Domestic government
+BEN,2018,Maternal conditions,1780197.4150163787,Lower middle income,Benin,External aid
+BEN,2018,Maternal conditions,8661543.742170926,Lower middle income,Benin,Out-of-pocket & other private *
+BTN,2020,Maternal conditions,6983885.0805370435,Lower middle income,Bhutan,Domestic government
+BTN,2020,Maternal conditions,147073.6261034698,Lower middle income,Bhutan,External aid
+BTN,2020,Maternal conditions,290451.3852762638,Lower middle income,Bhutan,Out-of-pocket & other private *
+BWA,2019,Maternal conditions,23104900.29166322,Upper middle income,Botswana,Domestic government
+BWA,2019,Maternal conditions,98394.34537715658,Upper middle income,Botswana,External aid
+BWA,2019,Maternal conditions,6416143.914657672,Upper middle income,Botswana,Out-of-pocket & other private *
+BFA,2020,Maternal conditions,52411223.53665113,Low income,Burkina Faso,Domestic government
+BFA,2020,Maternal conditions,5886586.575180816,Low income,Burkina Faso,External aid
+BFA,2020,Maternal conditions,13694741.256089848,Low income,Burkina Faso,Out-of-pocket & other private *
+BDI,2019,Maternal conditions,20149026.054335393,Low income,Burundi,Domestic government
+BDI,2019,Maternal conditions,9480657.655606296,Low income,Burundi,External aid
+BDI,2019,Maternal conditions,18914865.10761004,Low income,Burundi,Out-of-pocket & other private *
+CPV,2019,Maternal conditions,11481663.209109282,Lower middle income,Cabo Verde Republic of,Domestic government
+CPV,2019,Maternal conditions,454208.54217742744,Lower middle income,Cabo Verde Republic of,External aid
+CPV,2019,Maternal conditions,626035.1343773409,Lower middle income,Cabo Verde Republic of,Out-of-pocket & other private *
+KHM,2019,Maternal conditions,39132204.887844115,Lower middle income,Cambodia,Domestic government
+KHM,2019,Maternal conditions,3953577.7821719167,Lower middle income,Cambodia,External aid
+KHM,2019,Maternal conditions,75274235.28803031,Lower middle income,Cambodia,Out-of-pocket & other private *
+CMR,2019,Maternal conditions,2085.1221726502413,Lower middle income,Cameroon,Domestic government
+CMR,2019,Maternal conditions,10725.151766694848,Lower middle income,Cameroon,External aid
+CMR,2019,Maternal conditions,26907233.37338745,Lower middle income,Cameroon,Out-of-pocket & other private *
+CAF,2019,Maternal conditions,616411.0312918017,Low income,Central African Republic,Domestic government
+CAF,2019,Maternal conditions,3110056.611777078,Low income,Central African Republic,External aid
+CAF,2019,Maternal conditions,5079971.976294497,Low income,Central African Republic,Out-of-pocket & other private *
+TCD,2019,Maternal conditions,32697372.667817768,Low income,Chad,Domestic government
+TCD,2019,Maternal conditions,8155341.12656391,Low income,Chad,External aid
+TCD,2019,Maternal conditions,134632703.05730623,Low income,Chad,Out-of-pocket & other private *
+COM,2019,Maternal conditions,1495824.4622748254,Lower middle income,Comoros,External aid
+COM,2019,Maternal conditions,12624.710038770712,Lower middle income,Comoros,Out-of-pocket & other private *
+COG,2020,Maternal conditions,4412306.582833923,Lower middle income,Congo,Domestic government
+COG,2020,Maternal conditions,178402.45594389693,Lower middle income,Congo,External aid
+COG,2020,Maternal conditions,114207.69704052224,Lower middle income,Congo,Out-of-pocket & other private *
+CIV,2019,Maternal conditions,49514264.616686426,Lower middle income,Côte d'Ivoire,Domestic government
+CIV,2019,Maternal conditions,1857439.8452428435,Lower middle income,Côte d'Ivoire,External aid
+CIV,2019,Maternal conditions,148109832.44529745,Lower middle income,Côte d'Ivoire,Out-of-pocket & other private *
+COD,2020,Maternal conditions,1583385.945992615,Low income,Democratic Republic of the Congo,Domestic government
+COD,2020,Maternal conditions,6292071.88150199,Low income,Democratic Republic of the Congo,External aid
+COD,2020,Maternal conditions,10973411.11982773,Low income,Democratic Republic of the Congo,Out-of-pocket & other private *
+SWZ,2019,Maternal conditions,2157769.0744084697,Lower middle income,Eswatini,Domestic government
+SWZ,2019,Maternal conditions,1280908.0455662487,Lower middle income,Eswatini,External aid
+SWZ,2019,Maternal conditions,599378.9839697316,Lower middle income,Eswatini,Out-of-pocket & other private *
+ETH,2020,Maternal conditions,51272808.240556136,Low income,Ethiopia,Domestic government
+ETH,2020,Maternal conditions,116858989.81483094,Low income,Ethiopia,External aid
+ETH,2020,Maternal conditions,21008379.738309674,Low income,Ethiopia,Out-of-pocket & other private *
+GAB,2019,Maternal conditions,47713081.488201916,Upper middle income,Gabon,Domestic government
+GAB,2019,Maternal conditions,223359.11841542576,Upper middle income,Gabon,External aid
+GAB,2019,Maternal conditions,16303906.950513167,Upper middle income,Gabon,Out-of-pocket & other private *
+GMB,2019,Maternal conditions,2644570.9802401536,Low income,Gambia,Domestic government
+GMB,2019,Maternal conditions,1480386.0838743953,Low income,Gambia,External aid
+GMB,2019,Maternal conditions,2284634.900094019,Low income,Gambia,Out-of-pocket & other private *
+GEO,2018,Maternal conditions,12629246.822506404,Upper middle income,Georgia,Domestic government
+GEO,2018,Maternal conditions,0.0,Upper middle income,Georgia,External aid
+GEO,2018,Maternal conditions,5179939.666190943,Upper middle income,Georgia,Out-of-pocket & other private *
+GHA,2018,Maternal conditions,36635891.20045525,Lower middle income,Ghana,Domestic government
+GHA,2014,Maternal conditions,4526918.741462487,Lower middle income,Ghana,External aid
+GHA,2018,Maternal conditions,54757248.495789,Lower middle income,Ghana,Out-of-pocket & other private *
+GIN,2019,Maternal conditions,1467309.1194843855,Low income,Guinea,Domestic government
+GIN,2019,Maternal conditions,2334039.762196975,Low income,Guinea,External aid
+GIN,2019,Maternal conditions,5577242.356194717,Low income,Guinea,Out-of-pocket & other private *
+GUY,2019,Maternal conditions,10785485.812694926,Upper middle income,Guyana,Domestic government
+GUY,2019,Maternal conditions,0.0,Upper middle income,Guyana,External aid
+GUY,2019,Maternal conditions,3394.6877498273957,Upper middle income,Guyana,Out-of-pocket & other private *
+HTI,2019,Maternal conditions,3709953.828105639,Lower middle income,Haiti,Domestic government
+HTI,2019,Maternal conditions,12195116.457327332,Lower middle income,Haiti,External aid
+HTI,2019,Maternal conditions,12067288.016883088,Lower middle income,Haiti,Out-of-pocket & other private *
+KEN,2019,Maternal conditions,295696445.8462926,Lower middle income,Kenya,Domestic government
+KEN,2019,Maternal conditions,11253640.710601727,Lower middle income,Kenya,External aid
+KEN,2019,Maternal conditions,304317065.2889382,Lower middle income,Kenya,Out-of-pocket & other private *
+KGZ,2019,Maternal conditions,27752014.412882943,Lower middle income,Kyrgyzstan,Domestic government
+KGZ,2019,Maternal conditions,426127.7051784606,Lower middle income,Kyrgyzstan,External aid
+KGZ,2019,Maternal conditions,2643534.3158356086,Lower middle income,Kyrgyzstan,Out-of-pocket & other private *
+LAO,2019,Maternal conditions,9682996.081913259,Lower middle income,Lao People's Democratic Republic,Domestic government
+LAO,2019,Maternal conditions,541548.646048243,Lower middle income,Lao People's Democratic Republic,External aid
+LAO,2019,Maternal conditions,25077655.631265763,Lower middle income,Lao People's Democratic Republic,Out-of-pocket & other private *
+MWI,2019,Maternal conditions,3860251.8510521096,Low income,Malawi,External aid
+MWI,2017,Maternal conditions,4735.452566821701,Low income,Malawi,Out-of-pocket & other private *
+MLI,2019,Maternal conditions,35054071.74861676,Low income,Mali,Domestic government
+MLI,2019,Maternal conditions,4049224.8889380526,Low income,Mali,External aid
+MLI,2019,Maternal conditions,12488.632936632428,Low income,Mali,Out-of-pocket & other private *
+MRT,2019,Maternal conditions,7514736.803204755,Lower middle income,Mauritania,Domestic government
+MRT,2019,Maternal conditions,836381.063314068,Lower middle income,Mauritania,External aid
+MRT,2019,Maternal conditions,7232642.630622385,Lower middle income,Mauritania,Out-of-pocket & other private *
+MUS,2019,Maternal conditions,9289754.99033182,Upper middle income,Mauritius,Domestic government
+MUS,2019,Maternal conditions,2212.2490623500107,Upper middle income,Mauritius,External aid
+MUS,2019,Maternal conditions,8802789.876049642,Upper middle income,Mauritius,Out-of-pocket & other private *
+MNE,2020,Maternal conditions,8102586.154352859,Upper middle income,Montenegro,Domestic government
+MNE,2020,Maternal conditions,0.0,Upper middle income,Montenegro,External aid
+MNE,2020,Maternal conditions,57322.13957241332,Upper middle income,Montenegro,Out-of-pocket & other private *
+MOZ,2018,Maternal conditions,17984742.10815665,Low income,Mozambique,Domestic government
+MOZ,2018,Maternal conditions,8778702.543149957,Low income,Mozambique,External aid
+MOZ,2018,Maternal conditions,20292.37367779208,Low income,Mozambique,Out-of-pocket & other private *
+MMR,2019,Maternal conditions,14808862.463875825,Lower middle income,Myanmar,Domestic government
+MMR,2019,Maternal conditions,7605085.607355626,Lower middle income,Myanmar,External aid
+MMR,2019,Maternal conditions,186732413.54739994,Lower middle income,Myanmar,Out-of-pocket & other private *
+NAM,2019,Maternal conditions,57317354.36940399,Upper middle income,Namibia,Domestic government
+NAM,2019,Maternal conditions,635687.4926148587,Upper middle income,Namibia,External aid
+NAM,2019,Maternal conditions,126091828.9443371,Upper middle income,Namibia,Out-of-pocket & other private *
+NPL,2020,Maternal conditions,45989061.29580116,Lower middle income,Nepal,Domestic government
+NPL,2020,Maternal conditions,4469167.873255141,Lower middle income,Nepal,External aid
+NPL,2020,Maternal conditions,111992592.86857697,Lower middle income,Nepal,Out-of-pocket & other private *
+NER,2020,Maternal conditions,1741473.935579064,Low income,Niger,Domestic government
+NER,2020,Maternal conditions,1192658.2050166018,Low income,Niger,External aid
+NER,2020,Maternal conditions,4062749.4732601056,Low income,Niger,Out-of-pocket & other private *
+NGA,2020,Maternal conditions,243657780.74712333,Lower middle income,Nigeria,Domestic government
+NGA,2020,Maternal conditions,50571650.568493724,Lower middle income,Nigeria,External aid
+NGA,2020,Maternal conditions,1058596624.5655725,Lower middle income,Nigeria,Out-of-pocket & other private *
+MDA,2018,Maternal conditions,30101081.899519432,Upper middle income,Republic of Moldova,Domestic government
+MDA,2018,Maternal conditions,1568848.902539042,Upper middle income,Republic of Moldova,External aid
+MDA,2018,Maternal conditions,4882223.995774439,Upper middle income,Republic of Moldova,Out-of-pocket & other private *
+WSM,2018,Maternal conditions,1969948.3870037564,Lower middle income,Samoa,Domestic government
+WSM,2018,Maternal conditions,97025.45128182054,Lower middle income,Samoa,External aid
+WSM,2018,Maternal conditions,50726.08033814385,Lower middle income,Samoa,Out-of-pocket & other private *
+STP,2019,Maternal conditions,2376085.6510910206,Lower middle income,Sao Tome and Principe,Domestic government
+STP,2019,Maternal conditions,138323.28844242022,Lower middle income,Sao Tome and Principe,External aid
+STP,2019,Maternal conditions,499822.60292091884,Lower middle income,Sao Tome and Principe,Out-of-pocket & other private *
+SEN,2020,Maternal conditions,41231339.59676305,Lower middle income,Senegal,Domestic government
+SEN,2020,Maternal conditions,15534245.459691402,Lower middle income,Senegal,External aid
+SEN,2020,Maternal conditions,30386170.09761331,Lower middle income,Senegal,Out-of-pocket & other private *
+SYC,2019,Maternal conditions,506683.4928589364,High income,Seychelles,Out-of-pocket & other private *
+SLE,2019,Maternal conditions,8244608.972952414,Low income,Sierra Leone,Domestic government
+SLE,2019,Maternal conditions,9338844.407161506,Low income,Sierra Leone,External aid
+SLE,2019,Maternal conditions,188006.51722586795,Low income,Sierra Leone,Out-of-pocket & other private *
+ZAF,2019,Maternal conditions,1236669416.2008655,Upper middle income,South Africa,Domestic government
+ZAF,2019,Maternal conditions,14441680.268983942,Upper middle income,South Africa,External aid
+ZAF,2019,Maternal conditions,1069049591.6652838,Upper middle income,South Africa,Out-of-pocket & other private *
+SSD,2019,Maternal conditions,5257758.915727121,Low income,South Sudan,Domestic government
+SSD,2019,Maternal conditions,13318477.921037337,Low income,South Sudan,External aid
+SSD,2019,Maternal conditions,990532.1328184375,Low income,South Sudan,Out-of-pocket & other private *
+LKA,2019,Maternal conditions,115916438.78925352,Lower middle income,Sri Lanka,Domestic government
+LKA,2019,Maternal conditions,48290.72589042401,Lower middle income,Sri Lanka,External aid
+LKA,2019,Maternal conditions,58796023.49098403,Lower middle income,Sri Lanka,Out-of-pocket & other private *
+SDN,2019,Maternal conditions,684130.0116211515,Low income,Sudan,Domestic government
+SDN,2019,Maternal conditions,552926.166864979,Low income,Sudan,External aid
+SDN,2019,Maternal conditions,6190800.001368698,Low income,Sudan,Out-of-pocket & other private *
+TJK,2019,Maternal conditions,30106144.419610124,Lower middle income,Tajikistan,Domestic government
+TJK,2018,Maternal conditions,0.0,Lower middle income,Tajikistan,External aid
+TJK,2019,Maternal conditions,33378166.004441146,Lower middle income,Tajikistan,Out-of-pocket & other private *
+MKD,2020,Maternal conditions,17275814.71645549,Upper middle income,The Republic of North Macedonia,Domestic government
+MKD,2020,Maternal conditions,0.0,Upper middle income,The Republic of North Macedonia,External aid
+MKD,2020,Maternal conditions,566140.4987620788,Upper middle income,The Republic of North Macedonia,Out-of-pocket & other private *
+TGO,2019,Maternal conditions,533150.5665289351,Low income,Togo,Domestic government
+TGO,2019,Maternal conditions,3187765.238204618,Low income,Togo,External aid
+TGO,2019,Maternal conditions,2923436.5000442364,Low income,Togo,Out-of-pocket & other private *
+TUN,2018,Maternal conditions,103874118.12413014,Lower middle income,Tunisia,Domestic government
+TUN,2018,Maternal conditions,632920.0449819468,Lower middle income,Tunisia,External aid
+TUN,2018,Maternal conditions,87086203.75940645,Lower middle income,Tunisia,Out-of-pocket & other private *
+UGA,2019,Maternal conditions,20666228.981165383,Low income,Uganda,Domestic government
+UGA,2019,Maternal conditions,17944731.350038413,Low income,Uganda,External aid
+UGA,2019,Maternal conditions,23484152.563389327,Low income,Uganda,Out-of-pocket & other private *
+UKR,2020,Maternal conditions,7934376.335559876,Lower middle income,Ukraine,Domestic government
+UKR,2020,Maternal conditions,314012.35388393275,Lower middle income,Ukraine,Out-of-pocket & other private *
+TZA,2019,Maternal conditions,51644330.20330222,Lower middle income,United Republic of Tanzania,Domestic government
+TZA,2019,Maternal conditions,23756150.909813464,Lower middle income,United Republic of Tanzania,External aid
+TZA,2019,Maternal conditions,38402508.29665038,Lower middle income,United Republic of Tanzania,Out-of-pocket & other private *
+UZB,2019,Maternal conditions,74816532.39870977,Lower middle income,Uzbekistan,Domestic government
+UZB,2018,Maternal conditions,0.0,Lower middle income,Uzbekistan,External aid
+UZB,2018,Maternal conditions,3201630.807313251,Lower middle income,Uzbekistan,Out-of-pocket & other private *
+ZMB,2019,Maternal conditions,52036342.93666672,Low income,Zambia,Domestic government
+ZMB,2019,Maternal conditions,7531483.7282926645,Low income,Zambia,External aid
+ZMB,2019,Maternal conditions,5311569.5838486,Low income,Zambia,Out-of-pocket & other private *
+AFG,2020,Family planning,96351.30833424094,Low income,Afghanistan,Domestic government
+AFG,2020,Family planning,2032582.215801236,Low income,Afghanistan,External aid
+AFG,2020,Family planning,18633055.479505166,Low income,Afghanistan,Out-of-pocket & other private *
+ARM,2020,Family planning,0.0,Upper middle income,Armenia,Domestic government
+ARM,2020,Family planning,0.0,Upper middle income,Armenia,External aid
+ARM,2020,Family planning,1565664.4879763152,Upper middle income,Armenia,Out-of-pocket & other private *
+BEN,2018,Family planning,207541.4680675346,Lower middle income,Benin,Domestic government
+BEN,2018,Family planning,7034461.2385822795,Lower middle income,Benin,External aid
+BEN,2018,Family planning,4764086.706939533,Lower middle income,Benin,Out-of-pocket & other private *
+BTN,2020,Family planning,2126456.6194399535,Lower middle income,Bhutan,Domestic government
+BTN,2020,Family planning,41159.8725826215,Lower middle income,Bhutan,External aid
+BTN,2020,Family planning,6940613.673740819,Lower middle income,Bhutan,Out-of-pocket & other private *
+BWA,2017,Family planning,1720006.7456614322,Upper middle income,Botswana,Domestic government
+BWA,2013,Family planning,384654.76427164156,Upper middle income,Botswana,External aid
+BWA,2017,Family planning,416659.65601356537,Upper middle income,Botswana,Out-of-pocket & other private *
+BFA,2020,Family planning,3735335.0404867698,Low income,Burkina Faso,Domestic government
+BFA,2020,Family planning,18388818.98940119,Low income,Burkina Faso,External aid
+BFA,2020,Family planning,3134948.663603104,Low income,Burkina Faso,Out-of-pocket & other private *
+BDI,2019,Family planning,128456.68296804468,Low income,Burundi,Domestic government
+BDI,2019,Family planning,3458205.372288494,Low income,Burundi,External aid
+BDI,2019,Family planning,131395.78699311003,Low income,Burundi,Out-of-pocket & other private *
+CPV,2019,Family planning,375456.0132580191,Lower middle income,Cabo Verde Republic of,External aid
+KHM,2019,Family planning,5501450.560961536,Lower middle income,Cambodia,Domestic government
+KHM,2019,Family planning,85008.3235137989,Lower middle income,Cambodia,External aid
+KHM,2019,Family planning,17498411.735512506,Lower middle income,Cambodia,Out-of-pocket & other private *
+CMR,2019,Family planning,198400.9709858393,Lower middle income,Cameroon,Domestic government
+CMR,2019,Family planning,2770170.303366753,Lower middle income,Cameroon,External aid
+CAF,2019,Family planning,227683.35126892268,Low income,Central African Republic,Domestic government
+CAF,2019,Family planning,667140.9313495477,Low income,Central African Republic,External aid
+CAF,2019,Family planning,24324.012544281555,Low income,Central African Republic,Out-of-pocket & other private *
+TCD,2019,Family planning,21663598.486910205,Low income,Chad,External aid
+TCD,2019,Family planning,98241.68811047067,Low income,Chad,Out-of-pocket & other private *
+COM,2019,Family planning,4160880.557315798,Lower middle income,Comoros,Domestic government
+COM,2019,Family planning,956860.4886861303,Lower middle income,Comoros,External aid
+COM,2019,Family planning,1147632.7018592572,Lower middle income,Comoros,Out-of-pocket & other private *
+COG,2018,Family planning,2979160.629924519,Lower middle income,Congo,Domestic government
+COG,2020,Family planning,164147.1747889681,Lower middle income,Congo,External aid
+COG,2020,Family planning,1746.7958355116384,Lower middle income,Congo,Out-of-pocket & other private *
+CIV,2019,Family planning,43660590.0057604,Lower middle income,Côte d'Ivoire,Domestic government
+CIV,2019,Family planning,8442405.763997303,Lower middle income,Côte d'Ivoire,External aid
+CIV,2019,Family planning,1227401.9045464152,Lower middle income,Côte d'Ivoire,Out-of-pocket & other private *
+COD,2020,Family planning,1463101.6662508217,Low income,Democratic Republic of the Congo,Domestic government
+COD,2020,Family planning,31496366.069707166,Low income,Democratic Republic of the Congo,External aid
+COD,2020,Family planning,833763.9777136246,Low income,Democratic Republic of the Congo,Out-of-pocket & other private *
+DJI,2018,Family planning,647663.7522692981,Lower middle income,Djibouti,Domestic government
+DJI,2018,Family planning,567144.2866903952,Lower middle income,Djibouti,External aid
+DJI,2018,Family planning,407704.67111519136,Lower middle income,Djibouti,Out-of-pocket & other private *
+SWZ,2019,Family planning,50564.61163249306,Lower middle income,Eswatini,External aid
+ETH,2020,Family planning,44636673.088949226,Low income,Ethiopia,Domestic government
+ETH,2020,Family planning,61219930.25982719,Low income,Ethiopia,External aid
+ETH,2020,Family planning,26242418.85275919,Low income,Ethiopia,Out-of-pocket & other private *
+GAB,2019,Family planning,1138632.5407566603,Upper middle income,Gabon,Domestic government
+GAB,2019,Family planning,1946.857749871796,Upper middle income,Gabon,External aid
+GAB,2019,Family planning,1358074.9965390684,Upper middle income,Gabon,Out-of-pocket & other private *
+GMB,2019,Family planning,603017.1790654853,Low income,Gambia,Domestic government
+GMB,2019,Family planning,1017770.2801042821,Low income,Gambia,External aid
+GMB,2019,Family planning,63068.50913211789,Low income,Gambia,Out-of-pocket & other private *
+GEO,2018,Family planning,0.0,Upper middle income,Georgia,Domestic government
+GEO,2018,Family planning,0.0,Upper middle income,Georgia,External aid
+GEO,2018,Family planning,0.0,Upper middle income,Georgia,Out-of-pocket & other private *
+GHA,2018,Family planning,2443553.1555863395,Lower middle income,Ghana,External aid
+GHA,2014,Family planning,16620.904250245545,Lower middle income,Ghana,Out-of-pocket & other private *
+GIN,2019,Family planning,2241472.194520809,Low income,Guinea,Domestic government
+GIN,2019,Family planning,594178.8028202914,Low income,Guinea,External aid
+GIN,2019,Family planning,8519836.078920877,Low income,Guinea,Out-of-pocket & other private *
+GUY,2019,Family planning,2662978.891866196,Upper middle income,Guyana,Domestic government
+GUY,2019,Family planning,202812.20628706276,Upper middle income,Guyana,External aid
+GUY,2019,Family planning,0.0,Upper middle income,Guyana,Out-of-pocket & other private *
+HTI,2019,Family planning,107970.08858789681,Lower middle income,Haiti,Domestic government
+HTI,2019,Family planning,1330816.0522153222,Lower middle income,Haiti,External aid
+HTI,2019,Family planning,101510.46442367748,Lower middle income,Haiti,Out-of-pocket & other private *
+KEN,2019,Family planning,43856609.77682856,Lower middle income,Kenya,Domestic government
+KEN,2019,Family planning,6153035.218736839,Lower middle income,Kenya,External aid
+KEN,2019,Family planning,63015664.62968961,Lower middle income,Kenya,Out-of-pocket & other private *
+KGZ,2014,Family planning,7320.137237583559,Lower middle income,Kyrgyzstan,Domestic government
+KGZ,2018,Family planning,380445.9859237461,Lower middle income,Kyrgyzstan,External aid
+KGZ,2017,Family planning,0.0,Lower middle income,Kyrgyzstan,Out-of-pocket & other private *
+LAO,2019,Family planning,3922929.6963265175,Lower middle income,Lao People's Democratic Republic,Domestic government
+LAO,2019,Family planning,2205690.529178579,Lower middle income,Lao People's Democratic Republic,External aid
+LAO,2019,Family planning,5824121.292586223,Lower middle income,Lao People's Democratic Republic,Out-of-pocket & other private *
+MWI,2019,Family planning,4441292.027873121,Low income,Malawi,Domestic government
+MWI,2019,Family planning,22914951.4978779,Low income,Malawi,External aid
+MWI,2019,Family planning,3234036.959744507,Low income,Malawi,Out-of-pocket & other private *
+MLI,2016,Family planning,19476.364461546564,Low income,Mali,Domestic government
+MLI,2019,Family planning,16296241.295443056,Low income,Mali,External aid
+MLI,2019,Family planning,1986570.350712086,Low income,Mali,Out-of-pocket & other private *
+MRT,2019,Family planning,2217407.7799802427,Lower middle income,Mauritania,Domestic government
+MRT,2019,Family planning,3186211.666079531,Lower middle income,Mauritania,External aid
+MRT,2015,Family planning,56261.4316460969,Lower middle income,Mauritania,Out-of-pocket & other private *
+MUS,2019,Family planning,1966911.4108704526,Upper middle income,Mauritius,Domestic government
+MUS,2019,Family planning,111512.30992842825,Upper middle income,Mauritius,External aid
+MUS,2019,Family planning,249565.94214721088,Upper middle income,Mauritius,Out-of-pocket & other private *
+MNE,2020,Family planning,26014.05147809749,Upper middle income,Montenegro,Domestic government
+MNE,2020,Family planning,0.0,Upper middle income,Montenegro,External aid
+MNE,2020,Family planning,299.7778603716686,Upper middle income,Montenegro,Out-of-pocket & other private *
+MOZ,2018,Family planning,4283582.156269325,Low income,Mozambique,Domestic government
+MOZ,2018,Family planning,10837385.870996697,Low income,Mozambique,External aid
+MOZ,2018,Family planning,129655.73147186804,Low income,Mozambique,Out-of-pocket & other private *
+MMR,2019,Family planning,1432842.990932448,Lower middle income,Myanmar,Domestic government
+MMR,2019,Family planning,7970100.859746312,Lower middle income,Myanmar,External aid
+MMR,2019,Family planning,258.7620595872889,Lower middle income,Myanmar,Out-of-pocket & other private *
+NAM,2019,Family planning,3892116.3074086895,Upper middle income,Namibia,Domestic government
+NAM,2019,Family planning,57282.0326483065,Upper middle income,Namibia,External aid
+NAM,2019,Family planning,523825.0994739266,Upper middle income,Namibia,Out-of-pocket & other private *
+NPL,2020,Family planning,2860725.8512420543,Lower middle income,Nepal,Domestic government
+NPL,2020,Family planning,7677704.558984627,Lower middle income,Nepal,External aid
+NPL,2020,Family planning,511479.71699622355,Lower middle income,Nepal,Out-of-pocket & other private *
+NER,2020,Family planning,15592004.192422405,Low income,Niger,Domestic government
+NER,2020,Family planning,4434489.633141093,Low income,Niger,External aid
+NER,2020,Family planning,2060385.4888514208,Low income,Niger,Out-of-pocket & other private *
+NGA,2020,Family planning,8350493.306529111,Lower middle income,Nigeria,Domestic government
+NGA,2020,Family planning,13329911.92992954,Lower middle income,Nigeria,External aid
+NGA,2020,Family planning,11054711.952319356,Lower middle income,Nigeria,Out-of-pocket & other private *
+MDA,2018,Family planning,0.0,Upper middle income,Republic of Moldova,Domestic government
+MDA,2018,Family planning,0.0,Upper middle income,Republic of Moldova,External aid
+MDA,2018,Family planning,0.0,Upper middle income,Republic of Moldova,Out-of-pocket & other private *
+WSM,2018,Family planning,0.0,Lower middle income,Samoa,Domestic government
+WSM,2018,Family planning,77657.92410239053,Lower middle income,Samoa,External aid
+WSM,2018,Family planning,13943.001764411214,Lower middle income,Samoa,Out-of-pocket & other private *
+STP,2019,Family planning,1645552.5182481196,Lower middle income,Sao Tome and Principe,Domestic government
+STP,2019,Family planning,253268.57374296995,Lower middle income,Sao Tome and Principe,External aid
+STP,2019,Family planning,47386.60340878345,Lower middle income,Sao Tome and Principe,Out-of-pocket & other private *
+SEN,2020,Family planning,2193372.4952732753,Lower middle income,Senegal,Domestic government
+SEN,2020,Family planning,3767427.7459342536,Lower middle income,Senegal,External aid
+SEN,2020,Family planning,10705177.333851684,Lower middle income,Senegal,Out-of-pocket & other private *
+SYC,2019,Family planning,1025699.2534136691,High income,Seychelles,Domestic government
+SYC,2018,Family planning,343.2330323060918,High income,Seychelles,External aid
+SYC,2019,Family planning,31281.421118626266,High income,Seychelles,Out-of-pocket & other private *
+SLE,2017,Family planning,7081.712476972997,Low income,Sierra Leone,Domestic government
+SLE,2019,Family planning,6256865.507722504,Low income,Sierra Leone,External aid
+SLE,2019,Family planning,263073.3233551545,Low income,Sierra Leone,Out-of-pocket & other private *
+ZAF,2019,Family planning,417677372.1056992,Upper middle income,South Africa,Domestic government
+ZAF,2019,Family planning,30160742.057383135,Upper middle income,South Africa,Out-of-pocket & other private *
+SSD,2019,Family planning,632112.1050322596,Low income,South Sudan,External aid
+LKA,2019,Family planning,18615041.581113163,Lower middle income,Sri Lanka,Domestic government
+LKA,2019,Family planning,47290.76337358548,Lower middle income,Sri Lanka,External aid
+LKA,2019,Family planning,590370.9983323019,Lower middle income,Sri Lanka,Out-of-pocket & other private *
+TJK,2019,Family planning,3450298.4983934527,Lower middle income,Tajikistan,Domestic government
+TJK,2018,Family planning,619296.0637206977,Lower middle income,Tajikistan,External aid
+TJK,2019,Family planning,200930.88600407206,Lower middle income,Tajikistan,Out-of-pocket & other private *
+MKD,2020,Family planning,0.0,Upper middle income,The Republic of North Macedonia,Domestic government
+MKD,2020,Family planning,0.0,Upper middle income,The Republic of North Macedonia,External aid
+MKD,2020,Family planning,164253.80973642084,Upper middle income,The Republic of North Macedonia,Out-of-pocket & other private *
+TGO,2019,Family planning,1283961.9653519306,Low income,Togo,Domestic government
+TGO,2019,Family planning,232772.6468392878,Low income,Togo,External aid
+TGO,2019,Family planning,7248460.770691838,Low income,Togo,Out-of-pocket & other private *
+TUN,2018,Family planning,19942409.06480567,Lower middle income,Tunisia,Domestic government
+TUN,2018,Family planning,933287.2970142708,Lower middle income,Tunisia,External aid
+TUN,2018,Family planning,3857207.7110875077,Lower middle income,Tunisia,Out-of-pocket & other private *
+UGA,2019,Family planning,421783.8648503893,Low income,Uganda,Domestic government
+UGA,2019,Family planning,28798173.07863058,Low income,Uganda,External aid
+UGA,2019,Family planning,1044657.4763813161,Low income,Uganda,Out-of-pocket & other private *
+TZA,2019,Family planning,45538568.047176324,Lower middle income,United Republic of Tanzania,Domestic government
+TZA,2019,Family planning,13406269.716002928,Lower middle income,United Republic of Tanzania,External aid
+TZA,2019,Family planning,11127305.90836271,Lower middle income,United Republic of Tanzania,Out-of-pocket & other private *
+UZB,2019,Family planning,723095.9736628801,Lower middle income,Uzbekistan,Domestic government
+UZB,2018,Family planning,0.0,Lower middle income,Uzbekistan,External aid
+UZB,2018,Family planning,0.0,Lower middle income,Uzbekistan,Out-of-pocket & other private *
+ZMB,2019,Family planning,4053548.166588265,Low income,Zambia,Domestic government
+ZMB,2019,Family planning,13634764.123118894,Low income,Zambia,External aid
+ZMB,2019,Family planning,8667280.23300531,Low income,Zambia,Out-of-pocket & other private *
+AFG,2020,Noncommunicable diseases,12421825.860270472,Low income,Afghanistan,Domestic government
+AFG,2020,Noncommunicable diseases,27517941.052057385,Low income,Afghanistan,External aid
+AFG,2020,Noncommunicable diseases,262698088.23299035,Low income,Afghanistan,Out-of-pocket & other private *
+ARM,2020,Noncommunicable diseases,183932534.2053529,Upper middle income,Armenia,Domestic government
+ARM,2020,Noncommunicable diseases,7948267.90424766,Upper middle income,Armenia,External aid
+ARM,2020,Noncommunicable diseases,875346469.2034096,Upper middle income,Armenia,Out-of-pocket & other private *
+BLR,2020,Noncommunicable diseases,1238711984.1931083,Upper middle income,Belarus,Domestic government
+BLR,2020,Noncommunicable diseases,0.0,Upper middle income,Belarus,External aid
+BLR,2020,Noncommunicable diseases,114242756.15762965,Upper middle income,Belarus,Out-of-pocket & other private *
+BEN,2018,Noncommunicable diseases,16510601.625991091,Lower middle income,Benin,Domestic government
+BEN,2018,Noncommunicable diseases,1203725.197184227,Lower middle income,Benin,External aid
+BEN,2018,Noncommunicable diseases,10557617.94659037,Lower middle income,Benin,Out-of-pocket & other private *
+BTN,2020,Noncommunicable diseases,36756356.55245843,Lower middle income,Bhutan,Domestic government
+BTN,2020,Noncommunicable diseases,868337.0561344433,Lower middle income,Bhutan,External aid
+BTN,2020,Noncommunicable diseases,5837377.573710736,Lower middle income,Bhutan,Out-of-pocket & other private *
+BWA,2019,Noncommunicable diseases,222015822.09105027,Upper middle income,Botswana,Domestic government
+BWA,2019,Noncommunicable diseases,400193.6291021774,Upper middle income,Botswana,External aid
+BWA,2019,Noncommunicable diseases,77955215.4520948,Upper middle income,Botswana,Out-of-pocket & other private *
+BFA,2020,Noncommunicable diseases,40668309.39223773,Low income,Burkina Faso,Domestic government
+BFA,2020,Noncommunicable diseases,2255633.7474973914,Low income,Burkina Faso,External aid
+BFA,2020,Noncommunicable diseases,234655589.99095803,Low income,Burkina Faso,Out-of-pocket & other private *
+BDI,2019,Noncommunicable diseases,3911327.1592158386,Low income,Burundi,Domestic government
+BDI,2019,Noncommunicable diseases,1563003.5869735123,Low income,Burundi,External aid
+BDI,2019,Noncommunicable diseases,3779414.9086928205,Low income,Burundi,Out-of-pocket & other private *
+CPV,2019,Noncommunicable diseases,13976656.199112203,Lower middle income,Cabo Verde Republic of,Domestic government
+CPV,2019,Noncommunicable diseases,207600.1762394154,Lower middle income,Cabo Verde Republic of,External aid
+CPV,2019,Noncommunicable diseases,711028.3904571283,Lower middle income,Cabo Verde Republic of,Out-of-pocket & other private *
+KHM,2019,Noncommunicable diseases,110956370.92909262,Lower middle income,Cambodia,Domestic government
+KHM,2019,Noncommunicable diseases,6184199.98761119,Lower middle income,Cambodia,External aid
+KHM,2019,Noncommunicable diseases,425125340.00710076,Lower middle income,Cambodia,Out-of-pocket & other private *
+CMR,2019,Noncommunicable diseases,29858387.660565984,Lower middle income,Cameroon,Domestic government
+CMR,2019,Noncommunicable diseases,354995.0103414086,Lower middle income,Cameroon,External aid
+CMR,2019,Noncommunicable diseases,93535353.2727715,Lower middle income,Cameroon,Out-of-pocket & other private *
+CAF,2019,Noncommunicable diseases,3391521.090300083,Low income,Central African Republic,Domestic government
+CAF,2019,Noncommunicable diseases,2293152.0792995985,Low income,Central African Republic,External aid
+CAF,2019,Noncommunicable diseases,7588151.701461503,Low income,Central African Republic,Out-of-pocket & other private *
+TCD,2019,Noncommunicable diseases,6176688.453608811,Low income,Chad,Domestic government
+TCD,2019,Noncommunicable diseases,10131387.095240086,Low income,Chad,External aid
+TCD,2019,Noncommunicable diseases,27670256.687294878,Low income,Chad,Out-of-pocket & other private *
+COM,2019,Noncommunicable diseases,263900.05382736854,Lower middle income,Comoros,Domestic government
+COM,2019,Noncommunicable diseases,462894.3895062785,Lower middle income,Comoros,External aid
+COM,2019,Noncommunicable diseases,3189328.811436953,Lower middle income,Comoros,Out-of-pocket & other private *
+COG,2020,Noncommunicable diseases,11022569.11068686,Lower middle income,Congo,Domestic government
+COG,2020,Noncommunicable diseases,707050.5315827026,Lower middle income,Congo,External aid
+COG,2020,Noncommunicable diseases,9862378.940857477,Lower middle income,Congo,Out-of-pocket & other private *
+CIV,2019,Noncommunicable diseases,106499831.46265581,Lower middle income,Côte d'Ivoire,Domestic government
+CIV,2019,Noncommunicable diseases,1537668.7747311597,Lower middle income,Côte d'Ivoire,External aid
+CIV,2019,Noncommunicable diseases,329157553.6068337,Lower middle income,Côte d'Ivoire,Out-of-pocket & other private *
+COD,2020,Noncommunicable diseases,50012032.49562304,Low income,Democratic Republic of the Congo,Domestic government
+COD,2020,Noncommunicable diseases,24013850.32590143,Low income,Democratic Republic of the Congo,External aid
+COD,2020,Noncommunicable diseases,34221183.38399605,Low income,Democratic Republic of the Congo,Out-of-pocket & other private *
+DJI,2018,Noncommunicable diseases,6265386.679366534,Lower middle income,Djibouti,Domestic government
+DJI,2018,Noncommunicable diseases,1230298.8458949004,Lower middle income,Djibouti,External aid
+DJI,2018,Noncommunicable diseases,3835737.265434034,Lower middle income,Djibouti,Out-of-pocket & other private *
+SWZ,2019,Noncommunicable diseases,69290838.39089078,Lower middle income,Eswatini,Domestic government
+SWZ,2019,Noncommunicable diseases,872039.7101204032,Lower middle income,Eswatini,External aid
+SWZ,2019,Noncommunicable diseases,16945281.394765276,Lower middle income,Eswatini,Out-of-pocket & other private *
+ETH,2020,Noncommunicable diseases,328589446.4137668,Low income,Ethiopia,Domestic government
+ETH,2020,Noncommunicable diseases,22051071.712237697,Low income,Ethiopia,External aid
+ETH,2020,Noncommunicable diseases,571424649.7138014,Low income,Ethiopia,Out-of-pocket & other private *
+GAB,2019,Noncommunicable diseases,70419465.131516,Upper middle income,Gabon,Domestic government
+GAB,2019,Noncommunicable diseases,177815.11466799307,Upper middle income,Gabon,External aid
+GAB,2019,Noncommunicable diseases,77798730.87211122,Upper middle income,Gabon,Out-of-pocket & other private *
+GMB,2019,Noncommunicable diseases,7824570.503318142,Low income,Gambia,Domestic government
+GMB,2019,Noncommunicable diseases,175173.7203544746,Low income,Gambia,External aid
+GMB,2019,Noncommunicable diseases,4168144.5475972295,Low income,Gambia,Out-of-pocket & other private *
+GEO,2018,Noncommunicable diseases,206135148.14389572,Upper middle income,Georgia,Domestic government
+GEO,2018,Noncommunicable diseases,0.0,Upper middle income,Georgia,External aid
+GEO,2018,Noncommunicable diseases,137793597.81069034,Upper middle income,Georgia,Out-of-pocket & other private *
+GHA,2018,Noncommunicable diseases,140944675.49239066,Lower middle income,Ghana,Domestic government
+GHA,2018,Noncommunicable diseases,199729640.69576553,Lower middle income,Ghana,Out-of-pocket & other private *
+GIN,2019,Noncommunicable diseases,21367070.564660277,Low income,Guinea,Domestic government
+GIN,2019,Noncommunicable diseases,7237686.991687057,Low income,Guinea,External aid
+GIN,2019,Noncommunicable diseases,52338428.67303787,Low income,Guinea,Out-of-pocket & other private *
+GUY,2019,Noncommunicable diseases,40975731.58267887,Upper middle income,Guyana,Domestic government
+GUY,2019,Noncommunicable diseases,229480.71036880554,Upper middle income,Guyana,External aid
+GUY,2019,Noncommunicable diseases,39685738.78969901,Upper middle income,Guyana,Out-of-pocket & other private *
+HTI,2019,Noncommunicable diseases,16946720.22380203,Lower middle income,Haiti,Domestic government
+HTI,2019,Noncommunicable diseases,16364451.926549425,Lower middle income,Haiti,External aid
+HTI,2019,Noncommunicable diseases,57546851.63079004,Lower middle income,Haiti,Out-of-pocket & other private *
+KEN,2019,Noncommunicable diseases,312698328.86923885,Lower middle income,Kenya,Domestic government
+KEN,2019,Noncommunicable diseases,18915757.9277939,Lower middle income,Kenya,External aid
+KEN,2019,Noncommunicable diseases,187458297.8859323,Lower middle income,Kenya,Out-of-pocket & other private *
+KGZ,2019,Noncommunicable diseases,90345133.49105531,Lower middle income,Kyrgyzstan,Domestic government
+KGZ,2019,Noncommunicable diseases,1296563.095200397,Lower middle income,Kyrgyzstan,External aid
+KGZ,2019,Noncommunicable diseases,8193386.2899375,Lower middle income,Kyrgyzstan,Out-of-pocket & other private *
+LAO,2019,Noncommunicable diseases,40277532.14362583,Lower middle income,Lao People's Democratic Republic,Domestic government
+LAO,2019,Noncommunicable diseases,2551485.1880271723,Lower middle income,Lao People's Democratic Republic,External aid
+LAO,2019,Noncommunicable diseases,93073700.01645228,Lower middle income,Lao People's Democratic Republic,Out-of-pocket & other private *
+MWI,2019,Noncommunicable diseases,22599495.187528145,Low income,Malawi,Domestic government
+MWI,2019,Noncommunicable diseases,8701515.643580893,Low income,Malawi,External aid
+MWI,2019,Noncommunicable diseases,16702293.74438714,Low income,Malawi,Out-of-pocket & other private *
+MLI,2019,Noncommunicable diseases,56924597.43196153,Low income,Mali,Domestic government
+MLI,2019,Noncommunicable diseases,603.1963113704468,Low income,Mali,External aid
+MLI,2019,Noncommunicable diseases,201155285.30766517,Low income,Mali,Out-of-pocket & other private *
+MRT,2019,Noncommunicable diseases,38995273.54044706,Lower middle income,Mauritania,Domestic government
+MRT,2019,Noncommunicable diseases,1273551.0108893763,Lower middle income,Mauritania,External aid
+MRT,2019,Noncommunicable diseases,53521555.777451634,Lower middle income,Mauritania,Out-of-pocket & other private *
+MUS,2019,Noncommunicable diseases,245010838.19693065,Upper middle income,Mauritius,Domestic government
+MUS,2019,Noncommunicable diseases,313473.6030245776,Upper middle income,Mauritius,External aid
+MUS,2019,Noncommunicable diseases,310135607.2354313,Upper middle income,Mauritius,Out-of-pocket & other private *
+MNE,2020,Noncommunicable diseases,119396462.4683288,Upper middle income,Montenegro,Domestic government
+MNE,2020,Noncommunicable diseases,0.0,Upper middle income,Montenegro,External aid
+MNE,2020,Noncommunicable diseases,1221757.6965703252,Upper middle income,Montenegro,Out-of-pocket & other private *
+MOZ,2018,Noncommunicable diseases,3294861.044783381,Low income,Mozambique,Domestic government
+MOZ,2018,Noncommunicable diseases,1030357.8191704779,Low income,Mozambique,External aid
+MOZ,2018,Noncommunicable diseases,6031740.432860817,Low income,Mozambique,Out-of-pocket & other private *
+MMR,2019,Noncommunicable diseases,160210321.4622453,Lower middle income,Myanmar,Domestic government
+MMR,2019,Noncommunicable diseases,8618305.083705768,Lower middle income,Myanmar,External aid
+MMR,2019,Noncommunicable diseases,694276488.2798283,Lower middle income,Myanmar,Out-of-pocket & other private *
+NAM,2019,Noncommunicable diseases,136844254.87062886,Upper middle income,Namibia,Domestic government
+NAM,2019,Noncommunicable diseases,35808.41288458317,Upper middle income,Namibia,External aid
+NAM,2019,Noncommunicable diseases,128532098.1868288,Upper middle income,Namibia,Out-of-pocket & other private *
+NPL,2020,Noncommunicable diseases,131506160.2096251,Lower middle income,Nepal,Domestic government
+NPL,2020,Noncommunicable diseases,20756516.508446194,Lower middle income,Nepal,External aid
+NPL,2020,Noncommunicable diseases,401521785.63410956,Lower middle income,Nepal,Out-of-pocket & other private *
+NER,2020,Noncommunicable diseases,54928406.84274175,Low income,Niger,Domestic government
+NER,2020,Noncommunicable diseases,4664869.001546946,Low income,Niger,External aid
+NER,2020,Noncommunicable diseases,89530543.46490547,Low income,Niger,Out-of-pocket & other private *
+NGA,2020,Noncommunicable diseases,403119938.0790679,Lower middle income,Nigeria,Domestic government
+NGA,2020,Noncommunicable diseases,217748.6813516936,Lower middle income,Nigeria,External aid
+NGA,2020,Noncommunicable diseases,1415637807.7148461,Lower middle income,Nigeria,Out-of-pocket & other private *
+MDA,2018,Noncommunicable diseases,355501172.3772416,Upper middle income,Republic of Moldova,Domestic government
+MDA,2018,Noncommunicable diseases,18528491.159606848,Upper middle income,Republic of Moldova,External aid
+MDA,2018,Noncommunicable diseases,57660267.26002315,Upper middle income,Republic of Moldova,Out-of-pocket & other private *
+WSM,2018,Noncommunicable diseases,14437090.390798625,Lower middle income,Samoa,Domestic government
+WSM,2018,Noncommunicable diseases,1556726.020516001,Lower middle income,Samoa,External aid
+WSM,2018,Noncommunicable diseases,2752505.7191766417,Lower middle income,Samoa,Out-of-pocket & other private *
+STP,2019,Noncommunicable diseases,1748832.6233883337,Lower middle income,Sao Tome and Principe,Domestic government
+STP,2019,Noncommunicable diseases,666017.2571787346,Lower middle income,Sao Tome and Principe,External aid
+STP,2019,Noncommunicable diseases,1615129.8155622797,Lower middle income,Sao Tome and Principe,Out-of-pocket & other private *
+SEN,2020,Noncommunicable diseases,138633638.29416284,Lower middle income,Senegal,Domestic government
+SEN,2020,Noncommunicable diseases,161589.55770271548,Lower middle income,Senegal,External aid
+SEN,2020,Noncommunicable diseases,301723555.71920234,Lower middle income,Senegal,Out-of-pocket & other private *
+SYC,2019,Noncommunicable diseases,24034068.362766042,High income,Seychelles,Domestic government
+SYC,2018,Noncommunicable diseases,31779.991215872433,High income,Seychelles,External aid
+SYC,2019,Noncommunicable diseases,7336409.541523332,High income,Seychelles,Out-of-pocket & other private *
+SLE,2019,Noncommunicable diseases,9659694.299721913,Low income,Sierra Leone,Domestic government
+SLE,2019,Noncommunicable diseases,3721823.13701614,Low income,Sierra Leone,External aid
+SLE,2019,Noncommunicable diseases,58610520.61761985,Low income,Sierra Leone,Out-of-pocket & other private *
+ZAF,2019,Noncommunicable diseases,7398024988.586628,Upper middle income,South Africa,Domestic government
+ZAF,2019,Noncommunicable diseases,8445462883.292224,Upper middle income,South Africa,Out-of-pocket & other private *
+SSD,2019,Noncommunicable diseases,57683.637722436666,Low income,South Sudan,Domestic government
+SSD,2019,Noncommunicable diseases,8693829.707580756,Low income,South Sudan,External aid
+SSD,2019,Noncommunicable diseases,1413319.6009344808,Low income,South Sudan,Out-of-pocket & other private *
+LKA,2019,Noncommunicable diseases,491047958.67628545,Lower middle income,Sri Lanka,Domestic government
+LKA,2019,Noncommunicable diseases,651853.28863014,Lower middle income,Sri Lanka,External aid
+LKA,2019,Noncommunicable diseases,683359099.7945364,Lower middle income,Sri Lanka,Out-of-pocket & other private *
+SDN,2019,Noncommunicable diseases,195850957.55243167,Low income,Sudan,Domestic government
+SDN,2019,Noncommunicable diseases,596431499.0127556,Low income,Sudan,Out-of-pocket & other private *
+TJK,2019,Noncommunicable diseases,69280772.50313933,Lower middle income,Tajikistan,Domestic government
+TJK,2018,Noncommunicable diseases,4646021.436785022,Lower middle income,Tajikistan,External aid
+TJK,2019,Noncommunicable diseases,122594434.25621977,Lower middle income,Tajikistan,Out-of-pocket & other private *
+MKD,2020,Noncommunicable diseases,313692118.80833447,Upper middle income,The Republic of North Macedonia,Domestic government
+MKD,2020,Noncommunicable diseases,0.0,Upper middle income,The Republic of North Macedonia,External aid
+MKD,2020,Noncommunicable diseases,100571853.63629471,Upper middle income,The Republic of North Macedonia,Out-of-pocket & other private *
+TGO,2019,Noncommunicable diseases,12618603.645938203,Low income,Togo,Domestic government
+TGO,2019,Noncommunicable diseases,1112641.9184853174,Low income,Togo,External aid
+TGO,2019,Noncommunicable diseases,82639745.63902405,Low income,Togo,Out-of-pocket & other private *
+TUN,2018,Noncommunicable diseases,929383384.0633162,Lower middle income,Tunisia,Domestic government
+TUN,2018,Noncommunicable diseases,440172.63904174534,Lower middle income,Tunisia,External aid
+TUN,2018,Noncommunicable diseases,860604269.399125,Lower middle income,Tunisia,Out-of-pocket & other private *
+UGA,2019,Noncommunicable diseases,59355265.81299405,Low income,Uganda,Domestic government
+UGA,2019,Noncommunicable diseases,13792440.199271103,Low income,Uganda,External aid
+UGA,2019,Noncommunicable diseases,303109391.8240661,Low income,Uganda,Out-of-pocket & other private *
+UKR,2020,Noncommunicable diseases,762727969.1450171,Lower middle income,Ukraine,Domestic government
+UKR,2020,Noncommunicable diseases,553894241.1912167,Lower middle income,Ukraine,Out-of-pocket & other private *
+TZA,2019,Noncommunicable diseases,177013939.65321392,Lower middle income,United Republic of Tanzania,Domestic government
+TZA,2019,Noncommunicable diseases,11880713.458421525,Lower middle income,United Republic of Tanzania,External aid
+TZA,2019,Noncommunicable diseases,74656045.96172622,Lower middle income,United Republic of Tanzania,Out-of-pocket & other private *
+UZB,2019,Noncommunicable diseases,267964309.27929962,Lower middle income,Uzbekistan,Domestic government
+UZB,2018,Noncommunicable diseases,5254933.076031364,Lower middle income,Uzbekistan,External aid
+UZB,2018,Noncommunicable diseases,420206370.2970252,Lower middle income,Uzbekistan,Out-of-pocket & other private *
+ZMB,2019,Noncommunicable diseases,60283453.29259095,Low income,Zambia,Domestic government
+ZMB,2019,Noncommunicable diseases,310038.86342963605,Low income,Zambia,External aid
+ZMB,2019,Noncommunicable diseases,45643705.451342665,Low income,Zambia,Out-of-pocket & other private *
+AFG,2020,Injuries,3313443.023430371,Low income,Afghanistan,Domestic government
+AFG,2020,Injuries,25064135.39556397,Low income,Afghanistan,External aid
+AFG,2020,Injuries,78330690.79216537,Low income,Afghanistan,Out-of-pocket & other private *
+ARM,2020,Injuries,4414417.630952827,Upper middle income,Armenia,Domestic government
+ARM,2020,Injuries,160895.8189123097,Upper middle income,Armenia,External aid
+ARM,2020,Injuries,43675625.59949541,Upper middle income,Armenia,Out-of-pocket & other private *
+BLR,2020,Injuries,102213980.69374515,Upper middle income,Belarus,Domestic government
+BLR,2020,Injuries,0.0,Upper middle income,Belarus,External aid
+BEN,2018,Injuries,1552608.1397300297,Lower middle income,Benin,Domestic government
+BEN,2018,Injuries,1174529.4424770945,Lower middle income,Benin,External aid
+BEN,2018,Injuries,10964261.865448026,Lower middle income,Benin,Out-of-pocket & other private *
+BTN,2020,Injuries,4267626.001087013,Lower middle income,Bhutan,Domestic government
+BTN,2020,Injuries,85324.8310811174,Lower middle income,Bhutan,External aid
+BTN,2020,Injuries,409499.3627171675,Lower middle income,Bhutan,Out-of-pocket & other private *
+BWA,2019,Injuries,33857485.4540777,Upper middle income,Botswana,Domestic government
+BWA,2016,Injuries,13749.319502056087,Upper middle income,Botswana,External aid
+BWA,2019,Injuries,2750332.0304451752,Upper middle income,Botswana,Out-of-pocket & other private *
+BFA,2020,Injuries,9998919.99759163,Low income,Burkina Faso,Domestic government
+BFA,2020,Injuries,351365.858560338,Low income,Burkina Faso,External aid
+BFA,2020,Injuries,492576.6249544975,Low income,Burkina Faso,Out-of-pocket & other private *
+BDI,2019,Injuries,5208880.6951961275,Low income,Burundi,Domestic government
+BDI,2019,Injuries,1918517.6410071815,Low income,Burundi,External aid
+BDI,2019,Injuries,5151600.926750233,Low income,Burundi,Out-of-pocket & other private *
+CPV,2019,Injuries,2104162.249246246,Lower middle income,Cabo Verde Republic of,Domestic government
+CPV,2019,Injuries,32528.169463085072,Lower middle income,Cabo Verde Republic of,External aid
+CPV,2019,Injuries,5636209.583831364,Lower middle income,Cabo Verde Republic of,Out-of-pocket & other private *
+KHM,2019,Injuries,44989959.208781615,Lower middle income,Cambodia,Domestic government
+KHM,2019,Injuries,1478328.5973824884,Lower middle income,Cambodia,External aid
+KHM,2019,Injuries,121603608.74710578,Lower middle income,Cambodia,Out-of-pocket & other private *
+CMR,2019,Injuries,10138009.689509477,Lower middle income,Cameroon,Out-of-pocket & other private *
+TCD,2019,Injuries,2034215.4708157466,Low income,Chad,Domestic government
+TCD,2019,Injuries,478463.84045849234,Low income,Chad,External aid
+TCD,2019,Injuries,8702564.877099546,Low income,Chad,Out-of-pocket & other private *
+COM,2019,Injuries,160142.9477988271,Lower middle income,Comoros,Domestic government
+COM,2019,Injuries,30442.0479806469,Lower middle income,Comoros,External aid
+COM,2019,Injuries,6628819.802902705,Lower middle income,Comoros,Out-of-pocket & other private *
+COG,2020,Injuries,18188023.485695582,Lower middle income,Congo,Domestic government
+COG,2020,Injuries,1105823.0527663168,Lower middle income,Congo,External aid
+COG,2020,Injuries,15512701.330157392,Lower middle income,Congo,Out-of-pocket & other private *
+CIV,2019,Injuries,4263822.054442643,Lower middle income,Côte d'Ivoire,Domestic government
+CIV,2019,Injuries,69969.76820234905,Lower middle income,Côte d'Ivoire,External aid
+CIV,2019,Injuries,40769309.60851078,Lower middle income,Côte d'Ivoire,Out-of-pocket & other private *
+COD,2020,Injuries,37189690.66064556,Low income,Democratic Republic of the Congo,Domestic government
+COD,2020,Injuries,2935590.2027381836,Low income,Democratic Republic of the Congo,External aid
+COD,2020,Injuries,8857124.74365168,Low income,Democratic Republic of the Congo,Out-of-pocket & other private *
+DJI,2018,Injuries,4349239.845529466,Lower middle income,Djibouti,Domestic government
+DJI,2018,Injuries,854067.1674478272,Lower middle income,Djibouti,External aid
+DJI,2018,Injuries,2657203.7153780595,Lower middle income,Djibouti,Out-of-pocket & other private *
+SWZ,2019,Injuries,15272689.143774278,Lower middle income,Eswatini,Domestic government
+SWZ,2019,Injuries,4068.10280508434,Lower middle income,Eswatini,External aid
+SWZ,2019,Injuries,4770017.136469949,Lower middle income,Eswatini,Out-of-pocket & other private *
+ETH,2020,Injuries,43202142.55538128,Low income,Ethiopia,Domestic government
+ETH,2020,Injuries,2315590.389549391,Low income,Ethiopia,External aid
+ETH,2020,Injuries,9498598.31866118,Low income,Ethiopia,Out-of-pocket & other private *
+GAB,2019,Injuries,11870066.73882231,Upper middle income,Gabon,Domestic government
+GAB,2019,Injuries,27897.286400118206,Upper middle income,Gabon,External aid
+GAB,2019,Injuries,10815950.42468408,Upper middle income,Gabon,Out-of-pocket & other private *
+GMB,2019,Injuries,330971.50170362066,Low income,Gambia,Domestic government
+GMB,2019,Injuries,1007183.4027095707,Low income,Gambia,Out-of-pocket & other private *
+GEO,2018,Injuries,30712741.546993148,Upper middle income,Georgia,Domestic government
+GEO,2018,Injuries,0.0,Upper middle income,Georgia,External aid
+GEO,2018,Injuries,9448086.258228572,Upper middle income,Georgia,Out-of-pocket & other private *
+GHA,2018,Injuries,18852059.53891155,Lower middle income,Ghana,Domestic government
+GHA,2018,Injuries,17547962.304904036,Lower middle income,Ghana,Out-of-pocket & other private *
+GIN,2019,Injuries,12303225.809602788,Low income,Guinea,Domestic government
+GIN,2019,Injuries,3016233.097123857,Low income,Guinea,External aid
+GIN,2019,Injuries,43249287.338321954,Low income,Guinea,Out-of-pocket & other private *
+GUY,2019,Injuries,16808455.174983926,Upper middle income,Guyana,Domestic government
+GUY,2019,Injuries,3799.0110776465635,Upper middle income,Guyana,External aid
+GUY,2019,Injuries,8797399.41991708,Upper middle income,Guyana,Out-of-pocket & other private *
+HTI,2019,Injuries,5738814.172190715,Lower middle income,Haiti,Domestic government
+HTI,2019,Injuries,29220146.393504392,Lower middle income,Haiti,External aid
+HTI,2019,Injuries,59652910.39977379,Lower middle income,Haiti,Out-of-pocket & other private *
+KEN,2019,Injuries,79662173.54731883,Lower middle income,Kenya,Domestic government
+KEN,2019,Injuries,507168.16732488404,Lower middle income,Kenya,External aid
+KEN,2019,Injuries,67707129.50150217,Lower middle income,Kenya,Out-of-pocket & other private *
+KGZ,2019,Injuries,8848554.193471417,Lower middle income,Kyrgyzstan,Domestic government
+KGZ,2019,Injuries,136763.02884363654,Lower middle income,Kyrgyzstan,External aid
+KGZ,2019,Injuries,740834.1713493664,Lower middle income,Kyrgyzstan,Out-of-pocket & other private *
+LAO,2019,Injuries,3154408.1345213386,Lower middle income,Lao People's Democratic Republic,Domestic government
+LAO,2019,Injuries,270774.3230241215,Lower middle income,Lao People's Democratic Republic,External aid
+LAO,2019,Injuries,22656152.493323874,Lower middle income,Lao People's Democratic Republic,Out-of-pocket & other private *
+MWI,2019,Injuries,17686560.90318116,Low income,Malawi,Domestic government
+MWI,2019,Injuries,4888129.11593301,Low income,Malawi,External aid
+MWI,2019,Injuries,12878908.50198148,Low income,Malawi,Out-of-pocket & other private *
+MLI,2019,Injuries,346817.4177280227,Low income,Mali,Domestic government
+MLI,2019,Injuries,3321.1993971054076,Low income,Mali,External aid
+MLI,2019,Injuries,14291675.855374468,Low income,Mali,Out-of-pocket & other private *
+MRT,2019,Injuries,2762305.6034047646,Lower middle income,Mauritania,Domestic government
+MRT,2019,Injuries,98725.00106303634,Lower middle income,Mauritania,External aid
+MRT,2019,Injuries,4339585.632952138,Lower middle income,Mauritania,Out-of-pocket & other private *
+MUS,2019,Injuries,38305118.56460343,Upper middle income,Mauritius,Domestic government
+MUS,2019,Injuries,7617.696882929348,Upper middle income,Mauritius,External aid
+MUS,2019,Injuries,11783649.12940159,Upper middle income,Mauritius,Out-of-pocket & other private *
+MNE,2020,Injuries,7727836.725746987,Upper middle income,Montenegro,Domestic government
+MNE,2020,Injuries,0.0,Upper middle income,Montenegro,External aid
+MNE,2020,Injuries,100130.97493171693,Upper middle income,Montenegro,Out-of-pocket & other private *
+MOZ,2018,Injuries,1693.5533490741936,Low income,Mozambique,External aid
+MOZ,2018,Injuries,4014295.5277244737,Low income,Mozambique,Out-of-pocket & other private *
+MMR,2019,Injuries,51257799.82631354,Lower middle income,Myanmar,Domestic government
+MMR,2019,Injuries,2379639.7457413715,Lower middle income,Myanmar,External aid
+MMR,2019,Injuries,216997705.10059795,Lower middle income,Myanmar,Out-of-pocket & other private *
+NAM,2019,Injuries,43031647.36315512,Upper middle income,Namibia,Domestic government
+NAM,2019,Injuries,35580778.34473368,Upper middle income,Namibia,Out-of-pocket & other private *
+NPL,2020,Injuries,56306643.66605745,Lower middle income,Nepal,Domestic government
+NPL,2020,Injuries,5846197.158757736,Lower middle income,Nepal,External aid
+NPL,2020,Injuries,125572823.40223269,Lower middle income,Nepal,Out-of-pocket & other private *
+NER,2020,Injuries,8081700.214367285,Low income,Niger,Domestic government
+NER,2020,Injuries,679133.7785679175,Low income,Niger,External aid
+NER,2020,Injuries,9192427.959064424,Low income,Niger,Out-of-pocket & other private *
+NGA,2020,Injuries,291695114.02707964,Lower middle income,Nigeria,Domestic government
+NGA,2020,Injuries,5875.210416582935,Lower middle income,Nigeria,External aid
+NGA,2020,Injuries,1173511618.8542862,Lower middle income,Nigeria,Out-of-pocket & other private *
+MDA,2018,Injuries,26561949.92903986,Upper middle income,Republic of Moldova,Domestic government
+MDA,2018,Injuries,1384391.8183592416,Upper middle income,Republic of Moldova,External aid
+MDA,2018,Injuries,4308197.519892142,Upper middle income,Republic of Moldova,Out-of-pocket & other private *
+WSM,2018,Injuries,1433631.5597519525,Lower middle income,Samoa,Domestic government
+WSM,2018,Injuries,63267.092299201744,Lower middle income,Samoa,External aid
+WSM,2018,Injuries,161993.3324873414,Lower middle income,Samoa,Out-of-pocket & other private *
+STP,2019,Injuries,190592.07021550674,Lower middle income,Sao Tome and Principe,Domestic government
+STP,2019,Injuries,324315.3534544718,Lower middle income,Sao Tome and Principe,External aid
+STP,2019,Injuries,100675.87689218021,Lower middle income,Sao Tome and Principe,Out-of-pocket & other private *
+SEN,2020,Injuries,38191443.961169146,Lower middle income,Senegal,Domestic government
+SEN,2020,Injuries,738.4076674620414,Lower middle income,Senegal,External aid
+SEN,2020,Injuries,20639927.801573075,Lower middle income,Senegal,Out-of-pocket & other private *
+SYC,2019,Injuries,4917409.728501489,High income,Seychelles,Domestic government
+SYC,2018,Injuries,5201.838553018184,High income,Seychelles,External aid
+SYC,2019,Injuries,1543138.890620457,High income,Seychelles,Out-of-pocket & other private *
+SLE,2019,Injuries,693991.4815237637,Low income,Sierra Leone,Domestic government
+SLE,2019,Injuries,38437.77146459116,Low income,Sierra Leone,External aid
+SLE,2019,Injuries,3254515.2160648885,Low income,Sierra Leone,Out-of-pocket & other private *
+ZAF,2019,Injuries,2263018421.605825,Upper middle income,South Africa,Domestic government
+ZAF,2019,Injuries,900782948.5806487,Upper middle income,South Africa,Out-of-pocket & other private *
+SSD,2019,Injuries,6332091.93221145,Low income,South Sudan,Domestic government
+SSD,2019,Injuries,98812.17951098549,Low income,South Sudan,External aid
+SSD,2019,Injuries,14190413.278113944,Low income,South Sudan,Out-of-pocket & other private *
+LKA,2019,Injuries,137591617.1158956,Lower middle income,Sri Lanka,Domestic government
+LKA,2019,Injuries,48290.72589042401,Lower middle income,Sri Lanka,External aid
+LKA,2019,Injuries,123798656.72392415,Lower middle income,Sri Lanka,Out-of-pocket & other private *
+SDN,2019,Injuries,4458802.825560479,Low income,Sudan,Domestic government
+SDN,2019,Injuries,138190127.2280417,Low income,Sudan,Out-of-pocket & other private *
+TJK,2019,Injuries,3941791.2048445893,Lower middle income,Tajikistan,Domestic government
+TJK,2018,Injuries,0.0,Lower middle income,Tajikistan,External aid
+TJK,2019,Injuries,7530968.403858506,Lower middle income,Tajikistan,Out-of-pocket & other private *
+MKD,2020,Injuries,41512480.59908122,Upper middle income,The Republic of North Macedonia,Domestic government
+MKD,2020,Injuries,0.0,Upper middle income,The Republic of North Macedonia,External aid
+MKD,2020,Injuries,1462499.181096444,Upper middle income,The Republic of North Macedonia,Out-of-pocket & other private *
+TGO,2019,Injuries,3688689.3777283784,Low income,Togo,Domestic government
+TGO,2019,Injuries,315129.0650543712,Low income,Togo,External aid
+TGO,2019,Injuries,24118275.059642967,Low income,Togo,Out-of-pocket & other private *
+TUN,2018,Injuries,67298983.15054871,Lower middle income,Tunisia,Domestic government
+TUN,2018,Injuries,0.0,Lower middle income,Tunisia,External aid
+TUN,2018,Injuries,38517089.50798104,Lower middle income,Tunisia,Out-of-pocket & other private *
+UGA,2019,Injuries,5323860.157712164,Low income,Uganda,Domestic government
+UGA,2019,Injuries,715612.1016127066,Low income,Uganda,External aid
+UGA,2019,Injuries,47386853.803554386,Low income,Uganda,Out-of-pocket & other private *
+UKR,2020,Injuries,6129120.655787642,Lower middle income,Ukraine,Domestic government
+UKR,2020,Injuries,249086.7766713746,Lower middle income,Ukraine,Out-of-pocket & other private *
+TZA,2019,Injuries,13616359.504525121,Lower middle income,United Republic of Tanzania,Domestic government
+TZA,2019,Injuries,1798611.3568362144,Lower middle income,United Republic of Tanzania,External aid
+TZA,2019,Injuries,11400219.003307097,Lower middle income,United Republic of Tanzania,Out-of-pocket & other private *
+UZB,2019,Injuries,2896808.7100570784,Lower middle income,Uzbekistan,Domestic government
+UZB,2018,Injuries,347368.84148825245,Lower middle income,Uzbekistan,External aid
+UZB,2018,Injuries,11989882.418970834,Lower middle income,Uzbekistan,Out-of-pocket & other private *
+ZMB,2019,Injuries,35709780.97803342,Low income,Zambia,Domestic government
+ZMB,2019,Injuries,3903575.759364303,Low income,Zambia,Out-of-pocket & other private *
+AFG,2020,Nutritional deficiencies,500051.50241882453,Low income,Afghanistan,Domestic government
+AFG,2020,Nutritional deficiencies,76731036.17466368,Low income,Afghanistan,External aid
+AFG,2020,Nutritional deficiencies,96703199.70124756,Low income,Afghanistan,Out-of-pocket & other private *
+ARM,2020,Nutritional deficiencies,24858893.298750598,Upper middle income,Armenia,Domestic government
+ARM,2020,Nutritional deficiencies,291259.1132217135,Upper middle income,Armenia,External aid
+ARM,2020,Nutritional deficiencies,22909332.15875572,Upper middle income,Armenia,Out-of-pocket & other private *
+BLR,2020,Nutritional deficiencies,83562021.90718982,Upper middle income,Belarus,Domestic government
+BLR,2020,Nutritional deficiencies,0.0,Upper middle income,Belarus,External aid
+BEN,2018,Nutritional deficiencies,833855.0125143487,Lower middle income,Benin,Domestic government
+BEN,2018,Nutritional deficiencies,1488690.5256329542,Lower middle income,Benin,External aid
+BEN,2018,Nutritional deficiencies,4204323.651889981,Lower middle income,Benin,Out-of-pocket & other private *
+BTN,2020,Nutritional deficiencies,7482720.188678291,Lower middle income,Bhutan,Domestic government
+BTN,2020,Nutritional deficiencies,201910.59957671937,Lower middle income,Bhutan,External aid
+BTN,2020,Nutritional deficiencies,122249.77823211909,Lower middle income,Bhutan,Out-of-pocket & other private *
+BWA,2019,Nutritional deficiencies,14525769.76121672,Upper middle income,Botswana,Domestic government
+BWA,2019,Nutritional deficiencies,362388.45212806336,Upper middle income,Botswana,External aid
+BWA,2019,Nutritional deficiencies,2530674.473986328,Upper middle income,Botswana,Out-of-pocket & other private *
+BFA,2020,Nutritional deficiencies,5491824.282436758,Low income,Burkina Faso,Domestic government
+BFA,2020,Nutritional deficiencies,27352322.683202058,Low income,Burkina Faso,External aid
+BFA,2020,Nutritional deficiencies,2833178.3800609913,Low income,Burkina Faso,Out-of-pocket & other private *
+BDI,2019,Nutritional deficiencies,397190.74399918213,Low income,Burundi,Domestic government
+BDI,2019,Nutritional deficiencies,4861643.140214065,Low income,Burundi,External aid
+BDI,2019,Nutritional deficiencies,217889.44346009273,Low income,Burundi,Out-of-pocket & other private *
+CPV,2019,Nutritional deficiencies,211866.7604166089,Lower middle income,Cabo Verde Republic of,Domestic government
+CPV,2019,Nutritional deficiencies,73067.0144961565,Lower middle income,Cabo Verde Republic of,External aid
+CPV,2014,Nutritional deficiencies,90977.76312446341,Lower middle income,Cabo Verde Republic of,Out-of-pocket & other private *
+KHM,2019,Nutritional deficiencies,383990.96491543856,Lower middle income,Cambodia,Domestic government
+KHM,2019,Nutritional deficiencies,4825279.558836456,Lower middle income,Cambodia,External aid
+KHM,2019,Nutritional deficiencies,2416465.0527600157,Lower middle income,Cambodia,Out-of-pocket & other private *
+CMR,2019,Nutritional deficiencies,13797.459656358587,Lower middle income,Cameroon,Domestic government
+CMR,2019,Nutritional deficiencies,19618063.12470616,Lower middle income,Cameroon,External aid
+CMR,2019,Nutritional deficiencies,22913177.69271329,Lower middle income,Cameroon,Out-of-pocket & other private *
+CAF,2019,Nutritional deficiencies,163820.94756828024,Low income,Central African Republic,Domestic government
+CAF,2019,Nutritional deficiencies,4025417.8167503015,Low income,Central African Republic,External aid
+CAF,2019,Nutritional deficiencies,1350082.650983693,Low income,Central African Republic,Out-of-pocket & other private *
+TCD,2019,Nutritional deficiencies,1233823.7963384264,Low income,Chad,Domestic government
+TCD,2019,Nutritional deficiencies,14854790.68866624,Low income,Chad,External aid
+TCD,2019,Nutritional deficiencies,6878409.613219,Low income,Chad,Out-of-pocket & other private *
+COM,2019,Nutritional deficiencies,27793.402867263805,Lower middle income,Comoros,Domestic government
+COM,2019,Nutritional deficiencies,220575.12484675052,Lower middle income,Comoros,External aid
+COM,2019,Nutritional deficiencies,29152.153315752414,Lower middle income,Comoros,Out-of-pocket & other private *
+COG,2020,Nutritional deficiencies,7964015.319506771,Lower middle income,Congo,Domestic government
+COG,2020,Nutritional deficiencies,654161.2011105574,Lower middle income,Congo,External aid
+COG,2020,Nutritional deficiencies,5148612.348155638,Lower middle income,Congo,Out-of-pocket & other private *
+CIV,2019,Nutritional deficiencies,5654270.246624124,Lower middle income,Côte d'Ivoire,Domestic government
+CIV,2019,Nutritional deficiencies,2051781.4214332507,Lower middle income,Côte d'Ivoire,External aid
+CIV,2019,Nutritional deficiencies,1767874.2157556133,Lower middle income,Côte d'Ivoire,Out-of-pocket & other private *
+COD,2020,Nutritional deficiencies,11097045.013715407,Low income,Democratic Republic of the Congo,Domestic government
+COD,2020,Nutritional deficiencies,20001062.487773143,Low income,Democratic Republic of the Congo,External aid
+COD,2020,Nutritional deficiencies,77366299.82216154,Low income,Democratic Republic of the Congo,Out-of-pocket & other private *
+DJI,2018,Nutritional deficiencies,2724107.63169609,Lower middle income,Djibouti,Domestic government
+DJI,2018,Nutritional deficiencies,4340257.729867894,Lower middle income,Djibouti,External aid
+DJI,2018,Nutritional deficiencies,1826766.5556646609,Lower middle income,Djibouti,Out-of-pocket & other private *
+SWZ,2019,Nutritional deficiencies,1460822.8402408569,Lower middle income,Eswatini,Domestic government
+SWZ,2019,Nutritional deficiencies,1477989.4727655912,Lower middle income,Eswatini,External aid
+SWZ,2019,Nutritional deficiencies,1718081.3801049306,Lower middle income,Eswatini,Out-of-pocket & other private *
+ETH,2020,Nutritional deficiencies,52446664.073947914,Low income,Ethiopia,Domestic government
+ETH,2020,Nutritional deficiencies,56119657.987710804,Low income,Ethiopia,External aid
+ETH,2020,Nutritional deficiencies,27272154.950329885,Low income,Ethiopia,Out-of-pocket & other private *
+GAB,2019,Nutritional deficiencies,1958741.8795882359,Upper middle income,Gabon,Domestic government
+GAB,2019,Nutritional deficiencies,8350.341985023058,Upper middle income,Gabon,External aid
+GAB,2019,Nutritional deficiencies,356121.37494949583,Upper middle income,Gabon,Out-of-pocket & other private *
+GMB,2019,Nutritional deficiencies,603017.1790654853,Low income,Gambia,Domestic government
+GMB,2019,Nutritional deficiencies,63068.50913211789,Low income,Gambia,Out-of-pocket & other private *
+GEO,2018,Nutritional deficiencies,672900.8500505154,Upper middle income,Georgia,Domestic government
+GEO,2018,Nutritional deficiencies,0.0,Upper middle income,Georgia,External aid
+GEO,2018,Nutritional deficiencies,204443.07478778352,Upper middle income,Georgia,Out-of-pocket & other private *
+GHA,2018,Nutritional deficiencies,16501095.264612013,Lower middle income,Ghana,Domestic government
+GHA,2018,Nutritional deficiencies,16869.080380386364,Lower middle income,Ghana,External aid
+GHA,2018,Nutritional deficiencies,10588029.121999132,Lower middle income,Ghana,Out-of-pocket & other private *
+GIN,2019,Nutritional deficiencies,612128.9532273985,Low income,Guinea,Domestic government
+GIN,2019,Nutritional deficiencies,162265.70232212212,Low income,Guinea,External aid
+GIN,2019,Nutritional deficiencies,2326702.225666852,Low income,Guinea,Out-of-pocket & other private *
+GUY,2019,Nutritional deficiencies,359110.53850546945,Upper middle income,Guyana,Domestic government
+GUY,2019,Nutritional deficiencies,0.0,Upper middle income,Guyana,External aid
+GUY,2019,Nutritional deficiencies,102774.99860172662,Upper middle income,Guyana,Out-of-pocket & other private *
+HTI,2019,Nutritional deficiencies,3490968.2820309335,Lower middle income,Haiti,Domestic government
+HTI,2019,Nutritional deficiencies,8177490.756675907,Lower middle income,Haiti,External aid
+HTI,2019,Nutritional deficiencies,12000468.89852667,Lower middle income,Haiti,Out-of-pocket & other private *
+KEN,2019,Nutritional deficiencies,57364573.72195972,Lower middle income,Kenya,Domestic government
+KEN,2019,Nutritional deficiencies,13146357.06909003,Lower middle income,Kenya,External aid
+KEN,2019,Nutritional deficiencies,142186104.31721404,Lower middle income,Kenya,Out-of-pocket & other private *
+KGZ,2019,Nutritional deficiencies,3322115.8295441656,Lower middle income,Kyrgyzstan,Domestic government
+KGZ,2019,Nutritional deficiencies,40491.77289026097,Lower middle income,Kyrgyzstan,External aid
+KGZ,2019,Nutritional deficiencies,1004030.6951360627,Lower middle income,Kyrgyzstan,Out-of-pocket & other private *
+LAO,2019,Nutritional deficiencies,3188396.5139668095,Lower middle income,Lao People's Democratic Republic,Domestic government
+LAO,2019,Nutritional deficiencies,21279636.50242317,Lower middle income,Lao People's Democratic Republic,External aid
+LAO,2019,Nutritional deficiencies,5115886.379846168,Lower middle income,Lao People's Democratic Republic,Out-of-pocket & other private *
+MWI,2019,Nutritional deficiencies,19651734.771574877,Low income,Malawi,Domestic government
+MWI,2019,Nutritional deficiencies,23253094.11704454,Low income,Malawi,External aid
+MWI,2019,Nutritional deficiencies,14386587.46206547,Low income,Malawi,Out-of-pocket & other private *
+MLI,2019,Nutritional deficiencies,7146665.076093944,Low income,Mali,Domestic government
+MLI,2019,Nutritional deficiencies,10044830.719094496,Low income,Mali,External aid
+MLI,2019,Nutritional deficiencies,103697.3429552366,Low income,Mali,Out-of-pocket & other private *
+MRT,2015,Nutritional deficiencies,270798.88335220213,Lower middle income,Mauritania,Domestic government
+MRT,2019,Nutritional deficiencies,4830071.101889505,Lower middle income,Mauritania,External aid
+MRT,2016,Nutritional deficiencies,1266232.764416293,Lower middle income,Mauritania,Out-of-pocket & other private *
+MUS,2019,Nutritional deficiencies,3981525.786976817,Upper middle income,Mauritius,Domestic government
+MUS,2019,Nutritional deficiencies,822.5683279543218,Upper middle income,Mauritius,External aid
+MUS,2019,Nutritional deficiencies,190104.2187142575,Upper middle income,Mauritius,Out-of-pocket & other private *
+MNE,2020,Nutritional deficiencies,1060232.275176105,Upper middle income,Montenegro,Domestic government
+MNE,2020,Nutritional deficiencies,0.0,Upper middle income,Montenegro,External aid
+MNE,2020,Nutritional deficiencies,11329.044585511887,Upper middle income,Montenegro,Out-of-pocket & other private *
+MOZ,2018,Nutritional deficiencies,8083526.889815218,Low income,Mozambique,Domestic government
+MOZ,2018,Nutritional deficiencies,57956440.53912284,Low income,Mozambique,External aid
+MMR,2019,Nutritional deficiencies,24918921.140136532,Lower middle income,Myanmar,Domestic government
+MMR,2019,Nutritional deficiencies,7981786.68685689,Lower middle income,Myanmar,External aid
+MMR,2019,Nutritional deficiencies,1891761.1168389965,Lower middle income,Myanmar,Out-of-pocket & other private *
+NAM,2019,Nutritional deficiencies,3512055.099161929,Upper middle income,Namibia,Domestic government
+NAM,2019,Nutritional deficiencies,26384.29633264793,Upper middle income,Namibia,External aid
+NAM,2019,Nutritional deficiencies,484644.88265807496,Upper middle income,Namibia,Out-of-pocket & other private *
+NPL,2020,Nutritional deficiencies,10532213.221986359,Lower middle income,Nepal,Domestic government
+NPL,2020,Nutritional deficiencies,24755730.33505823,Lower middle income,Nepal,External aid
+NPL,2020,Nutritional deficiencies,9679852.84659288,Lower middle income,Nepal,Out-of-pocket & other private *
+NER,2020,Nutritional deficiencies,33978740.4122335,Low income,Niger,Domestic government
+NER,2020,Nutritional deficiencies,9869927.75795715,Low income,Niger,External aid
+NER,2020,Nutritional deficiencies,45449267.66397564,Low income,Niger,Out-of-pocket & other private *
+NGA,2020,Nutritional deficiencies,4609766.32692875,Lower middle income,Nigeria,Domestic government
+NGA,2020,Nutritional deficiencies,38426616.79285968,Lower middle income,Nigeria,External aid
+NGA,2020,Nutritional deficiencies,22601693.320839334,Lower middle income,Nigeria,Out-of-pocket & other private *
+MDA,2018,Nutritional deficiencies,8974698.43552776,Upper middle income,Republic of Moldova,Domestic government
+MDA,2018,Nutritional deficiencies,467755.49882888026,Upper middle income,Republic of Moldova,External aid
+MDA,2018,Nutritional deficiencies,1455645.0299982447,Upper middle income,Republic of Moldova,Out-of-pocket & other private *
+WSM,2018,Nutritional deficiencies,250495.80802848504,Lower middle income,Samoa,Domestic government
+WSM,2018,Nutritional deficiencies,0.0,Lower middle income,Samoa,External aid
+WSM,2018,Nutritional deficiencies,2611.5432255817664,Lower middle income,Samoa,Out-of-pocket & other private *
+STP,2019,Nutritional deficiencies,14699.575334355053,Lower middle income,Sao Tome and Principe,Domestic government
+STP,2019,Nutritional deficiencies,43693.327959456175,Lower middle income,Sao Tome and Principe,External aid
+STP,2019,Nutritional deficiencies,5284.804002809393,Lower middle income,Sao Tome and Principe,Out-of-pocket & other private *
+SEN,2020,Nutritional deficiencies,6196071.335159593,Lower middle income,Senegal,Domestic government
+SEN,2020,Nutritional deficiencies,257102.25022691165,Lower middle income,Senegal,External aid
+SEN,2020,Nutritional deficiencies,65839940.29686575,Lower middle income,Senegal,Out-of-pocket & other private *
+SYC,2019,Nutritional deficiencies,17784.483517633704,High income,Seychelles,Domestic government
+SYC,2018,Nutritional deficiencies,18.81338907870292,High income,Seychelles,External aid
+SYC,2019,Nutritional deficiencies,235133.98695560516,High income,Seychelles,Out-of-pocket & other private *
+SLE,2019,Nutritional deficiencies,6356596.602539065,Low income,Sierra Leone,Domestic government
+SLE,2019,Nutritional deficiencies,8975661.47663924,Low income,Sierra Leone,External aid
+SLE,2019,Nutritional deficiencies,21418570.286466513,Low income,Sierra Leone,Out-of-pocket & other private *
+ZAF,2019,Nutritional deficiencies,735960510.1839427,Upper middle income,South Africa,Domestic government
+ZAF,2015,Nutritional deficiencies,1211.016512594262,Upper middle income,South Africa,External aid
+ZAF,2019,Nutritional deficiencies,13615674.894452967,Upper middle income,South Africa,Out-of-pocket & other private *
+SSD,2019,Nutritional deficiencies,174113.1971893971,Low income,South Sudan,Domestic government
+SSD,2019,Nutritional deficiencies,23831975.062471285,Low income,South Sudan,External aid
+SSD,2019,Nutritional deficiencies,329615.40111217496,Low income,South Sudan,Out-of-pocket & other private *
+LKA,2019,Nutritional deficiencies,21088121.794803582,Lower middle income,Sri Lanka,Domestic government
+LKA,2019,Nutritional deficiencies,1262667.5701999648,Lower middle income,Sri Lanka,External aid
+LKA,2019,Nutritional deficiencies,7264363.300648297,Lower middle income,Sri Lanka,Out-of-pocket & other private *
+SDN,2019,Nutritional deficiencies,3899775.513926373,Low income,Sudan,Domestic government
+SDN,2019,Nutritional deficiencies,3349587.6754825506,Low income,Sudan,External aid
+SDN,2019,Nutritional deficiencies,3496838.595183603,Low income,Sudan,Out-of-pocket & other private *
+TJK,2019,Nutritional deficiencies,189111.42212147958,Lower middle income,Tajikistan,Domestic government
+TJK,2018,Nutritional deficiencies,4293438.8918838715,Lower middle income,Tajikistan,External aid
+TJK,2019,Nutritional deficiencies,8864.597911944355,Lower middle income,Tajikistan,Out-of-pocket & other private *
+MKD,2020,Nutritional deficiencies,1566592.1453828851,Upper middle income,The Republic of North Macedonia,Domestic government
+MKD,2020,Nutritional deficiencies,0.0,Upper middle income,The Republic of North Macedonia,External aid
+MKD,2020,Nutritional deficiencies,3027799.123153162,Upper middle income,The Republic of North Macedonia,Out-of-pocket & other private *
+TGO,2019,Nutritional deficiencies,171446.82783372034,Low income,Togo,Domestic government
+TGO,2019,Nutritional deficiencies,1559050.9169330995,Low income,Togo,External aid
+TGO,2019,Nutritional deficiencies,881849.8337302004,Low income,Togo,Out-of-pocket & other private *
+TUN,2018,Nutritional deficiencies,3063512.609758728,Lower middle income,Tunisia,Domestic government
+TUN,2018,Nutritional deficiencies,0.0,Lower middle income,Tunisia,External aid
+TUN,2018,Nutritional deficiencies,9061172.520983748,Lower middle income,Tunisia,Out-of-pocket & other private *
+UGA,2019,Nutritional deficiencies,13413749.032968275,Low income,Uganda,Domestic government
+UGA,2019,Nutritional deficiencies,14977330.474967118,Low income,Uganda,External aid
+UGA,2019,Nutritional deficiencies,4706823.249042507,Low income,Uganda,Out-of-pocket & other private *
+UKR,2020,Nutritional deficiencies,1756440.170084972,Lower middle income,Ukraine,Domestic government
+UKR,2020,Nutritional deficiencies,241476.68501737568,Lower middle income,Ukraine,Out-of-pocket & other private *
+TZA,2019,Nutritional deficiencies,20467428.140311588,Lower middle income,United Republic of Tanzania,Domestic government
+TZA,2019,Nutritional deficiencies,15167184.040360523,Lower middle income,United Republic of Tanzania,External aid
+TZA,2019,Nutritional deficiencies,15152099.60866752,Lower middle income,United Republic of Tanzania,Out-of-pocket & other private *
+UZB,2019,Nutritional deficiencies,7196303.855248497,Lower middle income,Uzbekistan,Domestic government
+UZB,2018,Nutritional deficiencies,0.0,Lower middle income,Uzbekistan,External aid
+UZB,2018,Nutritional deficiencies,0.0,Lower middle income,Uzbekistan,Out-of-pocket & other private *
+ZMB,2019,Nutritional deficiencies,1218021.8556002541,Low income,Zambia,Domestic government
+ZMB,2019,Nutritional deficiencies,10517130.47458674,Low income,Zambia,External aid
+ZMB,2019,Nutritional deficiencies,94022.00618550504,Low income,Zambia,Out-of-pocket & other private *
+AFG,2020,Other diseases and conditions,153440844.35429847,Low income,Afghanistan,Domestic government
+AFG,2020,Other diseases and conditions,67795506.1133827,Low income,Afghanistan,External aid
+AFG,2020,Other diseases and conditions,106843053.05490294,Low income,Afghanistan,Out-of-pocket & other private *
+ARM,2020,Other diseases and conditions,20983881.584714442,Upper middle income,Armenia,Domestic government
+ARM,2020,Other diseases and conditions,53151.568819582535,Upper middle income,Armenia,External aid
+ARM,2020,Other diseases and conditions,234207460.97150525,Upper middle income,Armenia,Out-of-pocket & other private *
+BLR,2020,Other diseases and conditions,960819616.8784012,Upper middle income,Belarus,Domestic government
+BLR,2020,Other diseases and conditions,855874.5021361265,Upper middle income,Belarus,External aid
+BLR,2020,Other diseases and conditions,995335028.2829399,Upper middle income,Belarus,Out-of-pocket & other private *
+BEN,2018,Other diseases and conditions,15375792.705488626,Lower middle income,Benin,Domestic government
+BEN,2018,Other diseases and conditions,13594371.967555342,Lower middle income,Benin,External aid
+BEN,2018,Other diseases and conditions,75203307.98515192,Lower middle income,Benin,Out-of-pocket & other private *
+BTN,2020,Other diseases and conditions,2733619.7449237066,Lower middle income,Bhutan,Domestic government
+BTN,2020,Other diseases and conditions,3212067.5162608726,Lower middle income,Bhutan,External aid
+BTN,2020,Other diseases and conditions,334118.10628602747,Lower middle income,Bhutan,Out-of-pocket & other private *
+BWA,2019,Other diseases and conditions,1.4300712896822927,Upper middle income,Botswana,Domestic government
+BWA,2019,Other diseases and conditions,0.0956417104564591,Upper middle income,Botswana,External aid
+BWA,2019,Other diseases and conditions,755999.4794795549,Upper middle income,Botswana,Out-of-pocket & other private *
+BFA,2020,Other diseases and conditions,195579680.43191022,Low income,Burkina Faso,Domestic government
+BFA,2020,Other diseases and conditions,6589872.258082859,Low income,Burkina Faso,External aid
+BFA,2020,Other diseases and conditions,13367644.761140529,Low income,Burkina Faso,Out-of-pocket & other private *
+BDI,2019,Other diseases and conditions,0.22068093211211104,Low income,Burundi,Domestic government
+BDI,2019,Other diseases and conditions,642752.4964258189,Low income,Burundi,External aid
+BDI,2019,Other diseases and conditions,4953.82750683125,Low income,Burundi,Out-of-pocket & other private *
+CPV,2019,Other diseases and conditions,5150456.095743183,Lower middle income,Cabo Verde Republic of,Domestic government
+CPV,2019,Other diseases and conditions,95927.03669647237,Lower middle income,Cabo Verde Republic of,External aid
+CPV,2019,Other diseases and conditions,2530585.304237921,Lower middle income,Cabo Verde Republic of,Out-of-pocket & other private *
+KHM,2019,Other diseases and conditions,30764364.425125156,Lower middle income,Cambodia,Domestic government
+KHM,2019,Other diseases and conditions,12284551.671006693,Lower middle income,Cambodia,External aid
+KHM,2019,Other diseases and conditions,15602645.50105844,Lower middle income,Cambodia,Out-of-pocket & other private *
+CMR,2019,Other diseases and conditions,174556.26189149212,Lower middle income,Cameroon,Domestic government
+CMR,2019,Other diseases and conditions,0.38727794565804413,Lower middle income,Cameroon,External aid
+CMR,2019,Other diseases and conditions,422255889.9179743,Lower middle income,Cameroon,Out-of-pocket & other private *
+CAF,2019,Other diseases and conditions,252672.22689263575,Low income,Central African Republic,Domestic government
+CAF,2019,Other diseases and conditions,654024.9030545193,Low income,Central African Republic,External aid
+CAF,2019,Other diseases and conditions,2088690.0017281428,Low income,Central African Republic,Out-of-pocket & other private *
+TCD,2019,Other diseases and conditions,2490355.6350500155,Low income,Chad,Domestic government
+TCD,2019,Other diseases and conditions,593231.0934054732,Low income,Chad,External aid
+TCD,2019,Other diseases and conditions,10220293.647616075,Low income,Chad,Out-of-pocket & other private *
+COM,2019,Other diseases and conditions,1193698.04636278,Lower middle income,Comoros,Domestic government
+COM,2019,Other diseases and conditions,226914.30516418561,Lower middle income,Comoros,External aid
+COM,2019,Other diseases and conditions,345084.3828981826,Lower middle income,Comoros,Out-of-pocket & other private *
+COG,2020,Other diseases and conditions,11524310.923545806,Lower middle income,Congo,Domestic government
+COG,2020,Other diseases and conditions,700673.5020422414,Lower middle income,Congo,External aid
+COG,2020,Other diseases and conditions,11049631.583836101,Lower middle income,Congo,Out-of-pocket & other private *
+CIV,2019,Other diseases and conditions,3573829.3000700036,Lower middle income,Côte d'Ivoire,Domestic government
+CIV,2019,Other diseases and conditions,134431.70540616885,Lower middle income,Côte d'Ivoire,External aid
+CIV,2019,Other diseases and conditions,14676963.357258316,Lower middle income,Côte d'Ivoire,Out-of-pocket & other private *
+COD,2020,Other diseases and conditions,15824469.587033547,Low income,Democratic Republic of the Congo,Domestic government
+COD,2020,Other diseases and conditions,12797456.09616558,Low income,Democratic Republic of the Congo,External aid
+COD,2020,Other diseases and conditions,79283962.740645,Low income,Democratic Republic of the Congo,Out-of-pocket & other private *
+DJI,2018,Other diseases and conditions,0.0,Lower middle income,Djibouti,Domestic government
+DJI,2018,Other diseases and conditions,0.0,Lower middle income,Djibouti,External aid
+DJI,2018,Other diseases and conditions,0.0,Lower middle income,Djibouti,Out-of-pocket & other private *
+SWZ,2019,Other diseases and conditions,3176627.9260829496,Lower middle income,Eswatini,Domestic government
+SWZ,2019,Other diseases and conditions,259.4192130980106,Lower middle income,Eswatini,External aid
+SWZ,2019,Other diseases and conditions,13181133.553513765,Lower middle income,Eswatini,Out-of-pocket & other private *
+ETH,2020,Other diseases and conditions,26834230.447719455,Low income,Ethiopia,Domestic government
+ETH,2020,Other diseases and conditions,33058358.039945334,Low income,Ethiopia,External aid
+ETH,2020,Other diseases and conditions,107977549.07859796,Low income,Ethiopia,Out-of-pocket & other private *
+GAB,2019,Other diseases and conditions,35501191.40337807,Upper middle income,Gabon,Domestic government
+GAB,2019,Other diseases and conditions,65613.71963178003,Upper middle income,Gabon,External aid
+GAB,2019,Other diseases and conditions,16025705.473778374,Upper middle income,Gabon,Out-of-pocket & other private *
+GMB,2019,Other diseases and conditions,638890.9770028576,Low income,Gambia,Domestic government
+GMB,2019,Other diseases and conditions,0.015449497062004599,Low income,Gambia,External aid
+GMB,2019,Other diseases and conditions,63343.875223707284,Low income,Gambia,Out-of-pocket & other private *
+GEO,2018,Other diseases and conditions,127236934.69213185,Upper middle income,Georgia,Domestic government
+GEO,2018,Other diseases and conditions,0.0,Upper middle income,Georgia,External aid
+GEO,2018,Other diseases and conditions,513098949.3176026,Upper middle income,Georgia,Out-of-pocket & other private *
+GHA,2018,Other diseases and conditions,326180822.648928,Lower middle income,Ghana,Domestic government
+GHA,2018,Other diseases and conditions,13479668.129803346,Lower middle income,Ghana,External aid
+GHA,2018,Other diseases and conditions,492738560.4946721,Lower middle income,Ghana,Out-of-pocket & other private *
+GIN,2019,Other diseases and conditions,5529045.956981388,Low income,Guinea,Domestic government
+GIN,2019,Other diseases and conditions,1375125.8269189927,Low income,Guinea,External aid
+GIN,2019,Other diseases and conditions,20126202.626147248,Low income,Guinea,Out-of-pocket & other private *
+GUY,2019,Other diseases and conditions,4036826.298396011,Upper middle income,Guyana,Domestic government
+GUY,2019,Other diseases and conditions,279329.37809595093,Upper middle income,Guyana,External aid
+GUY,2019,Other diseases and conditions,2786326.7844391805,Upper middle income,Guyana,Out-of-pocket & other private *
+HTI,2019,Other diseases and conditions,10727327.910699932,Lower middle income,Haiti,Domestic government
+HTI,2019,Other diseases and conditions,43881744.70486951,Lower middle income,Haiti,External aid
+HTI,2019,Other diseases and conditions,55339724.650404625,Lower middle income,Haiti,Out-of-pocket & other private *
+KEN,2019,Other diseases and conditions,282593207.8423478,Lower middle income,Kenya,Domestic government
+KEN,2019,Other diseases and conditions,53544041.25264794,Lower middle income,Kenya,External aid
+KEN,2019,Other diseases and conditions,60350134.7391349,Lower middle income,Kenya,Out-of-pocket & other private *
+KGZ,2019,Other diseases and conditions,21075554.60802481,Lower middle income,Kyrgyzstan,Domestic government
+KGZ,2019,Other diseases and conditions,314706.4661709058,Lower middle income,Kyrgyzstan,External aid
+KGZ,2019,Other diseases and conditions,161310270.93208587,Lower middle income,Kyrgyzstan,Out-of-pocket & other private *
+LAO,2019,Other diseases and conditions,51168159.26593829,Lower middle income,Lao People's Democratic Republic,Domestic government
+LAO,2019,Other diseases and conditions,34995703.16011406,Lower middle income,Lao People's Democratic Republic,External aid
+LAO,2019,Other diseases and conditions,22434723.611796293,Lower middle income,Lao People's Democratic Republic,Out-of-pocket & other private *
+MWI,2019,Other diseases and conditions,3930349.4820755054,Low income,Malawi,Domestic government
+MWI,2019,Other diseases and conditions,11334262.750696585,Low income,Malawi,External aid
+MWI,2019,Other diseases and conditions,2861979.3866255768,Low income,Malawi,Out-of-pocket & other private *
+MLI,2019,Other diseases and conditions,514049.13917343406,Low income,Mali,Domestic government
+MLI,2019,Other diseases and conditions,0.7005852483262613,Low income,Mali,External aid
+MLI,2019,Other diseases and conditions,0.2468740733763026,Low income,Mali,Out-of-pocket & other private *
+MRT,2019,Other diseases and conditions,16812701.95916822,Lower middle income,Mauritania,Domestic government
+MRT,2019,Other diseases and conditions,658167.5379653813,Lower middle income,Mauritania,External aid
+MRT,2019,Other diseases and conditions,28930569.212365597,Lower middle income,Mauritania,Out-of-pocket & other private *
+MUS,2019,Other diseases and conditions,25555987.06449001,Upper middle income,Mauritius,Domestic government
+MUS,2019,Other diseases and conditions,201154.940008448,Upper middle income,Mauritius,External aid
+MUS,2019,Other diseases and conditions,66672684.497730516,Upper middle income,Mauritius,Out-of-pocket & other private *
+MNE,2020,Other diseases and conditions,162620172.86919865,Upper middle income,Montenegro,Domestic government
+MNE,2020,Other diseases and conditions,0.0,Upper middle income,Montenegro,External aid
+MNE,2020,Other diseases and conditions,203068210.31019703,Upper middle income,Montenegro,Out-of-pocket & other private *
+MOZ,2018,Other diseases and conditions,129768852.64263612,Low income,Mozambique,Domestic government
+MOZ,2018,Other diseases and conditions,30494118.709668245,Low income,Mozambique,External aid
+MOZ,2018,Other diseases and conditions,122817695.20599928,Low income,Mozambique,Out-of-pocket & other private *
+MMR,2020,Other diseases and conditions,599136573.4586631,Lower middle income,Myanmar,Domestic government
+MMR,2020,Other diseases and conditions,220023500.34062764,Lower middle income,Myanmar,External aid
+MMR,2020,Other diseases and conditions,2183272501.127577,Lower middle income,Myanmar,Out-of-pocket & other private *
+NAM,2019,Other diseases and conditions,52362482.15707949,Upper middle income,Namibia,Domestic government
+NAM,2019,Other diseases and conditions,84871.92337450202,Upper middle income,Namibia,External aid
+NAM,2019,Other diseases and conditions,70704352.15515698,Upper middle income,Namibia,Out-of-pocket & other private *
+NPL,2020,Other diseases and conditions,145181866.43345925,Lower middle income,Nepal,Domestic government
+NPL,2020,Other diseases and conditions,40893363.43237745,Lower middle income,Nepal,External aid
+NPL,2020,Other diseases and conditions,217773924.63469368,Lower middle income,Nepal,Out-of-pocket & other private *
+NER,2020,Other diseases and conditions,5163129.324118806,Low income,Niger,Domestic government
+NER,2020,Other diseases and conditions,439598.17999444116,Low income,Niger,External aid
+NER,2020,Other diseases and conditions,4164518.188436671,Low income,Niger,Out-of-pocket & other private *
+NGA,2020,Other diseases and conditions,24729381.40864573,Lower middle income,Nigeria,Domestic government
+NGA,2020,Other diseases and conditions,14122810.737481104,Lower middle income,Nigeria,External aid
+NGA,2020,Other diseases and conditions,283736601.31119657,Lower middle income,Nigeria,Out-of-pocket & other private *
+MDA,2018,Other diseases and conditions,36201635.94856017,Upper middle income,Republic of Moldova,Domestic government
+MDA,2018,Other diseases and conditions,22844.106023962093,Upper middle income,Republic of Moldova,External aid
+MDA,2018,Other diseases and conditions,263028984.01605892,Upper middle income,Republic of Moldova,Out-of-pocket & other private *
+WSM,2018,Other diseases and conditions,6000742.17915256,Lower middle income,Samoa,Domestic government
+WSM,2018,Other diseases and conditions,936025.6558331167,Lower middle income,Samoa,External aid
+WSM,2018,Other diseases and conditions,770922.214124458,Lower middle income,Samoa,Out-of-pocket & other private *
+STP,2019,Other diseases and conditions,325439.56200405356,Lower middle income,Sao Tome and Principe,Domestic government
+STP,2019,Other diseases and conditions,172824.98855315545,Lower middle income,Sao Tome and Principe,External aid
+STP,2019,Other diseases and conditions,210646.4175307486,Lower middle income,Sao Tome and Principe,Out-of-pocket & other private *
+SEN,2020,Other diseases and conditions,11831572.961515998,Lower middle income,Senegal,Domestic government
+SEN,2020,Other diseases and conditions,60.11776492874142,Lower middle income,Senegal,External aid
+SEN,2020,Other diseases and conditions,67152025.6676986,Lower middle income,Senegal,Out-of-pocket & other private *
+SYC,2019,Other diseases and conditions,947556.024570453,High income,Seychelles,Domestic government
+SYC,2019,Other diseases and conditions,0.0,High income,Seychelles,External aid
+SYC,2019,Other diseases and conditions,4226725.387636514,High income,Seychelles,Out-of-pocket & other private *
+SLE,2019,Other diseases and conditions,532872.050553718,Low income,Sierra Leone,Domestic government
+SLE,2019,Other diseases and conditions,656733.1693858913,Low income,Sierra Leone,External aid
+SLE,2019,Other diseases and conditions,302511.94212836813,Low income,Sierra Leone,Out-of-pocket & other private *
+ZAF,2019,Other diseases and conditions,1266694945.6945171,Upper middle income,South Africa,Domestic government
+ZAF,2019,Other diseases and conditions,0.33382427178464347,Upper middle income,South Africa,External aid
+ZAF,2019,Other diseases and conditions,1027062565.46635,Upper middle income,South Africa,Out-of-pocket & other private *
+SSD,2019,Other diseases and conditions,8329033.139563716,Low income,South Sudan,Domestic government
+SSD,2019,Other diseases and conditions,5259300.931510889,Low income,South Sudan,External aid
+SSD,2019,Other diseases and conditions,3236708.1618549116,Low income,South Sudan,Out-of-pocket & other private *
+LKA,2019,Other diseases and conditions,150718273.4076233,Lower middle income,Sri Lanka,Domestic government
+LKA,2019,Other diseases and conditions,43522310.26387132,Lower middle income,Sri Lanka,External aid
+LKA,2019,Other diseases and conditions,206823893.94960645,Lower middle income,Sri Lanka,Out-of-pocket & other private *
+SDN,2019,Other diseases and conditions,105517440.44570647,Low income,Sudan,Domestic government
+SDN,2019,Other diseases and conditions,76249053.22851323,Low income,Sudan,External aid
+SDN,2019,Other diseases and conditions,55159894.03629031,Low income,Sudan,Out-of-pocket & other private *
+TJK,2019,Other diseases and conditions,5177910.135899054,Lower middle income,Tajikistan,Domestic government
+TJK,2019,Other diseases and conditions,1714807.218299458,Lower middle income,Tajikistan,External aid
+TJK,2019,Other diseases and conditions,183867519.9789027,Lower middle income,Tajikistan,Out-of-pocket & other private *
+MKD,2020,Other diseases and conditions,116639105.72275873,Upper middle income,The Republic of North Macedonia,Domestic government
+MKD,2020,Other diseases and conditions,0.0,Upper middle income,The Republic of North Macedonia,External aid
+MKD,2020,Other diseases and conditions,236415103.0256197,Upper middle income,The Republic of North Macedonia,Out-of-pocket & other private *
+TGO,2019,Other diseases and conditions,2203665.6306447363,Low income,Togo,Domestic government
+TGO,2019,Other diseases and conditions,252017.3388209656,Low income,Togo,External aid
+TGO,2019,Other diseases and conditions,12729772.599269316,Low income,Togo,Out-of-pocket & other private *
+TUN,2018,Other diseases and conditions,232617302.03473338,Lower middle income,Tunisia,Domestic government
+TUN,2018,Other diseases and conditions,-0.040646582255502835,Lower middle income,Tunisia,External aid
+TUN,2018,Other diseases and conditions,179205180.08173576,Lower middle income,Tunisia,Out-of-pocket & other private *
+UGA,2019,Other diseases and conditions,8573667.863532146,Low income,Uganda,Domestic government
+UGA,2019,Other diseases and conditions,3615108.3835744583,Low income,Uganda,External aid
+UGA,2019,Other diseases and conditions,3104304.948402561,Low income,Uganda,Out-of-pocket & other private *
+UKR,2020,Other diseases and conditions,3975283418.212739,Lower middle income,Ukraine,Domestic government
+UKR,2020,Other diseases and conditions,5390428126.716007,Lower middle income,Ukraine,Out-of-pocket & other private *
+TZA,2019,Other diseases and conditions,22371663.82028973,Lower middle income,United Republic of Tanzania,Domestic government
+TZA,2019,Other diseases and conditions,65346371.40510747,Lower middle income,United Republic of Tanzania,External aid
+TZA,2019,Other diseases and conditions,16734043.911243845,Lower middle income,United Republic of Tanzania,Out-of-pocket & other private *
+UZB,2019,Other diseases and conditions,785741882.8086575,Lower middle income,Uzbekistan,Domestic government
+UZB,2018,Other diseases and conditions,45706.42425852783,Lower middle income,Uzbekistan,External aid
+UZB,2019,Other diseases and conditions,1859932934.055535,Lower middle income,Uzbekistan,Out-of-pocket & other private *
+ZMB,2019,Other diseases and conditions,3077807.384668787,Low income,Zambia,Domestic government
+ZMB,2019,Other diseases and conditions,8365306.664077633,Low income,Zambia,External aid
+ZMB,2019,Other diseases and conditions,39551113.8190204,Low income,Zambia,Out-of-pocket & other private *
