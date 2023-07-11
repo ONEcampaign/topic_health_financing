@@ -8,7 +8,7 @@ import pandas as pd
 from scripts import config
 from scripts.logger import logger
 from scripts.analysis.read_data_versions import read_spending_data_versions
-from scripts.charts.common import get_version, total_usd_spending
+from scripts.charts.common import get_version
 
 # Load a dictionary with dataframes for the different versions of "health_spending_by_disease" data
 # These include: 'lcu', 'gdp_share','usd_current', 'usd_constant', 'usd_constant_pc'
@@ -98,9 +98,7 @@ def chart_5_2(spending: pd.DataFrame) -> None:
 
     df = (
         spending.loc[spending.source != "total"]  # exclude total source
-        # .melt(id_vars=["year", "disease", "source"])
         .dropna(subset="value")  # drop rows with missing values
-        # .rename(columns={"series": "country"})
         # keep only latest values
         .assign(year=lambda d: d.year.dt.year)
         .loc[lambda d: d.groupby(["disease", "country_name", "source"]).year.idxmax()]
