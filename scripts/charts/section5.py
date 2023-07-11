@@ -78,7 +78,7 @@ def chart_5_1(spending: pd.DataFrame) -> None:
     """
 
     df = (
-        spending.loc[spending.source == "total"] # keep only total source
+        spending.loc[spending.source == "total"]  # keep only total source
         .drop(columns=["source"])
         .dropna(subset="value")
         .pivot(index=["year", "country_name"], columns="disease", values="value")
@@ -98,9 +98,9 @@ def chart_5_2(spending: pd.DataFrame) -> None:
 
     df = (
         spending.loc[spending.source != "total"]  # exclude total source
-        #.melt(id_vars=["year", "disease", "source"])
+        # .melt(id_vars=["year", "disease", "source"])
         .dropna(subset="value")  # drop rows with missing values
-        #.rename(columns={"series": "country"})
+        # .rename(columns={"series": "country"})
         # keep only latest values
         .assign(year=lambda d: d.year.dt.year)
         .loc[lambda d: d.groupby(["disease", "country_name", "source"]).year.idxmax()]
