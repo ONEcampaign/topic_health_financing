@@ -1,5 +1,5 @@
 """
-Analyze disease specific financing
+Disease specific financing charts
 """
 
 from functools import partial
@@ -67,8 +67,6 @@ def get_disease_spending():
                 "source",
             ],
         )
-        # calculate aggregates
-        .pipe(total_usd_spending, additional_grouper=["disease", "source"], factor=1e6)
     )
 
 
@@ -80,11 +78,10 @@ def chart_5_1(spending: pd.DataFrame) -> None:
     """
 
     df = (
-        spending.loc[spending.source == "total"]
-        .drop(columns=["source", "indicator"])
-        .melt(id_vars=["year", "disease"])
+        spending.loc[spending.source == "total"] # keep only total source
+        .drop(columns=["source"])
         .dropna(subset="value")
-        .pivot(index=["year", "series"], columns="disease", values="value")
+        .pivot(index=["year", "country_name"], columns="disease", values="value")
         .reset_index()
     )
 
@@ -100,14 +97,14 @@ def chart_5_2(spending: pd.DataFrame) -> None:
     """
 
     df = (
-        spending.loc[spending.source != "total"]  # exclude total spending
-        .drop(columns=["indicator"])  # drop indicator column
-        .melt(id_vars=["year", "disease", "source"])
+        spending.loc[spending.source != "total"]  # exclude total source
+        #.melt(id_vars=["year", "disease", "source"])
         .dropna(subset="value")  # drop rows with missing values
-        .rename(columns={"series": "country"})
+        #.rename(columns={"series": "country"})
         # keep only latest values
         .assign(year=lambda d: d.year.dt.year)
-        .loc[lambda d: d.groupby(["disease", "country", "source"]).year.idxmax()]
+        .loc[lambda d: d.groupby(["disease", "country_name", "source"]).year.idxmax()]
+        # rename sources
         .assign(
             source=lambda d: d.source.replace(
                 {
@@ -134,7 +131,7 @@ def chart_5_2(spending: pd.DataFrame) -> None:
                 ],
             )
         )
-        .sort_values(["disease", "country", "source"])
+        .sort_values(["disease", "country_name", "source"])
         .reset_index(drop=True)
     )
 
