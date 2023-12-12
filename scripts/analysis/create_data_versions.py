@@ -1,8 +1,5 @@
-from functools import partial
-
 from scripts import config
 from scripts.analysis.download_indicators import (
-    current_lcu_data,
     get_current_health_exp,
     get_health_exp_by_disease,
     get_health_exp_by_financing_scheme,
@@ -10,39 +7,6 @@ from scripts.analysis.download_indicators import (
     get_health_exp_by_source,
 )
 from scripts.tools import value2pc, year2date
-
-# Function to get the overall spending data in local currency units.
-health_exp_current_lcu = partial(current_lcu_data, get_current_health_exp)
-
-# Function to get government total spending data in local currency units
-gov_total_exp_current_lcu = partial(
-    current_lcu_data,
-    get_health_exp_by_source,
-    additional_filter={"source": "domestic general government"},
-)
-
-# Function to extract COVID-19 spending from the spending by function data, in LCU.
-covid_exp_current_lcu = partial(
-    current_lcu_data,
-    get_health_exp_by_function,
-    additional_filter={"type": "COVID-19 spending"},
-)
-
-# function to get other out-of pocket payments
-health_exp_oop = partial(
-    current_lcu_data,
-    get_health_exp_by_financing_scheme,
-    additional_filter={"type": "Household out-of-pocket payment"},
-)
-
-# Function to get spending by source
-health_exp_by_source_current_lcu = partial(current_lcu_data, get_health_exp_by_source)
-
-# Function to get spending by disease
-health_exp_by_disease_current_lcu = partial(
-    current_lcu_data,
-    get_health_exp_by_disease,
-)
 
 
 def save_data_versions(
