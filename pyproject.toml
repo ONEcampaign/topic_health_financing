@@ -15,6 +15,7 @@ requests = "^2.28.2"
 scikit-learn = "^1.2.1"
 oda-data = "^1"
 policy-dbtools = { git = "https://github.com/ONEcampaign/policy_dbtools.git" }
+beautifulsoup4 = "^4.12.2"
 
 
 [tool.poetry.dev-dependencies]
