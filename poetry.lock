@@ -41,13 +41,13 @@ tests-no-zope = ["cloudpickle", "hypothesis", "mypy (>=1.1.1)", "pympler", "pyte
 
 [[package]]
 name = "bblocks"
-version = "1.2.0"
+version = "1.2.1"
 description = "A package with tools to download and analyse international development data. These tools are meant to be the building blocks of further analysis."
 optional = false
 python-versions = ">=3.10,<4.0"
 files = [
-    {file = "bblocks-1.2.0-py3-none-any.whl", hash = "sha256:89c0b2e1cb31f827294179f955ffd301a44844991cbc9a148c9294b27c3cf8e8"},
-    {file = "bblocks-1.2.0.tar.gz", hash = "sha256:51ed833bd091938e10b348b80831275c1ed26b8f820cebb0d329cb4c6fa284bd"},
+    {file = "bblocks-1.2.1-py3-none-any.whl", hash = "sha256:467ab3af994c4e7fc6b728483d6b8f863572fb2f33250d5641942dcb97d962d9"},
+    {file = "bblocks-1.2.1.tar.gz", hash = "sha256:71f5f216eb025ad3e9eb1af21b2b768acb286a1c138f7c3b741df56cae782ae5"},
 ]
 
 [package.dependencies]
@@ -59,9 +59,9 @@ opencv-python = ">=4.7.0,<5.0.0"
 openpyxl = ">=3.0.10,<4.0.0"
 pandas = ">=2.1,<3.0"
 pyarrow = ">=14,<15"
-pyjstat = ">=2.3.0,<3.0.0"
-PyPDF2 = ">=3.0,<4.0"
-requests = ">=2.28.2,<3.0.0"
+pyjstat = ">=2.3,<3.0"
+pypdf = ">=3.17,<4.0"
+requests = ">=2.28,<3.0"
 wbgapi = "<1.1"
 weo = ">=0.7.4,<0.8.0"
 
@@ -841,6 +841,25 @@ docs = ["sphinx", "sphinx-argparse"]
 image = ["Pillow"]
 
 [[package]]
+name = "policy-dbtools"
+version = "0.2.0"
+description = "ONE Policy team database tools"
+optional = false
+python-versions = "^3.10"
+files = []
+develop = false
+
+[package.dependencies]
+pandas = "^2"
+pymongo = "^4.4"
+
+[package.source]
+type = "git"
+url = "https://github.com/ONEcampaign/policy_dbtools.git"
+reference = "HEAD"
+resolved_reference = "f87d8553e7b6c93cc3ea237717f5d5c1cab2cc9b"
+
+[[package]]
 name = "pyarrow"
 version = "14.0.1"
 description = "Python library for Apache Arrow"
@@ -901,17 +920,17 @@ files = [
 
 [[package]]
 name = "pydeflate"
-version = "1.3.9"
+version = "1.3.10"
 description = "Package to convert current prices figures to constant prices and vice versa"
 optional = false
 python-versions = ">=3.10,<4.0"
 files = [
-    {file = "pydeflate-1.3.9-py3-none-any.whl", hash = "sha256:10241db3d0c9c721371ef5bf717172ade06adbc97b83fb13c5ccf34c0e4ea392"},
-    {file = "pydeflate-1.3.9.tar.gz", hash = "sha256:50196f9abccfad273c7b2d2511331b031b056506adef4190a09e43509cec76b2"},
+    {file = "pydeflate-1.3.10-py3-none-any.whl", hash = "sha256:1126442eb9341272acc2d39dfa2c69b04672c53f61469203ba7e04131390ce68"},
+    {file = "pydeflate-1.3.10.tar.gz", hash = "sha256:d205d824264a573cf34ddd103e5677c5ef13d144cd5ab024bce2996510642b65"},
 ]
 
 [package.dependencies]
-bblocks = ">=1.2,<2.0"
+bblocks = ">=1.2.1,<2.0.0"
 beautifulsoup4 = ">=4.12,<5.0"
 country-converter = ">=1,<2"
 numpy = ">=1.26,<2.0"
@@ -1054,24 +1073,6 @@ dev = ["black", "flit", "pip-tools", "pre-commit (<2.18.0)", "pytest-cov", "pyte
 docs = ["myst_parser", "sphinx", "sphinx_rtd_theme"]
 full = ["Pillow (>=8.0.0)", "PyCryptodome", "cryptography"]
 image = ["Pillow (>=8.0.0)"]
-
-[[package]]
-name = "pypdf2"
-version = "3.0.1"
-description = "A pure-python PDF library capable of splitting, merging, cropping, and transforming PDF files"
-optional = false
-python-versions = ">=3.6"
-files = [
-    {file = "PyPDF2-3.0.1.tar.gz", hash = "sha256:a74408f69ba6271f71b9352ef4ed03dc53a31aa404d29b5d31f53bfecfee1440"},
-    {file = "pypdf2-3.0.1-py3-none-any.whl", hash = "sha256:d16e4205cfee272fbdc0568b68d82be796540b1537508cef59388f839c191928"},
-]
-
-[package.extras]
-crypto = ["PyCryptodome"]
-dev = ["black", "flit", "pip-tools", "pre-commit (<2.18.0)", "pytest-cov", "wheel"]
-docs = ["myst_parser", "sphinx", "sphinx_rtd_theme"]
-full = ["Pillow", "PyCryptodome"]
-image = ["Pillow"]
 
 [[package]]
 name = "pysocks"
@@ -1533,4 +1534,4 @@ test = ["pytest", "pytest-cov"]
 [metadata]
 lock-version = "2.0"
 python-versions = "^3.10"
-content-hash = "d9e1b767353f7d75ef204a84565f994402ed5f1afd6fbca190f94c4835a78559"
+content-hash = "bfb265ec89b3f0b71445998fa8715dacc87fc6f9295085c2c7793c46a8995b2b"
