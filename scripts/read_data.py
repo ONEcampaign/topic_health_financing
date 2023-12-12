@@ -45,7 +45,9 @@ def get_indicator(indicator_code: str, additional_filter: dict = None) -> pd.Dat
     )
 
     # Fetch the data
-    df = reader.get_df(query=_filter).rename(columns={"entity_code": "iso_code"})
+    df = reader.get_df(query=_filter).rename(
+        columns={"entity_code": "iso_code", "entity_name": "country_name"}
+    )
 
     return df
 
