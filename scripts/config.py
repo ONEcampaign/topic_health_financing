@@ -9,6 +9,7 @@ class PATHS:
     pydeflate_data = raw_data / ".pydeflate_data"
     output = project / "output"
     scripts = project / "scripts"
+    db_credentials = scripts / "config.ini"
     logs = scripts / ".logs"
 
 
