@@ -155,6 +155,9 @@ def _value2_group(
     # Store columns
     cols = data.columns
 
+    # check duplicates
+    other_data = other_data.drop_duplicates()
+
     # Merge
     data = pd.merge(
         data,
