@@ -11,6 +11,7 @@ from scripts.analysis.multilateral import (
     read_raw_data,
     summarise_by_donor_recipient_year_flow_sector,
     to_constant_dac,
+    rename_ambiguous_recipients,
 )
 from scripts.config import PATHS
 
@@ -126,6 +127,7 @@ def chart_4_1() -> None:
         .pipe(add_broad_sectors_column)
         .pipe(summarise_by_donor_recipient_year_flow_sector)
         .pipe(to_constant_dac)
+        .pipe(rename_ambiguous_recipients)
         .pipe(add_income_levels)
         .pipe(add_region_groups)
         .pipe(rename_regions)
