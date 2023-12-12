@@ -1,5 +1,8 @@
+import json
+
 import pandas as pd
-import requests
+from bs4 import BeautifulSoup
+from oda_data.get_data.common import get_url_selenium
 
 from scripts import config
 from scripts.logger import logger
@@ -33,17 +36,48 @@ def un_population_url(
     )
 
 
+def get_un_url(url: str) -> json:
+    page_source = get_url_selenium(url).page_source
+    soup = BeautifulSoup(page_source, "html.parser")
+    pre_tag = soup.find("pre")  # Assuming the JSON is within a <pre> tag
+
+    if pre_tag:
+        json_string = pre_tag.text
+        return json.loads(json_string)
+    else:
+        print("population data not found")
+
+
 def download_un_population_data(url: str) -> pd.DataFrame:
-    response = requests.get(url).json()
+    response = get_un_url(url)
 
     df = pd.json_normalize(response["data"])
 
     while response["nextPage"] is not None:
         new_url = response["nextPage"]
-        response = requests.get(new_url).json()
+        response = get_un_url(new_url)
         df = pd.concat([df, pd.json_normalize(response["data"])])
 
     return df
+
+
+def split_list(input_list, n):
+    """Splits a list into n approximately equal parts"""
+    k, m = divmod(len(input_list), n)
+    return (
+        input_list[i * k + min(i, m) : (i + 1) * k + min(i + 1, m)] for i in range(n)
+    )
+
+
+def get_data_for_ids(ids):
+    """Retrieve data for a list of IDs and return as a DataFrame"""
+    url = un_population_url(
+        indicator=49,
+        start_year=config.UN_POPULATION_YEARS["start_year"],
+        end_year=config.UN_POPULATION_YEARS["end_year"],
+        locations=ids,
+    )
+    return download_un_population_data(url)
 
 
 def download_all_population() -> None:
@@ -52,14 +86,13 @@ def download_all_population() -> None:
     locations = _get_un_locations()
     ids = locations["id"].to_list()
 
-    url = un_population_url(
-        indicator=49,
-        start_year=config.UN_POPULATION_YEARS["start_year"],
-        end_year=config.UN_POPULATION_YEARS["end_year"],
-        locations=ids,
-    )
+    # Split the IDs into three parts
+    split_ids = list(split_list(ids, 3))
 
-    df = download_un_population_data(url)
+    # Create DataFrames for each part and collect them in a list
+    dfs = [get_data_for_ids(part) for part in split_ids]
+
+    df = pd.concat(dfs, ignore_index=True)
 
     file_path = config.PATHS.raw_data / "un_population_raw.csv"
 
