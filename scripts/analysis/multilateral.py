@@ -1,7 +1,7 @@
 from functools import partial
 
 import pandas as pd
-from oda_data import read_crs, set_data_path
+from oda_data import read_crs, set_data_path, download_crs
 from pydeflate import deflate, set_pydeflate_path
 
 from scripts import config
@@ -201,3 +201,7 @@ def add_region_groups(df: pd.DataFrame) -> pd.DataFrame:
     }
 
     return df.assign(region_name=lambda d: d.region_code.map(regions))
+
+if __name__ == "__main__":
+    # to update underlying data
+    download_crs(years=range(MULTI_START_YEAR, MULTI_END_YEAR + 1))
