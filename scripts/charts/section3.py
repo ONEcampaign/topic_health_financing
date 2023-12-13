@@ -126,21 +126,21 @@ def get_spending(version="usd_constant") -> pd.DataFrame:
     """
 
     # Get spending in constant USD
-    spending_countries = get_agg_spending_version(version=version)
-
-    # Get OOP spending in constant USD
-    oop_spending_countries = get_oop_spending_version(version=version)
-
-    # rebuild private spending
-    data_private = _rebuild_private_spending(
-        by_source=spending_countries, oop=oop_spending_countries
+    spending_countries = (
+        get_agg_spending_version(version=version)
+        .query("source != 'domestic private'")
+        .assign(
+            source=lambda d: d.source.replace(
+                {"domestic private excluding out-of-pocket": "other_domestic_private"},
+                regex=False,
+            )
+        )
     )
-
-    # Remove the original private spending data
-    data = spending_countries.query("source != 'domestic private'")
-
+    oop_spending_countries = get_oop_spending_version(version=version).assign(
+        source="out_of_pocket_private"
+    )
     # Combine the two dataframes
-    return pd.concat([data, data_private], ignore_index=True)
+    return pd.concat([spending_countries, oop_spending_countries], ignore_index=True)
 
 
 def clean_chart_3_1(df: pd.DataFrame, full_df: pd.DataFrame) -> pd.DataFrame:
