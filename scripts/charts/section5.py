@@ -42,17 +42,18 @@ def get_disease_spending():
     """Get disease specific spending data in USD constant values for specific diseases."""
     return (
         get_spending_version(
-            version="usd_constant", additional_cols=["source", "type", "subtype"]
+            version="usd_constant",
+            additional_cols=["source", "dimension_1", "dimension_2"],
         )
         # keep only the relevant diseases and conditions
         .loc[
             lambda d: (
-                (d.subtype.isin(INDICATORS["subtype"]))
-                | ((d.type.isin(INDICATORS["type"])) & (d.subtype.isna()))
+                (d.dimension_2.isin(INDICATORS["subtype"]))
+                | ((d.dimension_1.isin(INDICATORS["type"])) & (d.dimension_2.isna()))
             )
         ]
         .assign(
-            disease=lambda d: d.subtype.fillna(d["type"]).replace(
+            disease=lambda d: d.dimension_2.fillna(d.dimension_1).replace(
                 {**INDICATORS["type"], **INDICATORS["subtype"]}
             )
         )
@@ -78,8 +79,13 @@ def chart_5_1(spending: pd.DataFrame) -> None:
     """
 
     df = (
-        spending.loc[spending.source == "total"]  # keep only total source
-        .drop(columns=["source"])
+        spending.groupby(
+            [c for c in spending if c not in ["value", "source"]],
+            dropna=False,
+            observed=True,
+        )  # keep only total source
+        .value.sum()
+        .reset_index()
         .dropna(subset="value")
         .pivot(index=["year", "country_name"], columns="disease", values="value")
         .sort_values(["country_name", "year"])
