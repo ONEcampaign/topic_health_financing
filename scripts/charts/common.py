@@ -1,13 +1,16 @@
 """Helper functions to conduct the analysis and transformations for the topic page"""
 import pandas as pd
-from bblocks import add_income_level_column, convert_id
+from bblocks import add_income_level_column, convert_id, set_bblocks_data_path
 
+from scripts.config import PATHS
 from scripts.tools import (
     value2gdp_share,
     value2gdp_share_group,
     value2pc_group,
     value_total_group,
 )
+
+set_bblocks_data_path(PATHS.raw_data)
 
 
 def _validate_additional_grouper(grouper: list | str) -> list:
@@ -298,7 +301,7 @@ def get_version(
     versions_dict: dict,
     version: str,
     additional_cols: str | list = None,
-    max_year: int = 2020,
+    max_year: int = 2021,
     additional_filter: str | None = None,
 ) -> pd.DataFrame:
     """

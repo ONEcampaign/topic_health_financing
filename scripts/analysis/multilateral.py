@@ -1,15 +1,17 @@
 from functools import partial
 
 import pandas as pd
-from oda_data import read_crs, set_data_path
+from oda_data import read_crs, set_data_path, download_crs
 from pydeflate import deflate, set_pydeflate_path
 
 from scripts import config
 from scripts.config import MULTI_END_YEAR, MULTI_START_YEAR, PATHS
+from bblocks import add_income_level_column, set_bblocks_data_path
 
 # Set path to raw data folders
 set_data_path(PATHS.raw_data)
 set_pydeflate_path(PATHS.pydeflate_data)
+set_bblocks_data_path(PATHS.raw_data)
 
 # ----------------------------- Sector Groups ------------------------------------------
 health = [120]
@@ -171,9 +173,26 @@ def summarise_by_donor_recipient_year_flow_sector(df: pd.DataFrame) -> pd.DataFr
     ].sum(numeric_only=True)
 
 
+def rename_ambiguous_recipients(df: pd.DataFrame) -> pd.DataFrame:
+    """
+    Rename recipients with ambiguous names to make them unique.
+    """
+
+    mapping = {
+        "Southern Africa, regional": "Regional Africa Southern, regional",
+        "TÃ¼rkiye": "Turkey",
+        r"Türkiye": "Turkey",
+    }
+
+    df["recipient_name"] = (
+        df["recipient_name"].map(mapping).fillna(df["recipient_name"])
+    )
+
+    return df
+
+
 def add_income_levels(df: pd.DataFrame) -> pd.DataFrame:
     """Add an income level column to the data"""
-    from bblocks import add_income_level_column
 
     return add_income_level_column(
         df, id_column="recipient_name", id_type="regex"
@@ -201,3 +220,8 @@ def add_region_groups(df: pd.DataFrame) -> pd.DataFrame:
     }
 
     return df.assign(region_name=lambda d: d.region_code.map(regions))
+
+
+if __name__ == "__main__":
+    # to update underlying data
+    download_crs(years=range(MULTI_START_YEAR, MULTI_END_YEAR + 1))
