@@ -85,7 +85,11 @@ def save_data_pipeline() -> None:
     # Spending by disease
     save_data_versions(
         spending_function=get_health_exp_by_disease,
-        additional_filter={"source": None, "dimension_2": None},
+        additional_filter={
+            "source": {"$ne": None},
+            # "dimension_1": {"$ne": None},
+            # "dimension_2": {"$ne": None},
+        },
         dataset_name="health_spending_by_disease",
     )
 
