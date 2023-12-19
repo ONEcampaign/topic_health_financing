@@ -34,47 +34,6 @@ get_agg_spending_version = partial(
 get_oop_spending_version = partial(get_version, versions_dict=spending_oop)
 
 
-def _rebuild_private_spending(
-    by_source: pd.DataFrame, oop: pd.DataFrame
-) -> pd.DataFrame:
-    """
-    Rebuilds a DataFrame containing spending data for domestic private sources.
-    This is done by merging a DataFrame containing spending data by source with
-    a DataFrame containing out-of-pocket spending data.
-
-    Parameters:
-    - by_source: A DataFrame containing healthcare spending data by source.
-    - oop: A DataFrame containing out-of-pocket healthcare spending data
-
-    Returns:
-    - A DataFrame which splits private into out-of-pocket and other domestic private.
-    """
-
-    # Keep only domestic private and drop source column
-    by_source = by_source.query("source == 'domestic private'").drop(columns=["source"])
-
-    # Merge the two dataframes
-    data = by_source.merge(
-        oop,
-        on=["iso_code", "country_name", "year", "income_group"],
-        suffixes=("_agg", "_oop"),
-    )
-
-    # create the two totals
-    data = data.assign(
-        out_of_pocket_private=lambda d: d.value_oop,
-        other_domestic_private=lambda d: d.value_agg - d.value_oop,
-    )
-
-    # Clean and return
-    return data.drop(columns=["value_agg", "value_oop"]).melt(
-        id_vars=["iso_code", "country_name", "year", "income_group"],
-        value_vars=["out_of_pocket_private", "other_domestic_private"],
-        var_name="source",
-        value_name="value",
-    )
-
-
 def _incomes_first(df: pd.DataFrame) -> pd.DataFrame:
     """
     Sorts a DataFrame so that countries are ordered by income level first, with lower

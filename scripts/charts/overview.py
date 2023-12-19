@@ -323,38 +323,26 @@ def section1_dynamic_text() -> None:
 def section2_dynamic_text() -> None:
     numbers = {}
 
+    gov_spending_gdp = pd.read_csv(PATHS.output / "section2_chart2_1.csv")
+    gov_spending_pc = pd.read_csv(PATHS.output / "section2_chart3.csv")
+
     gdp = (
-        _read_spending()
-        .pipe(_filter_indicator, indicator="Share of GDP (%)")
-        .drop(columns=["indicator"])
-        .pipe(_reshape_vertical)
-        .pipe(add_income_level_column, id_column="entity", id_type="regex")
-        .assign(
-            continent=lambda d: convert_id(
-                d.entity, from_type="regex", to_type="continent"
-            )
-        )
-        .loc[lambda d: d.continent == "Africa"]
+        gov_spending_gdp.loc[lambda d: d.Continent == "Africa"]
+        .loc[lambda d: d.year_note == d.year_note.max()]
         .loc[lambda d: d.value >= 5]
-        .dropna(subset="income_level")
-        .loc[lambda d: d.year == d.year.max()]
+        .dropna(subset="income_group")
     )
 
     per_capita = (
-        _read_spending()
-        .pipe(_filter_indicator, indicator="Per capita spending ($US)")
-        .drop(columns=["indicator"])
-        .pipe(_reshape_vertical)
-        .pipe(add_income_level_column, id_column="entity", id_type="regex")
-        .assign(
+        gov_spending_pc.assign(
             continent=lambda d: convert_id(
-                d.entity, from_type="regex", to_type="continent"
+                d.country_name, from_type="regex", to_type="continent"
             )
         )
         .loc[lambda d: d.continent == "Africa"]
         .loc[lambda d: d.value >= 86]
-        .dropna(subset="income_level")
-        .loc[lambda d: d.year == d.year.max()]
+        .dropna(subset="income_group")
+        .loc[lambda d: d.year_note == d.year_note.max()]
     )
 
     gdp_entities = set(gdp.entity.unique())
