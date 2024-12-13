@@ -16543,91 +16543,91 @@ year,source,country,value
 2019-01-01,external,indicator,Share of total spending (%)
 2020-01-01,external,indicator,Share of total spending (%)
 2021-01-01,external,indicator,Share of total spending (%)
-2000-01-01,external,Africa (excluding High income),
-2001-01-01,external,Africa (excluding High income),
-2002-01-01,external,Africa (excluding High income),
-2003-01-01,external,Africa (excluding High income),
-2004-01-01,external,Africa (excluding High income),
-2005-01-01,external,Africa (excluding High income),
-2006-01-01,external,Africa (excluding High income),
-2007-01-01,external,Africa (excluding High income),
-2008-01-01,external,Africa (excluding High income),
-2009-01-01,external,Africa (excluding High income),
-2010-01-01,external,Africa (excluding High income),
-2011-01-01,external,Africa (excluding High income),
-2012-01-01,external,Africa (excluding High income),
-2013-01-01,external,Africa (excluding High income),
-2014-01-01,external,Africa (excluding High income),
-2015-01-01,external,Africa (excluding High income),
-2016-01-01,external,Africa (excluding High income),
-2017-01-01,external,Africa (excluding High income),
-2018-01-01,external,Africa (excluding High income),
-2019-01-01,external,Africa (excluding High income),
-2020-01-01,external,Africa (excluding High income),
-2021-01-01,external,Africa (excluding High income),
-2000-01-01,external,Africa (excluding High income),2601.449
-2001-01-01,external,Africa (excluding High income),2396.953
-2002-01-01,external,Africa (excluding High income),2721.077
-2003-01-01,external,Africa (excluding High income),4323.375
-2004-01-01,external,Africa (excluding High income),5250.813
-2005-01-01,external,Africa (excluding High income),7158.315
-2006-01-01,external,Africa (excluding High income),7461.432
-2007-01-01,external,Africa (excluding High income),8071.595
-2008-01-01,external,Africa (excluding High income),8532.138
-2009-01-01,external,Africa (excluding High income),9613.83
-2010-01-01,external,Africa (excluding High income),10037.226
-2011-01-01,external,Africa (excluding High income),10722.392
-2012-01-01,external,Africa (excluding High income),10502.077
-2013-01-01,external,Africa (excluding High income),11568.07
-2014-01-01,external,Africa (excluding High income),10276.95
-2015-01-01,external,Africa (excluding High income),10170.164
-2016-01-01,external,Africa (excluding High income),10491.299
-2017-01-01,external,Africa (excluding High income),10791.835
-2018-01-01,external,Africa (excluding High income),10781.406
-2019-01-01,external,Africa (excluding High income),11711.698
-2020-01-01,external,Africa (excluding High income),11682.461
-2021-01-01,external,Africa (excluding High income),13258.439
-2000-01-01,external,Africa (excluding High income),0.258
-2001-01-01,external,Africa (excluding High income),0.228
-2002-01-01,external,Africa (excluding High income),0.246
-2003-01-01,external,Africa (excluding High income),0.311
-2004-01-01,external,Africa (excluding High income),0.356
-2005-01-01,external,Africa (excluding High income),0.459
-2006-01-01,external,Africa (excluding High income),0.452
-2007-01-01,external,Africa (excluding High income),0.462
-2008-01-01,external,Africa (excluding High income),0.464
-2009-01-01,external,Africa (excluding High income),0.508
-2010-01-01,external,Africa (excluding High income),0.502
-2011-01-01,external,Africa (excluding High income),0.523
-2012-01-01,external,Africa (excluding High income),0.501
-2013-01-01,external,Africa (excluding High income),0.53
-2014-01-01,external,Africa (excluding High income),0.451
-2015-01-01,external,Africa (excluding High income),0.432
-2016-01-01,external,Africa (excluding High income),0.437
-2017-01-01,external,Africa (excluding High income),0.436
-2018-01-01,external,Africa (excluding High income),0.422
-2019-01-01,external,Africa (excluding High income),0.445
-2020-01-01,external,Africa (excluding High income),0.451
-2021-01-01,external,Africa (excluding High income),0.49
-2000-01-01,external,Africa (excluding High income),4.68
-2001-01-01,external,Africa (excluding High income),3.98
-2002-01-01,external,Africa (excluding High income),4.45
-2003-01-01,external,Africa (excluding High income),6.22
-2004-01-01,external,Africa (excluding High income),7.29
-2005-01-01,external,Africa (excluding High income),9.59
-2006-01-01,external,Africa (excluding High income),9.35
-2007-01-01,external,Africa (excluding High income),9.62
-2008-01-01,external,Africa (excluding High income),9.68
-2009-01-01,external,Africa (excluding High income),10.06
-2010-01-01,external,Africa (excluding High income),10.25
-2011-01-01,external,Africa (excluding High income),10.51
-2012-01-01,external,Africa (excluding High income),9.98
-2013-01-01,external,Africa (excluding High income),10.38
-2014-01-01,external,Africa (excluding High income),8.98
-2015-01-01,external,Africa (excluding High income),8.4
-2016-01-01,external,Africa (excluding High income),8.52
-2017-01-01,external,Africa (excluding High income),8.5
-2018-01-01,external,Africa (excluding High income),8.68
-2019-01-01,external,Africa (excluding High income),9.2
-2020-01-01,external,Africa (excluding High income),9.07
-2021-01-01,external,Africa (excluding High income),9.7
+2000-01-01,external,Africa (Low and Lower middle income),
+2001-01-01,external,Africa (Low and Lower middle income),
+2002-01-01,external,Africa (Low and Lower middle income),
+2003-01-01,external,Africa (Low and Lower middle income),
+2004-01-01,external,Africa (Low and Lower middle income),
+2005-01-01,external,Africa (Low and Lower middle income),
+2006-01-01,external,Africa (Low and Lower middle income),
+2007-01-01,external,Africa (Low and Lower middle income),
+2008-01-01,external,Africa (Low and Lower middle income),
+2009-01-01,external,Africa (Low and Lower middle income),
+2010-01-01,external,Africa (Low and Lower middle income),
+2011-01-01,external,Africa (Low and Lower middle income),
+2012-01-01,external,Africa (Low and Lower middle income),
+2013-01-01,external,Africa (Low and Lower middle income),
+2014-01-01,external,Africa (Low and Lower middle income),
+2015-01-01,external,Africa (Low and Lower middle income),
+2016-01-01,external,Africa (Low and Lower middle income),
+2017-01-01,external,Africa (Low and Lower middle income),
+2018-01-01,external,Africa (Low and Lower middle income),
+2019-01-01,external,Africa (Low and Lower middle income),
+2020-01-01,external,Africa (Low and Lower middle income),
+2021-01-01,external,Africa (Low and Lower middle income),
+2000-01-01,external,Africa (Low and Lower middle income),2338.456
+2001-01-01,external,Africa (Low and Lower middle income),2127.669
+2002-01-01,external,Africa (Low and Lower middle income),2447.856
+2003-01-01,external,Africa (Low and Lower middle income),3046.678
+2004-01-01,external,Africa (Low and Lower middle income),3903.113
+2005-01-01,external,Africa (Low and Lower middle income),4316.707
+2006-01-01,external,Africa (Low and Lower middle income),5664.153
+2007-01-01,external,Africa (Low and Lower middle income),5958.383
+2008-01-01,external,Africa (Low and Lower middle income),6103.426
+2009-01-01,external,Africa (Low and Lower middle income),7128.492
+2010-01-01,external,Africa (Low and Lower middle income),7624.719
+2011-01-01,external,Africa (Low and Lower middle income),8384.286
+2012-01-01,external,Africa (Low and Lower middle income),8285.083
+2013-01-01,external,Africa (Low and Lower middle income),9211.231
+2014-01-01,external,Africa (Low and Lower middle income),9575.401
+2015-01-01,external,Africa (Low and Lower middle income),9448.341
+2016-01-01,external,Africa (Low and Lower middle income),9656.591
+2017-01-01,external,Africa (Low and Lower middle income),10226.896
+2018-01-01,external,Africa (Low and Lower middle income),10228.014
+2019-01-01,external,Africa (Low and Lower middle income),11149.3
+2020-01-01,external,Africa (Low and Lower middle income),11029.859
+2021-01-01,external,Africa (Low and Lower middle income),12574.411
+2000-01-01,external,Africa (Low and Lower middle income),0.349
+2001-01-01,external,Africa (Low and Lower middle income),0.304
+2002-01-01,external,Africa (Low and Lower middle income),0.329
+2003-01-01,external,Africa (Low and Lower middle income),0.301
+2004-01-01,external,Africa (Low and Lower middle income),0.363
+2005-01-01,external,Africa (Low and Lower middle income),0.379
+2006-01-01,external,Africa (Low and Lower middle income),0.469
+2007-01-01,external,Africa (Low and Lower middle income),0.465
+2008-01-01,external,Africa (Low and Lower middle income),0.449
+2009-01-01,external,Africa (Low and Lower middle income),0.502
+2010-01-01,external,Africa (Low and Lower middle income),0.504
+2011-01-01,external,Africa (Low and Lower middle income),0.533
+2012-01-01,external,Africa (Low and Lower middle income),0.507
+2013-01-01,external,Africa (Low and Lower middle income),0.538
+2014-01-01,external,Africa (Low and Lower middle income),0.533
+2015-01-01,external,Africa (Low and Lower middle income),0.506
+2016-01-01,external,Africa (Low and Lower middle income),0.506
+2017-01-01,external,Africa (Low and Lower middle income),0.517
+2018-01-01,external,Africa (Low and Lower middle income),0.498
+2019-01-01,external,Africa (Low and Lower middle income),0.523
+2020-01-01,external,Africa (Low and Lower middle income),0.521
+2021-01-01,external,Africa (Low and Lower middle income),0.569
+2000-01-01,external,Africa (Low and Lower middle income),7.04
+2001-01-01,external,Africa (Low and Lower middle income),5.68
+2002-01-01,external,Africa (Low and Lower middle income),6.37
+2003-01-01,external,Africa (Low and Lower middle income),6.74
+2004-01-01,external,Africa (Low and Lower middle income),8.27
+2005-01-01,external,Africa (Low and Lower middle income),8.75
+2006-01-01,external,Africa (Low and Lower middle income),10.66
+2007-01-01,external,Africa (Low and Lower middle income),10.73
+2008-01-01,external,Africa (Low and Lower middle income),10.49
+2009-01-01,external,Africa (Low and Lower middle income),11.25
+2010-01-01,external,Africa (Low and Lower middle income),11.82
+2011-01-01,external,Africa (Low and Lower middle income),12.39
+2012-01-01,external,Africa (Low and Lower middle income),11.68
+2013-01-01,external,Africa (Low and Lower middle income),12.17
+2014-01-01,external,Africa (Low and Lower middle income),12.1
+2015-01-01,external,Africa (Low and Lower middle income),11.23
+2016-01-01,external,Africa (Low and Lower middle income),11.25
+2017-01-01,external,Africa (Low and Lower middle income),11.41
+2018-01-01,external,Africa (Low and Lower middle income),11.89
+2019-01-01,external,Africa (Low and Lower middle income),12.63
+2020-01-01,external,Africa (Low and Lower middle income),12.18
+2021-01-01,external,Africa (Low and Lower middle income),12.84
