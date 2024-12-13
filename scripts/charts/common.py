@@ -1,4 +1,5 @@
 """Helper functions to conduct the analysis and transformations for the topic page"""
+
 import pandas as pd
 from bblocks import add_income_level_column, convert_id, set_bblocks_data_path
 
@@ -46,6 +47,27 @@ def _filter_african_countries(data: pd.DataFrame) -> pd.DataFrame:
     # Return keeping only Africa
     return data.query("country_name == 'Africa'").assign(
         country_name="Africa", income_group="Africa"
+    )
+
+
+def _filter_african_countries_excluding_hic(data: pd.DataFrame) -> pd.DataFrame:
+    """
+    Helper function which assigns the name 'Africa' as 'country_name'
+    to all African countries.
+    """
+    # Assign 'Africa' as country_name to African countries
+    data = data.assign(
+        country_name=lambda d: convert_id(
+            d.iso_code, from_type="ISO3", to_type="continent"
+        )
+    )
+
+    # Return keeping only Africa
+    return data.query(
+        "country_name == 'Africa' and income_group != 'High income'"
+    ).assign(
+        country_name="Africa (excluding High income)",
+        income_group="Africa (excluding High income)",
     )
 
 
@@ -231,6 +253,41 @@ def total_africa(
     )
 
 
+def total_africa_excluding_high_income(
+    spending: pd.DataFrame,
+    additional_grouper: str | list = None,
+    threshold: float = 0.95,
+    main_group_by: list = None,
+) -> pd.DataFrame:
+    """
+    Calculates the total spending for 'Africa' as a whole, based on a DataFrame
+    of spending data. The resulting DataFrame is sorted by year and country.
+
+    Parameters:
+    - spending: A pandas DataFrame with (at least) columns "year", "iso_code", "value",
+        and "income_group".
+    - additional_grouper (optional): A string or list of strings of additional columns
+        to group the data by. Defaults to None.
+    - threshold (optional): A float between 0 and 1 representing the minimum proportion
+        of non-null values for a group to be included in the output DataFrame. Defaults
+        to 0.95.
+
+    Returns:
+    - A pandas DataFrame representing the total spending for Africa.
+
+    """
+    if main_group_by is None:
+        main_group_by = ["year", "country_name"]
+    return _callable_by(
+        spending=spending,
+        calculation_callable=value_total_group,
+        optional_group_callable=_filter_african_countries_excluding_hic,
+        additional_grouper=additional_grouper,
+        threshold=threshold,
+        main_group_by=main_group_by,
+    )
+
+
 def _clean_income_country_africa_combined_df(
     df: pd.DataFrame, additional_grouper: list
 ) -> pd.DataFrame:
@@ -255,6 +312,7 @@ def combine_income_countries(
     country: pd.DataFrame,
     africa: pd.DataFrame | None,
     additional_grouper: str | list = None,
+    africa_excluding_hic: pd.DataFrame | None = None,
 ) -> pd.DataFrame:
     """
     Combines separate DataFrames for spending data for income groups, countries, and African
@@ -282,8 +340,14 @@ def combine_income_countries(
     if africa is None:
         africa = pd.DataFrame()
 
+    # If africa excluding high income countries data is not provided, create an empty dataframe
+    if africa_excluding_hic is None:
+        africa_excluding_hic = pd.DataFrame()
+
     # Combine all data
-    combined = pd.concat([income, africa, country], ignore_index=True)
+    combined = pd.concat(
+        [income, africa, africa_excluding_hic, country], ignore_index=True
+    )
 
     # Reshape (pivot) and reorder data
     return _clean_income_country_africa_combined_df(
@@ -500,12 +564,21 @@ def total_usd_spending(
         main_group_by=["year", "country_name"],
     ).assign(value=lambda d: round(d.value / factor, 3))
 
+    # Get total spending for Africa excluding high income countries
+    total_spending_africa_excluding_hic = total_africa_excluding_high_income(
+        spending=usd_constant_data,
+        additional_grouper=additional_grouper,
+        threshold=threshold,
+        main_group_by=["year", "country_name"],
+    ).assign(value=lambda d: round(d.value / factor, 3))
+
     # Combine the datasets
     combined_total = combine_income_countries(
         income=total_spending_income,
         country=total_spending_countries,
         africa=total_spending_africa,
         additional_grouper=additional_grouper,
+        africa_excluding_hic=total_spending_africa_excluding_hic,
     ).assign(indicator=f"Total spending ($US {units})")
 
     return combined_total
