@@ -613,9 +613,29 @@ def _data_as_share(
         )
     ).query("country_name == 'Africa'")
 
+    # identify Africa (excluding high income) data
+    afr_data_exc_hic = (
+        usd_constant_data.assign(
+            country_name=lambda d: convert_id(
+                d.iso_code,
+                from_type="ISO3",
+                to_type="continent",
+            )
+        )
+        .query("country_name == 'Africa' and income_group != 'High income'")
+        .assign(country_name="Africa (excluding High income)")
+    )
+
     # Calculate % of gdp for Africa
     share_africa = share_callable_group(
         data=afr_data,
+        group_by=["country_name", "year"] + additional_group_by,
+        threshold=threshold,
+    )
+
+    # Calculate % of gdp for Africa (excluding high income)
+    share_africa_exc_hic = share_callable_group(
+        data=afr_data_exc_hic,
         group_by=["country_name", "year"] + additional_group_by,
         threshold=threshold,
     )
@@ -629,6 +649,7 @@ def _data_as_share(
         country=share_countries,
         africa=share_africa,
         additional_grouper=additional_group_by,
+        africa_excluding_hic=share_africa_exc_hic,
     ).assign(indicator=indicator_name)
 
     return combined
