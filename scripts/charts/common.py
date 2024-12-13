@@ -64,10 +64,11 @@ def _filter_african_countries_excluding_hic(data: pd.DataFrame) -> pd.DataFrame:
 
     # Return keeping only Africa
     return data.query(
-        "country_name == 'Africa' and income_group != 'High income'"
+        "country_name == 'Africa' and income_group != 'High income' "
+        "and income_group != 'Upper middle income'"
     ).assign(
-        country_name="Africa (excluding High income)",
-        income_group="Africa (excluding High income)",
+        country_name="Africa (Low and Lower middle income)",
+        income_group="Africa (Low and Lower middle income)",
     )
 
 
@@ -622,8 +623,11 @@ def _data_as_share(
                 to_type="continent",
             )
         )
-        .query("country_name == 'Africa' and income_group != 'High income'")
-        .assign(country_name="Africa (excluding High income)")
+        .query(
+            "country_name == 'Africa' and income_group != 'High income'"
+            " and income_group != 'Upper middle income'"
+        )
+        .assign(country_name="Africa (Low and Lower middle income)")
     )
 
     # Calculate % of gdp for Africa

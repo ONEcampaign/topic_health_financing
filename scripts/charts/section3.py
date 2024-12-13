@@ -116,7 +116,7 @@ def clean_chart_3_1(df: pd.DataFrame, full_df: pd.DataFrame) -> pd.DataFrame:
     # set the right country order
     country_order = list(full_df.country_name.unique()) + [
         "Africa",
-        "Africa (excluding High income)",
+        "Africa (Low and Lower middle income)",
     ]
 
     # Set the income levels
@@ -368,4 +368,4 @@ def chart1_2_pipeline() -> None:
 
 if __name__ == "__main__":
     chart_3_1()
-    chart1_2_pipeline()
+    # chart1_2_pipeline()
