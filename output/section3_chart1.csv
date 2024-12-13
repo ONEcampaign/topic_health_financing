@@ -89,6 +89,7 @@ year,Country,Domestic Government,External Aid,Other domestic private,Out-of-pock
 2021,High income,65.43,0.02,21.85,12.71,"<b>Domestic Government:</b> US$ 5,114,806.7m.<br><b>External Aid:</b> US$ 1,199.6m.<br><b>Out-of-pocket:</b> US$ 993,719.7m.<br><b>Other domestic private:</b> US$ 1,708,025.3m."
 2021,Afghanistan,3.3,19.35,0.14,77.21,"<b>Domestic Government:</b> US$ 101.5m.<br><b>External Aid:</b> US$ 594.6m.<br><b>Out-of-pocket:</b> US$ 2,372.9m.<br><b>Other domestic private:</b> US$ 4.2m."
 2021,Africa,41.73,9.7,13.28,35.29,"<b>Domestic Government:</b> US$ 57,053.9m.<br><b>External Aid:</b> US$ 13,258.4m.<br><b>Out-of-pocket:</b> US$ 48,245.5m.<br><b>Other domestic private:</b> US$ 18,148.7m."
+2021,Africa (excluding High income),41.72,9.7,13.28,35.3,"<b>Domestic Government:</b> US$ 56,995.3m.<br><b>External Aid:</b> US$ 13,258.4m.<br><b>Out-of-pocket:</b> US$ 48,228.6m.<br><b>Other domestic private:</b> US$ 18,147.6m."
 2021,Albania,39.69,0.54,0.06,59.7,<b>Domestic Government:</b> US$ 528.1m.<br><b>External Aid:</b> US$ 7.2m.<br><b>Out-of-pocket:</b> US$ 794.5m.<br><b>Other domestic private:</b> US$ 0.9m.
 2021,Algeria,59.11,0.63,1.73,38.53,"<b>Domestic Government:</b> US$ 5,331.0m.<br><b>External Aid:</b> US$ 57.0m.<br><b>Out-of-pocket:</b> US$ 3,475.0m.<br><b>Other domestic private:</b> US$ 155.9m."
 2021,Andorra,74.01,,14.26,11.74,<b>Domestic Government:</b> US$ 205.1m.<br><b>External Aid:</b> US$ -m.<br><b>Out-of-pocket:</b> US$ 32.5m.<br><b>Other domestic private:</b> US$ 39.5m.
@@ -272,6 +273,7 @@ year,Country,Domestic Government,External Aid,Other domestic private,Out-of-pock
 2021,Zambia,42.52,49.46,0.94,7.08,<b>Domestic Government:</b> US$ 623.8m.<br><b>External Aid:</b> US$ 725.6m.<br><b>Out-of-pocket:</b> US$ 103.8m.<br><b>Other domestic private:</b> US$ 13.8m.
 2020,Afghanistan,7.64,16.13,1.42,74.81,"<b>Domestic Government:</b> US$ 198.3m.<br><b>External Aid:</b> US$ 419.0m.<br><b>Out-of-pocket:</b> US$ 1,943.0m.<br><b>Other domestic private:</b> US$ 36.8m."
 2020,Africa,43.15,9.06,13.28,34.51,"<b>Domestic Government:</b> US$ 55,625.2m.<br><b>External Aid:</b> US$ 11,682.7m.<br><b>Out-of-pocket:</b> US$ 44,493.7m.<br><b>Other domestic private:</b> US$ 17,121.8m."
+2020,Africa (excluding High income),43.12,9.07,13.29,34.52,"<b>Domestic Government:</b> US$ 55,556.1m.<br><b>External Aid:</b> US$ 11,682.5m.<br><b>Out-of-pocket:</b> US$ 44,475.8m.<br><b>Other domestic private:</b> US$ 17,120.7m."
 2020,Albania,39.85,0.68,0.08,59.4,<b>Domestic Government:</b> US$ 493.7m.<br><b>External Aid:</b> US$ 8.4m.<br><b>Out-of-pocket:</b> US$ 736.0m.<br><b>Other domestic private:</b> US$ 1.0m.
 2020,Algeria,60.99,0.04,1.63,37.34,"<b>Domestic Government:</b> US$ 5,930.6m.<br><b>External Aid:</b> US$ 4.0m.<br><b>Out-of-pocket:</b> US$ 3,630.5m.<br><b>Other domestic private:</b> US$ 158.4m."
 2020,Andorra,72.62,,16.23,11.15,<b>Domestic Government:</b> US$ 195.9m.<br><b>External Aid:</b> US$ -m.<br><b>Out-of-pocket:</b> US$ 30.1m.<br><b>Other domestic private:</b> US$ 43.8m.
@@ -455,6 +457,7 @@ year,Country,Domestic Government,External Aid,Other domestic private,Out-of-pock
 2020,Zambia,56.98,33.0,1.9,8.11,<b>Domestic Government:</b> US$ 747.4m.<br><b>External Aid:</b> US$ 432.9m.<br><b>Out-of-pocket:</b> US$ 106.4m.<br><b>Other domestic private:</b> US$ 24.9m.
 2019,Afghanistan,3.35,19.83,0.0,76.82,"<b>Domestic Government:</b> US$ 85.1m.<br><b>External Aid:</b> US$ 503.6m.<br><b>Out-of-pocket:</b> US$ 1,950.7m.<br><b>Other domestic private:</b> US$ 0.0m."
 2019,Africa,41.17,9.19,14.75,34.9,"<b>Domestic Government:</b> US$ 52,457.4m.<br><b>External Aid:</b> US$ 11,711.7m.<br><b>Out-of-pocket:</b> US$ 44,468.5m.<br><b>Other domestic private:</b> US$ 18,789.1m."
+2019,Africa (excluding High income),41.15,9.2,14.75,34.9,"<b>Domestic Government:</b> US$ 52,404.5m.<br><b>External Aid:</b> US$ 11,711.7m.<br><b>Out-of-pocket:</b> US$ 44,450.7m.<br><b>Other domestic private:</b> US$ 18,787.6m."
 2019,Albania,42.68,0.66,0.24,56.41,<b>Domestic Government:</b> US$ 500.1m.<br><b>External Aid:</b> US$ 7.8m.<br><b>Out-of-pocket:</b> US$ 661.1m.<br><b>Other domestic private:</b> US$ 2.8m.
 2019,Algeria,62.89,0.05,1.61,35.46,"<b>Domestic Government:</b> US$ 6,176.2m.<br><b>External Aid:</b> US$ 4.6m.<br><b>Out-of-pocket:</b> US$ 3,482.7m.<br><b>Other domestic private:</b> US$ 157.7m."
 2019,Andorra,71.32,,15.94,12.74,<b>Domestic Government:</b> US$ 180.6m.<br><b>External Aid:</b> US$ -m.<br><b>Out-of-pocket:</b> US$ 32.3m.<br><b>Other domestic private:</b> US$ 40.4m.
@@ -638,6 +641,7 @@ year,Country,Domestic Government,External Aid,Other domestic private,Out-of-pock
 2019,Zambia,33.44,57.99,1.32,7.25,<b>Domestic Government:</b> US$ 483.2m.<br><b>External Aid:</b> US$ 837.9m.<br><b>Out-of-pocket:</b> US$ 104.8m.<br><b>Other domestic private:</b> US$ 19.1m.
 2018,Afghanistan,3.89,19.73,0.15,76.22,"<b>Domestic Government:</b> US$ 91.0m.<br><b>External Aid:</b> US$ 462.0m.<br><b>Out-of-pocket:</b> US$ 1,784.5m.<br><b>Other domestic private:</b> US$ 3.6m."
 2018,Africa,40.83,8.68,14.87,35.62,"<b>Domestic Government:</b> US$ 50,723.8m.<br><b>External Aid:</b> US$ 10,781.7m.<br><b>Out-of-pocket:</b> US$ 44,244.5m.<br><b>Other domestic private:</b> US$ 18,476.6m."
+2018,Africa (excluding High income),40.81,8.68,14.88,35.62,"<b>Domestic Government:</b> US$ 50,670.8m.<br><b>External Aid:</b> US$ 10,781.4m.<br><b>Out-of-pocket:</b> US$ 44,226.8m.<br><b>Other domestic private:</b> US$ 18,475.4m."
 2018,Albania,43.11,0.42,0.06,56.41,<b>Domestic Government:</b> US$ 480.8m.<br><b>External Aid:</b> US$ 4.7m.<br><b>Out-of-pocket:</b> US$ 629.3m.<br><b>Other domestic private:</b> US$ 0.6m.
 2018,Algeria,66.95,0.03,1.45,31.57,"<b>Domestic Government:</b> US$ 7,181.4m.<br><b>External Aid:</b> US$ 2.8m.<br><b>Out-of-pocket:</b> US$ 3,386.6m.<br><b>Other domestic private:</b> US$ 155.2m."
 2018,Andorra,70.75,,16.92,12.34,<b>Domestic Government:</b> US$ 176.8m.<br><b>External Aid:</b> US$ -m.<br><b>Out-of-pocket:</b> US$ 30.8m.<br><b>Other domestic private:</b> US$ 42.3m.
@@ -821,6 +825,7 @@ year,Country,Domestic Government,External Aid,Other domestic private,Out-of-pock
 2018,Zambia,43.77,44.11,1.84,10.28,<b>Domestic Government:</b> US$ 440.4m.<br><b>External Aid:</b> US$ 443.8m.<br><b>Out-of-pocket:</b> US$ 103.4m.<br><b>Other domestic private:</b> US$ 18.5m.
 2017,Afghanistan,5.1,19.42,0.0,75.48,"<b>Domestic Government:</b> US$ 104.7m.<br><b>External Aid:</b> US$ 399.1m.<br><b>Out-of-pocket:</b> US$ 1,551.3m.<br><b>Other domestic private:</b> US$ 0.0m."
 2017,Africa,40.15,8.5,15.02,36.33,"<b>Domestic Government:</b> US$ 50,984.3m.<br><b>External Aid:</b> US$ 10,792.2m.<br><b>Out-of-pocket:</b> US$ 46,142.4m.<br><b>Other domestic private:</b> US$ 19,075.1m."
+2017,Africa (excluding High income),40.13,8.5,15.03,36.34,"<b>Domestic Government:</b> US$ 50,934.7m.<br><b>External Aid:</b> US$ 10,791.8m.<br><b>Out-of-pocket:</b> US$ 46,125.7m.<br><b>Other domestic private:</b> US$ 19,073.9m."
 2017,Albania,42.18,0.55,0.09,57.18,<b>Domestic Government:</b> US$ 446.2m.<br><b>External Aid:</b> US$ 5.8m.<br><b>Out-of-pocket:</b> US$ 604.9m.<br><b>Other domestic private:</b> US$ 1.0m.
 2017,Algeria,66.75,0.03,1.44,31.78,"<b>Domestic Government:</b> US$ 7,079.2m.<br><b>External Aid:</b> US$ 3.0m.<br><b>Out-of-pocket:</b> US$ 3,370.0m.<br><b>Other domestic private:</b> US$ 152.7m."
 2017,Andorra,71.94,,15.97,12.09,<b>Domestic Government:</b> US$ 169.7m.<br><b>External Aid:</b> US$ -m.<br><b>Out-of-pocket:</b> US$ 28.5m.<br><b>Other domestic private:</b> US$ 37.7m.
@@ -1004,6 +1009,7 @@ year,Country,Domestic Government,External Aid,Other domestic private,Out-of-pock
 2017,Zambia,52.5,31.58,5.26,10.66,<b>Domestic Government:</b> US$ 508.9m.<br><b>External Aid:</b> US$ 306.1m.<br><b>Out-of-pocket:</b> US$ 103.3m.<br><b>Other domestic private:</b> US$ 51.0m.
 2016,Afghanistan,5.08,18.95,-0.0,75.97,"<b>Domestic Government:</b> US$ 95.2m.<br><b>External Aid:</b> US$ 355.2m.<br><b>Out-of-pocket:</b> US$ 1,424.4m.<br><b>Other domestic private:</b> US$ -0.0m."
 2016,Africa,40.14,8.51,15.31,36.04,"<b>Domestic Government:</b> US$ 49,474.1m.<br><b>External Aid:</b> US$ 10,493.9m.<br><b>Out-of-pocket:</b> US$ 44,413.3m.<br><b>Other domestic private:</b> US$ 18,865.2m."
+2016,Africa (excluding High income),40.13,8.52,15.31,36.04,"<b>Domestic Government:</b> US$ 49,427.9m.<br><b>External Aid:</b> US$ 10,491.3m.<br><b>Out-of-pocket:</b> US$ 44,396.4m.<br><b>Other domestic private:</b> US$ 18,864.2m."
 2016,Albania,42.82,0.66,0.0,56.52,<b>Domestic Government:</b> US$ 446.4m.<br><b>External Aid:</b> US$ 6.9m.<br><b>Out-of-pocket:</b> US$ 589.2m.<br><b>Other domestic private:</b> US$ 0.0m.
 2016,Algeria,67.6,0.02,1.41,30.97,"<b>Domestic Government:</b> US$ 7,151.9m.<br><b>External Aid:</b> US$ 2.1m.<br><b>Out-of-pocket:</b> US$ 3,276.7m.<br><b>Other domestic private:</b> US$ 149.5m."
 2016,Andorra,71.94,,15.5,12.56,<b>Domestic Government:</b> US$ 165.1m.<br><b>External Aid:</b> US$ -m.<br><b>Out-of-pocket:</b> US$ 28.8m.<br><b>Other domestic private:</b> US$ 35.6m.
@@ -1187,6 +1193,7 @@ year,Country,Domestic Government,External Aid,Other domestic private,Out-of-pock
 2016,Zambia,38.36,42.57,6.93,12.14,<b>Domestic Government:</b> US$ 335.8m.<br><b>External Aid:</b> US$ 372.7m.<br><b>Out-of-pocket:</b> US$ 106.3m.<br><b>Other domestic private:</b> US$ 60.7m.
 2015,Afghanistan,5.17,16.45,0.0,78.38,"<b>Domestic Government:</b> US$ 81.2m.<br><b>External Aid:</b> US$ 258.1m.<br><b>Out-of-pocket:</b> US$ 1,229.9m.<br><b>Other domestic private:</b> US$ 0.0m."
 2015,Africa,40.73,8.4,15.39,35.48,"<b>Domestic Government:</b> US$ 49,325.4m.<br><b>External Aid:</b> US$ 10,170.4m.<br><b>Out-of-pocket:</b> US$ 42,976.4m.<br><b>Other domestic private:</b> US$ 18,641.9m."
+2015,Africa (excluding High income),40.71,8.4,15.4,35.49,"<b>Domestic Government:</b> US$ 49,285.9m.<br><b>External Aid:</b> US$ 10,170.2m.<br><b>Out-of-pocket:</b> US$ 42,961.4m.<br><b>Other domestic private:</b> US$ 18,641.9m."
 2015,Albania,41.89,0.77,0.0,57.34,<b>Domestic Government:</b> US$ 406.0m.<br><b>External Aid:</b> US$ 7.4m.<br><b>Out-of-pocket:</b> US$ 555.8m.<br><b>Other domestic private:</b> US$ 0.0m.
 2015,Algeria,70.39,0.03,1.31,28.27,"<b>Domestic Government:</b> US$ 7,576.0m.<br><b>External Aid:</b> US$ 2.9m.<br><b>Out-of-pocket:</b> US$ 3,042.5m.<br><b>Other domestic private:</b> US$ 140.8m."
 2015,Andorra,71.94,,14.95,13.11,<b>Domestic Government:</b> US$ 159.5m.<br><b>External Aid:</b> US$ -m.<br><b>Out-of-pocket:</b> US$ 29.1m.<br><b>Other domestic private:</b> US$ 33.1m.
@@ -1370,6 +1377,7 @@ year,Country,Domestic Government,External Aid,Other domestic private,Out-of-pock
 2015,Zambia,47.19,36.4,4.15,12.26,<b>Domestic Government:</b> US$ 394.6m.<br><b>External Aid:</b> US$ 304.4m.<br><b>Out-of-pocket:</b> US$ 102.5m.<br><b>Other domestic private:</b> US$ 34.7m.
 2014,Afghanistan,4.96,21.98,-0.0,73.06,"<b>Domestic Government:</b> US$ 72.7m.<br><b>External Aid:</b> US$ 322.1m.<br><b>Out-of-pocket:</b> US$ 1,070.4m.<br><b>Other domestic private:</b> US$ -0.0m."
 2014,Africa,40.2,8.97,16.31,34.51,"<b>Domestic Government:</b> US$ 46,052.3m.<br><b>External Aid:</b> US$ 10,277.2m.<br><b>Out-of-pocket:</b> US$ 39,531.4m.<br><b>Other domestic private:</b> US$ 18,686.9m."
+2014,Africa (excluding High income),40.19,8.98,16.32,34.51,"<b>Domestic Government:</b> US$ 46,015.4m.<br><b>External Aid:</b> US$ 10,277.0m.<br><b>Out-of-pocket:</b> US$ 39,515.5m.<br><b>Other domestic private:</b> US$ 18,686.8m."
 2014,Albania,40.31,0.51,0.01,59.18,<b>Domestic Government:</b> US$ 380.5m.<br><b>External Aid:</b> US$ 4.8m.<br><b>Out-of-pocket:</b> US$ 558.6m.<br><b>Other domestic private:</b> US$ 0.1m.
 2014,Algeria,72.01,0.04,1.3,26.66,"<b>Domestic Government:</b> US$ 7,139.7m.<br><b>External Aid:</b> US$ 3.5m.<br><b>Out-of-pocket:</b> US$ 2,643.2m.<br><b>Other domestic private:</b> US$ 128.7m."
 2014,Andorra,71.04,,16.19,12.77,<b>Domestic Government:</b> US$ 152.1m.<br><b>External Aid:</b> US$ -m.<br><b>Out-of-pocket:</b> US$ 27.3m.<br><b>Other domestic private:</b> US$ 34.6m.
@@ -1553,6 +1561,7 @@ year,Country,Domestic Government,External Aid,Other domestic private,Out-of-pock
 2014,Zambia,49.46,32.55,4.18,13.82,<b>Domestic Government:</b> US$ 347.3m.<br><b>External Aid:</b> US$ 228.6m.<br><b>Out-of-pocket:</b> US$ 97.0m.<br><b>Other domestic private:</b> US$ 29.3m.
 2013,Afghanistan,5.03,22.92,-0.0,72.05,<b>Domestic Government:</b> US$ 66.4m.<br><b>External Aid:</b> US$ 302.2m.<br><b>Out-of-pocket:</b> US$ 949.9m.<br><b>Other domestic private:</b> US$ -0.0m.
 2013,Africa,39.32,10.37,14.86,35.45,"<b>Domestic Government:</b> US$ 43,855.6m.<br><b>External Aid:</b> US$ 11,569.5m.<br><b>Out-of-pocket:</b> US$ 39,532.7m.<br><b>Other domestic private:</b> US$ 16,570.7m."
+2013,Africa (excluding High income),39.31,10.38,14.86,35.45,"<b>Domestic Government:</b> US$ 43,820.0m.<br><b>External Aid:</b> US$ 11,568.1m.<br><b>Out-of-pocket:</b> US$ 39,523.2m.<br><b>Other domestic private:</b> US$ 16,570.1m."
 2013,Albania,41.03,1.23,0.01,57.73,<b>Domestic Government:</b> US$ 371.6m.<br><b>External Aid:</b> US$ 11.2m.<br><b>Out-of-pocket:</b> US$ 522.8m.<br><b>Other domestic private:</b> US$ 0.1m.
 2013,Algeria,71.05,0.02,1.37,27.56,"<b>Domestic Government:</b> US$ 6,367.2m.<br><b>External Aid:</b> US$ 1.8m.<br><b>Out-of-pocket:</b> US$ 2,470.0m.<br><b>Other domestic private:</b> US$ 122.8m."
 2013,Andorra,70.15,,16.51,13.33,<b>Domestic Government:</b> US$ 147.1m.<br><b>External Aid:</b> US$ -m.<br><b>Out-of-pocket:</b> US$ 27.9m.<br><b>Other domestic private:</b> US$ 34.6m.
@@ -1736,6 +1745,7 @@ year,Country,Domestic Government,External Aid,Other domestic private,Out-of-pock
 2013,Zambia,28.64,56.15,3.51,11.71,<b>Domestic Government:</b> US$ 229.4m.<br><b>External Aid:</b> US$ 449.8m.<br><b>Out-of-pocket:</b> US$ 93.8m.<br><b>Other domestic private:</b> US$ 28.1m.
 2012,Afghanistan,4.34,21.17,-0.0,74.49,<b>Domestic Government:</b> US$ 48.6m.<br><b>External Aid:</b> US$ 236.9m.<br><b>Out-of-pocket:</b> US$ 833.3m.<br><b>Other domestic private:</b> US$ -0.0m.
 2012,Africa,40.06,9.97,14.55,35.42,"<b>Domestic Government:</b> US$ 42,187.0m.<br><b>External Aid:</b> US$ 10,503.1m.<br><b>Out-of-pocket:</b> US$ 37,300.4m.<br><b>Other domestic private:</b> US$ 15,317.7m."
+2012,Africa (excluding High income),40.04,9.98,14.55,35.43,"<b>Domestic Government:</b> US$ 42,145.1m.<br><b>External Aid:</b> US$ 10,502.1m.<br><b>Out-of-pocket:</b> US$ 37,288.9m.<br><b>Other domestic private:</b> US$ 15,315.9m."
 2012,Albania,39.87,1.9,0.01,58.21,<b>Domestic Government:</b> US$ 350.4m.<br><b>External Aid:</b> US$ 16.7m.<br><b>Out-of-pocket:</b> US$ 511.5m.<br><b>Other domestic private:</b> US$ 0.1m.
 2012,Algeria,72.93,0.03,1.32,25.72,"<b>Domestic Government:</b> US$ 6,383.2m.<br><b>External Aid:</b> US$ 2.8m.<br><b>Out-of-pocket:</b> US$ 2,250.8m.<br><b>Other domestic private:</b> US$ 115.8m."
 2012,Andorra,69.47,,16.89,13.64,<b>Domestic Government:</b> US$ 149.0m.<br><b>External Aid:</b> US$ -m.<br><b>Out-of-pocket:</b> US$ 29.3m.<br><b>Other domestic private:</b> US$ 36.2m.
@@ -1919,6 +1929,7 @@ year,Country,Domestic Government,External Aid,Other domestic private,Out-of-pock
 2012,Zambia,38.12,46.41,2.83,12.63,<b>Domestic Government:</b> US$ 257.1m.<br><b>External Aid:</b> US$ 313.0m.<br><b>Out-of-pocket:</b> US$ 85.2m.<br><b>Other domestic private:</b> US$ 19.1m.
 2011,Afghanistan,5.61,21.14,0.0,73.26,<b>Domestic Government:</b> US$ 59.7m.<br><b>External Aid:</b> US$ 225.0m.<br><b>Out-of-pocket:</b> US$ 779.7m.<br><b>Other domestic private:</b> US$ 0.0m.
 2011,Africa,39.78,10.51,13.65,36.06,"<b>Domestic Government:</b> US$ 40,584.8m.<br><b>External Aid:</b> US$ 10,725.7m.<br><b>Out-of-pocket:</b> US$ 36,793.3m.<br><b>Other domestic private:</b> US$ 13,923.9m."
+2011,Africa (excluding High income),39.77,10.51,13.65,36.07,"<b>Domestic Government:</b> US$ 40,554.5m.<br><b>External Aid:</b> US$ 10,722.4m.<br><b>Out-of-pocket:</b> US$ 36,782.1m.<br><b>Other domestic private:</b> US$ 13,923.9m."
 2011,Albania,38.78,1.36,0.02,59.84,<b>Domestic Government:</b> US$ 337.4m.<br><b>External Aid:</b> US$ 11.8m.<br><b>Out-of-pocket:</b> US$ 520.6m.<br><b>Other domestic private:</b> US$ 0.1m.
 2011,Algeria,70.62,0.02,1.49,27.87,"<b>Domestic Government:</b> US$ 5,272.4m.<br><b>External Aid:</b> US$ 1.5m.<br><b>Out-of-pocket:</b> US$ 2,081.1m.<br><b>Other domestic private:</b> US$ 111.2m."
 2011,Andorra,73.58,,14.62,11.8,<b>Domestic Government:</b> US$ 188.6m.<br><b>External Aid:</b> US$ -m.<br><b>Out-of-pocket:</b> US$ 30.2m.<br><b>Other domestic private:</b> US$ 37.5m.
@@ -2102,6 +2113,7 @@ year,Country,Domestic Government,External Aid,Other domestic private,Out-of-pock
 2011,Zambia,39.74,45.99,2.08,12.19,<b>Domestic Government:</b> US$ 243.8m.<br><b>External Aid:</b> US$ 282.1m.<br><b>Out-of-pocket:</b> US$ 74.8m.<br><b>Other domestic private:</b> US$ 12.7m.
 2010,Afghanistan,5.47,15.53,0.0,79.0,<b>Domestic Government:</b> US$ 54.8m.<br><b>External Aid:</b> US$ 155.4m.<br><b>Out-of-pocket:</b> US$ 790.3m.<br><b>Other domestic private:</b> US$ 0.0m.
 2010,Africa,39.6,10.24,13.52,36.63,"<b>Domestic Government:</b> US$ 38,809.8m.<br><b>External Aid:</b> US$ 10,038.2m.<br><b>Out-of-pocket:</b> US$ 35,895.6m.<br><b>Other domestic private:</b> US$ 13,252.1m."
+2010,Africa (excluding High income),39.59,10.25,13.53,36.64,"<b>Domestic Government:</b> US$ 38,780.3m.<br><b>External Aid:</b> US$ 10,037.2m.<br><b>Out-of-pocket:</b> US$ 35,885.4m.<br><b>Other domestic private:</b> US$ 13,250.0m."
 2010,Albania,38.14,1.88,0.02,59.97,<b>Domestic Government:</b> US$ 326.4m.<br><b>External Aid:</b> US$ 16.1m.<br><b>Out-of-pocket:</b> US$ 513.2m.<br><b>Other domestic private:</b> US$ 0.1m.
 2010,Algeria,69.48,0.03,1.61,28.88,"<b>Domestic Government:</b> US$ 4,843.1m.<br><b>External Aid:</b> US$ 2.0m.<br><b>Out-of-pocket:</b> US$ 2,013.2m.<br><b>Other domestic private:</b> US$ 112.0m."
 2010,Andorra,73.95,,14.41,11.64,<b>Domestic Government:</b> US$ 190.9m.<br><b>External Aid:</b> US$ -m.<br><b>Out-of-pocket:</b> US$ 30.0m.<br><b>Other domestic private:</b> US$ 37.2m.
@@ -2285,6 +2297,7 @@ year,Country,Domestic Government,External Aid,Other domestic private,Out-of-pock
 2010,Zambia,39.24,43.04,2.91,14.8,<b>Domestic Government:</b> US$ 229.0m.<br><b>External Aid:</b> US$ 251.1m.<br><b>Out-of-pocket:</b> US$ 86.4m.<br><b>Other domestic private:</b> US$ 17.0m.
 2009,Afghanistan,5.42,21.8,0.0,72.78,<b>Domestic Government:</b> US$ 57.3m.<br><b>External Aid:</b> US$ 230.5m.<br><b>Out-of-pocket:</b> US$ 769.3m.<br><b>Other domestic private:</b> US$ 0.0m.
 2009,Africa,40.02,10.06,13.43,36.5,"<b>Domestic Government:</b> US$ 38,243.4m.<br><b>External Aid:</b> US$ 9,614.0m.<br><b>Out-of-pocket:</b> US$ 34,879.8m.<br><b>Other domestic private:</b> US$ 12,833.5m."
+2009,Africa (excluding High income),40.01,10.06,13.43,36.5,"<b>Domestic Government:</b> US$ 38,222.1m.<br><b>External Aid:</b> US$ 9,613.8m.<br><b>Out-of-pocket:</b> US$ 34,869.8m.<br><b>Other domestic private:</b> US$ 12,833.4m."
 2009,Albania,40.48,2.97,0.01,56.53,<b>Domestic Government:</b> US$ 312.1m.<br><b>External Aid:</b> US$ 22.9m.<br><b>Out-of-pocket:</b> US$ 435.8m.<br><b>Other domestic private:</b> US$ 0.1m.
 2009,Algeria,70.88,0.05,1.61,27.45,"<b>Domestic Government:</b> US$ 4,970.0m.<br><b>External Aid:</b> US$ 3.6m.<br><b>Out-of-pocket:</b> US$ 1,924.6m.<br><b>Other domestic private:</b> US$ 113.2m."
 2009,Andorra,67.77,,17.83,14.4,<b>Domestic Government:</b> US$ 141.4m.<br><b>External Aid:</b> US$ -m.<br><b>Out-of-pocket:</b> US$ 30.0m.<br><b>Other domestic private:</b> US$ 37.2m.
@@ -2468,6 +2481,7 @@ year,Country,Domestic Government,External Aid,Other domestic private,Out-of-pock
 2009,Zambia,32.34,49.02,3.76,14.88,<b>Domestic Government:</b> US$ 221.9m.<br><b>External Aid:</b> US$ 336.4m.<br><b>Out-of-pocket:</b> US$ 102.2m.<br><b>Other domestic private:</b> US$ 25.8m.
 2008,Afghanistan,6.12,18.48,0.0,75.4,<b>Domestic Government:</b> US$ 56.0m.<br><b>External Aid:</b> US$ 169.2m.<br><b>Out-of-pocket:</b> US$ 690.5m.<br><b>Other domestic private:</b> US$ 0.0m.
 2008,Africa,38.76,9.68,14.01,37.56,"<b>Domestic Government:</b> US$ 34,168.6m.<br><b>External Aid:</b> US$ 8,532.3m.<br><b>Out-of-pocket:</b> US$ 33,111.9m.<br><b>Other domestic private:</b> US$ 12,351.7m."
+2008,Africa (excluding High income),38.75,9.68,14.02,37.56,"<b>Domestic Government:</b> US$ 34,146.9m.<br><b>External Aid:</b> US$ 8,532.1m.<br><b>Out-of-pocket:</b> US$ 33,101.1m.<br><b>Other domestic private:</b> US$ 12,351.7m."
 2008,Albania,41.76,2.0,0.01,56.23,<b>Domestic Government:</b> US$ 294.5m.<br><b>External Aid:</b> US$ 14.1m.<br><b>Out-of-pocket:</b> US$ 396.6m.<br><b>Other domestic private:</b> US$ 0.0m.
 2008,Algeria,72.0,0.04,1.82,26.15,"<b>Domestic Government:</b> US$ 4,063.2m.<br><b>External Aid:</b> US$ 2.1m.<br><b>Out-of-pocket:</b> US$ 1,475.6m.<br><b>Other domestic private:</b> US$ 102.8m."
 2008,Andorra,65.12,,19.3,15.58,<b>Domestic Government:</b> US$ 133.8m.<br><b>External Aid:</b> US$ -m.<br><b>Out-of-pocket:</b> US$ 32.0m.<br><b>Other domestic private:</b> US$ 39.7m.
@@ -2651,6 +2665,7 @@ year,Country,Domestic Government,External Aid,Other domestic private,Out-of-pock
 2008,Zambia,35.49,37.73,6.25,20.54,<b>Domestic Government:</b> US$ 193.2m.<br><b>External Aid:</b> US$ 205.3m.<br><b>Out-of-pocket:</b> US$ 111.8m.<br><b>Other domestic private:</b> US$ 34.0m.
 2007,Afghanistan,5.65,16.18,0.0,78.17,<b>Domestic Government:</b> US$ 48.1m.<br><b>External Aid:</b> US$ 137.7m.<br><b>Out-of-pocket:</b> US$ 665.5m.<br><b>Other domestic private:</b> US$ 0.0m.
 2007,Africa,38.45,9.62,13.69,38.24,"<b>Domestic Government:</b> US$ 32,268.9m.<br><b>External Aid:</b> US$ 8,071.8m.<br><b>Out-of-pocket:</b> US$ 32,088.4m.<br><b>Other domestic private:</b> US$ 11,484.8m."
+2007,Africa (excluding High income),38.44,9.62,13.69,38.25,"<b>Domestic Government:</b> US$ 32,240.8m.<br><b>External Aid:</b> US$ 8,071.6m.<br><b>Out-of-pocket:</b> US$ 32,081.1m.<br><b>Other domestic private:</b> US$ 11,484.8m."
 2007,Albania,46.38,4.22,0.0,49.4,<b>Domestic Government:</b> US$ 327.3m.<br><b>External Aid:</b> US$ 29.8m.<br><b>Out-of-pocket:</b> US$ 348.6m.<br><b>Other domestic private:</b> US$ 0.0m.
 2007,Algeria,69.79,0.07,2.06,28.09,"<b>Domestic Government:</b> US$ 3,493.8m.<br><b>External Aid:</b> US$ 3.3m.<br><b>Out-of-pocket:</b> US$ 1,406.2m.<br><b>Other domestic private:</b> US$ 103.0m."
 2007,Andorra,59.71,,22.29,18.0,<b>Domestic Government:</b> US$ 112.8m.<br><b>External Aid:</b> US$ -m.<br><b>Out-of-pocket:</b> US$ 34.0m.<br><b>Other domestic private:</b> US$ 42.1m.
@@ -2834,6 +2849,7 @@ year,Country,Domestic Government,External Aid,Other domestic private,Out-of-pock
 2007,Zambia,32.49,34.07,8.72,24.72,<b>Domestic Government:</b> US$ 168.2m.<br><b>External Aid:</b> US$ 176.4m.<br><b>Out-of-pocket:</b> US$ 128.0m.<br><b>Other domestic private:</b> US$ 45.1m.
 2006,Afghanistan,4.69,18.49,-0.0,76.82,<b>Domestic Government:</b> US$ 37.8m.<br><b>External Aid:</b> US$ 149.0m.<br><b>Out-of-pocket:</b> US$ 618.9m.<br><b>Other domestic private:</b> US$ -0.0m.
 2006,Africa,37.65,9.35,13.67,39.33,"<b>Domestic Government:</b> US$ 30,047.0m.<br><b>External Aid:</b> US$ 7,461.7m.<br><b>Out-of-pocket:</b> US$ 31,383.1m.<br><b>Other domestic private:</b> US$ 10,911.9m."
+2006,Africa (excluding High income),37.63,9.35,13.68,39.33,"<b>Domestic Government:</b> US$ 30,018.2m.<br><b>External Aid:</b> US$ 7,461.4m.<br><b>Out-of-pocket:</b> US$ 31,375.3m.<br><b>Other domestic private:</b> US$ 10,911.9m."
 2006,Albania,46.83,4.13,0.0,49.05,<b>Domestic Government:</b> US$ 296.3m.<br><b>External Aid:</b> US$ 26.1m.<br><b>Out-of-pocket:</b> US$ 310.4m.<br><b>Other domestic private:</b> US$ 0.0m.
 2006,Algeria,68.46,0.05,2.36,29.12,"<b>Domestic Government:</b> US$ 2,928.4m.<br><b>External Aid:</b> US$ 2.2m.<br><b>Out-of-pocket:</b> US$ 1,245.6m.<br><b>Other domestic private:</b> US$ 101.1m."
 2006,Andorra,59.95,,22.16,17.89,<b>Domestic Government:</b> US$ 112.5m.<br><b>External Aid:</b> US$ -m.<br><b>Out-of-pocket:</b> US$ 33.6m.<br><b>Other domestic private:</b> US$ 41.6m.
@@ -3017,6 +3033,7 @@ year,Country,Domestic Government,External Aid,Other domestic private,Out-of-pock
 2006,Zambia,23.82,40.26,10.22,25.7,<b>Domestic Government:</b> US$ 138.6m.<br><b>External Aid:</b> US$ 234.3m.<br><b>Out-of-pocket:</b> US$ 149.5m.<br><b>Other domestic private:</b> US$ 59.5m.
 2005,Afghanistan,5.32,15.71,-0.0,78.97,<b>Domestic Government:</b> US$ 38.1m.<br><b>External Aid:</b> US$ 112.5m.<br><b>Out-of-pocket:</b> US$ 565.5m.<br><b>Other domestic private:</b> US$ -0.0m.
 2005,Africa,35.63,9.58,14.61,40.18,"<b>Domestic Government:</b> US$ 26,620.3m.<br><b>External Aid:</b> US$ 7,158.6m.<br><b>Out-of-pocket:</b> US$ 30,018.6m.<br><b>Other domestic private:</b> US$ 10,918.3m."
+2005,Africa (excluding High income),35.61,9.59,14.62,40.19,"<b>Domestic Government:</b> US$ 26,592.6m.<br><b>External Aid:</b> US$ 7,158.3m.<br><b>Out-of-pocket:</b> US$ 30,010.8m.<br><b>Other domestic private:</b> US$ 10,918.3m."
 2005,Albania,46.9,3.78,0.01,49.31,<b>Domestic Government:</b> US$ 285.1m.<br><b>External Aid:</b> US$ 23.0m.<br><b>Out-of-pocket:</b> US$ 299.8m.<br><b>Other domestic private:</b> US$ 0.0m.
 2005,Algeria,69.29,0.08,2.54,28.09,"<b>Domestic Government:</b> US$ 2,816.9m.<br><b>External Aid:</b> US$ 3.2m.<br><b>Out-of-pocket:</b> US$ 1,142.1m.<br><b>Other domestic private:</b> US$ 103.1m."
 2005,Andorra,64.26,,19.77,15.97,<b>Domestic Government:</b> US$ 129.6m.<br><b>External Aid:</b> US$ -m.<br><b>Out-of-pocket:</b> US$ 32.2m.<br><b>Other domestic private:</b> US$ 39.9m.
@@ -3200,6 +3217,7 @@ year,Country,Domestic Government,External Aid,Other domestic private,Out-of-pock
 2005,Zambia,19.64,45.74,8.52,26.1,<b>Domestic Government:</b> US$ 120.2m.<br><b>External Aid:</b> US$ 280.0m.<br><b>Out-of-pocket:</b> US$ 159.8m.<br><b>Other domestic private:</b> US$ 52.1m.
 2004,Afghanistan,5.54,9.94,-0.0,84.53,<b>Domestic Government:</b> US$ 34.9m.<br><b>External Aid:</b> US$ 62.7m.<br><b>Out-of-pocket:</b> US$ 533.7m.<br><b>Other domestic private:</b> US$ -0.0m.
 2004,Africa,35.71,7.29,16.61,40.39,"<b>Domestic Government:</b> US$ 25,732.3m.<br><b>External Aid:</b> US$ 5,251.7m.<br><b>Out-of-pocket:</b> US$ 29,109.9m.<br><b>Other domestic private:</b> US$ 11,972.5m."
+2004,Africa (excluding High income),35.69,7.29,16.62,40.4,"<b>Domestic Government:</b> US$ 25,705.6m.<br><b>External Aid:</b> US$ 5,250.8m.<br><b>Out-of-pocket:</b> US$ 29,103.2m.<br><b>Other domestic private:</b> US$ 11,972.5m."
 2004,Albania,47.86,3.79,0.0,48.34,<b>Domestic Government:</b> US$ 283.6m.<br><b>External Aid:</b> US$ 22.5m.<br><b>Out-of-pocket:</b> US$ 286.5m.<br><b>Other domestic private:</b> US$ 0.0m.
 2004,Algeria,71.35,0.05,2.51,26.09,"<b>Domestic Government:</b> US$ 2,904.5m.<br><b>External Aid:</b> US$ 1.9m.<br><b>Out-of-pocket:</b> US$ 1,062.2m.<br><b>Other domestic private:</b> US$ 102.0m."
 2004,Andorra,62.09,,20.98,16.94,<b>Domestic Government:</b> US$ 112.3m.<br><b>External Aid:</b> US$ -m.<br><b>Out-of-pocket:</b> US$ 30.6m.<br><b>Other domestic private:</b> US$ 37.9m.
@@ -3383,6 +3401,7 @@ year,Country,Domestic Government,External Aid,Other domestic private,Out-of-pock
 2004,Zambia,23.98,34.92,10.13,30.96,<b>Domestic Government:</b> US$ 118.6m.<br><b>External Aid:</b> US$ 172.7m.<br><b>Out-of-pocket:</b> US$ 153.1m.<br><b>Other domestic private:</b> US$ 50.1m.
 2003,Afghanistan,7.28,6.65,0.0,86.07,<b>Domestic Government:</b> US$ 41.6m.<br><b>External Aid:</b> US$ 38.0m.<br><b>Out-of-pocket:</b> US$ 492.1m.<br><b>Other domestic private:</b> US$ 0.0m.
 2003,Africa,35.36,6.21,16.48,41.95,"<b>Domestic Government:</b> US$ 24,599.5m.<br><b>External Aid:</b> US$ 4,323.7m.<br><b>Out-of-pocket:</b> US$ 29,183.1m.<br><b>Other domestic private:</b> US$ 11,466.8m."
+2003,Africa (excluding High income),35.33,6.22,16.49,41.96,"<b>Domestic Government:</b> US$ 24,569.6m.<br><b>External Aid:</b> US$ 4,323.4m.<br><b>Out-of-pocket:</b> US$ 29,176.6m.<br><b>Other domestic private:</b> US$ 11,466.8m."
 2003,Albania,45.17,4.91,-0.0,49.92,<b>Domestic Government:</b> US$ 254.5m.<br><b>External Aid:</b> US$ 27.7m.<br><b>Out-of-pocket:</b> US$ 281.2m.<br><b>Other domestic private:</b> US$ -0.0m.
 2003,Algeria,76.69,0.05,2.11,21.15,"<b>Domestic Government:</b> US$ 3,018.7m.<br><b>External Aid:</b> US$ 2.0m.<br><b>Out-of-pocket:</b> US$ 832.4m.<br><b>Other domestic private:</b> US$ 82.9m."
 2003,Andorra,64.06,,19.89,16.06,<b>Domestic Government:</b> US$ 112.4m.<br><b>External Aid:</b> US$ -m.<br><b>Out-of-pocket:</b> US$ 28.2m.<br><b>Other domestic private:</b> US$ 34.9m.
@@ -3566,6 +3585,7 @@ year,Country,Domestic Government,External Aid,Other domestic private,Out-of-pock
 2003,Zambia,24.25,37.99,9.34,28.42,<b>Domestic Government:</b> US$ 122.5m.<br><b>External Aid:</b> US$ 191.9m.<br><b>Out-of-pocket:</b> US$ 143.5m.<br><b>Other domestic private:</b> US$ 47.2m.
 2002,Afghanistan,0.89,13.73,-0.0,85.38,<b>Domestic Government:</b> US$ 5.0m.<br><b>External Aid:</b> US$ 76.3m.<br><b>Out-of-pocket:</b> US$ 474.3m.<br><b>Other domestic private:</b> US$ -0.0m.
 2002,Africa,35.61,4.45,20.03,39.92,"<b>Domestic Government:</b> US$ 21,797.6m.<br><b>External Aid:</b> US$ 2,721.3m.<br><b>Out-of-pocket:</b> US$ 24,433.9m.<br><b>Other domestic private:</b> US$ 12,258.8m."
+2002,Africa (excluding High income),35.58,4.45,20.04,39.93,"<b>Domestic Government:</b> US$ 21,769.7m.<br><b>External Aid:</b> US$ 2,721.1m.<br><b>Out-of-pocket:</b> US$ 24,428.7m.<br><b>Other domestic private:</b> US$ 12,258.8m."
 2002,Albania,45.7,3.45,0.0,50.86,<b>Domestic Government:</b> US$ 233.8m.<br><b>External Aid:</b> US$ 17.6m.<br><b>Out-of-pocket:</b> US$ 260.1m.<br><b>Other domestic private:</b> US$ 0.0m.
 2002,Algeria,75.28,0.04,2.15,22.52,"<b>Domestic Government:</b> US$ 2,879.1m.<br><b>External Aid:</b> US$ 1.7m.<br><b>Out-of-pocket:</b> US$ 861.5m.<br><b>Other domestic private:</b> US$ 82.3m."
 2002,Andorra,66.31,,18.64,15.05,<b>Domestic Government:</b> US$ 115.7m.<br><b>External Aid:</b> US$ -m.<br><b>Out-of-pocket:</b> US$ 26.3m.<br><b>Other domestic private:</b> US$ 32.5m.
@@ -3749,6 +3769,7 @@ year,Country,Domestic Government,External Aid,Other domestic private,Out-of-pock
 2002,Zambia,32.24,30.95,8.38,28.44,<b>Domestic Government:</b> US$ 149.5m.<br><b>External Aid:</b> US$ 143.6m.<br><b>Out-of-pocket:</b> US$ 131.9m.<br><b>Other domestic private:</b> US$ 38.9m.
 2001,Afghanistan,,,,,<b>Domestic Government:</b> US$ -m.<br><b>External Aid:</b> US$ -m.<br><b>Out-of-pocket:</b> US$ -m.<br><b>Other domestic private:</b> US$ -m.
 2001,Africa,35.65,3.98,20.79,39.58,"<b>Domestic Government:</b> US$ 21,461.6m.<br><b>External Aid:</b> US$ 2,397.0m.<br><b>Out-of-pocket:</b> US$ 23,829.7m.<br><b>Other domestic private:</b> US$ 12,512.9m."
+2001,Africa (excluding High income),35.62,3.98,20.8,39.59,"<b>Domestic Government:</b> US$ 21,433.1m.<br><b>External Aid:</b> US$ 2,397.0m.<br><b>Out-of-pocket:</b> US$ 23,820.3m.<br><b>Other domestic private:</b> US$ 12,512.9m."
 2001,Albania,46.46,4.41,0.0,49.13,<b>Domestic Government:</b> US$ 237.8m.<br><b>External Aid:</b> US$ 22.6m.<br><b>Out-of-pocket:</b> US$ 251.5m.<br><b>Other domestic private:</b> US$ 0.0m.
 2001,Algeria,76.23,0.05,2.06,21.67,"<b>Domestic Government:</b> US$ 2,842.2m.<br><b>External Aid:</b> US$ 1.7m.<br><b>Out-of-pocket:</b> US$ 807.9m.<br><b>Other domestic private:</b> US$ 76.7m."
 2001,Andorra,65.17,,19.27,15.56,<b>Domestic Government:</b> US$ 106.3m.<br><b>External Aid:</b> US$ -m.<br><b>Out-of-pocket:</b> US$ 25.4m.<br><b>Other domestic private:</b> US$ 31.4m.
@@ -3932,6 +3953,7 @@ year,Country,Domestic Government,External Aid,Other domestic private,Out-of-pock
 2001,Zambia,39.86,11.19,10.56,38.4,<b>Domestic Government:</b> US$ 145.1m.<br><b>External Aid:</b> US$ 40.7m.<br><b>Out-of-pocket:</b> US$ 139.8m.<br><b>Other domestic private:</b> US$ 38.4m.
 2000,Afghanistan,,,,,<b>Domestic Government:</b> US$ -m.<br><b>External Aid:</b> US$ -m.<br><b>Out-of-pocket:</b> US$ -m.<br><b>Other domestic private:</b> US$ -m.
 2000,Africa,35.23,4.68,21.05,39.04,"<b>Domestic Government:</b> US$ 19,591.2m.<br><b>External Aid:</b> US$ 2,601.4m.<br><b>Out-of-pocket:</b> US$ 21,710.5m.<br><b>Other domestic private:</b> US$ 11,707.2m."
+2000,Africa (excluding High income),35.2,4.68,21.07,39.05,"<b>Domestic Government:</b> US$ 19,561.9m.<br><b>External Aid:</b> US$ 2,601.4m.<br><b>Out-of-pocket:</b> US$ 21,704.1m.<br><b>Other domestic private:</b> US$ 11,707.2m."
 2000,Albania,46.53,1.66,0.0,51.81,<b>Domestic Government:</b> US$ 220.6m.<br><b>External Aid:</b> US$ 7.8m.<br><b>Out-of-pocket:</b> US$ 245.7m.<br><b>Other domestic private:</b> US$ 0.0m.
 2000,Algeria,71.96,0.05,2.19,25.79,"<b>Domestic Government:</b> US$ 2,368.3m.<br><b>External Aid:</b> US$ 1.7m.<br><b>Out-of-pocket:</b> US$ 848.9m.<br><b>Other domestic private:</b> US$ 72.1m."
 2000,Andorra,65.52,,19.07,15.4,<b>Domestic Government:</b> US$ 100.4m.<br><b>External Aid:</b> US$ -m.<br><b>Out-of-pocket:</b> US$ 23.6m.<br><b>Other domestic private:</b> US$ 29.2m.

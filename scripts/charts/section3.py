@@ -2,6 +2,7 @@
 Analyse health spending data across countries, focusing on spending shares of total.
 Use to process, filter and aggregate the data.
 """
+
 from functools import partial
 
 import pandas as pd
@@ -113,7 +114,10 @@ def clean_chart_3_1(df: pd.DataFrame, full_df: pd.DataFrame) -> pd.DataFrame:
     }
 
     # set the right country order
-    country_order = list(full_df.country_name.unique()) + ["Africa"]
+    country_order = list(full_df.country_name.unique()) + [
+        "Africa",
+        "Africa (excluding High income)",
+    ]
 
     # Set the income levels
     income_levels = [
