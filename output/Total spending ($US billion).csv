@@ -109,6 +109,28 @@ year,indicator,country,value
 2019-01-01,Total spending ($US billion),Africa,127.427
 2020-01-01,Total spending ($US billion),Africa,128.923
 2021-01-01,Total spending ($US billion),Africa,136.707
+2000-01-01,Total spending ($US billion),Africa (Low and Lower middle income),33.221
+2001-01-01,Total spending ($US billion),Africa (Low and Lower middle income),37.435
+2002-01-01,Total spending ($US billion),Africa (Low and Lower middle income),38.436
+2003-01-01,Total spending ($US billion),Africa (Low and Lower middle income),45.191
+2004-01-01,Total spending ($US billion),Africa (Low and Lower middle income),47.193
+2005-01-01,Total spending ($US billion),Africa (Low and Lower middle income),49.321
+2006-01-01,Total spending ($US billion),Africa (Low and Lower middle income),53.128
+2007-01-01,Total spending ($US billion),Africa (Low and Lower middle income),55.533
+2008-01-01,Total spending ($US billion),Africa (Low and Lower middle income),58.183
+2009-01-01,Total spending ($US billion),Africa (Low and Lower middle income),63.382
+2010-01-01,Total spending ($US billion),Africa (Low and Lower middle income),64.514
+2011-01-01,Total spending ($US billion),Africa (Low and Lower middle income),67.669
+2012-01-01,Total spending ($US billion),Africa (Low and Lower middle income),70.944
+2013-01-01,Total spending ($US billion),Africa (Low and Lower middle income),75.684
+2014-01-01,Total spending ($US billion),Africa (Low and Lower middle income),79.151
+2015-01-01,Total spending ($US billion),Africa (Low and Lower middle income),84.153
+2016-01-01,Total spending ($US billion),Africa (Low and Lower middle income),85.852
+2017-01-01,Total spending ($US billion),Africa (Low and Lower middle income),89.612
+2018-01-01,Total spending ($US billion),Africa (Low and Lower middle income),86.021
+2019-01-01,Total spending ($US billion),Africa (Low and Lower middle income),88.276
+2020-01-01,Total spending ($US billion),Africa (Low and Lower middle income),90.53
+2021-01-01,Total spending ($US billion),Africa (Low and Lower middle income),97.935
 2000-01-01,Total spending ($US billion),Algeria,3.291
 2001-01-01,Total spending ($US billion),Algeria,3.729
 2002-01-01,Total spending ($US billion),Algeria,3.825
@@ -4113,25 +4135,3 @@ year,indicator,country,value
 2019-01-01,Total spending ($US billion),Vietnam,17.449
 2020-01-01,Total spending ($US billion),Vietnam,15.519
 2021-01-01,Total spending ($US billion),Vietnam,16.984
-2000-01-01,Total spending ($US billion),Africa (Low and Lower middle income),33.221
-2001-01-01,Total spending ($US billion),Africa (Low and Lower middle income),37.435
-2002-01-01,Total spending ($US billion),Africa (Low and Lower middle income),38.436
-2003-01-01,Total spending ($US billion),Africa (Low and Lower middle income),45.191
-2004-01-01,Total spending ($US billion),Africa (Low and Lower middle income),47.193
-2005-01-01,Total spending ($US billion),Africa (Low and Lower middle income),49.321
-2006-01-01,Total spending ($US billion),Africa (Low and Lower middle income),53.128
-2007-01-01,Total spending ($US billion),Africa (Low and Lower middle income),55.533
-2008-01-01,Total spending ($US billion),Africa (Low and Lower middle income),58.183
-2009-01-01,Total spending ($US billion),Africa (Low and Lower middle income),63.382
-2010-01-01,Total spending ($US billion),Africa (Low and Lower middle income),64.514
-2011-01-01,Total spending ($US billion),Africa (Low and Lower middle income),67.669
-2012-01-01,Total spending ($US billion),Africa (Low and Lower middle income),70.944
-2013-01-01,Total spending ($US billion),Africa (Low and Lower middle income),75.684
-2014-01-01,Total spending ($US billion),Africa (Low and Lower middle income),79.151
-2015-01-01,Total spending ($US billion),Africa (Low and Lower middle income),84.153
-2016-01-01,Total spending ($US billion),Africa (Low and Lower middle income),85.852
-2017-01-01,Total spending ($US billion),Africa (Low and Lower middle income),89.612
-2018-01-01,Total spending ($US billion),Africa (Low and Lower middle income),86.021
-2019-01-01,Total spending ($US billion),Africa (Low and Lower middle income),88.276
-2020-01-01,Total spending ($US billion),Africa (Low and Lower middle income),90.53
-2021-01-01,Total spending ($US billion),Africa (Low and Lower middle income),97.935

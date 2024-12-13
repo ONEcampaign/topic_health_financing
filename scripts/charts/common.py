@@ -189,6 +189,41 @@ def per_capita_africa(
     )
 
 
+def per_capita_africa_low_and_lower_middle(
+    spending: pd.DataFrame,
+    main_group_by: list = None,
+    additional_grouper: str | list = None,
+    threshold: float = 0.95,
+) -> pd.DataFrame:
+    """
+    Calculates the per capita spending for 'Africa' as a whole, based on a DataFrame
+    of spending data. The resulting DataFrame is sorted by year and country.
+
+    Parameters:
+    - spending: A pandas DataFrame with (at least) columns "year", "iso_code", "value",
+        and "income_group".
+    - additional_grouper (optional): A string or list of strings of additional columns
+        to group the data by. Defaults to None.
+    - threshold (optional): A float between 0 and 1 representing the minimum proportion
+        of non-null values for a group to be included in the output DataFrame. Defaults
+        to 0.95.
+
+    Returns:
+    - A pandas DataFrame representing the per capita spending for Africa."""
+
+    if main_group_by is None:
+        main_group_by = ["year", "income_level"]
+
+    return _callable_by(
+        spending=spending,
+        calculation_callable=value2pc_group,
+        optional_group_callable=_filter_african_countries_excluding_hic,
+        additional_grouper=additional_grouper,
+        threshold=threshold,
+        main_group_by=main_group_by,
+    )
+
+
 def total_by_income(
     spending: pd.DataFrame,
     additional_grouper: str | list = None,
@@ -521,12 +556,21 @@ def per_capita_spending(
         threshold=threshold,
     )
 
+    # Per capita Africa (low and lower middle income)
+    pc_spending_africa_low_lower = per_capita_africa_low_and_lower_middle(
+        usd_constant_data,
+        main_group_by=["year", "country_name"],
+        additional_grouper=additional_grouper,
+        threshold=threshold,
+    )
+
     # Combine the datasets
     combined_pc = combine_income_countries(
         income=pc_spending_income,
         country=pc_spending_countries,
         africa=pc_spending_africa,
         additional_grouper=additional_grouper,
+        africa_excluding_hic=pc_spending_africa_low_lower,
     ).assign(indicator="Per capita spending ($US)")
 
     return combined_pc
