@@ -109,6 +109,28 @@ year,indicator,country,value
 2019-01-01,Per capita spending ($US),Africa,99.59
 2020-01-01,Per capita spending ($US),Africa,98.314
 2021-01-01,Per capita spending ($US),Africa,101.776
+2000-01-01,Per capita spending ($US),Africa (Low and Lower middle income),45.696
+2001-01-01,Per capita spending ($US),Africa (Low and Lower middle income),50.185
+2002-01-01,Per capita spending ($US),Africa (Low and Lower middle income),50.211
+2003-01-01,Per capita spending ($US),Africa (Low and Lower middle income),57.525
+2004-01-01,Per capita spending ($US),Africa (Low and Lower middle income),58.527
+2005-01-01,Per capita spending ($US),Africa (Low and Lower middle income),59.588
+2006-01-01,Per capita spending ($US),Africa (Low and Lower middle income),62.524
+2007-01-01,Per capita spending ($US),Africa (Low and Lower middle income),63.644
+2008-01-01,Per capita spending ($US),Africa (Low and Lower middle income),64.929
+2009-01-01,Per capita spending ($US),Africa (Low and Lower middle income),68.867
+2010-01-01,Per capita spending ($US),Africa (Low and Lower middle income),68.246
+2011-01-01,Per capita spending ($US),Africa (Low and Lower middle income),69.685
+2012-01-01,Per capita spending ($US),Africa (Low and Lower middle income),71.125
+2013-01-01,Per capita spending ($US),Africa (Low and Lower middle income),73.872
+2014-01-01,Per capita spending ($US),Africa (Low and Lower middle income),75.206
+2015-01-01,Per capita spending ($US),Africa (Low and Lower middle income),77.851
+2016-01-01,Per capita spending ($US),Africa (Low and Lower middle income),77.325
+2017-01-01,Per capita spending ($US),Africa (Low and Lower middle income),77.854
+2018-01-01,Per capita spending ($US),Africa (Low and Lower middle income),72.841
+2019-01-01,Per capita spending ($US),Africa (Low and Lower middle income),72.878
+2020-01-01,Per capita spending ($US),Africa (Low and Lower middle income),72.878
+2021-01-01,Per capita spending ($US),Africa (Low and Lower middle income),76.913
 2000-01-01,Per capita spending ($US),Algeria,106.938
 2001-01-01,Per capita spending ($US),Algeria,119.503
 2002-01-01,Per capita spending ($US),Algeria,120.938
@@ -4113,25 +4135,3 @@ year,indicator,country,value
 2019-01-01,Per capita spending ($US),Vietnam,182.188
 2020-01-01,Per capita spending ($US),Vietnam,160.576
 2021-01-01,Per capita spending ($US),Vietnam,174.249
-2000-01-01,Per capita spending ($US),Africa (Low and Lower middle income),
-2001-01-01,Per capita spending ($US),Africa (Low and Lower middle income),
-2002-01-01,Per capita spending ($US),Africa (Low and Lower middle income),
-2003-01-01,Per capita spending ($US),Africa (Low and Lower middle income),
-2004-01-01,Per capita spending ($US),Africa (Low and Lower middle income),
-2005-01-01,Per capita spending ($US),Africa (Low and Lower middle income),
-2006-01-01,Per capita spending ($US),Africa (Low and Lower middle income),
-2007-01-01,Per capita spending ($US),Africa (Low and Lower middle income),
-2008-01-01,Per capita spending ($US),Africa (Low and Lower middle income),
-2009-01-01,Per capita spending ($US),Africa (Low and Lower middle income),
-2010-01-01,Per capita spending ($US),Africa (Low and Lower middle income),
-2011-01-01,Per capita spending ($US),Africa (Low and Lower middle income),
-2012-01-01,Per capita spending ($US),Africa (Low and Lower middle income),
-2013-01-01,Per capita spending ($US),Africa (Low and Lower middle income),
-2014-01-01,Per capita spending ($US),Africa (Low and Lower middle income),
-2015-01-01,Per capita spending ($US),Africa (Low and Lower middle income),
-2016-01-01,Per capita spending ($US),Africa (Low and Lower middle income),
-2017-01-01,Per capita spending ($US),Africa (Low and Lower middle income),
-2018-01-01,Per capita spending ($US),Africa (Low and Lower middle income),
-2019-01-01,Per capita spending ($US),Africa (Low and Lower middle income),
-2020-01-01,Per capita spending ($US),Africa (Low and Lower middle income),
-2021-01-01,Per capita spending ($US),Africa (Low and Lower middle income),

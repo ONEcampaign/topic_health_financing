@@ -109,6 +109,28 @@ year,indicator,country,value
 2019-01-01,Share of GDP (%),Africa,4.834
 2020-01-01,Share of GDP (%),Africa,4.98
 2021-01-01,Share of GDP (%),Africa,5.05
+2000-01-01,Share of GDP (%),Africa (Low and Lower middle income),3.822
+2001-01-01,Share of GDP (%),Africa (Low and Lower middle income),4.115
+2002-01-01,Share of GDP (%),Africa (Low and Lower middle income),4.002
+2003-01-01,Share of GDP (%),Africa (Low and Lower middle income),4.463
+2004-01-01,Share of GDP (%),Africa (Low and Lower middle income),4.385
+2005-01-01,Share of GDP (%),Africa (Low and Lower middle income),4.331
+2006-01-01,Share of GDP (%),Africa (Low and Lower middle income),4.396
+2007-01-01,Share of GDP (%),Africa (Low and Lower middle income),4.332
+2008-01-01,Share of GDP (%),Africa (Low and Lower middle income),4.284
+2009-01-01,Share of GDP (%),Africa (Low and Lower middle income),4.466
+2010-01-01,Share of GDP (%),Africa (Low and Lower middle income),4.261
+2011-01-01,Share of GDP (%),Africa (Low and Lower middle income),4.302
+2012-01-01,Share of GDP (%),Africa (Low and Lower middle income),4.338
+2013-01-01,Share of GDP (%),Africa (Low and Lower middle income),4.425
+2014-01-01,Share of GDP (%),Africa (Low and Lower middle income),4.409
+2015-01-01,Share of GDP (%),Africa (Low and Lower middle income),4.51
+2016-01-01,Share of GDP (%),Africa (Low and Lower middle income),4.499
+2017-01-01,Share of GDP (%),Africa (Low and Lower middle income),4.527
+2018-01-01,Share of GDP (%),Africa (Low and Lower middle income),4.192
+2019-01-01,Share of GDP (%),Africa (Low and Lower middle income),4.143
+2020-01-01,Share of GDP (%),Africa (Low and Lower middle income),4.279
+2021-01-01,Share of GDP (%),Africa (Low and Lower middle income),4.431
 2000-01-01,Share of GDP (%),Algeria,3.215
 2001-01-01,Share of GDP (%),Algeria,3.536
 2002-01-01,Share of GDP (%),Algeria,3.442
@@ -4113,25 +4135,3 @@ year,indicator,country,value
 2019-01-01,Share of GDP (%),Vietnam,4.974
 2020-01-01,Share of GDP (%),Vietnam,4.301
 2021-01-01,Share of GDP (%),Vietnam,4.589
-2000-01-01,Share of GDP (%),Africa (Low and Lower middle income),3.822
-2001-01-01,Share of GDP (%),Africa (Low and Lower middle income),4.115
-2002-01-01,Share of GDP (%),Africa (Low and Lower middle income),4.002
-2003-01-01,Share of GDP (%),Africa (Low and Lower middle income),4.463
-2004-01-01,Share of GDP (%),Africa (Low and Lower middle income),4.385
-2005-01-01,Share of GDP (%),Africa (Low and Lower middle income),4.331
-2006-01-01,Share of GDP (%),Africa (Low and Lower middle income),4.396
-2007-01-01,Share of GDP (%),Africa (Low and Lower middle income),4.332
-2008-01-01,Share of GDP (%),Africa (Low and Lower middle income),4.284
-2009-01-01,Share of GDP (%),Africa (Low and Lower middle income),4.466
-2010-01-01,Share of GDP (%),Africa (Low and Lower middle income),4.261
-2011-01-01,Share of GDP (%),Africa (Low and Lower middle income),4.302
-2012-01-01,Share of GDP (%),Africa (Low and Lower middle income),4.338
-2013-01-01,Share of GDP (%),Africa (Low and Lower middle income),4.425
-2014-01-01,Share of GDP (%),Africa (Low and Lower middle income),4.409
-2015-01-01,Share of GDP (%),Africa (Low and Lower middle income),4.51
-2016-01-01,Share of GDP (%),Africa (Low and Lower middle income),4.499
-2017-01-01,Share of GDP (%),Africa (Low and Lower middle income),4.527
-2018-01-01,Share of GDP (%),Africa (Low and Lower middle income),4.192
-2019-01-01,Share of GDP (%),Africa (Low and Lower middle income),4.143
-2020-01-01,Share of GDP (%),Africa (Low and Lower middle income),4.279
-2021-01-01,Share of GDP (%),Africa (Low and Lower middle income),4.431
