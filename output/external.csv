@@ -131,28 +131,28 @@ year,source,country,value
 2019-01-01,external,Low income,6658.878
 2020-01-01,external,Low income,6510.84
 2021-01-01,external,Low income,7358.381
-2000-01-01,external,Low income,0.563
-2001-01-01,external,Low income,0.617
-2002-01-01,external,Low income,0.76
-2003-01-01,external,Low income,0.69
-2004-01-01,external,Low income,0.897
-2005-01-01,external,Low income,1.004
-2006-01-01,external,Low income,1.131
-2007-01-01,external,Low income,1.102
-2008-01-01,external,Low income,1.221
-2009-01-01,external,Low income,1.425
-2010-01-01,external,Low income,1.442
-2011-01-01,external,Low income,1.522
-2012-01-01,external,Low income,1.396
-2013-01-01,external,Low income,1.441
-2014-01-01,external,Low income,1.412
-2015-01-01,external,Low income,1.405
-2016-01-01,external,Low income,1.557
-2017-01-01,external,Low income,1.683
-2018-01-01,external,Low income,1.566
-2019-01-01,external,Low income,1.583
-2020-01-01,external,Low income,1.538
-2021-01-01,external,Low income,1.67
+2000-01-01,external,Low income,0.561
+2001-01-01,external,Low income,0.614
+2002-01-01,external,Low income,0.755
+2003-01-01,external,Low income,0.685
+2004-01-01,external,Low income,0.891
+2005-01-01,external,Low income,0.996
+2006-01-01,external,Low income,1.123
+2007-01-01,external,Low income,1.095
+2008-01-01,external,Low income,1.213
+2009-01-01,external,Low income,1.417
+2010-01-01,external,Low income,1.433
+2011-01-01,external,Low income,1.512
+2012-01-01,external,Low income,1.388
+2013-01-01,external,Low income,1.434
+2014-01-01,external,Low income,1.406
+2015-01-01,external,Low income,1.397
+2016-01-01,external,Low income,1.547
+2017-01-01,external,Low income,1.673
+2018-01-01,external,Low income,1.557
+2019-01-01,external,Low income,1.574
+2020-01-01,external,Low income,1.53
+2021-01-01,external,Low income,1.661
 2000-01-01,external,Low income,12.44
 2001-01-01,external,Low income,12.87
 2002-01-01,external,Low income,14.7
@@ -240,7 +240,7 @@ year,source,country,value
 2018-01-01,external,Lower middle income,0.099
 2019-01-01,external,Lower middle income,0.105
 2020-01-01,external,Lower middle income,0.111
-2021-01-01,external,Lower middle income,0.18
+2021-01-01,external,Lower middle income,0.179
 2000-01-01,external,Lower middle income,3.4
 2001-01-01,external,Lower middle income,3.16
 2002-01-01,external,Lower middle income,3.16
@@ -399,24 +399,24 @@ year,source,country,value
 2001-01-01,external,Africa,0.228
 2002-01-01,external,Africa,0.246
 2003-01-01,external,Africa,0.311
-2004-01-01,external,Africa,0.357
-2005-01-01,external,Africa,0.46
-2006-01-01,external,Africa,0.454
-2007-01-01,external,Africa,0.463
-2008-01-01,external,Africa,0.465
-2009-01-01,external,Africa,0.51
-2010-01-01,external,Africa,0.503
-2011-01-01,external,Africa,0.525
-2012-01-01,external,Africa,0.503
-2013-01-01,external,Africa,0.531
-2014-01-01,external,Africa,0.453
-2015-01-01,external,Africa,0.434
-2016-01-01,external,Africa,0.439
-2017-01-01,external,Africa,0.438
-2018-01-01,external,Africa,0.424
-2019-01-01,external,Africa,0.446
-2020-01-01,external,Africa,0.453
-2021-01-01,external,Africa,0.492
+2004-01-01,external,Africa,0.356
+2005-01-01,external,Africa,0.459
+2006-01-01,external,Africa,0.452
+2007-01-01,external,Africa,0.461
+2008-01-01,external,Africa,0.464
+2009-01-01,external,Africa,0.508
+2010-01-01,external,Africa,0.501
+2011-01-01,external,Africa,0.523
+2012-01-01,external,Africa,0.501
+2013-01-01,external,Africa,0.529
+2014-01-01,external,Africa,0.451
+2015-01-01,external,Africa,0.432
+2016-01-01,external,Africa,0.437
+2017-01-01,external,Africa,0.436
+2018-01-01,external,Africa,0.422
+2019-01-01,external,Africa,0.444
+2020-01-01,external,Africa,0.451
+2021-01-01,external,Africa,0.49
 2000-01-01,external,Africa,4.68
 2001-01-01,external,Africa,3.98
 2002-01-01,external,Africa,4.45
@@ -571,28 +571,28 @@ year,source,country,value
 2019-01-01,external,Angola,76.627
 2020-01-01,external,Angola,131.675
 2021-01-01,external,Angola,107.228
-2000-01-01,external,Angola,0.01
-2001-01-01,external,Angola,0.064
-2002-01-01,external,Angola,0.043
-2003-01-01,external,Angola,0.037
-2004-01-01,external,Angola,0.077
-2005-01-01,external,Angola,0.087
-2006-01-01,external,Angola,0.157
-2007-01-01,external,Angola,0.08
-2008-01-01,external,Angola,0.083
-2009-01-01,external,Angola,0.147
-2010-01-01,external,Angola,0.087
-2011-01-01,external,Angola,0.076
-2012-01-01,external,Angola,0.052
-2013-01-01,external,Angola,0.07
-2014-01-01,external,Angola,0.077
-2015-01-01,external,Angola,0.07
-2016-01-01,external,Angola,0.099
-2017-01-01,external,Angola,0.087
-2018-01-01,external,Angola,0.088
-2019-01-01,external,Angola,0.098
-2020-01-01,external,Angola,0.178
-2021-01-01,external,Angola,0.143
+2000-01-01,external,Angola,0.009
+2001-01-01,external,Angola,0.06
+2002-01-01,external,Angola,0.04
+2003-01-01,external,Angola,0.034
+2004-01-01,external,Angola,0.071
+2005-01-01,external,Angola,0.081
+2006-01-01,external,Angola,0.146
+2007-01-01,external,Angola,0.075
+2008-01-01,external,Angola,0.078
+2009-01-01,external,Angola,0.137
+2010-01-01,external,Angola,0.081
+2011-01-01,external,Angola,0.07
+2012-01-01,external,Angola,0.048
+2013-01-01,external,Angola,0.065
+2014-01-01,external,Angola,0.072
+2015-01-01,external,Angola,0.065
+2016-01-01,external,Angola,0.091
+2017-01-01,external,Angola,0.08
+2018-01-01,external,Angola,0.081
+2019-01-01,external,Angola,0.089
+2020-01-01,external,Angola,0.159
+2021-01-01,external,Angola,0.127
 2000-01-01,external,Angola,0.51
 2001-01-01,external,Angola,1.43
 2002-01-01,external,Angola,1.28
@@ -748,12 +748,12 @@ year,source,country,value
 2020-01-01,external,Botswana,58.69
 2021-01-01,external,Botswana,63.417
 2000-01-01,external,Botswana,0.98
-2001-01-01,external,Botswana,0.892
-2002-01-01,external,Botswana,0.885
+2001-01-01,external,Botswana,0.891
+2002-01-01,external,Botswana,0.884
 2003-01-01,external,Botswana,0.812
 2004-01-01,external,Botswana,0.688
 2005-01-01,external,Botswana,0.605
-2006-01-01,external,Botswana,0.522
+2006-01-01,external,Botswana,0.521
 2007-01-01,external,Botswana,0.828
 2008-01-01,external,Botswana,0.739
 2009-01-01,external,Botswana,0.487
@@ -761,11 +761,11 @@ year,source,country,value
 2011-01-01,external,Botswana,0.284
 2012-01-01,external,Botswana,0.293
 2013-01-01,external,Botswana,0.574
-2014-01-01,external,Botswana,0.468
+2014-01-01,external,Botswana,0.467
 2015-01-01,external,Botswana,0.429
 2016-01-01,external,Botswana,0.327
 2017-01-01,external,Botswana,0.637
-2018-01-01,external,Botswana,0.516
+2018-01-01,external,Botswana,0.515
 2019-01-01,external,Botswana,0.585
 2020-01-01,external,Botswana,0.35
 2021-01-01,external,Botswana,0.338
@@ -1011,28 +1011,28 @@ year,source,country,value
 2019-01-01,external,Cabo Verde,7.109
 2020-01-01,external,Cabo Verde,13.929
 2021-01-01,external,Cabo Verde,16.659
-2000-01-01,external,Cabo Verde,0.114
-2001-01-01,external,Cabo Verde,0.135
-2002-01-01,external,Cabo Verde,0.136
-2003-01-01,external,Cabo Verde,0.079
-2004-01-01,external,Cabo Verde,0.187
-2005-01-01,external,Cabo Verde,0.243
-2006-01-01,external,Cabo Verde,0.467
-2007-01-01,external,Cabo Verde,0.268
-2008-01-01,external,Cabo Verde,0.269
-2009-01-01,external,Cabo Verde,0.125
-2010-01-01,external,Cabo Verde,0.247
-2011-01-01,external,Cabo Verde,0.185
-2012-01-01,external,Cabo Verde,0.608
-2013-01-01,external,Cabo Verde,0.737
-2014-01-01,external,Cabo Verde,0.731
-2015-01-01,external,Cabo Verde,0.183
-2016-01-01,external,Cabo Verde,0.222
-2017-01-01,external,Cabo Verde,0.374
-2018-01-01,external,Cabo Verde,0.441
-2019-01-01,external,Cabo Verde,0.297
-2020-01-01,external,Cabo Verde,0.736
-2021-01-01,external,Cabo Verde,0.833
+2000-01-01,external,Cabo Verde,0.113
+2001-01-01,external,Cabo Verde,0.133
+2002-01-01,external,Cabo Verde,0.134
+2003-01-01,external,Cabo Verde,0.078
+2004-01-01,external,Cabo Verde,0.184
+2005-01-01,external,Cabo Verde,0.239
+2006-01-01,external,Cabo Verde,0.46
+2007-01-01,external,Cabo Verde,0.264
+2008-01-01,external,Cabo Verde,0.265
+2009-01-01,external,Cabo Verde,0.124
+2010-01-01,external,Cabo Verde,0.243
+2011-01-01,external,Cabo Verde,0.183
+2012-01-01,external,Cabo Verde,0.6
+2013-01-01,external,Cabo Verde,0.727
+2014-01-01,external,Cabo Verde,0.721
+2015-01-01,external,Cabo Verde,0.181
+2016-01-01,external,Cabo Verde,0.219
+2017-01-01,external,Cabo Verde,0.369
+2018-01-01,external,Cabo Verde,0.435
+2019-01-01,external,Cabo Verde,0.294
+2020-01-01,external,Cabo Verde,0.726
+2021-01-01,external,Cabo Verde,0.811
 2000-01-01,external,Cabo Verde,2.57
 2001-01-01,external,Cabo Verde,2.83
 2002-01-01,external,Cabo Verde,2.86
@@ -1102,25 +1102,25 @@ year,source,country,value
 2000-01-01,external,Cameroon,0.11
 2001-01-01,external,Cameroon,0.087
 2002-01-01,external,Cameroon,0.139
-2003-01-01,external,Cameroon,0.092
+2003-01-01,external,Cameroon,0.093
 2004-01-01,external,Cameroon,0.125
 2005-01-01,external,Cameroon,0.18
 2006-01-01,external,Cameroon,0.174
 2007-01-01,external,Cameroon,0.192
 2008-01-01,external,Cameroon,0.224
 2009-01-01,external,Cameroon,0.2
-2010-01-01,external,Cameroon,0.286
-2011-01-01,external,Cameroon,0.468
-2012-01-01,external,Cameroon,0.309
-2013-01-01,external,Cameroon,0.265
+2010-01-01,external,Cameroon,0.287
+2011-01-01,external,Cameroon,0.469
+2012-01-01,external,Cameroon,0.31
+2013-01-01,external,Cameroon,0.266
 2014-01-01,external,Cameroon,0.402
-2015-01-01,external,Cameroon,0.356
-2016-01-01,external,Cameroon,0.353
-2017-01-01,external,Cameroon,0.322
-2018-01-01,external,Cameroon,0.517
-2019-01-01,external,Cameroon,0.476
-2020-01-01,external,Cameroon,0.455
-2021-01-01,external,Cameroon,0.648
+2015-01-01,external,Cameroon,0.357
+2016-01-01,external,Cameroon,0.354
+2017-01-01,external,Cameroon,0.323
+2018-01-01,external,Cameroon,0.518
+2019-01-01,external,Cameroon,0.477
+2020-01-01,external,Cameroon,0.456
+2021-01-01,external,Cameroon,0.653
 2000-01-01,external,Cameroon,2.67
 2001-01-01,external,Cameroon,2.25
 2002-01-01,external,Cameroon,3.45
@@ -1187,7 +1187,7 @@ year,source,country,value
 2019-01-01,external,Central African Republic,54.879
 2020-01-01,external,Central African Republic,82.55
 2021-01-01,external,Central African Republic,85.011
-2000-01-01,external,Central African Republic,0.498
+2000-01-01,external,Central African Republic,0.497
 2001-01-01,external,Central African Republic,0.275
 2002-01-01,external,Central African Republic,0.653
 2003-01-01,external,Central African Republic,0.542
@@ -1195,20 +1195,20 @@ year,source,country,value
 2005-01-01,external,Central African Republic,0.957
 2006-01-01,external,Central African Republic,0.812
 2007-01-01,external,Central African Republic,1.009
-2008-01-01,external,Central African Republic,0.795
+2008-01-01,external,Central African Republic,0.794
 2009-01-01,external,Central African Republic,1.655
 2010-01-01,external,Central African Republic,0.817
 2011-01-01,external,Central African Republic,1.061
-2012-01-01,external,Central African Republic,0.979
+2012-01-01,external,Central African Republic,0.978
 2013-01-01,external,Central African Republic,1.579
-2014-01-01,external,Central African Republic,1.691
+2014-01-01,external,Central African Republic,1.69
 2015-01-01,external,Central African Republic,2.084
-2016-01-01,external,Central African Republic,1.787
-2017-01-01,external,Central African Republic,2.097
-2018-01-01,external,Central African Republic,5.649
-2019-01-01,external,Central African Republic,2.165
-2020-01-01,external,Central African Republic,3.226
-2021-01-01,external,Central African Republic,3.29
+2016-01-01,external,Central African Republic,1.786
+2017-01-01,external,Central African Republic,2.096
+2018-01-01,external,Central African Republic,5.647
+2019-01-01,external,Central African Republic,2.164
+2020-01-01,external,Central African Republic,3.225
+2021-01-01,external,Central African Republic,3.289
 2000-01-01,external,Central African Republic,11.64
 2001-01-01,external,Central African Republic,6.95
 2002-01-01,external,Central African Republic,15.44
@@ -1275,28 +1275,28 @@ year,source,country,value
 2019-01-01,external,Chad,106.818
 2020-01-01,external,Chad,137.407
 2021-01-01,external,Chad,135.099
-2000-01-01,external,Chad,0.144
-2001-01-01,external,Chad,0.14
-2002-01-01,external,Chad,0.142
-2003-01-01,external,Chad,0.681
-2004-01-01,external,Chad,0.421
-2005-01-01,external,Chad,0.357
-2006-01-01,external,Chad,0.393
-2007-01-01,external,Chad,0.198
-2008-01-01,external,Chad,0.173
-2009-01-01,external,Chad,0.259
-2010-01-01,external,Chad,0.181
-2011-01-01,external,Chad,0.374
-2012-01-01,external,Chad,0.321
-2013-01-01,external,Chad,0.25
-2014-01-01,external,Chad,0.357
-2015-01-01,external,Chad,0.583
-2016-01-01,external,Chad,0.817
-2017-01-01,external,Chad,0.699
-2018-01-01,external,Chad,0.636
-2019-01-01,external,Chad,0.646
-2020-01-01,external,Chad,0.848
-2021-01-01,external,Chad,0.842
+2000-01-01,external,Chad,0.145
+2001-01-01,external,Chad,0.141
+2002-01-01,external,Chad,0.143
+2003-01-01,external,Chad,0.685
+2004-01-01,external,Chad,0.424
+2005-01-01,external,Chad,0.36
+2006-01-01,external,Chad,0.396
+2007-01-01,external,Chad,0.199
+2008-01-01,external,Chad,0.174
+2009-01-01,external,Chad,0.261
+2010-01-01,external,Chad,0.182
+2011-01-01,external,Chad,0.377
+2012-01-01,external,Chad,0.323
+2013-01-01,external,Chad,0.252
+2014-01-01,external,Chad,0.36
+2015-01-01,external,Chad,0.587
+2016-01-01,external,Chad,0.823
+2017-01-01,external,Chad,0.704
+2018-01-01,external,Chad,0.641
+2019-01-01,external,Chad,0.651
+2020-01-01,external,Chad,0.855
+2021-01-01,external,Chad,0.848
 2000-01-01,external,Chad,3.6
 2001-01-01,external,Chad,3.61
 2002-01-01,external,Chad,2.65
@@ -1363,7 +1363,7 @@ year,source,country,value
 2019-01-01,external,Comoros,11.382
 2020-01-01,external,Comoros,8.832
 2021-01-01,external,Comoros,20.873
-2000-01-01,external,Comoros,0.443
+2000-01-01,external,Comoros,0.442
 2001-01-01,external,Comoros,0.524
 2002-01-01,external,Comoros,0.448
 2003-01-01,external,Comoros,0.75
@@ -1627,28 +1627,28 @@ year,source,country,value
 2019-01-01,external,DR Congo,735.069
 2020-01-01,external,DR Congo,817.872
 2021-01-01,external,DR Congo,802.519
-2000-01-01,external,DR Congo,0.342
-2001-01-01,external,DR Congo,0.348
-2002-01-01,external,DR Congo,0.363
-2003-01-01,external,DR Congo,0.694
-2004-01-01,external,DR Congo,0.753
-2005-01-01,external,DR Congo,0.744
-2006-01-01,external,DR Congo,0.798
-2007-01-01,external,DR Congo,0.918
-2008-01-01,external,DR Congo,1.648
-2009-01-01,external,DR Congo,1.855
-2010-01-01,external,DR Congo,1.666
-2011-01-01,external,DR Congo,1.439
-2012-01-01,external,DR Congo,1.212
-2013-01-01,external,DR Congo,1.341
-2014-01-01,external,DR Congo,1.497
-2015-01-01,external,DR Congo,1.472
-2016-01-01,external,DR Congo,1.816
-2017-01-01,external,DR Congo,1.699
-2018-01-01,external,DR Congo,1.141
-2019-01-01,external,DR Congo,1.362
-2020-01-01,external,DR Congo,1.491
-2021-01-01,external,DR Congo,1.379
+2000-01-01,external,DR Congo,0.345
+2001-01-01,external,DR Congo,0.351
+2002-01-01,external,DR Congo,0.367
+2003-01-01,external,DR Congo,0.7
+2004-01-01,external,DR Congo,0.759
+2005-01-01,external,DR Congo,0.75
+2006-01-01,external,DR Congo,0.805
+2007-01-01,external,DR Congo,0.926
+2008-01-01,external,DR Congo,1.662
+2009-01-01,external,DR Congo,1.872
+2010-01-01,external,DR Congo,1.681
+2011-01-01,external,DR Congo,1.452
+2012-01-01,external,DR Congo,1.223
+2013-01-01,external,DR Congo,1.353
+2014-01-01,external,DR Congo,1.511
+2015-01-01,external,DR Congo,1.485
+2016-01-01,external,DR Congo,1.832
+2017-01-01,external,DR Congo,1.714
+2018-01-01,external,DR Congo,1.152
+2019-01-01,external,DR Congo,1.374
+2020-01-01,external,DR Congo,1.504
+2021-01-01,external,DR Congo,1.393
 2000-01-01,external,DR Congo,23.3
 2001-01-01,external,DR Congo,13.26
 2002-01-01,external,DR Congo,14.14
@@ -1715,27 +1715,27 @@ year,source,country,value
 2019-01-01,external,Equatorial Guinea,3.595
 2020-01-01,external,Equatorial Guinea,6.791
 2021-01-01,external,Equatorial Guinea,1.813
-2000-01-01,external,Equatorial Guinea,0.068
-2001-01-01,external,Equatorial Guinea,0.211
-2002-01-01,external,Equatorial Guinea,0.131
-2003-01-01,external,Equatorial Guinea,0.064
-2004-01-01,external,Equatorial Guinea,0.052
+2000-01-01,external,Equatorial Guinea,0.07
+2001-01-01,external,Equatorial Guinea,0.215
+2002-01-01,external,Equatorial Guinea,0.133
+2003-01-01,external,Equatorial Guinea,0.065
+2004-01-01,external,Equatorial Guinea,0.053
 2005-01-01,external,Equatorial Guinea,0.047
-2006-01-01,external,Equatorial Guinea,0.084
-2007-01-01,external,Equatorial Guinea,0.087
-2008-01-01,external,Equatorial Guinea,0.046
-2009-01-01,external,Equatorial Guinea,0.109
-2010-01-01,external,Equatorial Guinea,0.079
-2011-01-01,external,Equatorial Guinea,0.067
+2006-01-01,external,Equatorial Guinea,0.085
+2007-01-01,external,Equatorial Guinea,0.089
+2008-01-01,external,Equatorial Guinea,0.047
+2009-01-01,external,Equatorial Guinea,0.111
+2010-01-01,external,Equatorial Guinea,0.08
+2011-01-01,external,Equatorial Guinea,0.068
 2012-01-01,external,Equatorial Guinea,0.043
-2013-01-01,external,Equatorial Guinea,0.022
+2013-01-01,external,Equatorial Guinea,0.023
 2014-01-01,external,Equatorial Guinea,0.008
-2015-01-01,external,Equatorial Guinea,0.036
+2015-01-01,external,Equatorial Guinea,0.037
 2016-01-01,external,Equatorial Guinea,0.038
-2017-01-01,external,Equatorial Guinea,0.062
-2018-01-01,external,Equatorial Guinea,0.073
+2017-01-01,external,Equatorial Guinea,0.063
+2018-01-01,external,Equatorial Guinea,0.074
 2019-01-01,external,Equatorial Guinea,0.028
-2020-01-01,external,Equatorial Guinea,0.055
+2020-01-01,external,Equatorial Guinea,0.056
 2021-01-01,external,Equatorial Guinea,0.015
 2000-01-01,external,Equatorial Guinea,6.18
 2001-01-01,external,Equatorial Guinea,17.55
@@ -1979,28 +1979,28 @@ year,source,country,value
 2019-01-01,external,Gabon,3.204
 2020-01-01,external,Gabon,73.662
 2021-01-01,external,Gabon,21.873
-2000-01-01,external,Gabon,0.062
-2001-01-01,external,Gabon,0.042
-2002-01-01,external,Gabon,0.054
-2003-01-01,external,Gabon,0.058
-2004-01-01,external,Gabon,0.053
-2005-01-01,external,Gabon,0.116
-2006-01-01,external,Gabon,0.073
-2007-01-01,external,Gabon,0.088
-2008-01-01,external,Gabon,0.058
-2009-01-01,external,Gabon,0.058
-2010-01-01,external,Gabon,0.028
-2011-01-01,external,Gabon,0.028
+2000-01-01,external,Gabon,0.064
+2001-01-01,external,Gabon,0.044
+2002-01-01,external,Gabon,0.056
+2003-01-01,external,Gabon,0.06
+2004-01-01,external,Gabon,0.055
+2005-01-01,external,Gabon,0.12
+2006-01-01,external,Gabon,0.076
+2007-01-01,external,Gabon,0.091
+2008-01-01,external,Gabon,0.06
+2009-01-01,external,Gabon,0.06
+2010-01-01,external,Gabon,0.029
+2011-01-01,external,Gabon,0.029
 2012-01-01,external,Gabon,0.012
-2013-01-01,external,Gabon,0.01
-2014-01-01,external,Gabon,0.025
-2015-01-01,external,Gabon,0.022
-2016-01-01,external,Gabon,0.021
-2017-01-01,external,Gabon,0.017
-2018-01-01,external,Gabon,0.034
+2013-01-01,external,Gabon,0.011
+2014-01-01,external,Gabon,0.026
+2015-01-01,external,Gabon,0.023
+2016-01-01,external,Gabon,0.022
+2017-01-01,external,Gabon,0.018
+2018-01-01,external,Gabon,0.035
 2019-01-01,external,Gabon,0.016
-2020-01-01,external,Gabon,0.369
-2021-01-01,external,Gabon,0.108
+2020-01-01,external,Gabon,0.384
+2021-01-01,external,Gabon,0.112
 2000-01-01,external,Gabon,2.13
 2001-01-01,external,Gabon,1.33
 2002-01-01,external,Gabon,1.63
@@ -2342,7 +2342,7 @@ year,source,country,value
 2008-01-01,external,Guinea-Bissau,2.059
 2009-01-01,external,Guinea-Bissau,1.482
 2010-01-01,external,Guinea-Bissau,2.183
-2011-01-01,external,Guinea-Bissau,3.291
+2011-01-01,external,Guinea-Bissau,3.29
 2012-01-01,external,Guinea-Bissau,1.676
 2013-01-01,external,Guinea-Bissau,1.694
 2014-01-01,external,Guinea-Bissau,3.596
@@ -2351,8 +2351,8 @@ year,source,country,value
 2017-01-01,external,Guinea-Bissau,1.482
 2018-01-01,external,Guinea-Bissau,1.671
 2019-01-01,external,Guinea-Bissau,1.472
-2020-01-01,external,Guinea-Bissau,2.477
-2021-01-01,external,Guinea-Bissau,1.911
+2020-01-01,external,Guinea-Bissau,2.476
+2021-01-01,external,Guinea-Bissau,1.914
 2000-01-01,external,Guinea-Bissau,17.99
 2001-01-01,external,Guinea-Bissau,24.75
 2002-01-01,external,Guinea-Bissau,28.48
@@ -2507,27 +2507,27 @@ year,source,country,value
 2019-01-01,external,Lesotho,118.247
 2020-01-01,external,Lesotho,92.291
 2021-01-01,external,Lesotho,115.588
-2000-01-01,external,Lesotho,0.199
-2001-01-01,external,Lesotho,0.447
-2002-01-01,external,Lesotho,0.463
-2003-01-01,external,Lesotho,0.462
-2004-01-01,external,Lesotho,0.602
-2005-01-01,external,Lesotho,0.811
-2006-01-01,external,Lesotho,0.734
-2007-01-01,external,Lesotho,0.846
-2008-01-01,external,Lesotho,1.609
-2009-01-01,external,Lesotho,2.322
-2010-01-01,external,Lesotho,1.686
-2011-01-01,external,Lesotho,2.398
-2012-01-01,external,Lesotho,2.68
-2013-01-01,external,Lesotho,3.299
-2014-01-01,external,Lesotho,2.73
-2015-01-01,external,Lesotho,2.188
-2016-01-01,external,Lesotho,2.147
-2017-01-01,external,Lesotho,2.828
-2018-01-01,external,Lesotho,3.916
-2019-01-01,external,Lesotho,4.692
-2020-01-01,external,Lesotho,3.867
+2000-01-01,external,Lesotho,0.2
+2001-01-01,external,Lesotho,0.448
+2002-01-01,external,Lesotho,0.464
+2003-01-01,external,Lesotho,0.463
+2004-01-01,external,Lesotho,0.603
+2005-01-01,external,Lesotho,0.813
+2006-01-01,external,Lesotho,0.735
+2007-01-01,external,Lesotho,0.848
+2008-01-01,external,Lesotho,1.613
+2009-01-01,external,Lesotho,2.328
+2010-01-01,external,Lesotho,1.69
+2011-01-01,external,Lesotho,2.404
+2012-01-01,external,Lesotho,2.686
+2013-01-01,external,Lesotho,3.307
+2014-01-01,external,Lesotho,2.737
+2015-01-01,external,Lesotho,2.194
+2016-01-01,external,Lesotho,2.152
+2017-01-01,external,Lesotho,2.835
+2018-01-01,external,Lesotho,3.924
+2019-01-01,external,Lesotho,4.695
+2020-01-01,external,Lesotho,3.868
 2021-01-01,external,Lesotho,4.763
 2000-01-01,external,Lesotho,3.87
 2001-01-01,external,Lesotho,6.78
@@ -2683,28 +2683,28 @@ year,source,country,value
 2019-01-01,external,Malawi,501.614
 2020-01-01,external,Malawi,463.908
 2021-01-01,external,Malawi,570.329
-2000-01-01,external,Malawi,0.868
-2001-01-01,external,Malawi,0.769
-2002-01-01,external,Malawi,1.241
-2003-01-01,external,Malawi,1.523
-2004-01-01,external,Malawi,2.69
-2005-01-01,external,Malawi,2.686
-2006-01-01,external,Malawi,3.076
-2007-01-01,external,Malawi,3.552
-2008-01-01,external,Malawi,3.491
-2009-01-01,external,Malawi,3.649
-2010-01-01,external,Malawi,3.228
-2011-01-01,external,Malawi,3.429
-2012-01-01,external,Malawi,4.263
-2013-01-01,external,Malawi,5.613
-2014-01-01,external,Malawi,4.348
-2015-01-01,external,Malawi,3.546
-2016-01-01,external,Malawi,4.15
-2017-01-01,external,Malawi,4.54
-2018-01-01,external,Malawi,3.948
-2019-01-01,external,Malawi,4.243
+2000-01-01,external,Malawi,0.869
+2001-01-01,external,Malawi,0.77
+2002-01-01,external,Malawi,1.242
+2003-01-01,external,Malawi,1.525
+2004-01-01,external,Malawi,2.693
+2005-01-01,external,Malawi,2.689
+2006-01-01,external,Malawi,3.079
+2007-01-01,external,Malawi,3.556
+2008-01-01,external,Malawi,3.495
+2009-01-01,external,Malawi,3.652
+2010-01-01,external,Malawi,3.231
+2011-01-01,external,Malawi,3.432
+2012-01-01,external,Malawi,4.267
+2013-01-01,external,Malawi,5.618
+2014-01-01,external,Malawi,4.352
+2015-01-01,external,Malawi,3.55
+2016-01-01,external,Malawi,4.155
+2017-01-01,external,Malawi,4.544
+2018-01-01,external,Malawi,3.952
+2019-01-01,external,Malawi,4.247
 2020-01-01,external,Malawi,3.888
-2021-01-01,external,Malawi,4.571
+2021-01-01,external,Malawi,4.572
 2000-01-01,external,Malawi,36.89
 2001-01-01,external,Malawi,37.33
 2002-01-01,external,Malawi,46.02
@@ -3123,28 +3123,28 @@ year,source,country,value
 2019-01-01,external,Namibia,51.71
 2020-01-01,external,Namibia,54.718
 2021-01-01,external,Namibia,93.926
-2000-01-01,external,Namibia,0.495
-2001-01-01,external,Namibia,0.554
-2002-01-01,external,Namibia,0.566
-2003-01-01,external,Namibia,0.604
-2004-01-01,external,Namibia,1.411
-2005-01-01,external,Namibia,2.09
-2006-01-01,external,Namibia,2.535
-2007-01-01,external,Namibia,2.109
-2008-01-01,external,Namibia,2.147
-2009-01-01,external,Namibia,1.762
-2010-01-01,external,Namibia,1.387
-2011-01-01,external,Namibia,1.072
-2012-01-01,external,Namibia,0.735
-2013-01-01,external,Namibia,0.584
-2014-01-01,external,Namibia,0.507
-2015-01-01,external,Namibia,0.57
-2016-01-01,external,Namibia,0.65
-2017-01-01,external,Namibia,0.591
-2018-01-01,external,Namibia,0.388
-2019-01-01,external,Namibia,0.395
-2020-01-01,external,Namibia,0.455
-2021-01-01,external,Namibia,0.755
+2000-01-01,external,Namibia,0.497
+2001-01-01,external,Namibia,0.557
+2002-01-01,external,Namibia,0.569
+2003-01-01,external,Namibia,0.607
+2004-01-01,external,Namibia,1.417
+2005-01-01,external,Namibia,2.099
+2006-01-01,external,Namibia,2.546
+2007-01-01,external,Namibia,2.118
+2008-01-01,external,Namibia,2.156
+2009-01-01,external,Namibia,1.77
+2010-01-01,external,Namibia,1.393
+2011-01-01,external,Namibia,1.076
+2012-01-01,external,Namibia,0.738
+2013-01-01,external,Namibia,0.586
+2014-01-01,external,Namibia,0.509
+2015-01-01,external,Namibia,0.572
+2016-01-01,external,Namibia,0.653
+2017-01-01,external,Namibia,0.594
+2018-01-01,external,Namibia,0.39
+2019-01-01,external,Namibia,0.397
+2020-01-01,external,Namibia,0.457
+2021-01-01,external,Namibia,0.758
 2000-01-01,external,Namibia,5.35
 2001-01-01,external,Namibia,5.75
 2002-01-01,external,Namibia,5.85
@@ -3212,16 +3212,16 @@ year,source,country,value
 2020-01-01,external,Niger,142.929
 2021-01-01,external,Niger,124.022
 2000-01-01,external,Niger,0.432
-2001-01-01,external,Niger,0.442
+2001-01-01,external,Niger,0.441
 2002-01-01,external,Niger,0.456
 2003-01-01,external,Niger,0.481
 2004-01-01,external,Niger,0.512
 2005-01-01,external,Niger,0.624
-2006-01-01,external,Niger,0.631
-2007-01-01,external,Niger,0.712
+2006-01-01,external,Niger,0.63
+2007-01-01,external,Niger,0.711
 2008-01-01,external,Niger,0.648
 2009-01-01,external,Niger,0.638
-2010-01-01,external,Niger,0.611
+2010-01-01,external,Niger,0.61
 2011-01-01,external,Niger,0.523
 2012-01-01,external,Niger,0.567
 2013-01-01,external,Niger,0.529
@@ -3299,7 +3299,7 @@ year,source,country,value
 2019-01-01,external,Nigeria,1520.837
 2020-01-01,external,Nigeria,1379.796
 2021-01-01,external,Nigeria,1415.026
-2000-01-01,external,Nigeria,0.543
+2000-01-01,external,Nigeria,0.542
 2001-01-01,external,Nigeria,0.214
 2002-01-01,external,Nigeria,0.182
 2003-01-01,external,Nigeria,0.289
@@ -3308,19 +3308,19 @@ year,source,country,value
 2006-01-01,external,Nigeria,0.23
 2007-01-01,external,Nigeria,0.231
 2008-01-01,external,Nigeria,0.224
-2009-01-01,external,Nigeria,0.223
+2009-01-01,external,Nigeria,0.222
 2010-01-01,external,Nigeria,0.206
 2011-01-01,external,Nigeria,0.261
 2012-01-01,external,Nigeria,0.283
-2013-01-01,external,Nigeria,0.426
+2013-01-01,external,Nigeria,0.425
 2014-01-01,external,Nigeria,0.411
 2015-01-01,external,Nigeria,0.355
 2016-01-01,external,Nigeria,0.376
-2017-01-01,external,Nigeria,0.285
-2018-01-01,external,Nigeria,0.222
+2017-01-01,external,Nigeria,0.284
+2018-01-01,external,Nigeria,0.221
 2019-01-01,external,Nigeria,0.351
 2020-01-01,external,Nigeria,0.324
-2021-01-01,external,Nigeria,0.321
+2021-01-01,external,Nigeria,0.32
 2000-01-01,external,Nigeria,16.97
 2001-01-01,external,Nigeria,6.72
 2002-01-01,external,Nigeria,7.3
@@ -3387,28 +3387,28 @@ year,source,country,value
 2019-01-01,external,Rwanda,218.68
 2020-01-01,external,Rwanda,266.966
 2021-01-01,external,Rwanda,290.55
-2000-01-01,external,Rwanda,1.665
-2001-01-01,external,Rwanda,1.354
-2002-01-01,external,Rwanda,1.101
-2003-01-01,external,Rwanda,2.94
-2004-01-01,external,Rwanda,3.548
-2005-01-01,external,Rwanda,3.883
-2006-01-01,external,Rwanda,4.341
-2007-01-01,external,Rwanda,4.347
-2008-01-01,external,Rwanda,4.009
-2009-01-01,external,Rwanda,4.129
-2010-01-01,external,Rwanda,4.198
-2011-01-01,external,Rwanda,3.922
-2012-01-01,external,Rwanda,4.322
-2013-01-01,external,Rwanda,2.997
-2014-01-01,external,Rwanda,3.289
-2015-01-01,external,Rwanda,2.806
-2016-01-01,external,Rwanda,3.01
-2017-01-01,external,Rwanda,2.514
-2018-01-01,external,Rwanda,2.625
-2019-01-01,external,Rwanda,2.12
-2020-01-01,external,Rwanda,2.678
-2021-01-01,external,Rwanda,2.629
+2000-01-01,external,Rwanda,1.662
+2001-01-01,external,Rwanda,1.352
+2002-01-01,external,Rwanda,1.099
+2003-01-01,external,Rwanda,2.935
+2004-01-01,external,Rwanda,3.54
+2005-01-01,external,Rwanda,3.874
+2006-01-01,external,Rwanda,4.331
+2007-01-01,external,Rwanda,4.339
+2008-01-01,external,Rwanda,4.001
+2009-01-01,external,Rwanda,4.121
+2010-01-01,external,Rwanda,4.191
+2011-01-01,external,Rwanda,3.914
+2012-01-01,external,Rwanda,4.314
+2013-01-01,external,Rwanda,2.992
+2014-01-01,external,Rwanda,3.283
+2015-01-01,external,Rwanda,2.801
+2016-01-01,external,Rwanda,3.004
+2017-01-01,external,Rwanda,2.509
+2018-01-01,external,Rwanda,2.621
+2019-01-01,external,Rwanda,2.117
+2020-01-01,external,Rwanda,2.674
+2021-01-01,external,Rwanda,2.626
 2000-01-01,external,Rwanda,46.57
 2001-01-01,external,Rwanda,40.83
 2002-01-01,external,Rwanda,35.21
@@ -3475,25 +3475,25 @@ year,source,country,value
 2019-01-01,external,Sao Tome and Principe,11.185
 2020-01-01,external,Sao Tome and Principe,17.393
 2021-01-01,external,Sao Tome and Principe,18.165
-2000-01-01,external,Sao Tome and Principe,2.742
-2001-01-01,external,Sao Tome and Principe,2.743
-2002-01-01,external,Sao Tome and Principe,2.746
-2003-01-01,external,Sao Tome and Principe,2.748
-2004-01-01,external,Sao Tome and Principe,2.748
-2005-01-01,external,Sao Tome and Principe,2.882
-2006-01-01,external,Sao Tome and Principe,4.676
-2007-01-01,external,Sao Tome and Principe,3.815
-2008-01-01,external,Sao Tome and Principe,3.877
-2009-01-01,external,Sao Tome and Principe,3.365
-2010-01-01,external,Sao Tome and Principe,3.3
-2011-01-01,external,Sao Tome and Principe,3.078
-2012-01-01,external,Sao Tome and Principe,3.317
-2013-01-01,external,Sao Tome and Principe,4.445
-2014-01-01,external,Sao Tome and Principe,3.816
-2015-01-01,external,Sao Tome and Principe,3.313
-2016-01-01,external,Sao Tome and Principe,3.336
-2017-01-01,external,Sao Tome and Principe,2.83
-2018-01-01,external,Sao Tome and Principe,2.203
+2000-01-01,external,Sao Tome and Principe,2.741
+2001-01-01,external,Sao Tome and Principe,2.742
+2002-01-01,external,Sao Tome and Principe,2.745
+2003-01-01,external,Sao Tome and Principe,2.747
+2004-01-01,external,Sao Tome and Principe,2.747
+2005-01-01,external,Sao Tome and Principe,2.881
+2006-01-01,external,Sao Tome and Principe,4.674
+2007-01-01,external,Sao Tome and Principe,3.814
+2008-01-01,external,Sao Tome and Principe,3.876
+2009-01-01,external,Sao Tome and Principe,3.363
+2010-01-01,external,Sao Tome and Principe,3.299
+2011-01-01,external,Sao Tome and Principe,3.077
+2012-01-01,external,Sao Tome and Principe,3.316
+2013-01-01,external,Sao Tome and Principe,4.444
+2014-01-01,external,Sao Tome and Principe,3.814
+2015-01-01,external,Sao Tome and Principe,3.312
+2016-01-01,external,Sao Tome and Principe,3.335
+2017-01-01,external,Sao Tome and Principe,2.829
+2018-01-01,external,Sao Tome and Principe,2.202
 2019-01-01,external,Sao Tome and Principe,2.211
 2020-01-01,external,Sao Tome and Principe,3.35
 2021-01-01,external,Sao Tome and Principe,3.434
@@ -3739,28 +3739,28 @@ year,source,country,value
 2019-01-01,external,Sierra Leone,119.444
 2020-01-01,external,Sierra Leone,118.568
 2021-01-01,external,Sierra Leone,91.068
-2000-01-01,external,Sierra Leone,0.322
-2001-01-01,external,Sierra Leone,0.81
-2002-01-01,external,Sierra Leone,1.809
-2003-01-01,external,Sierra Leone,0.971
-2004-01-01,external,Sierra Leone,1.433
-2005-01-01,external,Sierra Leone,1.907
-2006-01-01,external,Sierra Leone,2.139
-2007-01-01,external,Sierra Leone,1.634
-2008-01-01,external,Sierra Leone,1.779
-2009-01-01,external,Sierra Leone,2.319
-2010-01-01,external,Sierra Leone,2.636
-2011-01-01,external,Sierra Leone,3.078
-2012-01-01,external,Sierra Leone,1.867
-2013-01-01,external,Sierra Leone,3.453
-2014-01-01,external,Sierra Leone,10.394
-2015-01-01,external,Sierra Leone,10.313
-2016-01-01,external,Sierra Leone,6.825
-2017-01-01,external,Sierra Leone,3.267
-2018-01-01,external,Sierra Leone,2.393
-2019-01-01,external,Sierra Leone,2.939
-2020-01-01,external,Sierra Leone,2.976
-2021-01-01,external,Sierra Leone,2.195
+2000-01-01,external,Sierra Leone,0.193
+2001-01-01,external,Sierra Leone,0.484
+2002-01-01,external,Sierra Leone,1.08
+2003-01-01,external,Sierra Leone,0.575
+2004-01-01,external,Sierra Leone,0.839
+2005-01-01,external,Sierra Leone,1.093
+2006-01-01,external,Sierra Leone,1.221
+2007-01-01,external,Sierra Leone,0.972
+2008-01-01,external,Sierra Leone,1.074
+2009-01-01,external,Sierra Leone,1.426
+2010-01-01,external,Sierra Leone,1.551
+2011-01-01,external,Sierra Leone,1.798
+2012-01-01,external,Sierra Leone,1.177
+2013-01-01,external,Sierra Leone,2.401
+2014-01-01,external,Sierra Leone,7.604
+2015-01-01,external,Sierra Leone,6.189
+2016-01-01,external,Sierra Leone,4.162
+2017-01-01,external,Sierra Leone,1.989
+2018-01-01,external,Sierra Leone,1.458
+2019-01-01,external,Sierra Leone,1.786
+2020-01-01,external,Sierra Leone,1.795
+2021-01-01,external,Sierra Leone,1.302
 2000-01-01,external,Sierra Leone,3.8
 2001-01-01,external,Sierra Leone,9.68
 2002-01-01,external,Sierra Leone,19.24
@@ -3828,19 +3828,19 @@ year,source,country,value
 2020-01-01,external,South Africa,457.346
 2021-01-01,external,South Africa,492.882
 2000-01-01,external,South Africa,0.047
-2001-01-01,external,South Africa,0.046
+2001-01-01,external,South Africa,0.045
 2002-01-01,external,South Africa,0.043
-2003-01-01,external,South Africa,0.391
+2003-01-01,external,South Africa,0.39
 2004-01-01,external,South Africa,0.378
-2005-01-01,external,South Africa,0.809
-2006-01-01,external,South Africa,0.442
-2007-01-01,external,South Africa,0.504
+2005-01-01,external,South Africa,0.807
+2006-01-01,external,South Africa,0.441
+2007-01-01,external,South Africa,0.503
 2008-01-01,external,South Africa,0.576
-2009-01-01,external,South Africa,0.619
-2010-01-01,external,South Africa,0.596
-2011-01-01,external,South Africa,0.564
-2012-01-01,external,South Africa,0.531
-2013-01-01,external,South Africa,0.546
+2009-01-01,external,South Africa,0.618
+2010-01-01,external,South Africa,0.595
+2011-01-01,external,South Africa,0.563
+2012-01-01,external,South Africa,0.53
+2013-01-01,external,South Africa,0.545
 2014-01-01,external,South Africa,0.136
 2015-01-01,external,South Africa,0.135
 2016-01-01,external,South Africa,0.165
@@ -4092,27 +4092,27 @@ year,source,country,value
 2020-01-01,external,Uganda,700.012
 2021-01-01,external,Uganda,845.843
 2000-01-01,external,Uganda,1.599
-2001-01-01,external,Uganda,1.482
-2002-01-01,external,Uganda,1.152
+2001-01-01,external,Uganda,1.481
+2002-01-01,external,Uganda,1.151
 2003-01-01,external,Uganda,0.801
-2004-01-01,external,Uganda,1.444
-2005-01-01,external,Uganda,1.857
-2006-01-01,external,Uganda,1.891
-2007-01-01,external,Uganda,1.653
+2004-01-01,external,Uganda,1.443
+2005-01-01,external,Uganda,1.856
+2006-01-01,external,Uganda,1.89
+2007-01-01,external,Uganda,1.652
 2008-01-01,external,Uganda,1.552
-2009-01-01,external,Uganda,2.402
-2010-01-01,external,Uganda,3.073
-2011-01-01,external,Uganda,3.361
-2012-01-01,external,Uganda,2.811
-2013-01-01,external,Uganda,2.164
-2014-01-01,external,Uganda,1.92
-2015-01-01,external,Uganda,2.145
-2016-01-01,external,Uganda,2.066
-2017-01-01,external,Uganda,1.725
-2018-01-01,external,Uganda,1.75
-2019-01-01,external,Uganda,1.594
+2009-01-01,external,Uganda,2.401
+2010-01-01,external,Uganda,3.072
+2011-01-01,external,Uganda,3.359
+2012-01-01,external,Uganda,2.809
+2013-01-01,external,Uganda,2.163
+2014-01-01,external,Uganda,1.919
+2015-01-01,external,Uganda,2.144
+2016-01-01,external,Uganda,2.065
+2017-01-01,external,Uganda,1.724
+2018-01-01,external,Uganda,1.749
+2019-01-01,external,Uganda,1.593
 2020-01-01,external,Uganda,1.727
-2021-01-01,external,Uganda,1.979
+2021-01-01,external,Uganda,1.978
 2000-01-01,external,Uganda,31.47
 2001-01-01,external,Uganda,29.33
 2002-01-01,external,Uganda,24.13
@@ -4355,20 +4355,20 @@ year,source,country,value
 2019-01-01,external,Antigua and Barbuda,0.036
 2020-01-01,external,Antigua and Barbuda,0.114
 2021-01-01,external,Antigua and Barbuda,0.093
-2000-01-01,external,Antigua and Barbuda,0.016
+2000-01-01,external,Antigua and Barbuda,0.015
 2001-01-01,external,Antigua and Barbuda,0.004
 2002-01-01,external,Antigua and Barbuda,0.007
 2003-01-01,external,Antigua and Barbuda,0.0
 2004-01-01,external,Antigua and Barbuda,0.002
-2005-01-01,external,Antigua and Barbuda,0.008
+2005-01-01,external,Antigua and Barbuda,0.007
 2006-01-01,external,Antigua and Barbuda,0.006
 2007-01-01,external,Antigua and Barbuda,0.006
-2008-01-01,external,Antigua and Barbuda,0.008
+2008-01-01,external,Antigua and Barbuda,0.007
 2009-01-01,external,Antigua and Barbuda,0.001
-2010-01-01,external,Antigua and Barbuda,0.007
+2010-01-01,external,Antigua and Barbuda,0.006
 2011-01-01,external,Antigua and Barbuda,0.003
 2012-01-01,external,Antigua and Barbuda,0.0
-2013-01-01,external,Antigua and Barbuda,0.013
+2013-01-01,external,Antigua and Barbuda,0.012
 2014-01-01,external,Antigua and Barbuda,0.0
 2015-01-01,external,Antigua and Barbuda,0.0
 2016-01-01,external,Antigua and Barbuda,0.001
@@ -4536,20 +4536,20 @@ year,source,country,value
 2002-01-01,external,Bahamas,0.023
 2003-01-01,external,Bahamas,0.023
 2004-01-01,external,Bahamas,0.022
-2005-01-01,external,Bahamas,0.02
+2005-01-01,external,Bahamas,0.021
 2006-01-01,external,Bahamas,0.03
 2007-01-01,external,Bahamas,0.029
-2008-01-01,external,Bahamas,0.029
+2008-01-01,external,Bahamas,0.03
 2009-01-01,external,Bahamas,0.029
 2010-01-01,external,Bahamas,0.03
-2011-01-01,external,Bahamas,0.03
-2012-01-01,external,Bahamas,0.03
-2013-01-01,external,Bahamas,0.031
-2014-01-01,external,Bahamas,0.031
+2011-01-01,external,Bahamas,0.031
+2012-01-01,external,Bahamas,0.031
+2013-01-01,external,Bahamas,0.032
+2014-01-01,external,Bahamas,0.032
 2015-01-01,external,Bahamas,0.031
-2016-01-01,external,Bahamas,0.031
-2017-01-01,external,Bahamas,0.032
-2018-01-01,external,Bahamas,0.032
+2016-01-01,external,Bahamas,0.032
+2017-01-01,external,Bahamas,0.033
+2018-01-01,external,Bahamas,0.033
 2019-01-01,external,Bahamas,0.03
 2020-01-01,external,Bahamas,0.031
 2021-01-01,external,Bahamas,0.032
@@ -4621,26 +4621,26 @@ year,source,country,value
 2021-01-01,external,Barbados,2.621
 2000-01-01,external,Barbados,0.0
 2001-01-01,external,Barbados,0.0
-2002-01-01,external,Barbados,0.122
-2003-01-01,external,Barbados,0.122
-2004-01-01,external,Barbados,0.089
-2005-01-01,external,Barbados,0.08
-2006-01-01,external,Barbados,0.1
-2007-01-01,external,Barbados,0.119
-2008-01-01,external,Barbados,0.201
-2009-01-01,external,Barbados,0.247
-2010-01-01,external,Barbados,0.155
-2011-01-01,external,Barbados,0.208
-2012-01-01,external,Barbados,0.029
-2013-01-01,external,Barbados,0.134
-2014-01-01,external,Barbados,0.157
-2015-01-01,external,Barbados,0.116
-2016-01-01,external,Barbados,0.115
-2017-01-01,external,Barbados,0.133
-2018-01-01,external,Barbados,0.078
-2019-01-01,external,Barbados,0.054
-2020-01-01,external,Barbados,0.055
-2021-01-01,external,Barbados,0.053
+2002-01-01,external,Barbados,0.11
+2003-01-01,external,Barbados,0.11
+2004-01-01,external,Barbados,0.08
+2005-01-01,external,Barbados,0.072
+2006-01-01,external,Barbados,0.09
+2007-01-01,external,Barbados,0.107
+2008-01-01,external,Barbados,0.181
+2009-01-01,external,Barbados,0.222
+2010-01-01,external,Barbados,0.14
+2011-01-01,external,Barbados,0.186
+2012-01-01,external,Barbados,0.026
+2013-01-01,external,Barbados,0.12
+2014-01-01,external,Barbados,0.14
+2015-01-01,external,Barbados,0.107
+2016-01-01,external,Barbados,0.106
+2017-01-01,external,Barbados,0.122
+2018-01-01,external,Barbados,0.072
+2019-01-01,external,Barbados,0.05
+2020-01-01,external,Barbados,0.052
+2021-01-01,external,Barbados,0.05
 2000-01-01,external,Barbados,0.0
 2001-01-01,external,Barbados,0.0
 2002-01-01,external,Barbados,2.08
@@ -5763,28 +5763,28 @@ year,source,country,value
 2019-01-01,external,Guatemala,43.433
 2020-01-01,external,Guatemala,51.0
 2021-01-01,external,Guatemala,139.939
-2000-01-01,external,Guatemala,0.146
-2001-01-01,external,Guatemala,0.116
+2000-01-01,external,Guatemala,0.145
+2001-01-01,external,Guatemala,0.115
 2002-01-01,external,Guatemala,0.129
 2003-01-01,external,Guatemala,0.159
-2004-01-01,external,Guatemala,0.193
-2005-01-01,external,Guatemala,0.144
-2006-01-01,external,Guatemala,0.209
-2007-01-01,external,Guatemala,0.185
-2008-01-01,external,Guatemala,0.135
-2009-01-01,external,Guatemala,0.236
-2010-01-01,external,Guatemala,0.163
-2011-01-01,external,Guatemala,0.194
-2012-01-01,external,Guatemala,0.244
-2013-01-01,external,Guatemala,0.152
+2004-01-01,external,Guatemala,0.192
+2005-01-01,external,Guatemala,0.143
+2006-01-01,external,Guatemala,0.208
+2007-01-01,external,Guatemala,0.184
+2008-01-01,external,Guatemala,0.134
+2009-01-01,external,Guatemala,0.235
+2010-01-01,external,Guatemala,0.162
+2011-01-01,external,Guatemala,0.193
+2012-01-01,external,Guatemala,0.243
+2013-01-01,external,Guatemala,0.151
 2014-01-01,external,Guatemala,0.164
-2015-01-01,external,Guatemala,0.101
+2015-01-01,external,Guatemala,0.1
 2016-01-01,external,Guatemala,0.1
 2017-01-01,external,Guatemala,0.066
-2018-01-01,external,Guatemala,0.103
-2019-01-01,external,Guatemala,0.054
+2018-01-01,external,Guatemala,0.102
+2019-01-01,external,Guatemala,0.053
 2020-01-01,external,Guatemala,0.064
-2021-01-01,external,Guatemala,0.163
+2021-01-01,external,Guatemala,0.162
 2000-01-01,external,Guatemala,2.7
 2001-01-01,external,Guatemala,1.91
 2002-01-01,external,Guatemala,2.15
@@ -6027,28 +6027,28 @@ year,source,country,value
 2019-01-01,external,Honduras,53.636
 2020-01-01,external,Honduras,129.459
 2021-01-01,external,Honduras,129.903
-2000-01-01,external,Honduras,0.174
-2001-01-01,external,Honduras,0.11
-2002-01-01,external,Honduras,0.267
-2003-01-01,external,Honduras,0.656
-2004-01-01,external,Honduras,0.669
-2005-01-01,external,Honduras,0.636
-2006-01-01,external,Honduras,0.407
-2007-01-01,external,Honduras,0.471
-2008-01-01,external,Honduras,0.617
-2009-01-01,external,Honduras,0.75
-2010-01-01,external,Honduras,0.658
-2011-01-01,external,Honduras,0.539
-2012-01-01,external,Honduras,0.612
-2013-01-01,external,Honduras,0.446
-2014-01-01,external,Honduras,0.495
-2015-01-01,external,Honduras,0.376
-2016-01-01,external,Honduras,0.382
-2017-01-01,external,Honduras,0.259
-2018-01-01,external,Honduras,0.214
-2019-01-01,external,Honduras,0.193
-2020-01-01,external,Honduras,0.511
-2021-01-01,external,Honduras,0.456
+2000-01-01,external,Honduras,0.178
+2001-01-01,external,Honduras,0.112
+2002-01-01,external,Honduras,0.272
+2003-01-01,external,Honduras,0.668
+2004-01-01,external,Honduras,0.681
+2005-01-01,external,Honduras,0.648
+2006-01-01,external,Honduras,0.414
+2007-01-01,external,Honduras,0.479
+2008-01-01,external,Honduras,0.628
+2009-01-01,external,Honduras,0.764
+2010-01-01,external,Honduras,0.67
+2011-01-01,external,Honduras,0.549
+2012-01-01,external,Honduras,0.623
+2013-01-01,external,Honduras,0.455
+2014-01-01,external,Honduras,0.504
+2015-01-01,external,Honduras,0.383
+2016-01-01,external,Honduras,0.389
+2017-01-01,external,Honduras,0.264
+2018-01-01,external,Honduras,0.218
+2019-01-01,external,Honduras,0.197
+2020-01-01,external,Honduras,0.521
+2021-01-01,external,Honduras,0.465
 2000-01-01,external,Honduras,2.78
 2001-01-01,external,Honduras,1.85
 2002-01-01,external,Honduras,4.28
@@ -6651,9 +6651,9 @@ year,source,country,value
 2005-01-01,external,St. Kitts and Nevis,0.004
 2006-01-01,external,St. Kitts and Nevis,0.0
 2007-01-01,external,St. Kitts and Nevis,0.01
-2008-01-01,external,St. Kitts and Nevis,0.179
-2009-01-01,external,St. Kitts and Nevis,0.124
-2010-01-01,external,St. Kitts and Nevis,0.078
+2008-01-01,external,St. Kitts and Nevis,0.178
+2009-01-01,external,St. Kitts and Nevis,0.123
+2010-01-01,external,St. Kitts and Nevis,0.077
 2011-01-01,external,St. Kitts and Nevis,0.089
 2012-01-01,external,St. Kitts and Nevis,0.0
 2013-01-01,external,St. Kitts and Nevis,0.012
@@ -6733,26 +6733,26 @@ year,source,country,value
 2021-01-01,external,St. Lucia,15.565
 2000-01-01,external,St. Lucia,0.0
 2001-01-01,external,St. Lucia,0.0
-2002-01-01,external,St. Lucia,0.013
-2003-01-01,external,St. Lucia,0.027
-2004-01-01,external,St. Lucia,0.026
-2005-01-01,external,St. Lucia,0.106
-2006-01-01,external,St. Lucia,0.162
-2007-01-01,external,St. Lucia,0.063
-2008-01-01,external,St. Lucia,0.104
-2009-01-01,external,St. Lucia,0.099
-2010-01-01,external,St. Lucia,0.112
-2011-01-01,external,St. Lucia,0.11
+2002-01-01,external,St. Lucia,0.012
+2003-01-01,external,St. Lucia,0.026
+2004-01-01,external,St. Lucia,0.025
+2005-01-01,external,St. Lucia,0.104
+2006-01-01,external,St. Lucia,0.158
+2007-01-01,external,St. Lucia,0.062
+2008-01-01,external,St. Lucia,0.102
+2009-01-01,external,St. Lucia,0.096
+2010-01-01,external,St. Lucia,0.11
+2011-01-01,external,St. Lucia,0.108
 2012-01-01,external,St. Lucia,0.021
-2013-01-01,external,St. Lucia,0.039
-2014-01-01,external,St. Lucia,0.02
+2013-01-01,external,St. Lucia,0.038
+2014-01-01,external,St. Lucia,0.019
 2015-01-01,external,St. Lucia,0.041
-2016-01-01,external,St. Lucia,0.173
-2017-01-01,external,St. Lucia,0.052
-2018-01-01,external,St. Lucia,0.021
+2016-01-01,external,St. Lucia,0.17
+2017-01-01,external,St. Lucia,0.051
+2018-01-01,external,St. Lucia,0.02
 2019-01-01,external,St. Lucia,0.043
-2020-01-01,external,St. Lucia,0.985
-2021-01-01,external,St. Lucia,0.841
+2020-01-01,external,St. Lucia,0.979
+2021-01-01,external,St. Lucia,0.834
 2000-01-01,external,St. Lucia,0.0
 2001-01-01,external,St. Lucia,0.0
 2002-01-01,external,St. Lucia,0.23
@@ -6825,22 +6825,22 @@ year,source,country,value
 2003-01-01,external,St. Vincent and the Grenadines,0.0
 2004-01-01,external,St. Vincent and the Grenadines,0.0
 2005-01-01,external,St. Vincent and the Grenadines,0.008
-2006-01-01,external,St. Vincent and the Grenadines,0.071
-2007-01-01,external,St. Vincent and the Grenadines,0.175
-2008-01-01,external,St. Vincent and the Grenadines,0.098
-2009-01-01,external,St. Vincent and the Grenadines,0.085
-2010-01-01,external,St. Vincent and the Grenadines,0.223
-2011-01-01,external,St. Vincent and the Grenadines,0.309
-2012-01-01,external,St. Vincent and the Grenadines,0.125
+2006-01-01,external,St. Vincent and the Grenadines,0.07
+2007-01-01,external,St. Vincent and the Grenadines,0.173
+2008-01-01,external,St. Vincent and the Grenadines,0.097
+2009-01-01,external,St. Vincent and the Grenadines,0.084
+2010-01-01,external,St. Vincent and the Grenadines,0.221
+2011-01-01,external,St. Vincent and the Grenadines,0.305
+2012-01-01,external,St. Vincent and the Grenadines,0.124
 2013-01-01,external,St. Vincent and the Grenadines,0.062
 2014-01-01,external,St. Vincent and the Grenadines,0.075
-2015-01-01,external,St. Vincent and the Grenadines,0.065
+2015-01-01,external,St. Vincent and the Grenadines,0.064
 2016-01-01,external,St. Vincent and the Grenadines,0.02
 2017-01-01,external,St. Vincent and the Grenadines,0.051
 2018-01-01,external,St. Vincent and the Grenadines,0.016
-2019-01-01,external,St. Vincent and the Grenadines,0.067
-2020-01-01,external,St. Vincent and the Grenadines,0.145
-2021-01-01,external,St. Vincent and the Grenadines,0.181
+2019-01-01,external,St. Vincent and the Grenadines,0.066
+2020-01-01,external,St. Vincent and the Grenadines,0.144
+2021-01-01,external,St. Vincent and the Grenadines,0.177
 2000-01-01,external,St. Vincent and the Grenadines,0.0
 2001-01-01,external,St. Vincent and the Grenadines,0.0
 2002-01-01,external,St. Vincent and the Grenadines,0.0
@@ -7261,26 +7261,26 @@ year,source,country,value
 2021-01-01,external,Afghanistan,594.59
 2000-01-01,external,Afghanistan,
 2001-01-01,external,Afghanistan,
-2002-01-01,external,Afghanistan,1.297
+2002-01-01,external,Afghanistan,1.298
 2003-01-01,external,Afghanistan,0.595
 2004-01-01,external,Afghanistan,0.975
-2005-01-01,external,Afghanistan,1.563
-2006-01-01,external,Afghanistan,1.964
-2007-01-01,external,Afghanistan,1.602
-2008-01-01,external,Afghanistan,1.895
-2009-01-01,external,Afghanistan,2.141
-2010-01-01,external,Afghanistan,1.331
-2011-01-01,external,Afghanistan,1.81
-2012-01-01,external,Afghanistan,1.672
-2013-01-01,external,Afghanistan,2.018
-2014-01-01,external,Afghanistan,2.095
-2015-01-01,external,Afghanistan,1.662
-2016-01-01,external,Afghanistan,2.239
-2017-01-01,external,Afghanistan,2.451
-2018-01-01,external,Afghanistan,2.804
-2019-01-01,external,Afghanistan,2.941
-2020-01-01,external,Afghanistan,2.506
-2021-01-01,external,Afghanistan,4.161
+2005-01-01,external,Afghanistan,1.564
+2006-01-01,external,Afghanistan,1.965
+2007-01-01,external,Afghanistan,1.603
+2008-01-01,external,Afghanistan,1.896
+2009-01-01,external,Afghanistan,2.142
+2010-01-01,external,Afghanistan,1.332
+2011-01-01,external,Afghanistan,1.811
+2012-01-01,external,Afghanistan,1.673
+2013-01-01,external,Afghanistan,2.02
+2014-01-01,external,Afghanistan,2.096
+2015-01-01,external,Afghanistan,1.663
+2016-01-01,external,Afghanistan,2.241
+2017-01-01,external,Afghanistan,2.453
+2018-01-01,external,Afghanistan,2.806
+2019-01-01,external,Afghanistan,2.943
+2020-01-01,external,Afghanistan,2.508
+2021-01-01,external,Afghanistan,4.164
 2000-01-01,external,Afghanistan,
 2001-01-01,external,Afghanistan,
 2002-01-01,external,Afghanistan,13.73
@@ -7703,23 +7703,23 @@ year,source,country,value
 2001-01-01,external,Iraq,
 2002-01-01,external,Iraq,
 2003-01-01,external,Iraq,0.005
-2004-01-01,external,Iraq,0.058
-2005-01-01,external,Iraq,0.12
-2006-01-01,external,Iraq,0.147
-2007-01-01,external,Iraq,0.226
-2008-01-01,external,Iraq,0.039
+2004-01-01,external,Iraq,0.057
+2005-01-01,external,Iraq,0.118
+2006-01-01,external,Iraq,0.144
+2007-01-01,external,Iraq,0.223
+2008-01-01,external,Iraq,0.038
 2009-01-01,external,Iraq,0.035
-2010-01-01,external,Iraq,0.015
+2010-01-01,external,Iraq,0.014
 2011-01-01,external,Iraq,0.02
-2012-01-01,external,Iraq,0.009
+2012-01-01,external,Iraq,0.008
 2013-01-01,external,Iraq,0.01
 2014-01-01,external,Iraq,0.012
 2015-01-01,external,Iraq,0.02
-2016-01-01,external,Iraq,0.013
-2017-01-01,external,Iraq,0.015
+2016-01-01,external,Iraq,0.012
+2017-01-01,external,Iraq,0.014
 2018-01-01,external,Iraq,0.02
-2019-01-01,external,Iraq,0.023
-2020-01-01,external,Iraq,0.018
+2019-01-01,external,Iraq,0.022
+2020-01-01,external,Iraq,0.017
 2021-01-01,external,Iraq,0.039
 2000-01-01,external,Iraq,
 2001-01-01,external,Iraq,
@@ -7963,28 +7963,28 @@ year,source,country,value
 2019-01-01,external,Lebanon,90.645
 2020-01-01,external,Lebanon,175.594
 2021-01-01,external,Lebanon,103.798
-2000-01-01,external,Lebanon,0.01
-2001-01-01,external,Lebanon,0.025
-2002-01-01,external,Lebanon,0.026
-2003-01-01,external,Lebanon,0.041
-2004-01-01,external,Lebanon,0.068
-2005-01-01,external,Lebanon,0.036
-2006-01-01,external,Lebanon,0.077
-2007-01-01,external,Lebanon,0.095
-2008-01-01,external,Lebanon,0.086
-2009-01-01,external,Lebanon,0.125
-2010-01-01,external,Lebanon,0.057
-2011-01-01,external,Lebanon,0.059
-2012-01-01,external,Lebanon,0.035
-2013-01-01,external,Lebanon,0.073
-2014-01-01,external,Lebanon,0.067
-2015-01-01,external,Lebanon,0.242
-2016-01-01,external,Lebanon,0.204
-2017-01-01,external,Lebanon,0.195
-2018-01-01,external,Lebanon,0.083
-2019-01-01,external,Lebanon,0.295
-2020-01-01,external,Lebanon,0.772
-2021-01-01,external,Lebanon,0.507
+2000-01-01,external,Lebanon,0.013
+2001-01-01,external,Lebanon,0.031
+2002-01-01,external,Lebanon,0.032
+2003-01-01,external,Lebanon,0.049
+2004-01-01,external,Lebanon,0.083
+2005-01-01,external,Lebanon,0.043
+2006-01-01,external,Lebanon,0.092
+2007-01-01,external,Lebanon,0.114
+2008-01-01,external,Lebanon,0.103
+2009-01-01,external,Lebanon,0.15
+2010-01-01,external,Lebanon,0.069
+2011-01-01,external,Lebanon,0.07
+2012-01-01,external,Lebanon,0.042
+2013-01-01,external,Lebanon,0.087
+2014-01-01,external,Lebanon,0.08
+2015-01-01,external,Lebanon,0.289
+2016-01-01,external,Lebanon,0.244
+2017-01-01,external,Lebanon,0.233
+2018-01-01,external,Lebanon,0.099
+2019-01-01,external,Lebanon,0.352
+2020-01-01,external,Lebanon,0.906
+2021-01-01,external,Lebanon,0.525
 2000-01-01,external,Lebanon,0.1
 2001-01-01,external,Lebanon,0.24
 2002-01-01,external,Lebanon,0.29
@@ -8584,23 +8584,23 @@ year,source,country,value
 2002-01-01,external,Sudan,
 2003-01-01,external,Sudan,0.057
 2004-01-01,external,Sudan,0.058
-2005-01-01,external,Sudan,0.11
-2006-01-01,external,Sudan,0.222
-2007-01-01,external,Sudan,0.152
-2008-01-01,external,Sudan,0.134
-2009-01-01,external,Sudan,0.234
-2010-01-01,external,Sudan,0.153
-2011-01-01,external,Sudan,0.445
-2012-01-01,external,Sudan,0.244
-2013-01-01,external,Sudan,0.349
-2014-01-01,external,Sudan,0.21
-2015-01-01,external,Sudan,0.117
-2016-01-01,external,Sudan,0.112
-2017-01-01,external,Sudan,0.318
-2018-01-01,external,Sudan,0.286
-2019-01-01,external,Sudan,0.299
-2020-01-01,external,Sudan,0.208
-2021-01-01,external,Sudan,0.295
+2005-01-01,external,Sudan,0.109
+2006-01-01,external,Sudan,0.22
+2007-01-01,external,Sudan,0.15
+2008-01-01,external,Sudan,0.133
+2009-01-01,external,Sudan,0.232
+2010-01-01,external,Sudan,0.151
+2011-01-01,external,Sudan,0.44
+2012-01-01,external,Sudan,0.242
+2013-01-01,external,Sudan,0.346
+2014-01-01,external,Sudan,0.208
+2015-01-01,external,Sudan,0.116
+2016-01-01,external,Sudan,0.11
+2017-01-01,external,Sudan,0.315
+2018-01-01,external,Sudan,0.283
+2019-01-01,external,Sudan,0.296
+2020-01-01,external,Sudan,0.206
+2021-01-01,external,Sudan,0.292
 2000-01-01,external,Sudan,
 2001-01-01,external,Sudan,
 2002-01-01,external,Sudan,
@@ -8678,7 +8678,7 @@ year,source,country,value
 2008-01-01,external,Tunisia,0.041
 2009-01-01,external,Tunisia,0.055
 2010-01-01,external,Tunisia,0.067
-2011-01-01,external,Tunisia,0.085
+2011-01-01,external,Tunisia,0.084
 2012-01-01,external,Tunisia,0.006
 2013-01-01,external,Tunisia,0.007
 2014-01-01,external,Tunisia,0.004
@@ -8688,7 +8688,7 @@ year,source,country,value
 2018-01-01,external,Tunisia,0.029
 2019-01-01,external,Tunisia,0.002
 2020-01-01,external,Tunisia,0.031
-2021-01-01,external,Tunisia,0.139
+2021-01-01,external,Tunisia,0.138
 2000-01-01,external,Tunisia,0.1
 2001-01-01,external,Tunisia,0.09
 2002-01-01,external,Tunisia,0.08
@@ -9107,24 +9107,24 @@ year,source,country,value
 2019-01-01,external,Armenia,16.02
 2020-01-01,external,Armenia,17.736
 2021-01-01,external,Armenia,15.194
-2000-01-01,external,Armenia,0.536
-2001-01-01,external,Armenia,0.837
-2002-01-01,external,Armenia,0.604
-2003-01-01,external,Armenia,0.375
-2004-01-01,external,Armenia,0.33
-2005-01-01,external,Armenia,0.684
-2006-01-01,external,Armenia,0.677
-2007-01-01,external,Armenia,0.672
-2008-01-01,external,Armenia,0.391
+2000-01-01,external,Armenia,0.537
+2001-01-01,external,Armenia,0.838
+2002-01-01,external,Armenia,0.605
+2003-01-01,external,Armenia,0.376
+2004-01-01,external,Armenia,0.331
+2005-01-01,external,Armenia,0.685
+2006-01-01,external,Armenia,0.678
+2007-01-01,external,Armenia,0.673
+2008-01-01,external,Armenia,0.392
 2009-01-01,external,Armenia,0.388
-2010-01-01,external,Armenia,0.344
-2011-01-01,external,Armenia,0.295
-2012-01-01,external,Armenia,0.27
+2010-01-01,external,Armenia,0.345
+2011-01-01,external,Armenia,0.296
+2012-01-01,external,Armenia,0.271
 2013-01-01,external,Armenia,0.214
 2014-01-01,external,Armenia,0.156
 2015-01-01,external,Armenia,0.11
 2016-01-01,external,Armenia,0.186
-2017-01-01,external,Armenia,0.133
+2017-01-01,external,Armenia,0.134
 2018-01-01,external,Armenia,0.122
 2019-01-01,external,Armenia,0.113
 2020-01-01,external,Armenia,0.135
@@ -9990,18 +9990,18 @@ year,source,country,value
 2000-01-01,external,Estonia,
 2001-01-01,external,Estonia,
 2002-01-01,external,Estonia,
-2003-01-01,external,Estonia,0.015
-2004-01-01,external,Estonia,0.035
-2005-01-01,external,Estonia,0.025
-2006-01-01,external,Estonia,0.032
+2003-01-01,external,Estonia,0.014
+2004-01-01,external,Estonia,0.034
+2005-01-01,external,Estonia,0.024
+2006-01-01,external,Estonia,0.031
 2007-01-01,external,Estonia,0.028
-2008-01-01,external,Estonia,0.025
+2008-01-01,external,Estonia,0.024
 2009-01-01,external,Estonia,0.024
-2010-01-01,external,Estonia,0.114
-2011-01-01,external,Estonia,0.083
-2012-01-01,external,Estonia,0.023
+2010-01-01,external,Estonia,0.112
+2011-01-01,external,Estonia,0.081
+2012-01-01,external,Estonia,0.022
 2013-01-01,external,Estonia,0.007
-2014-01-01,external,Estonia,0.015
+2014-01-01,external,Estonia,0.014
 2015-01-01,external,Estonia,0.013
 2016-01-01,external,Estonia,0.012
 2017-01-01,external,Estonia,0.002
@@ -10251,9 +10251,9 @@ year,source,country,value
 2019-01-01,external,Georgia,6.215
 2020-01-01,external,Georgia,11.291
 2021-01-01,external,Georgia,10.243
-2000-01-01,external,Georgia,0.515
-2001-01-01,external,Georgia,0.496
-2002-01-01,external,Georgia,0.613
+2000-01-01,external,Georgia,0.513
+2001-01-01,external,Georgia,0.494
+2002-01-01,external,Georgia,0.61
 2003-01-01,external,Georgia,0.466
 2004-01-01,external,Georgia,0.396
 2005-01-01,external,Georgia,0.343
@@ -10779,25 +10779,25 @@ year,source,country,value
 2019-01-01,external,Israel,465.502
 2020-01-01,external,Israel,228.459
 2021-01-01,external,Israel,393.165
-2000-01-01,external,Israel,0.154
-2001-01-01,external,Israel,0.141
-2002-01-01,external,Israel,0.154
-2003-01-01,external,Israel,0.138
-2004-01-01,external,Israel,0.154
-2005-01-01,external,Israel,0.141
+2000-01-01,external,Israel,0.153
+2001-01-01,external,Israel,0.14
+2002-01-01,external,Israel,0.153
+2003-01-01,external,Israel,0.137
+2004-01-01,external,Israel,0.153
+2005-01-01,external,Israel,0.14
 2006-01-01,external,Israel,0.096
-2007-01-01,external,Israel,0.087
-2008-01-01,external,Israel,0.095
-2009-01-01,external,Israel,0.09
-2010-01-01,external,Israel,0.089
-2011-01-01,external,Israel,0.092
+2007-01-01,external,Israel,0.086
+2008-01-01,external,Israel,0.094
+2009-01-01,external,Israel,0.089
+2010-01-01,external,Israel,0.088
+2011-01-01,external,Israel,0.091
 2012-01-01,external,Israel,0.098
-2013-01-01,external,Israel,0.097
+2013-01-01,external,Israel,0.096
 2014-01-01,external,Israel,0.094
-2015-01-01,external,Israel,0.099
+2015-01-01,external,Israel,0.098
 2016-01-01,external,Israel,0.095
 2017-01-01,external,Israel,0.099
-2018-01-01,external,Israel,0.101
+2018-01-01,external,Israel,0.1
 2019-01-01,external,Israel,0.102
 2020-01-01,external,Israel,0.051
 2021-01-01,external,Israel,0.08
@@ -11572,11 +11572,11 @@ year,source,country,value
 2020-01-01,external,Netherlands,25.581
 2021-01-01,external,Netherlands,9.468
 2000-01-01,external,Netherlands,0.01
-2001-01-01,external,Netherlands,0.011
+2001-01-01,external,Netherlands,0.01
 2002-01-01,external,Netherlands,0.012
 2003-01-01,external,Netherlands,0.011
 2004-01-01,external,Netherlands,0.012
-2005-01-01,external,Netherlands,0.012
+2005-01-01,external,Netherlands,0.011
 2006-01-01,external,Netherlands,0.004
 2007-01-01,external,Netherlands,0.001
 2008-01-01,external,Netherlands,0.001
@@ -13334,22 +13334,22 @@ year,source,country,value
 2000-01-01,external,Uzbekistan,0.0
 2001-01-01,external,Uzbekistan,0.0
 2002-01-01,external,Uzbekistan,0.0
-2003-01-01,external,Uzbekistan,0.2
-2004-01-01,external,Uzbekistan,0.132
-2005-01-01,external,Uzbekistan,0.19
-2006-01-01,external,Uzbekistan,0.1
-2007-01-01,external,Uzbekistan,0.084
-2008-01-01,external,Uzbekistan,0.071
-2009-01-01,external,Uzbekistan,0.073
-2010-01-01,external,Uzbekistan,0.079
-2011-01-01,external,Uzbekistan,0.091
-2012-01-01,external,Uzbekistan,0.07
-2013-01-01,external,Uzbekistan,0.09
-2014-01-01,external,Uzbekistan,0.085
-2015-01-01,external,Uzbekistan,0.065
-2016-01-01,external,Uzbekistan,0.045
-2017-01-01,external,Uzbekistan,0.051
-2018-01-01,external,Uzbekistan,0.041
+2003-01-01,external,Uzbekistan,0.181
+2004-01-01,external,Uzbekistan,0.119
+2005-01-01,external,Uzbekistan,0.172
+2006-01-01,external,Uzbekistan,0.09
+2007-01-01,external,Uzbekistan,0.076
+2008-01-01,external,Uzbekistan,0.065
+2009-01-01,external,Uzbekistan,0.066
+2010-01-01,external,Uzbekistan,0.072
+2011-01-01,external,Uzbekistan,0.082
+2012-01-01,external,Uzbekistan,0.064
+2013-01-01,external,Uzbekistan,0.082
+2014-01-01,external,Uzbekistan,0.077
+2015-01-01,external,Uzbekistan,0.059
+2016-01-01,external,Uzbekistan,0.041
+2017-01-01,external,Uzbekistan,0.046
+2018-01-01,external,Uzbekistan,0.037
 2019-01-01,external,Uzbekistan,0.003
 2020-01-01,external,Uzbekistan,0.003
 2021-01-01,external,Uzbekistan,0.002
@@ -13773,26 +13773,26 @@ year,source,country,value
 2021-01-01,external,Maldives,69.559
 2000-01-01,external,Maldives,0.0
 2001-01-01,external,Maldives,0.01
-2002-01-01,external,Maldives,0.075
-2003-01-01,external,Maldives,0.052
-2004-01-01,external,Maldives,0.038
-2005-01-01,external,Maldives,0.054
-2006-01-01,external,Maldives,0.064
-2007-01-01,external,Maldives,0.021
-2008-01-01,external,Maldives,0.089
-2009-01-01,external,Maldives,0.047
-2010-01-01,external,Maldives,0.03
-2011-01-01,external,Maldives,0.054
-2012-01-01,external,Maldives,0.09
-2013-01-01,external,Maldives,0.073
-2014-01-01,external,Maldives,0.049
-2015-01-01,external,Maldives,0.038
-2016-01-01,external,Maldives,0.049
-2017-01-01,external,Maldives,0.036
-2018-01-01,external,Maldives,0.088
-2019-01-01,external,Maldives,0.187
-2020-01-01,external,Maldives,0.193
-2021-01-01,external,Maldives,1.29
+2002-01-01,external,Maldives,0.078
+2003-01-01,external,Maldives,0.053
+2004-01-01,external,Maldives,0.039
+2005-01-01,external,Maldives,0.055
+2006-01-01,external,Maldives,0.066
+2007-01-01,external,Maldives,0.022
+2008-01-01,external,Maldives,0.092
+2009-01-01,external,Maldives,0.048
+2010-01-01,external,Maldives,0.031
+2011-01-01,external,Maldives,0.056
+2012-01-01,external,Maldives,0.093
+2013-01-01,external,Maldives,0.075
+2014-01-01,external,Maldives,0.051
+2015-01-01,external,Maldives,0.039
+2016-01-01,external,Maldives,0.05
+2017-01-01,external,Maldives,0.037
+2018-01-01,external,Maldives,0.091
+2019-01-01,external,Maldives,0.192
+2020-01-01,external,Maldives,0.198
+2021-01-01,external,Maldives,1.327
 2000-01-01,external,Maldives,0.0
 2001-01-01,external,Maldives,0.12
 2002-01-01,external,Maldives,0.86
@@ -14035,26 +14035,26 @@ year,source,country,value
 2019-01-01,external,Sri Lanka,46.957
 2020-01-01,external,Sri Lanka,59.001
 2021-01-01,external,Sri Lanka,156.658
-2000-01-01,external,Sri Lanka,0.037
+2000-01-01,external,Sri Lanka,0.038
 2001-01-01,external,Sri Lanka,0.029
 2002-01-01,external,Sri Lanka,0.008
 2003-01-01,external,Sri Lanka,0.039
 2004-01-01,external,Sri Lanka,0.021
 2005-01-01,external,Sri Lanka,0.033
-2006-01-01,external,Sri Lanka,0.095
-2007-01-01,external,Sri Lanka,0.042
+2006-01-01,external,Sri Lanka,0.096
+2007-01-01,external,Sri Lanka,0.043
 2008-01-01,external,Sri Lanka,0.033
 2009-01-01,external,Sri Lanka,0.049
-2010-01-01,external,Sri Lanka,0.043
+2010-01-01,external,Sri Lanka,0.044
 2011-01-01,external,Sri Lanka,0.018
 2012-01-01,external,Sri Lanka,0.013
 2013-01-01,external,Sri Lanka,0.024
 2014-01-01,external,Sri Lanka,0.042
-2015-01-01,external,Sri Lanka,0.05
-2016-01-01,external,Sri Lanka,0.031
+2015-01-01,external,Sri Lanka,0.051
+2016-01-01,external,Sri Lanka,0.032
 2017-01-01,external,Sri Lanka,0.098
-2018-01-01,external,Sri Lanka,0.054
-2019-01-01,external,Sri Lanka,0.052
+2018-01-01,external,Sri Lanka,0.055
+2019-01-01,external,Sri Lanka,0.053
 2020-01-01,external,Sri Lanka,0.069
 2021-01-01,external,Sri Lanka,0.177
 2000-01-01,external,Sri Lanka,0.91
@@ -14214,24 +14214,24 @@ year,source,country,value
 2000-01-01,external,Timor-Leste,
 2001-01-01,external,Timor-Leste,
 2002-01-01,external,Timor-Leste,
-2003-01-01,external,Timor-Leste,0.213
-2004-01-01,external,Timor-Leste,0.859
-2005-01-01,external,Timor-Leste,1.077
-2006-01-01,external,Timor-Leste,2.139
-2007-01-01,external,Timor-Leste,3.625
-2008-01-01,external,Timor-Leste,2.765
-2009-01-01,external,Timor-Leste,3.408
-2010-01-01,external,Timor-Leste,2.415
-2011-01-01,external,Timor-Leste,2.586
-2012-01-01,external,Timor-Leste,2.179
-2013-01-01,external,Timor-Leste,3.492
-2014-01-01,external,Timor-Leste,2.608
-2015-01-01,external,Timor-Leste,2.4
-2016-01-01,external,Timor-Leste,2.7
-2017-01-01,external,Timor-Leste,1.513
-2018-01-01,external,Timor-Leste,1.79
-2019-01-01,external,Timor-Leste,1.919
-2020-01-01,external,Timor-Leste,3.78
+2003-01-01,external,Timor-Leste,0.494
+2004-01-01,external,Timor-Leste,1.994
+2005-01-01,external,Timor-Leste,2.501
+2006-01-01,external,Timor-Leste,4.966
+2007-01-01,external,Timor-Leste,8.417
+2008-01-01,external,Timor-Leste,6.419
+2009-01-01,external,Timor-Leste,7.914
+2010-01-01,external,Timor-Leste,5.607
+2011-01-01,external,Timor-Leste,6.004
+2012-01-01,external,Timor-Leste,5.06
+2013-01-01,external,Timor-Leste,8.108
+2014-01-01,external,Timor-Leste,6.054
+2015-01-01,external,Timor-Leste,5.572
+2016-01-01,external,Timor-Leste,6.269
+2017-01-01,external,Timor-Leste,3.469
+2018-01-01,external,Timor-Leste,4.103
+2019-01-01,external,Timor-Leste,3.663
+2020-01-01,external,Timor-Leste,6.416
 2021-01-01,external,Timor-Leste,3.505
 2000-01-01,external,Timor-Leste,
 2001-01-01,external,Timor-Leste,
@@ -14475,28 +14475,28 @@ year,source,country,value
 2019-01-01,external,Cambodia,120.122
 2020-01-01,external,Cambodia,120.268
 2021-01-01,external,Cambodia,288.292
-2000-01-01,external,Cambodia,0.139
-2001-01-01,external,Cambodia,0.483
-2002-01-01,external,Cambodia,0.546
-2003-01-01,external,Cambodia,0.687
-2004-01-01,external,Cambodia,1.039
-2005-01-01,external,Cambodia,0.88
-2006-01-01,external,Cambodia,1.052
-2007-01-01,external,Cambodia,1.267
-2008-01-01,external,Cambodia,0.912
-2009-01-01,external,Cambodia,1.024
-2010-01-01,external,Cambodia,0.782
-2011-01-01,external,Cambodia,0.667
-2012-01-01,external,Cambodia,1.11
-2013-01-01,external,Cambodia,1.022
-2014-01-01,external,Cambodia,1.153
-2015-01-01,external,Cambodia,0.942
-2016-01-01,external,Cambodia,0.874
-2017-01-01,external,Cambodia,0.393
-2018-01-01,external,Cambodia,0.292
-2019-01-01,external,Cambodia,0.329
-2020-01-01,external,Cambodia,0.342
-2021-01-01,external,Cambodia,0.794
+2000-01-01,external,Cambodia,0.137
+2001-01-01,external,Cambodia,0.476
+2002-01-01,external,Cambodia,0.539
+2003-01-01,external,Cambodia,0.677
+2004-01-01,external,Cambodia,1.025
+2005-01-01,external,Cambodia,0.868
+2006-01-01,external,Cambodia,1.038
+2007-01-01,external,Cambodia,1.25
+2008-01-01,external,Cambodia,0.899
+2009-01-01,external,Cambodia,1.01
+2010-01-01,external,Cambodia,0.772
+2011-01-01,external,Cambodia,0.658
+2012-01-01,external,Cambodia,1.095
+2013-01-01,external,Cambodia,1.009
+2014-01-01,external,Cambodia,1.138
+2015-01-01,external,Cambodia,0.929
+2016-01-01,external,Cambodia,0.862
+2017-01-01,external,Cambodia,0.387
+2018-01-01,external,Cambodia,0.288
+2019-01-01,external,Cambodia,0.325
+2020-01-01,external,Cambodia,0.337
+2021-01-01,external,Cambodia,0.783
 2000-01-01,external,Cambodia,2.15
 2001-01-01,external,Cambodia,7.17
 2002-01-01,external,Cambodia,7.94
@@ -15091,28 +15091,28 @@ year,source,country,value
 2019-01-01,external,Marshall Islands,19.119
 2020-01-01,external,Marshall Islands,15.088
 2021-01-01,external,Marshall Islands,16.47
-2000-01-01,external,Marshall Islands,6.997
-2001-01-01,external,Marshall Islands,6.067
-2002-01-01,external,Marshall Islands,5.707
-2003-01-01,external,Marshall Islands,5.925
-2004-01-01,external,Marshall Islands,8.175
-2005-01-01,external,Marshall Islands,13.581
-2006-01-01,external,Marshall Islands,15.113
-2007-01-01,external,Marshall Islands,8.016
-2008-01-01,external,Marshall Islands,9.067
-2009-01-01,external,Marshall Islands,8.041
-2010-01-01,external,Marshall Islands,8.441
-2011-01-01,external,Marshall Islands,6.297
-2012-01-01,external,Marshall Islands,6.15
-2013-01-01,external,Marshall Islands,5.925
-2014-01-01,external,Marshall Islands,6.333
-2015-01-01,external,Marshall Islands,8.022
-2016-01-01,external,Marshall Islands,7.953
-2017-01-01,external,Marshall Islands,7.31
-2018-01-01,external,Marshall Islands,7.192
-2019-01-01,external,Marshall Islands,7.286
-2020-01-01,external,Marshall Islands,5.912
-2021-01-01,external,Marshall Islands,6.384
+2000-01-01,external,Marshall Islands,6.995
+2001-01-01,external,Marshall Islands,6.003
+2002-01-01,external,Marshall Islands,5.693
+2003-01-01,external,Marshall Islands,5.911
+2004-01-01,external,Marshall Islands,8.153
+2005-01-01,external,Marshall Islands,13.572
+2006-01-01,external,Marshall Islands,15.118
+2007-01-01,external,Marshall Islands,8.005
+2008-01-01,external,Marshall Islands,8.991
+2009-01-01,external,Marshall Islands,8.027
+2010-01-01,external,Marshall Islands,8.367
+2011-01-01,external,Marshall Islands,6.289
+2012-01-01,external,Marshall Islands,6.111
+2013-01-01,external,Marshall Islands,5.915
+2014-01-01,external,Marshall Islands,6.297
+2015-01-01,external,Marshall Islands,7.987
+2016-01-01,external,Marshall Islands,7.91
+2017-01-01,external,Marshall Islands,7.277
+2018-01-01,external,Marshall Islands,7.167
+2019-01-01,external,Marshall Islands,7.263
+2020-01-01,external,Marshall Islands,5.892
+2021-01-01,external,Marshall Islands,6.359
 2000-01-01,external,Marshall Islands,40.03
 2001-01-01,external,Marshall Islands,40.95
 2002-01-01,external,Marshall Islands,44.44
@@ -15359,10 +15359,10 @@ year,source,country,value
 2001-01-01,external,Nauru,
 2002-01-01,external,Nauru,
 2003-01-01,external,Nauru,
-2004-01-01,external,Nauru,1.14
-2005-01-01,external,Nauru,0.275
-2006-01-01,external,Nauru,0.703
-2007-01-01,external,Nauru,6.416
+2004-01-01,external,Nauru,0.819
+2005-01-01,external,Nauru,0.182
+2006-01-01,external,Nauru,0.39
+2007-01-01,external,Nauru,4.367
 2008-01-01,external,Nauru,9.419
 2009-01-01,external,Nauru,5.149
 2010-01-01,external,Nauru,4.286
@@ -15531,28 +15531,28 @@ year,source,country,value
 2019-01-01,external,Palau,5.932
 2020-01-01,external,Palau,7.506
 2021-01-01,external,Palau,7.381
-2000-01-01,external,Palau,2.207
-2001-01-01,external,Palau,2.098
-2002-01-01,external,Palau,2.349
-2003-01-01,external,Palau,2.716
-2004-01-01,external,Palau,3.482
-2005-01-01,external,Palau,3.472
-2006-01-01,external,Palau,3.34
-2007-01-01,external,Palau,3.66
-2008-01-01,external,Palau,3.551
-2009-01-01,external,Palau,3.063
-2010-01-01,external,Palau,3.445
-2011-01-01,external,Palau,2.483
-2012-01-01,external,Palau,2.494
-2013-01-01,external,Palau,2.436
-2014-01-01,external,Palau,2.242
-2015-01-01,external,Palau,1.957
-2016-01-01,external,Palau,1.825
-2017-01-01,external,Palau,2.064
-2018-01-01,external,Palau,2.034
-2019-01-01,external,Palau,2.054
-2020-01-01,external,Palau,2.791
-2021-01-01,external,Palau,3.168
+2000-01-01,external,Palau,2.215
+2001-01-01,external,Palau,2.105
+2002-01-01,external,Palau,2.358
+2003-01-01,external,Palau,2.721
+2004-01-01,external,Palau,3.493
+2005-01-01,external,Palau,3.493
+2006-01-01,external,Palau,3.365
+2007-01-01,external,Palau,3.692
+2008-01-01,external,Palau,3.576
+2009-01-01,external,Palau,3.091
+2010-01-01,external,Palau,3.476
+2011-01-01,external,Palau,2.502
+2012-01-01,external,Palau,2.512
+2013-01-01,external,Palau,2.455
+2014-01-01,external,Palau,2.268
+2015-01-01,external,Palau,1.978
+2016-01-01,external,Palau,1.844
+2017-01-01,external,Palau,2.084
+2018-01-01,external,Palau,2.079
+2019-01-01,external,Palau,2.092
+2020-01-01,external,Palau,2.816
+2021-01-01,external,Palau,3.128
 2000-01-01,external,Palau,25.55
 2001-01-01,external,Palau,26.91
 2002-01-01,external,Palau,29.29
@@ -16059,28 +16059,28 @@ year,source,country,value
 2019-01-01,external,Solomon Islands,13.609
 2020-01-01,external,Solomon Islands,14.597
 2021-01-01,external,Solomon Islands,19.542
-2000-01-01,external,Solomon Islands,0.122
-2001-01-01,external,Solomon Islands,0.274
-2002-01-01,external,Solomon Islands,4.106
-2003-01-01,external,Solomon Islands,1.63
-2004-01-01,external,Solomon Islands,2.629
-2005-01-01,external,Solomon Islands,2.419
-2006-01-01,external,Solomon Islands,2.542
-2007-01-01,external,Solomon Islands,2.011
-2008-01-01,external,Solomon Islands,2.146
-2009-01-01,external,Solomon Islands,3.321
-2010-01-01,external,Solomon Islands,1.521
-2011-01-01,external,Solomon Islands,1.99
-2012-01-01,external,Solomon Islands,1.78
-2013-01-01,external,Solomon Islands,1.66
-2014-01-01,external,Solomon Islands,1.79
-2015-01-01,external,Solomon Islands,1.239
-2016-01-01,external,Solomon Islands,1.113
-2017-01-01,external,Solomon Islands,0.923
-2018-01-01,external,Solomon Islands,0.671
-2019-01-01,external,Solomon Islands,0.906
-2020-01-01,external,Solomon Islands,1.005
-2021-01-01,external,Solomon Islands,1.312
+2000-01-01,external,Solomon Islands,0.119
+2001-01-01,external,Solomon Islands,0.268
+2002-01-01,external,Solomon Islands,4.014
+2003-01-01,external,Solomon Islands,1.594
+2004-01-01,external,Solomon Islands,2.571
+2005-01-01,external,Solomon Islands,2.365
+2006-01-01,external,Solomon Islands,2.485
+2007-01-01,external,Solomon Islands,1.966
+2008-01-01,external,Solomon Islands,2.098
+2009-01-01,external,Solomon Islands,3.247
+2010-01-01,external,Solomon Islands,1.487
+2011-01-01,external,Solomon Islands,1.945
+2012-01-01,external,Solomon Islands,1.74
+2013-01-01,external,Solomon Islands,1.623
+2014-01-01,external,Solomon Islands,1.75
+2015-01-01,external,Solomon Islands,1.212
+2016-01-01,external,Solomon Islands,1.089
+2017-01-01,external,Solomon Islands,0.903
+2018-01-01,external,Solomon Islands,0.656
+2019-01-01,external,Solomon Islands,0.885
+2020-01-01,external,Solomon Islands,0.983
+2021-01-01,external,Solomon Islands,1.283
 2000-01-01,external,Solomon Islands,2.52
 2001-01-01,external,Solomon Islands,4.15
 2002-01-01,external,Solomon Islands,40.63
@@ -16147,28 +16147,28 @@ year,source,country,value
 2019-01-01,external,Tonga,6.768
 2020-01-01,external,Tonga,8.848
 2021-01-01,external,Tonga,10.157
-2000-01-01,external,Tonga,0.035
-2001-01-01,external,Tonga,0.423
-2002-01-01,external,Tonga,0.401
-2003-01-01,external,Tonga,0.422
-2004-01-01,external,Tonga,1.448
-2005-01-01,external,Tonga,1.081
-2006-01-01,external,Tonga,1.916
-2007-01-01,external,Tonga,0.833
-2008-01-01,external,Tonga,2.493
-2009-01-01,external,Tonga,0.167
-2010-01-01,external,Tonga,1.256
-2011-01-01,external,Tonga,0.476
-2012-01-01,external,Tonga,1.747
-2013-01-01,external,Tonga,0.666
-2014-01-01,external,Tonga,1.597
-2015-01-01,external,Tonga,1.207
-2016-01-01,external,Tonga,1.378
-2017-01-01,external,Tonga,1.498
-2018-01-01,external,Tonga,1.132
-2019-01-01,external,Tonga,1.409
-2020-01-01,external,Tonga,1.832
-2021-01-01,external,Tonga,2.161
+2000-01-01,external,Tonga,0.037
+2001-01-01,external,Tonga,0.451
+2002-01-01,external,Tonga,0.426
+2003-01-01,external,Tonga,0.449
+2004-01-01,external,Tonga,1.542
+2005-01-01,external,Tonga,1.15
+2006-01-01,external,Tonga,2.04
+2007-01-01,external,Tonga,0.887
+2008-01-01,external,Tonga,2.654
+2009-01-01,external,Tonga,0.178
+2010-01-01,external,Tonga,1.338
+2011-01-01,external,Tonga,0.507
+2012-01-01,external,Tonga,1.832
+2013-01-01,external,Tonga,0.697
+2014-01-01,external,Tonga,1.674
+2015-01-01,external,Tonga,1.263
+2016-01-01,external,Tonga,1.441
+2017-01-01,external,Tonga,1.564
+2018-01-01,external,Tonga,1.174
+2019-01-01,external,Tonga,1.475
+2020-01-01,external,Tonga,1.904
+2021-01-01,external,Tonga,2.213
 2000-01-01,external,Tonga,1.2
 2001-01-01,external,Tonga,12.35
 2002-01-01,external,Tonga,11.16
@@ -16236,27 +16236,27 @@ year,source,country,value
 2020-01-01,external,Tuvalu,1.846
 2021-01-01,external,Tuvalu,5.573
 2000-01-01,external,Tuvalu,0.004
-2001-01-01,external,Tuvalu,0.834
-2002-01-01,external,Tuvalu,0.696
-2003-01-01,external,Tuvalu,1.089
-2004-01-01,external,Tuvalu,0.337
-2005-01-01,external,Tuvalu,0.251
-2006-01-01,external,Tuvalu,1.926
-2007-01-01,external,Tuvalu,0.525
-2008-01-01,external,Tuvalu,0.183
-2009-01-01,external,Tuvalu,1.731
-2010-01-01,external,Tuvalu,1.953
-2011-01-01,external,Tuvalu,1.65
-2012-01-01,external,Tuvalu,1.206
-2013-01-01,external,Tuvalu,3.899
-2014-01-01,external,Tuvalu,2.089
-2015-01-01,external,Tuvalu,3.212
-2016-01-01,external,Tuvalu,2.823
-2017-01-01,external,Tuvalu,4.62
-2018-01-01,external,Tuvalu,2.715
-2019-01-01,external,Tuvalu,4.735
-2020-01-01,external,Tuvalu,3.135
-2021-01-01,external,Tuvalu,9.288
+2001-01-01,external,Tuvalu,0.79
+2002-01-01,external,Tuvalu,0.66
+2003-01-01,external,Tuvalu,1.032
+2004-01-01,external,Tuvalu,0.32
+2005-01-01,external,Tuvalu,0.238
+2006-01-01,external,Tuvalu,1.825
+2007-01-01,external,Tuvalu,0.497
+2008-01-01,external,Tuvalu,0.173
+2009-01-01,external,Tuvalu,1.64
+2010-01-01,external,Tuvalu,1.851
+2011-01-01,external,Tuvalu,1.563
+2012-01-01,external,Tuvalu,1.143
+2013-01-01,external,Tuvalu,3.695
+2014-01-01,external,Tuvalu,1.979
+2015-01-01,external,Tuvalu,3.043
+2016-01-01,external,Tuvalu,2.674
+2017-01-01,external,Tuvalu,4.376
+2018-01-01,external,Tuvalu,2.572
+2019-01-01,external,Tuvalu,4.486
+2020-01-01,external,Tuvalu,2.942
+2021-01-01,external,Tuvalu,8.845
 2000-01-01,external,Tuvalu,0.02
 2001-01-01,external,Tuvalu,4.52
 2002-01-01,external,Tuvalu,5.6
@@ -16543,3 +16543,91 @@ year,source,country,value
 2019-01-01,external,indicator,Share of total spending (%)
 2020-01-01,external,indicator,Share of total spending (%)
 2021-01-01,external,indicator,Share of total spending (%)
+2000-01-01,external,Africa (excluding High income),
+2001-01-01,external,Africa (excluding High income),
+2002-01-01,external,Africa (excluding High income),
+2003-01-01,external,Africa (excluding High income),
+2004-01-01,external,Africa (excluding High income),
+2005-01-01,external,Africa (excluding High income),
+2006-01-01,external,Africa (excluding High income),
+2007-01-01,external,Africa (excluding High income),
+2008-01-01,external,Africa (excluding High income),
+2009-01-01,external,Africa (excluding High income),
+2010-01-01,external,Africa (excluding High income),
+2011-01-01,external,Africa (excluding High income),
+2012-01-01,external,Africa (excluding High income),
+2013-01-01,external,Africa (excluding High income),
+2014-01-01,external,Africa (excluding High income),
+2015-01-01,external,Africa (excluding High income),
+2016-01-01,external,Africa (excluding High income),
+2017-01-01,external,Africa (excluding High income),
+2018-01-01,external,Africa (excluding High income),
+2019-01-01,external,Africa (excluding High income),
+2020-01-01,external,Africa (excluding High income),
+2021-01-01,external,Africa (excluding High income),
+2000-01-01,external,Africa (excluding High income),2601.449
+2001-01-01,external,Africa (excluding High income),2396.953
+2002-01-01,external,Africa (excluding High income),2721.077
+2003-01-01,external,Africa (excluding High income),4323.375
+2004-01-01,external,Africa (excluding High income),5250.813
+2005-01-01,external,Africa (excluding High income),7158.315
+2006-01-01,external,Africa (excluding High income),7461.432
+2007-01-01,external,Africa (excluding High income),8071.595
+2008-01-01,external,Africa (excluding High income),8532.138
+2009-01-01,external,Africa (excluding High income),9613.83
+2010-01-01,external,Africa (excluding High income),10037.226
+2011-01-01,external,Africa (excluding High income),10722.392
+2012-01-01,external,Africa (excluding High income),10502.077
+2013-01-01,external,Africa (excluding High income),11568.07
+2014-01-01,external,Africa (excluding High income),10276.95
+2015-01-01,external,Africa (excluding High income),10170.164
+2016-01-01,external,Africa (excluding High income),10491.299
+2017-01-01,external,Africa (excluding High income),10791.835
+2018-01-01,external,Africa (excluding High income),10781.406
+2019-01-01,external,Africa (excluding High income),11711.698
+2020-01-01,external,Africa (excluding High income),11682.461
+2021-01-01,external,Africa (excluding High income),13258.439
+2000-01-01,external,Africa (excluding High income),
+2001-01-01,external,Africa (excluding High income),
+2002-01-01,external,Africa (excluding High income),
+2003-01-01,external,Africa (excluding High income),
+2004-01-01,external,Africa (excluding High income),
+2005-01-01,external,Africa (excluding High income),
+2006-01-01,external,Africa (excluding High income),
+2007-01-01,external,Africa (excluding High income),
+2008-01-01,external,Africa (excluding High income),
+2009-01-01,external,Africa (excluding High income),
+2010-01-01,external,Africa (excluding High income),
+2011-01-01,external,Africa (excluding High income),
+2012-01-01,external,Africa (excluding High income),
+2013-01-01,external,Africa (excluding High income),
+2014-01-01,external,Africa (excluding High income),
+2015-01-01,external,Africa (excluding High income),
+2016-01-01,external,Africa (excluding High income),
+2017-01-01,external,Africa (excluding High income),
+2018-01-01,external,Africa (excluding High income),
+2019-01-01,external,Africa (excluding High income),
+2020-01-01,external,Africa (excluding High income),
+2021-01-01,external,Africa (excluding High income),
+2000-01-01,external,Africa (excluding High income),4.68
+2001-01-01,external,Africa (excluding High income),3.98
+2002-01-01,external,Africa (excluding High income),4.45
+2003-01-01,external,Africa (excluding High income),6.22
+2004-01-01,external,Africa (excluding High income),7.29
+2005-01-01,external,Africa (excluding High income),9.59
+2006-01-01,external,Africa (excluding High income),9.35
+2007-01-01,external,Africa (excluding High income),9.62
+2008-01-01,external,Africa (excluding High income),9.68
+2009-01-01,external,Africa (excluding High income),10.06
+2010-01-01,external,Africa (excluding High income),10.25
+2011-01-01,external,Africa (excluding High income),10.51
+2012-01-01,external,Africa (excluding High income),9.98
+2013-01-01,external,Africa (excluding High income),10.38
+2014-01-01,external,Africa (excluding High income),8.98
+2015-01-01,external,Africa (excluding High income),8.4
+2016-01-01,external,Africa (excluding High income),8.52
+2017-01-01,external,Africa (excluding High income),8.5
+2018-01-01,external,Africa (excluding High income),8.68
+2019-01-01,external,Africa (excluding High income),9.2
+2020-01-01,external,Africa (excluding High income),9.07
+2021-01-01,external,Africa (excluding High income),9.7
