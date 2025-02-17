@@ -132,3 +132,4 @@ dmypy.json
 # Ignore DataSpell
 .idea/
 scripts/config.ini
+raw_data/fullCRS.parquet

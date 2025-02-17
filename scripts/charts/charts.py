@@ -26,16 +26,16 @@ def chart_1_1():
     (df
      .assign(value = lambda d: np.where(d.unit == "USD constant (2022)", d.value/1e9, d.value))
      .assign(unit = lambda d: d.unit.map({"USD constant (2022)": "Total (USD billions)",
-                                          "per capita, USD constant (2022)": "Per person (USD)",
+                                          "per capita, USD constant (2022)": "Per capita (US$)",
                                           "percent of GDP": "Percent of GDP"}),
-             unit_annotate = lambda d: d.unit.map({"Total (USD billions)": "billion USD",
-                                                   "Per person (USD)": "USD per person",
+             unit_annotate = lambda d: d.unit.map({"Total (USD billions)": "billion US$",
+                                                   "Per capita (USD)": "US$ per capita",
                                                    "Percent of GDP": "% of GDP"}),
 
              )
      .pivot(index=['year', 'unit', "unit_annotate"], columns='entity_name', values="value")
      .reset_index()
-     .pipe(custom_sort, 'unit', ["Total (USD billions)", "Per person (USD)", "Percent of GDP"])
+     .pipe(custom_sort, 'unit', ["Total (US$ billions)", "Per capita (US$)", "Percent of GDP"])
      .to_csv(PATHS.output / "section_1_1_chart.csv", index=False)
      )
 
@@ -231,6 +231,7 @@ def chart_intro_3():
      .loc[lambda d:(d.entity_name == "Africa")
                    & (d.unit == "USD constant (2022)")
      ]
+    .assign(value_annotation = lambda d: format_large_numbers(d.value))
      .to_csv(PATHS.output / "section_intro_3_chart.csv", index=False)
      )
 

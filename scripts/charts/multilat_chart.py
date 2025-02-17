@@ -31,7 +31,7 @@ def rename_regions(df: pd.DataFrame) -> pd.DataFrame:
         "Regional and Unspecified": "Other, unspecified",
     }
 
-    return df.assign(region_name=lambda d: d.region_name.map(regions))
+    return df.assign(recipient_region=lambda d: d.recipient_region.map(regions))
 
 
 def filter_health_broad(df: pd.DataFrame) -> pd.DataFrame:
@@ -43,7 +43,7 @@ def summarise_health_disbursements(df: pd.DataFrame) -> pd.DataFrame:
         "year",
         "broad_sector",
         "flow_name",
-        "region_name",
+        "recipient_region",
         "recipient_name",
         "donor_name",
     ]
@@ -62,7 +62,7 @@ def filter_columns(df: pd.DataFrame) -> pd.DataFrame:
             "year",
             "broad_sector",
             "flow_name",
-            "region_name",
+            "recipient_region",
             "recipient_name",
             "donor_name",
             "usd_disbursement",
@@ -72,17 +72,17 @@ def filter_columns(df: pd.DataFrame) -> pd.DataFrame:
 
 
 def create_health_total(df: pd.DataFrame) -> pd.DataFrame:
-    group_by = ["year", "broad_sector", "flow_name", "region_name", "recipient_name"]
+    group_by = ["year", "broad_sector", "flow_name", "recipient_region", "recipient_name"]
     return (
         df.groupby(group_by, as_index=False)["usd_disbursement"]
         .sum()
-        .assign(donor_name="All")
+        .assign(donor_name="Total")
     )
 
 
 def pivot_chart_data(df: pd.DataFrame) -> pd.DataFrame:
     return df.pivot(
-        index=["year", "broad_sector", "flow_name", "region_name", "recipient_name"],
+        index=["year", "broad_sector", "flow_name", "recipient_region", "recipient_name"],
         columns="donor_name",
         values="usd_disbursement",
     ).reset_index()
@@ -90,7 +90,7 @@ def pivot_chart_data(df: pd.DataFrame) -> pd.DataFrame:
 
 def reorder_columns(df: pd.DataFrame) -> pd.DataFrame:
     return df.set_index(
-        ["year", "broad_sector", "flow_name", "region_name", "recipient_name", "Total"]
+        ["year", "broad_sector", "flow_name", "recipient_region", "recipient_name", "Total"]
     ).reset_index()
 
 
@@ -106,7 +106,7 @@ def clean_columns(df: pd.DataFrame) -> pd.DataFrame:
     return df.drop(columns=["broad_sector"]).rename(
         columns={
             "flow_name": "Type",
-            "region_name": "Region",
+            "recipient_region": "Region",
             "recipient_name": "Recipient",
             "year": "Year",
         }
@@ -154,7 +154,7 @@ def chart_4_1() -> None:
         .pipe(clean_columns)
     )
 
-    chart.to_csv(PATHS.output / "section_5_chart.csv", index=False)
+    chart.to_csv(PATHS.output / "section4_chart_1.csv", index=False)
 
 
 if __name__ == "__main__":

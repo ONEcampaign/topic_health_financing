@@ -11,3 +11,6 @@ class PATHS:
     scripts = project / "scripts"
     db_credentials = scripts / "config.ini"
     logs = scripts / ".logs"
+
+
+CONSTANT_YEAR = 2022
