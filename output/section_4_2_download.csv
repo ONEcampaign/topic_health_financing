@@ -1,0 +1,1247 @@
+iso3_code,year,value,condition,source,entity_name
+BEN,2018,21867619.7519719,HIV/AIDS and other STDs,External,Benin
+BWA,2019,105986417.9478842,HIV/AIDS and other STDs,External,Botswana
+BFA,2022,22549075.351534165,HIV/AIDS and other STDs,External,Burkina Faso
+BDI,2020,37996137.51490375,HIV/AIDS and other STDs,External,Burundi
+CPV,2019,3904291.3328401246,HIV/AIDS and other STDs,External,Cabo Verde
+CMR,2019,80364312.25211722,HIV/AIDS and other STDs,External,Cameroon
+CAF,2019,5123082.391262808,HIV/AIDS and other STDs,External,Central African Republic
+TCD,2022,9597680.890278917,HIV/AIDS and other STDs,External,Chad
+COM,2019,1551939.9616001323,HIV/AIDS and other STDs,External,Comoros
+COG,2020,1920591.6039412527,HIV/AIDS and other STDs,External,Congo Republic
+CIV,2021,113335391.0890897,HIV/AIDS and other STDs,External,Cote d'Ivoire
+COD,2022,104241979.77704372,HIV/AIDS and other STDs,External,DR Congo
+SWZ,2019,65253651.50232091,HIV/AIDS and other STDs,External,Eswatini
+ETH,2020,127115312.0753204,HIV/AIDS and other STDs,External,Ethiopia
+GAB,2019,310729.36238000495,HIV/AIDS and other STDs,External,Gabon
+GMB,2019,1878835.8208723464,HIV/AIDS and other STDs,External,Gambia
+GHA,2022,50119742.94158889,HIV/AIDS and other STDs,External,Ghana
+GIN,2021,19514900.878777023,HIV/AIDS and other STDs,External,Guinea
+GNB,2021,3676615.323183416,HIV/AIDS and other STDs,External,Guinea-Bissau
+KEN,2019,557032784.2825626,HIV/AIDS and other STDs,External,Kenya
+LBR,2020,12006862.530594422,HIV/AIDS and other STDs,External,Liberia
+MDG,2021,10441593.299856612,HIV/AIDS and other STDs,External,Madagascar
+MWI,2019,220650593.13915563,HIV/AIDS and other STDs,External,Malawi
+MLI,2020,1122798.607277258,HIV/AIDS and other STDs,External,Mali
+MRT,2021,2461333.8290024977,HIV/AIDS and other STDs,External,Mauritania
+MUS,2019,614107.1407918129,HIV/AIDS and other STDs,External,Mauritius
+MOZ,2018,512773352.4653047,HIV/AIDS and other STDs,External,Mozambique
+NAM,2019,72695161.85473548,HIV/AIDS and other STDs,External,Namibia
+NER,2022,819783.3468625773,HIV/AIDS and other STDs,External,Niger
+NGA,2021,611599167.325178,HIV/AIDS and other STDs,External,Nigeria
+STP,2021,902408.557797679,HIV/AIDS and other STDs,External,Sao Tome and Principe
+SEN,2021,12329126.58450844,HIV/AIDS and other STDs,External,Senegal
+SLE,2021,7255185.165018933,HIV/AIDS and other STDs,External,Sierra Leone
+ZAF,2019,343048836.6044554,HIV/AIDS and other STDs,External,South Africa
+SSD,2019,22378293.027076382,HIV/AIDS and other STDs,External,South Sudan
+TGO,2021,16519809.175650436,HIV/AIDS and other STDs,External,Togo
+UGA,2019,402912982.8781882,HIV/AIDS and other STDs,External,Uganda
+TZA,2019,581267214.4134866,HIV/AIDS and other STDs,External,Tanzania
+ZMB,2016,334361221.8938507,HIV/AIDS and other STDs,External,Zambia
+ZWE,2020,302059600.4478578,HIV/AIDS and other STDs,External,Zimbabwe
+CRI,2020,0.0,HIV/AIDS and other STDs,External,Costa Rica
+GUY,2019,4061935.7490443615,HIV/AIDS and other STDs,External,Guyana
+HTI,2016,140279760.92149886,HIV/AIDS and other STDs,External,Haiti
+AFG,2022,11549179.629230533,HIV/AIDS and other STDs,External,Afghanistan
+DJI,2017,629369.8188149204,HIV/AIDS and other STDs,External,Djibouti
+SDN,2019,2903448.9115648614,HIV/AIDS and other STDs,External,Sudan
+ARM,2022,2030239.5733247148,HIV/AIDS and other STDs,External,Armenia
+GEO,2019,5456047.025903022,HIV/AIDS and other STDs,External,Georgia
+KGZ,2016,5555344.437270199,HIV/AIDS and other STDs,External,Kyrgyz Republic
+MDA,2018,68303.4884468964,HIV/AIDS and other STDs,External,Moldova
+TJK,2019,4817985.473146252,HIV/AIDS and other STDs,External,Tajikistan
+MMR,2022,190789936.75419313,HIV/AIDS and other STDs,External,Myanmar
+LKA,2018,3680390.233377003,HIV/AIDS and other STDs,External,Sri Lanka
+KHM,2019,24745668.56023377,HIV/AIDS and other STDs,External,Cambodia
+BEN,2018,1521281.598014605,Tuberculosis,External,Benin
+BWA,2019,498167.7321019926,Tuberculosis,External,Botswana
+BFA,2022,3416143.0133772837,Tuberculosis,External,Burkina Faso
+BDI,2020,1654341.466096743,Tuberculosis,External,Burundi
+CPV,2019,1241.4079148525825,Tuberculosis,External,Cabo Verde
+CMR,2019,1960956.1103536685,Tuberculosis,External,Cameroon
+CAF,2019,99597.78363344708,Tuberculosis,External,Central African Republic
+TCD,2022,5331087.510412601,Tuberculosis,External,Chad
+COM,2019,720476.0675849185,Tuberculosis,External,Comoros
+COG,2020,559832.5938571318,Tuberculosis,External,Congo Republic
+CIV,2021,5172016.8505550865,Tuberculosis,External,Cote d'Ivoire
+COD,2022,18363942.542466883,Tuberculosis,External,DR Congo
+SWZ,2019,14590764.154374626,Tuberculosis,External,Eswatini
+ETH,2020,37730678.07358166,Tuberculosis,External,Ethiopia
+GAB,2019,311669.66181066836,Tuberculosis,External,Gabon
+GMB,2019,278039.33083108545,Tuberculosis,External,Gambia
+GHA,2022,894526.2076301917,Tuberculosis,External,Ghana
+GIN,2021,2755604.4600075507,Tuberculosis,External,Guinea
+GNB,2021,3427152.645860918,Tuberculosis,External,Guinea-Bissau
+KEN,2019,20858540.479820643,Tuberculosis,External,Kenya
+LBR,2020,3389881.0768907154,Tuberculosis,External,Liberia
+MDG,2021,135509.5923699929,Tuberculosis,External,Madagascar
+MWI,2019,10371686.538198875,Tuberculosis,External,Malawi
+MLI,2020,2622099.054404061,Tuberculosis,External,Mali
+MRT,2021,258224.675181578,Tuberculosis,External,Mauritania
+MUS,2019,6034.052014171163,Tuberculosis,External,Mauritius
+MOZ,2018,8549043.2503844,Tuberculosis,External,Mozambique
+NAM,2019,9140234.893598244,Tuberculosis,External,Namibia
+NER,2022,5096155.33793302,Tuberculosis,External,Niger
+NGA,2021,81768437.94949624,Tuberculosis,External,Nigeria
+STP,2021,709246.374102394,Tuberculosis,External,Sao Tome and Principe
+SEN,2021,5817028.052991591,Tuberculosis,External,Senegal
+SLE,2021,3000731.6618461516,Tuberculosis,External,Sierra Leone
+ZAF,2019,13978879.547211071,Tuberculosis,External,South Africa
+SSD,2019,11935453.623630712,Tuberculosis,External,South Sudan
+TGO,2021,542452.8266934732,Tuberculosis,External,Togo
+UGA,2019,14756395.310012532,Tuberculosis,External,Uganda
+TZA,2019,14230903.111690326,Tuberculosis,External,Tanzania
+ZWE,2020,9346372.206786912,Tuberculosis,External,Zimbabwe
+CRI,2020,0.0,Tuberculosis,External,Costa Rica
+GUY,2019,122889.63684879342,Tuberculosis,External,Guyana
+HTI,2016,279814.1317615146,Tuberculosis,External,Haiti
+AFG,2022,12558383.583331728,Tuberculosis,External,Afghanistan
+DJI,2017,1267497.4517187425,Tuberculosis,External,Djibouti
+EGY,2020,20485.38848172105,Tuberculosis,External,Egypt
+SDN,2019,2609451.395589194,Tuberculosis,External,Sudan
+ARM,2022,164.48372630238467,Tuberculosis,External,Armenia
+GEO,2019,2013383.1279690792,Tuberculosis,External,Georgia
+KGZ,2016,2467423.6095974506,Tuberculosis,External,Kyrgyz Republic
+MDA,2018,103888.07443768773,Tuberculosis,External,Moldova
+MMR,2022,31586180.240611408,Tuberculosis,External,Myanmar
+LKA,2018,3738788.4715761337,Tuberculosis,External,Sri Lanka
+KHM,2019,28047544.12611925,Tuberculosis,External,Cambodia
+BEN,2018,37259777.418602146,Malaria,External,Benin
+BWA,2019,1738341.160097303,Malaria,External,Botswana
+BFA,2022,106689557.12147243,Malaria,External,Burkina Faso
+BDI,2020,48922746.80102464,Malaria,External,Burundi
+CPV,2019,794515.2407223627,Malaria,External,Cabo Verde
+CMR,2019,26533589.56356243,Malaria,External,Cameroon
+CAF,2019,18091920.28004083,Malaria,External,Central African Republic
+TCD,2022,47791146.401426785,Malaria,External,Chad
+COM,2019,2359942.6414590534,Malaria,External,Comoros
+COG,2020,12763019.453318477,Malaria,External,Congo Republic
+CIV,2021,72585726.12164497,Malaria,External,Cote d'Ivoire
+COD,2022,217487272.61268735,Malaria,External,DR Congo
+SWZ,2019,652339.7792960139,Malaria,External,Eswatini
+ETH,2020,86950966.76674725,Malaria,External,Ethiopia
+GAB,2019,145122.2378083159,Malaria,External,Gabon
+GMB,2019,5898885.513428882,Malaria,External,Gambia
+GHA,2022,42308289.49277114,Malaria,External,Ghana
+GIN,2021,42801837.810345694,Malaria,External,Guinea
+GNB,2021,456145.50708565355,Malaria,External,Guinea-Bissau
+KEN,2019,39605088.9209728,Malaria,External,Kenya
+LBR,2020,23062944.602327213,Malaria,External,Liberia
+MDG,2021,67994104.79221639,Malaria,External,Madagascar
+MWI,2019,44331020.606454186,Malaria,External,Malawi
+MLI,2020,18797740.544033237,Malaria,External,Mali
+MRT,2021,651406.3325837173,Malaria,External,Mauritania
+MUS,2019,0.0,Malaria,External,Mauritius
+MOZ,2018,88329408.48607217,Malaria,External,Mozambique
+NAM,2019,4551237.167993836,Malaria,External,Namibia
+NER,2022,49533103.13114949,Malaria,External,Niger
+NGA,2021,250075694.93706095,Malaria,External,Nigeria
+STP,2021,4523198.99246398,Malaria,External,Sao Tome and Principe
+SEN,2021,46725912.74423007,Malaria,External,Senegal
+SYC,2019,0.0,Malaria,External,Seychelles
+SLE,2021,24035126.818257455,Malaria,External,Sierra Leone
+SSD,2019,63308847.89275818,Malaria,External,South Sudan
+TGO,2021,17887831.690016057,Malaria,External,Togo
+UGA,2019,79789030.15423538,Malaria,External,Uganda
+TZA,2019,108944847.04154262,Malaria,External,Tanzania
+ZMB,2016,35424695.59287903,Malaria,External,Zambia
+ZWE,2020,24146714.07395063,Malaria,External,Zimbabwe
+GUY,2019,57283.492166594086,Malaria,External,Guyana
+HTI,2016,9383127.718839474,Malaria,External,Haiti
+AFG,2022,13328027.700522184,Malaria,External,Afghanistan
+DJI,2017,70166.90066827433,Malaria,External,Djibouti
+EGY,2020,777.6671453006426,Malaria,External,Egypt
+SDN,2019,16657828.500482343,Malaria,External,Sudan
+TUN,2019,0.0,Malaria,External,Tunisia
+KGZ,2016,16.81777945312949,Malaria,External,Kyrgyz Republic
+MDA,2018,0.0,Malaria,External,Moldova
+MMR,2022,42464804.37385449,Malaria,External,Myanmar
+KHM,2019,10124498.116588932,Malaria,External,Cambodia
+BEN,2018,2165505.471871127,Maternal health,External,Benin
+BWA,2019,113346.8122401872,Maternal health,External,Botswana
+BFA,2022,13485797.455410996,Maternal health,External,Burkina Faso
+BDI,2020,33040896.762209073,Maternal health,External,Burundi
+CPV,2019,453803.54634798353,Maternal health,External,Cabo Verde
+CMR,2019,10838.884622464202,Maternal health,External,Cameroon
+CAF,2019,3148445.591661131,Maternal health,External,Central African Republic
+TCD,2022,8063783.089805188,Maternal health,External,Chad
+COM,2019,1435986.048432435,Maternal health,External,Comoros
+COG,2020,210457.26009210464,Maternal health,External,Congo Republic
+CIV,2021,14126910.030119965,Maternal health,External,Cote d'Ivoire
+COD,2022,14613807.806424383,Maternal health,External,DR Congo
+SWZ,2019,782701.7154948668,Maternal health,External,Eswatini
+ETH,2020,127327374.36578734,Maternal health,External,Ethiopia
+GAB,2019,293670.79871766624,Maternal health,External,Gabon
+GMB,2019,3305576.035891792,Maternal health,External,Gambia
+GHA,2022,2356582.329191044,Maternal health,External,Ghana
+GIN,2021,227996.63963305953,Maternal health,External,Guinea
+GNB,2021,1731595.341814268,Maternal health,External,Guinea-Bissau
+KEN,2019,11242515.581949351,Maternal health,External,Kenya
+LBR,2020,4872309.841422953,Maternal health,External,Liberia
+MDG,2021,7970960.076833432,Maternal health,External,Madagascar
+MWI,2019,11812834.761095626,Maternal health,External,Malawi
+MLI,2020,298467.0861299816,Maternal health,External,Mali
+MRT,2021,850228.3392589164,Maternal health,External,Mauritania
+MUS,2019,3825.493726919475,Maternal health,External,Mauritius
+MOZ,2018,10562706.866959082,Maternal health,External,Mozambique
+NAM,2019,1285431.9128242594,Maternal health,External,Namibia
+NER,2022,1939946.8126021104,Maternal health,External,Niger
+NGA,2021,63125.25061501245,Maternal health,External,Nigeria
+STP,2021,41635.9433738723,Maternal health,External,Sao Tome and Principe
+SEN,2021,24879991.29105257,Maternal health,External,Senegal
+SLE,2021,4190788.5858102986,Maternal health,External,Sierra Leone
+ZAF,2019,16152261.45558448,Maternal health,External,South Africa
+SSD,2019,20070297.99826877,Maternal health,External,South Sudan
+TGO,2021,2022618.1718122903,Maternal health,External,Togo
+UGA,2019,20234541.44324721,Maternal health,External,Uganda
+TZA,2019,25475935.16715716,Maternal health,External,Tanzania
+ZMB,2016,8137428.75473096,Maternal health,External,Zambia
+ZWE,2020,1666.0375730293176,Maternal health,External,Zimbabwe
+CRI,2020,0.0,Maternal health,External,Costa Rica
+GUY,2019,0.0,Maternal health,External,Guyana
+HTI,2016,20418489.312590312,Maternal health,External,Haiti
+AFG,2022,34352095.65687093,Maternal health,External,Afghanistan
+EGY,2020,9537657.299230712,Maternal health,External,Egypt
+SDN,2019,419204.1835060816,Maternal health,External,Sudan
+ARM,2022,0.0,Maternal health,External,Armenia
+KGZ,2016,1711852.1707495947,Maternal health,External,Kyrgyz Republic
+MDA,2018,1833345.9333098535,Maternal health,External,Moldova
+MMR,2022,9020032.982830755,Maternal health,External,Myanmar
+KHM,2019,4169874.738547014,Maternal health,External,Cambodia
+BEN,2018,8557020.658818463,Family planning,External,Benin
+BFA,2022,17142695.945602365,Family planning,External,Burkina Faso
+BDI,2020,8329247.4780518515,Family planning,External,Burundi
+CPV,2019,375120.8702542256,Family planning,External,Cabo Verde
+CMR,2019,2803997.892488923,Family planning,External,Cameroon
+CAF,2019,675373.8052644347,Family planning,External,Central African Republic
+TCD,2022,510795.11357527017,Family planning,External,Chad
+COM,2019,918582.0864278714,Family planning,External,Comoros
+COG,2020,193636.48243408065,Family planning,External,Congo Republic
+CIV,2021,7008075.905905257,Family planning,External,Cote d'Ivoire
+COD,2022,8601922.785445232,Family planning,External,DR Congo
+SWZ,2019,494728.9757628189,Family planning,External,Eswatini
+ETH,2020,66704067.15468729,Family planning,External,Ethiopia
+GAB,2019,2559.3987082198887,Family planning,External,Gabon
+GMB,2019,881060.5469032498,Family planning,External,Gambia
+GHA,2022,1829608.75682994,Family planning,External,Ghana
+GIN,2021,10777942.376411175,Family planning,External,Guinea
+GNB,2021,554170.4784933479,Family planning,External,Guinea-Bissau
+KEN,2019,6146911.860452269,Family planning,External,Kenya
+LBR,2020,4815946.373450954,Family planning,External,Liberia
+MDG,2021,19595699.62852774,Family planning,External,Madagascar
+MWI,2019,44910692.09840145,Family planning,External,Malawi
+MLI,2020,511562.4284795599,Family planning,External,Mali
+MRT,2021,1639779.0513279012,Family planning,External,Mauritania
+MOZ,2018,13039833.418524943,Family planning,External,Mozambique
+NAM,2019,115829.70400431044,Family planning,External,Namibia
+NER,2022,7010993.315967665,Family planning,External,Niger
+NGA,2021,9982196.464783922,Family planning,External,Nigeria
+STP,2021,471667.6385065372,Family planning,External,Sao Tome and Principe
+SEN,2021,24668344.14014023,Family planning,External,Senegal
+SLE,2021,1847047.2428735504,Family planning,External,Sierra Leone
+SSD,2019,952559.4704532156,Family planning,External,South Sudan
+TGO,2021,976119.2224550322,Family planning,External,Togo
+UGA,2019,32472948.65121269,Family planning,External,Uganda
+TZA,2019,14376816.90280106,Family planning,External,Tanzania
+ZMB,2016,14731751.878077868,Family planning,External,Zambia
+ZWE,2020,43610.9815733601,Family planning,External,Zimbabwe
+CRI,2020,0.0,Family planning,External,Costa Rica
+GUY,2019,276432.45450905367,Family planning,External,Guyana
+HTI,2016,2228207.777767188,Family planning,External,Haiti
+AFG,2022,13631337.390752034,Family planning,External,Afghanistan
+DJI,2017,804840.6780889387,Family planning,External,Djibouti
+ARM,2022,0.0,Family planning,External,Armenia
+GEO,2019,8850.035727336612,Family planning,External,Georgia
+MDA,2018,0.0,Family planning,External,Moldova
+MMR,2022,18100365.012527134,Family planning,External,Myanmar
+LKA,2018,25395.83988485909,Family planning,External,Sri Lanka
+KHM,2019,89631.64997117012,Family planning,External,Cambodia
+BEN,2018,1810904.1922947012,Nutritional deficiencies,External,Benin
+BWA,2019,417454.74087862694,Nutritional deficiencies,External,Botswana
+BFA,2022,17784834.902985558,Nutritional deficiencies,External,Burkina Faso
+BDI,2020,10366322.564241068,Nutritional deficiencies,External,Burundi
+CPV,2019,73001.67989948989,Nutritional deficiencies,External,Cabo Verde
+CMR,2019,19857640.240442865,Nutritional deficiencies,External,Cameroon
+CAF,2019,4075106.441174127,Nutritional deficiencies,External,Central African Republic
+TCD,2022,12121726.40656206,Nutritional deficiencies,External,Chad
+COM,2019,211751.29387852913,Nutritional deficiencies,External,Comoros
+COG,2020,771696.5737749038,Nutritional deficiencies,External,Congo Republic
+CIV,2021,4495236.157175925,Nutritional deficiencies,External,Cote d'Ivoire
+COD,2022,116047309.41326864,Nutritional deficiencies,External,DR Congo
+SWZ,2019,65022.79304118287,Nutritional deficiencies,External,Eswatini
+ETH,2020,61146899.10348957,Nutritional deficiencies,External,Ethiopia
+GAB,2019,10978.779611302192,Nutritional deficiencies,External,Gabon
+GMB,2019,1338748.7299433283,Nutritional deficiencies,External,Gambia
+GHA,2022,8503327.382621726,Nutritional deficiencies,External,Ghana
+GIN,2021,5432107.398925162,Nutritional deficiencies,External,Guinea
+GNB,2021,3597674.859487221,Nutritional deficiencies,External,Guinea-Bissau
+KEN,2019,13133321.193213996,Nutritional deficiencies,External,Kenya
+LBR,2020,584934.3366791736,Nutritional deficiencies,External,Liberia
+MDG,2021,16768957.864176111,Nutritional deficiencies,External,Madagascar
+MWI,2019,27562625.55763509,Nutritional deficiencies,External,Malawi
+MLI,2020,2942102.6545987227,Nutritional deficiencies,External,Mali
+MRT,2021,631394.0342887198,Nutritional deficiencies,External,Mauritania
+MUS,2019,17465.37442165958,Nutritional deficiencies,External,Mauritius
+MOZ,2018,69734731.7736714,Nutritional deficiencies,External,Mozambique
+NAM,2019,53352.30962691778,Nutritional deficiencies,External,Namibia
+NER,2022,7674519.548739984,Nutritional deficiencies,External,Niger
+NGA,2021,58465633.69356658,Nutritional deficiencies,External,Nigeria
+STP,2021,85688.50167754987,Nutritional deficiencies,External,Sao Tome and Principe
+SEN,2021,1685565.1051866545,Nutritional deficiencies,External,Senegal
+SLE,2021,4492273.728120721,Nutritional deficiencies,External,Sierra Leone
+SSD,2019,35913655.54476103,Nutritional deficiencies,External,South Sudan
+TGO,2021,1763756.7075127375,Nutritional deficiencies,External,Togo
+UGA,2019,16888510.799083486,Nutritional deficiencies,External,Uganda
+TZA,2019,16265174.975074522,Nutritional deficiencies,External,Tanzania
+ZMB,2016,11363276.592043562,Nutritional deficiencies,External,Zambia
+ZWE,2020,10427973.530634789,Nutritional deficiencies,External,Zimbabwe
+CRI,2020,0.0,Nutritional deficiencies,External,Costa Rica
+GUY,2019,0.0,Nutritional deficiencies,External,Guyana
+HTI,2016,13691710.792811234,Nutritional deficiencies,External,Haiti
+AFG,2022,110723138.43750235,Nutritional deficiencies,External,Afghanistan
+DJI,2017,6159307.351702954,Nutritional deficiencies,External,Djibouti
+EGY,2020,2662486.5938897775,Nutritional deficiencies,External,Egypt
+SDN,2019,2539509.342928913,Nutritional deficiencies,External,Sudan
+ARM,2022,180013.9648198552,Nutritional deficiencies,External,Armenia
+KGZ,2016,219771.8871711353,Nutritional deficiencies,External,Kyrgyz Republic
+MDA,2018,546615.8278043023,Nutritional deficiencies,External,Moldova
+MMR,2022,10955620.035237618,Nutritional deficiencies,External,Myanmar
+LKA,2018,6710865.815352144,Nutritional deficiencies,External,Sri Lanka
+KHM,2019,5092777.203116997,Nutritional deficiencies,External,Cambodia
+BEN,2018,1464261.0632486502,Noncommunicable diseases,External,Benin
+BWA,2019,461010.630903103,Noncommunicable diseases,External,Botswana
+BFA,2022,3043085.274009835,Noncommunicable diseases,External,Burkina Faso
+BDI,2020,2610191.247180165,Noncommunicable diseases,External,Burundi
+CPV,2019,207415.18548709204,Noncommunicable diseases,External,Cabo Verde
+CMR,2019,359329.60549371893,Noncommunicable diseases,External,Cameroon
+CAF,2019,2321460.328426267,Noncommunicable diseases,External,Central African Republic
+TCD,2022,5411442.136684348,Noncommunicable diseases,External,Chad
+COM,2019,444376.7874545906,Noncommunicable diseases,External,Comoros
+COG,2020,834089.0881885217,Noncommunicable diseases,External,Congo Republic
+CIV,2021,7888532.785983453,Noncommunicable diseases,External,Cote d'Ivoire
+COD,2022,65566840.72642615,Noncommunicable diseases,External,DR Congo
+SWZ,2019,2140656.3588697626,Noncommunicable diseases,External,Eswatini
+ETH,2020,24026405.024570867,Noncommunicable diseases,External,Ethiopia
+GAB,2019,233789.98439583392,Noncommunicable diseases,External,Gabon
+GMB,2019,445281.6415425047,Noncommunicable diseases,External,Gambia
+GHA,2022,16154626.426430056,Noncommunicable diseases,External,Ghana
+GIN,2021,2117425.9883822547,Noncommunicable diseases,External,Guinea
+GNB,2021,2253.556007408386,Noncommunicable diseases,External,Guinea-Bissau
+KEN,2019,18897049.784714375,Noncommunicable diseases,External,Kenya
+LBR,2020,2554472.8849044265,Noncommunicable diseases,External,Liberia
+MDG,2021,672422.5990452071,Noncommunicable diseases,External,Madagascar
+MWI,2019,7046769.854363384,Noncommunicable diseases,External,Malawi
+MLI,2020,565191.1572717833,Noncommunicable diseases,External,Mali
+MRT,2021,4090600.97586681,Noncommunicable diseases,External,Mauritania
+MUS,2019,190181.390255855,Noncommunicable diseases,External,Mauritius
+MOZ,2018,1239752.7315173354,Noncommunicable diseases,External,Mozambique
+NAM,2019,72402.76327919742,Noncommunicable diseases,External,Namibia
+NER,2022,2381367.677605583,Noncommunicable diseases,External,Niger
+NGA,2021,329342.7210915047,Noncommunicable diseases,External,Nigeria
+STP,2021,2067952.3007577197,Noncommunicable diseases,External,Sao Tome and Principe
+SEN,2021,970093.3154844214,Noncommunicable diseases,External,Senegal
+SLE,2021,5168284.451575479,Noncommunicable diseases,External,Sierra Leone
+SSD,2019,13101193.373218972,Noncommunicable diseases,External,South Sudan
+TGO,2021,5476311.724575273,Noncommunicable diseases,External,Togo
+UGA,2019,15552424.31146707,Noncommunicable diseases,External,Uganda
+TZA,2019,12740744.158347068,Noncommunicable diseases,External,Tanzania
+ZMB,2016,334978.23065138754,Noncommunicable diseases,External,Zambia
+ZWE,2020,50974327.42946268,Noncommunicable diseases,External,Zimbabwe
+CRI,2020,0.0,Noncommunicable diseases,External,Costa Rica
+GUY,2019,312781.54895638896,Noncommunicable diseases,External,Guyana
+HTI,2016,27399278.05858682,Noncommunicable diseases,External,Haiti
+AFG,2022,53699869.65378919,Noncommunicable diseases,External,Afghanistan
+DJI,2017,1745930.5870858731,Noncommunicable diseases,External,Djibouti
+EGY,2020,84794447.3757215,Noncommunicable diseases,External,Egypt
+ARM,2022,946050.462487106,Noncommunicable diseases,External,Armenia
+KGZ,2016,6548876.922792603,Noncommunicable diseases,External,Kyrgyz Republic
+MDA,2018,21652266.10596902,Noncommunicable diseases,External,Moldova
+MMR,2022,281863.9649993564,Noncommunicable diseases,External,Myanmar
+KHM,2019,6529741.370356292,Noncommunicable diseases,External,Cambodia
+BEN,2018,1428745.5630449313,Injuries,External,Benin
+BFA,2022,685387.008164038,Injuries,External,Burkina Faso
+BDI,2020,8889873.603084333,Injuries,External,Burundi
+CPV,2019,32499.05750742037,Injuries,External,Cabo Verde
+TCD,2022,469112.2786116318,Injuries,External,Chad
+COM,2019,29223.87954512648,Injuries,External,Comoros
+COG,2020,1304514.1606689284,Injuries,External,Congo Republic
+COD,2022,7687752.09847003,Injuries,External,DR Congo
+ETH,2020,2522910.1155525963,Injuries,External,Ethiopia
+GAB,2019,36679.11194638016,Injuries,External,Gabon
+GMB,2019,33791.138616899116,Injuries,External,Gambia
+GHA,2022,28346.293699530965,Injuries,External,Ghana
+GIN,2021,1826094.3105501544,Injuries,External,Guinea
+GNB,2021,776.3296201996687,Injuries,External,Guinea-Bissau
+KEN,2019,506617.198508963,Injuries,External,Kenya
+LBR,2020,326229.39151015744,Injuries,External,Liberia
+MDG,2021,28251.99988540276,Injuries,External,Madagascar
+MWI,2019,3608893.43748656,Injuries,External,Malawi
+MLI,2020,464018.1254968553,Injuries,External,Mali
+MOZ,2018,1954.1059031365392,Injuries,External,Mozambique
+NER,2022,306958.8528413545,Injuries,External,Niger
+NGA,2021,1032.4223153889773,Injuries,External,Nigeria
+STP,2021,28813.626406427546,Injuries,External,Sao Tome and Principe
+SEN,2021,12613.71389983475,Injuries,External,Senegal
+SLE,2021,75647.16398928828,Injuries,External,Sierra Leone
+SSD,2019,148891.54159632526,Injuries,External,South Sudan
+TGO,2021,2523147.401523179,Injuries,External,Togo
+UGA,2019,806905.3966787886,Injuries,External,Uganda
+TZA,2019,1928762.0223018029,Injuries,External,Tanzania
+ZWE,2020,25137.56593273869,Injuries,External,Zimbabwe
+CRI,2020,0.0,Injuries,External,Costa Rica
+GUY,2019,5178.041184634135,Injuries,External,Guyana
+HTI,2016,48923784.28177765,Injuries,External,Haiti
+AFG,2022,21119855.090772215,Injuries,External,Afghanistan
+DJI,2017,1212016.0854024664,Injuries,External,Djibouti
+EGY,2020,5481427.5306852665,Injuries,External,Egypt
+ARM,2022,427265.0712862279,Injuries,External,Armenia
+KGZ,2016,591298.9640308648,Injuries,External,Kyrgyz Republic
+MDA,2018,1617790.6656203226,Injuries,External,Moldova
+MMR,2022,241.8729372081632,Injuries,External,Myanmar
+KHM,2019,1561818.6249940472,Injuries,External,Cambodia
+BEN,2018,4072432.8958564727,HIV/AIDS and other STDs,Domestic government,Benin
+BWA,2019,118005253.72768202,HIV/AIDS and other STDs,Domestic government,Botswana
+BFA,2022,11944859.826516813,HIV/AIDS and other STDs,Domestic government,Burkina Faso
+BDI,2020,501574.6957492153,HIV/AIDS and other STDs,Domestic government,Burundi
+CPV,2019,186172.7892871735,HIV/AIDS and other STDs,Domestic government,Cabo Verde
+CMR,2019,11458967.834698828,HIV/AIDS and other STDs,Domestic government,Cameroon
+CAF,2019,460279.8341054697,HIV/AIDS and other STDs,Domestic government,Central African Republic
+TCD,2022,11634857.765502129,HIV/AIDS and other STDs,Domestic government,Chad
+COM,2019,961050.8022801602,HIV/AIDS and other STDs,Domestic government,Comoros
+COG,2020,17347125.795437675,HIV/AIDS and other STDs,Domestic government,Congo Republic
+CIV,2021,40047908.26516954,HIV/AIDS and other STDs,Domestic government,Cote d'Ivoire
+COD,2022,64158258.65978144,HIV/AIDS and other STDs,Domestic government,DR Congo
+SWZ,2019,38765566.70994096,HIV/AIDS and other STDs,Domestic government,Eswatini
+ETH,2020,77725598.8579372,HIV/AIDS and other STDs,Domestic government,Ethiopia
+GAB,2019,20775957.60173257,HIV/AIDS and other STDs,Domestic government,Gabon
+GMB,2019,2017222.9994584497,HIV/AIDS and other STDs,Domestic government,Gambia
+GHA,2022,73870222.52308881,HIV/AIDS and other STDs,Domestic government,Ghana
+GIN,2021,3621379.76101595,HIV/AIDS and other STDs,Domestic government,Guinea
+GNB,2021,518304.4476860075,HIV/AIDS and other STDs,Domestic government,Guinea-Bissau
+KEN,2019,206517430.3490489,HIV/AIDS and other STDs,Domestic government,Kenya
+LBR,2020,10865199.936252052,HIV/AIDS and other STDs,Domestic government,Liberia
+MDG,2021,2692165.5619561505,HIV/AIDS and other STDs,Domestic government,Madagascar
+MWI,2019,48493931.8235958,HIV/AIDS and other STDs,Domestic government,Malawi
+MLI,2020,4480186.47318384,HIV/AIDS and other STDs,Domestic government,Mali
+MRT,2021,1338620.6074944015,HIV/AIDS and other STDs,Domestic government,Mauritania
+MUS,2019,1443129.4394797075,HIV/AIDS and other STDs,Domestic government,Mauritius
+MOZ,2018,67164726.98220855,HIV/AIDS and other STDs,Domestic government,Mozambique
+NAM,2019,62011679.86346723,HIV/AIDS and other STDs,Domestic government,Namibia
+NER,2022,16428619.647277556,HIV/AIDS and other STDs,Domestic government,Niger
+NGA,2021,198852665.65907165,HIV/AIDS and other STDs,Domestic government,Nigeria
+STP,2021,243116.81969532988,HIV/AIDS and other STDs,Domestic government,Sao Tome and Principe
+SEN,2021,4759065.025176324,HIV/AIDS and other STDs,Domestic government,Senegal
+SYC,2019,866640.7203112955,HIV/AIDS and other STDs,Domestic government,Seychelles
+SLE,2021,3161204.09518933,HIV/AIDS and other STDs,Domestic government,Sierra Leone
+ZAF,2019,3068420941.343695,HIV/AIDS and other STDs,Domestic government,South Africa
+SSD,2019,439718.5017609815,HIV/AIDS and other STDs,Domestic government,South Sudan
+TGO,2021,2924459.2614017376,HIV/AIDS and other STDs,Domestic government,Togo
+UGA,2019,4240406.047411491,HIV/AIDS and other STDs,Domestic government,Uganda
+TZA,2019,101858932.3354246,HIV/AIDS and other STDs,Domestic government,Tanzania
+ZMB,2016,53962761.04565852,HIV/AIDS and other STDs,Domestic government,Zambia
+ZWE,2020,8912725.91880001,HIV/AIDS and other STDs,Domestic government,Zimbabwe
+CRI,2020,11868601.150049666,HIV/AIDS and other STDs,Domestic government,Costa Rica
+GUY,2019,9049671.90942896,HIV/AIDS and other STDs,Domestic government,Guyana
+HTI,2016,4581389.80503269,HIV/AIDS and other STDs,Domestic government,Haiti
+AFG,2022,60304.18395234834,HIV/AIDS and other STDs,Domestic government,Afghanistan
+DJI,2017,223393.37438434295,HIV/AIDS and other STDs,Domestic government,Djibouti
+SDN,2019,1367945.2083393962,HIV/AIDS and other STDs,Domestic government,Sudan
+ARM,2022,1336105.0644736728,HIV/AIDS and other STDs,Domestic government,Armenia
+GEO,2019,7097728.653323963,HIV/AIDS and other STDs,Domestic government,Georgia
+KGZ,2016,5071347.620711553,HIV/AIDS and other STDs,Domestic government,Kyrgyz Republic
+MKD,2022,2396100.494578073,HIV/AIDS and other STDs,Domestic government,North Macedonia
+MDA,2018,1310520.687237227,HIV/AIDS and other STDs,Domestic government,Moldova
+TJK,2019,3198729.4761459716,HIV/AIDS and other STDs,Domestic government,Tajikistan
+UZB,2019,22206941.003349233,HIV/AIDS and other STDs,Domestic government,Uzbekistan
+MMR,2022,32508879.95647902,HIV/AIDS and other STDs,Domestic government,Myanmar
+LKA,2018,8337668.915365681,HIV/AIDS and other STDs,Domestic government,Sri Lanka
+KHM,2019,2708777.6185320844,HIV/AIDS and other STDs,Domestic government,Cambodia
+BEN,2018,746359.5322017359,Tuberculosis,Domestic government,Benin
+BWA,2019,33839446.81045361,Tuberculosis,Domestic government,Botswana
+BFA,2022,401488.03192102007,Tuberculosis,Domestic government,Burkina Faso
+BDI,2020,128118.1787782755,Tuberculosis,Domestic government,Burundi
+CPV,2019,67194.81466291573,Tuberculosis,Domestic government,Cabo Verde
+CMR,2019,10963300.495813517,Tuberculosis,Domestic government,Cameroon
+CAF,2019,39351.44120921644,Tuberculosis,Domestic government,Central African Republic
+TCD,2022,3630390.977433048,Tuberculosis,Domestic government,Chad
+COM,2019,17061.32567163957,Tuberculosis,Domestic government,Comoros
+COG,2020,2031929.2625229952,Tuberculosis,Domestic government,Congo Republic
+CIV,2021,3919456.872346065,Tuberculosis,Domestic government,Cote d'Ivoire
+COD,2022,3797756.9500917825,Tuberculosis,Domestic government,DR Congo
+SWZ,2019,9308180.006313322,Tuberculosis,Domestic government,Eswatini
+ETH,2020,7031626.397494553,Tuberculosis,Domestic government,Ethiopia
+GAB,2019,4470955.497288344,Tuberculosis,Domestic government,Gabon
+GMB,2019,2017222.9994584497,Tuberculosis,Domestic government,Gambia
+GHA,2022,6425056.462453459,Tuberculosis,Domestic government,Ghana
+GIN,2021,280134.3758322444,Tuberculosis,Domestic government,Guinea
+GNB,2021,584167.50602666,Tuberculosis,Domestic government,Guinea-Bissau
+KEN,2019,43652691.45553248,Tuberculosis,Domestic government,Kenya
+LBR,2020,4253039.683664178,Tuberculosis,Domestic government,Liberia
+MDG,2021,145924.7594426629,Tuberculosis,Domestic government,Madagascar
+MWI,2019,4884464.0237278035,Tuberculosis,Domestic government,Malawi
+MRT,2021,214669.6861675327,Tuberculosis,Domestic government,Mauritania
+MUS,2019,640.4321260755612,Tuberculosis,Domestic government,Mauritius
+MOZ,2018,77403.83549130235,Tuberculosis,Domestic government,Mozambique
+NAM,2019,27293277.571143907,Tuberculosis,Domestic government,Namibia
+NER,2022,452336.7460552094,Tuberculosis,Domestic government,Niger
+NGA,2021,72920676.09219156,Tuberculosis,Domestic government,Nigeria
+STP,2021,38038.5480707701,Tuberculosis,Domestic government,Sao Tome and Principe
+SEN,2021,1027257.3085218066,Tuberculosis,Domestic government,Senegal
+SLE,2021,494938.6645668375,Tuberculosis,Domestic government,Sierra Leone
+ZAF,2019,405500216.5603153,Tuberculosis,Domestic government,South Africa
+TGO,2021,118194.1205867413,Tuberculosis,Domestic government,Togo
+UGA,2019,236122.24351836616,Tuberculosis,Domestic government,Uganda
+TZA,2019,6647075.4929714715,Tuberculosis,Domestic government,Tanzania
+ZMB,2016,5072696.433343183,Tuberculosis,Domestic government,Zambia
+CRI,2020,2662962.167516519,Tuberculosis,Domestic government,Costa Rica
+GUY,2019,884246.5971164351,Tuberculosis,Domestic government,Guyana
+HTI,2016,903326.1266621802,Tuberculosis,Domestic government,Haiti
+AFG,2022,77411.37240115166,Tuberculosis,Domestic government,Afghanistan
+DJI,2017,94201.25812825689,Tuberculosis,Domestic government,Djibouti
+EGY,2020,594083.1877813407,Tuberculosis,Domestic government,Egypt
+SDN,2019,1211156.819416182,Tuberculosis,Domestic government,Sudan
+ARM,2022,382543.3664810353,Tuberculosis,Domestic government,Armenia
+GEO,2019,522152.10791286017,Tuberculosis,Domestic government,Georgia
+KGZ,2016,11343237.873373492,Tuberculosis,Domestic government,Kyrgyz Republic
+MKD,2022,450956.4416319371,Tuberculosis,Domestic government,North Macedonia
+MDA,2018,1993272.57399086,Tuberculosis,Domestic government,Moldova
+TJK,2019,6145861.406941302,Tuberculosis,Domestic government,Tajikistan
+UZB,2019,90102672.06485552,Tuberculosis,Domestic government,Uzbekistan
+MMR,2022,3079608.4859403367,Tuberculosis,Domestic government,Myanmar
+LKA,2018,5952916.020356373,Tuberculosis,Domestic government,Sri Lanka
+KHM,2019,7115631.832391194,Tuberculosis,Domestic government,Cambodia
+BEN,2018,7059002.847049234,Malaria,Domestic government,Benin
+BWA,2019,54812093.8867851,Malaria,Domestic government,Botswana
+BFA,2022,57059701.06052967,Malaria,Domestic government,Burkina Faso
+BDI,2020,22511312.855507538,Malaria,Domestic government,Burundi
+CPV,2019,53632.55854603766,Malaria,Domestic government,Cabo Verde
+CMR,2019,19212817.289593466,Malaria,Domestic government,Cameroon
+CAF,2019,5365238.154720094,Malaria,Domestic government,Central African Republic
+TCD,2022,33255184.9264032,Malaria,Domestic government,Chad
+COM,2019,13612.7805928468,Malaria,Domestic government,Comoros
+COG,2020,82165920.71403912,Malaria,Domestic government,Congo Republic
+CIV,2021,169620516.16841784,Malaria,Domestic government,Cote d'Ivoire
+COD,2022,59161422.61222045,Malaria,Domestic government,DR Congo
+SWZ,2019,7508300.034029992,Malaria,Domestic government,Eswatini
+ETH,2020,46344758.62107275,Malaria,Domestic government,Ethiopia
+GAB,2019,25717910.198947217,Malaria,Domestic government,Gabon
+GMB,2019,1396818.1679332275,Malaria,Domestic government,Gambia
+GHA,2022,156245161.7765098,Malaria,Domestic government,Ghana
+GIN,2021,17970294.412424173,Malaria,Domestic government,Guinea
+GNB,2021,4612302.348351243,Malaria,Domestic government,Guinea-Bissau
+KEN,2019,131013969.25327,Malaria,Domestic government,Kenya
+LBR,2020,7527708.541519662,Malaria,Domestic government,Liberia
+MDG,2021,23608091.081988715,Malaria,Domestic government,Madagascar
+MWI,2019,32685966.26287247,Malaria,Domestic government,Malawi
+MLI,2020,52759458.15182331,Malaria,Domestic government,Mali
+MRT,2021,11987905.799055671,Malaria,Domestic government,Mauritania
+MUS,2019,0.0,Malaria,Domestic government,Mauritius
+MOZ,2018,25084384.578653004,Malaria,Domestic government,Mozambique
+NAM,2019,6439602.905570233,Malaria,Domestic government,Namibia
+NER,2022,27359802.94791821,Malaria,Domestic government,Niger
+NGA,2021,336996225.4979692,Malaria,Domestic government,Nigeria
+STP,2021,653277.0442425897,Malaria,Domestic government,Sao Tome and Principe
+SEN,2021,4186359.645131854,Malaria,Domestic government,Senegal
+SYC,2019,0.0,Malaria,Domestic government,Seychelles
+SLE,2021,16622414.149456631,Malaria,Domestic government,Sierra Leone
+ZAF,2019,9687817.736753872,Malaria,Domestic government,South Africa
+SSD,2019,15607978.171115523,Malaria,Domestic government,South Sudan
+TGO,2021,7118008.770655811,Malaria,Domestic government,Togo
+UGA,2019,29545081.798357338,Malaria,Domestic government,Uganda
+TZA,2019,385150497.52180487,Malaria,Domestic government,Tanzania
+ZMB,2016,108794242.93549898,Malaria,Domestic government,Zambia
+ZWE,2020,20921657.68239155,Malaria,Domestic government,Zimbabwe
+GUY,2019,2516641.0433768784,Malaria,Domestic government,Guyana
+HTI,2016,828723.9287783208,Malaria,Domestic government,Haiti
+AFG,2022,50722.2896882252,Malaria,Domestic government,Afghanistan
+DJI,2017,256779.5218800261,Malaria,Domestic government,Djibouti
+EGY,2020,22178.244389089643,Malaria,Domestic government,Egypt
+SDN,2019,11603592.318855288,Malaria,Domestic government,Sudan
+TUN,2019,0.0,Malaria,Domestic government,Tunisia
+GEO,2019,4425.017863668306,Malaria,Domestic government,Georgia
+KGZ,2016,424.2089102639226,Malaria,Domestic government,Kyrgyz Republic
+MKD,2022,1391.8375845202868,Malaria,Domestic government,North Macedonia
+MDA,2018,0.0,Malaria,Domestic government,Moldova
+TJK,2019,793499.950721253,Malaria,Domestic government,Tajikistan
+MMR,2022,164299.50707171418,Malaria,Domestic government,Myanmar
+LKA,2018,830816.642529774,Malaria,Domestic government,Sri Lanka
+KHM,2019,1694517.2799988326,Malaria,Domestic government,Cambodia
+BEN,2018,7923671.83176326,Maternal health,Domestic government,Benin
+BWA,2019,26616111.84495626,Maternal health,Domestic government,Botswana
+BFA,2022,69936707.78685701,Maternal health,Domestic government,Burkina Faso
+BDI,2020,21768161.370001514,Maternal health,Domestic government,Burundi
+CPV,2019,11220854.03059976,Maternal health,Domestic government,Cabo Verde
+CMR,2019,2109.080253168274,Maternal health,Domestic government,Cameroon
+CAF,2019,624020.2020680545,Maternal health,Domestic government,Central African Republic
+TCD,2022,69320053.14714745,Maternal health,Domestic government,Chad
+COG,2020,5205110.616973395,Maternal health,Domestic government,Congo Republic
+CIV,2021,72172499.51393817,Maternal health,Domestic government,Cote d'Ivoire
+COD,2022,23064487.923260614,Maternal health,Domestic government,DR Congo
+SWZ,2019,7165547.512772817,Maternal health,Domestic government,Eswatini
+ETH,2020,55865888.4338567,Maternal health,Domestic government,Ethiopia
+GAB,2019,62732819.827356085,Maternal health,Domestic government,Gabon
+GMB,2019,1362427.541353318,Maternal health,Domestic government,Gambia
+GHA,2022,7524566.961220443,Maternal health,Domestic government,Ghana
+GIN,2021,1113739.9274209172,Maternal health,Domestic government,Guinea
+GNB,2021,658247.3216169702,Maternal health,Domestic government,Guinea-Bissau
+KEN,2019,295404679.05897474,Maternal health,Domestic government,Kenya
+LBR,2020,3688528.248260542,Maternal health,Domestic government,Liberia
+MDG,2021,1291948.7035521052,Maternal health,Domestic government,Madagascar
+MWI,2019,34191.62808006758,Maternal health,Domestic government,Malawi
+MRT,2021,3866752.59572134,Maternal health,Domestic government,Mauritania
+MUS,2019,8127993.265693492,Maternal health,Domestic government,Mauritius
+MOZ,2018,21639700.751686197,Maternal health,Domestic government,Mozambique
+NAM,2019,57406714.59427884,Maternal health,Domestic government,Namibia
+NER,2022,1176004.51067909,Maternal health,Domestic government,Niger
+NGA,2021,800571150.7074894,Maternal health,Domestic government,Nigeria
+STP,2021,1858544.730138533,Maternal health,Domestic government,Sao Tome and Principe
+SEN,2021,27136229.053115595,Maternal health,Domestic government,Senegal
+SLE,2021,9507998.369114175,Maternal health,Domestic government,Sierra Leone
+ZAF,2019,1383167175.0684018,Maternal health,Domestic government,South Africa
+SSD,2019,7932981.827977006,Maternal health,Domestic government,South Sudan
+TGO,2021,16470646.15713989,Maternal health,Domestic government,Togo
+UGA,2019,23303358.246617995,Maternal health,Domestic government,Uganda
+TZA,2019,55384003.883111365,Maternal health,Domestic government,Tanzania
+ZMB,2016,55049304.241223074,Maternal health,Domestic government,Zambia
+ZWE,2020,5235144.173417914,Maternal health,Domestic government,Zimbabwe
+CRI,2020,589365.2749808893,Maternal health,Domestic government,Costa Rica
+GUY,2019,14564280.618475651,Maternal health,Domestic government,Guyana
+HTI,2016,5084986.058275888,Maternal health,Domestic government,Haiti
+AFG,2022,998917.7507931656,Maternal health,Domestic government,Afghanistan
+EGY,2020,272203831.791501,Maternal health,Domestic government,Egypt
+SDN,2019,709442.3860247366,Maternal health,Domestic government,Sudan
+ARM,2022,15733114.31995413,Maternal health,Domestic government,Armenia
+GEO,2019,12553775.67922698,Maternal health,Domestic government,Georgia
+KGZ,2016,32315377.38031896,Maternal health,Domestic government,Kyrgyz Republic
+MKD,2022,16623719.376094371,Maternal health,Domestic government,North Macedonia
+MDA,2018,35175915.28374572,Maternal health,Domestic government,Moldova
+TJK,2019,32864660.56063118,Maternal health,Domestic government,Tajikistan
+UZB,2019,88001445.05427107,Maternal health,Domestic government,Uzbekistan
+MMR,2022,39332146.878591955,Maternal health,Domestic government,Myanmar
+LKA,2018,95803781.7800025,Maternal health,Domestic government,Sri Lanka
+KHM,2019,39780970.28874751,Maternal health,Domestic government,Cambodia
+BEN,2018,185142.63478931537,Family planning,Domestic government,Benin
+BFA,2022,4981914.648439868,Family planning,Domestic government,Burkina Faso
+BDI,2020,139040.36225811866,Family planning,Domestic government,Burundi
+CMR,2019,200814.57059576965,Family planning,Domestic government,Cameroon
+CAF,2019,230494.01921148604,Family planning,Domestic government,Central African Republic
+COM,2019,3994429.478828833,Family planning,Domestic government,Comoros
+CIV,2021,12594915.08443212,Family planning,Domestic government,Cote d'Ivoire
+COD,2022,275376.0462694774,Family planning,Domestic government,DR Congo
+SWZ,2019,3737212.0580476034,Family planning,Domestic government,Eswatini
+ETH,2020,48635217.63100979,Family planning,Domestic government,Ethiopia
+GAB,2019,1497055.035152051,Family planning,Domestic government,Gabon
+GMB,2019,5448662.538478552,Family planning,Domestic government,Gambia
+GIN,2021,1701365.4017068015,Family planning,Domestic government,Guinea
+GNB,2021,258731.5707482959,Family planning,Domestic government,Guinea-Bissau
+KEN,2019,43813287.99606221,Family planning,Domestic government,Kenya
+LBR,2020,189550.44852588492,Family planning,Domestic government,Liberia
+MWI,2019,3798147.154658443,Family planning,Domestic government,Malawi
+MUS,2019,1319290.0982428973,Family planning,Domestic government,Mauritius
+MOZ,2018,5154114.951365038,Family planning,Domestic government,Mozambique
+NAM,2019,3898180.144646589,Family planning,Domestic government,Namibia
+NER,2022,14828761.044591095,Family planning,Domestic government,Niger
+NGA,2021,31706719.771449693,Family planning,Domestic government,Nigeria
+STP,2021,1622443.5863199,Family planning,Domestic government,Sao Tome and Principe
+SEN,2021,1440570.6134874152,Family planning,Domestic government,Senegal
+SYC,2019,1354130.1253530968,Family planning,Domestic government,Seychelles
+SLE,2021,1762026.694606373,Family planning,Domestic government,Sierra Leone
+ZAF,2019,467155605.72521627,Family planning,Domestic government,South Africa
+TGO,2021,176993.370944679,Family planning,Domestic government,Togo
+UGA,2019,475591.2952812132,Family planning,Domestic government,Uganda
+TZA,2019,48836114.87389723,Family planning,Domestic government,Tanzania
+ZMB,2016,4288232.794750033,Family planning,Domestic government,Zambia
+ZWE,2020,1080775.8585630476,Family planning,Domestic government,Zimbabwe
+CRI,2020,16478460.0239215,Family planning,Domestic government,Costa Rica
+GUY,2019,3595978.200334019,Family planning,Domestic government,Guyana
+HTI,2016,147987.39301970502,Family planning,Domestic government,Haiti
+AFG,2022,29315.138246405684,Family planning,Domestic government,Afghanistan
+DJI,2017,660499.8566826155,Family planning,Domestic government,Djibouti
+ARM,2022,0.0,Family planning,Domestic government,Armenia
+MKD,2022,0.0,Family planning,Domestic government,North Macedonia
+MDA,2018,0.0,Family planning,Domestic government,Moldova
+TJK,2019,3766436.757962803,Family planning,Domestic government,Tajikistan
+UZB,2019,850527.1302356692,Family planning,Domestic government,Uzbekistan
+MMR,2022,912213.0038374582,Family planning,Domestic government,Myanmar
+LKA,2018,10275751.855195789,Family planning,Domestic government,Sri Lanka
+KHM,2019,5924459.544447663,Family planning,Domestic government,Cambodia
+BEN,2018,743873.2339304078,Nutritional deficiencies,Domestic government,Benin
+BWA,2019,16733209.235284334,Nutritional deficiencies,Domestic government,Botswana
+BFA,2022,4195637.280577713,Nutritional deficiencies,Domestic government,Burkina Faso
+BDI,2020,427551.9330824765,Nutritional deficiencies,Domestic government,Burundi
+CPV,2019,207050.02054798056,Nutritional deficiencies,Domestic government,Cabo Verde
+CMR,2019,13960.10267784086,Nutritional deficiencies,Domestic government,Cameroon
+CAF,2019,165841.43947601042,Nutritional deficiencies,Domestic government,Central African Republic
+TCD,2022,2696311.4699079734,Nutritional deficiencies,Domestic government,Chad
+COM,2019,26681.362063604432,Nutritional deficiencies,Domestic government,Comoros
+COG,2020,9394973.336729886,Nutritional deficiencies,Domestic government,Congo Republic
+CIV,2021,3302532.071365162,Nutritional deficiencies,Domestic government,Cote d'Ivoire
+COD,2022,28279008.735397577,Nutritional deficiencies,Domestic government,DR Congo
+SWZ,2019,8106954.63136166,Nutritional deficiencies,Domestic government,Eswatini
+ETH,2020,57144883.2279279,Nutritional deficiencies,Domestic government,Ethiopia
+GAB,2019,2575335.4214706924,Nutritional deficiencies,Domestic government,Gabon
+GMB,2019,832488.5524775431,Nutritional deficiencies,Domestic government,Gambia
+GHA,2022,98507699.16710988,Nutritional deficiencies,Domestic government,Ghana
+GIN,2021,464629.034905136,Nutritional deficiencies,Domestic government,Guinea
+GNB,2021,1316494.6432339405,Nutritional deficiencies,Domestic government,Guinea-Bissau
+KEN,2019,57307852.7951684,Nutritional deficiencies,Domestic government,Kenya
+LBR,2020,8247753.765583264,Nutritional deficiencies,Domestic government,Liberia
+MDG,2021,15633806.72761988,Nutritional deficiencies,Domestic government,Madagascar
+MWI,2019,16291098.69264449,Nutritional deficiencies,Domestic government,Malawi
+MLI,2020,39765.18496488487,Nutritional deficiencies,Domestic government,Mali
+MRT,2021,910028.4417703452,Nutritional deficiencies,Domestic government,Mauritania
+MUS,2019,3531915.5431928094,Nutritional deficiencies,Domestic government,Mauritius
+MOZ,2018,9726300.43792428,Nutritional deficiencies,Domestic government,Mozambique
+NAM,2019,3517529.3475044323,Nutritional deficiencies,Domestic government,Namibia
+NER,2022,21170732.943799727,Nutritional deficiencies,Domestic government,Niger
+NGA,2021,3130993.1483973763,Nutritional deficiencies,Domestic government,Nigeria
+STP,2021,64044.9644267309,Nutritional deficiencies,Domestic government,Sao Tome and Principe
+SEN,2021,11641215.866938643,Nutritional deficiencies,Domestic government,Senegal
+SYC,2019,23474.959098982235,Nutritional deficiencies,Domestic government,Seychelles
+SLE,2021,6039007.11702167,Nutritional deficiencies,Domestic government,Sierra Leone
+ZAF,2019,823142678.9650409,Nutritional deficiencies,Domestic government,South Africa
+SSD,2019,262704.4660315009,Nutritional deficiencies,Domestic government,South Sudan
+TGO,2021,964355.6983183884,Nutritional deficiencies,Domestic government,Togo
+UGA,2019,15125407.68915214,Nutritional deficiencies,Domestic government,Uganda
+TZA,2019,21949515.612907495,Nutritional deficiencies,Domestic government,Tanzania
+ZMB,2016,1288533.1083679956,Nutritional deficiencies,Domestic government,Zambia
+ZWE,2020,1364638.9679316476,Nutritional deficiencies,Domestic government,Zimbabwe
+CRI,2020,13466560.310487658,Nutritional deficiencies,Domestic government,Costa Rica
+GUY,2019,484928.2402844689,Nutritional deficiencies,Domestic government,Guyana
+HTI,2016,4784837.188341525,Nutritional deficiencies,Domestic government,Haiti
+AFG,2022,152142.1293397523,Nutritional deficiencies,Domestic government,Afghanistan
+DJI,2017,2778096.95835421,Nutritional deficiencies,Domestic government,Djibouti
+EGY,2020,76628784.99695684,Nutritional deficiencies,Domestic government,Egypt
+SDN,2019,4044064.722835115,Nutritional deficiencies,Domestic government,Sudan
+ARM,2022,4114620.7095707688,Nutritional deficiencies,Domestic government,Armenia
+GEO,2019,1269980.126872804,Nutritional deficiencies,Domestic government,Georgia
+KGZ,2016,4860472.684524879,Nutritional deficiencies,Domestic government,Kyrgyz Republic
+MKD,2022,2001185.1831372431,Nutritional deficiencies,Domestic government,North Macedonia
+MDA,2018,10487770.27081973,Nutritional deficiencies,Domestic government,Moldova
+TJK,2019,206439.01156975684,Nutritional deficiencies,Domestic government,Tajikistan
+UZB,2019,8464508.017246878,Nutritional deficiencies,Domestic government,Uzbekistan
+MMR,2022,5934221.737181437,Nutritional deficiencies,Domestic government,Myanmar
+LKA,2018,30478193.94578881,Nutritional deficiencies,Domestic government,Sri Lanka
+KHM,2019,413899.1728474461,Nutritional deficiencies,Domestic government,Cambodia
+BEN,2018,14728973.29651475,Noncommunicable diseases,Domestic government,Benin
+BWA,2019,255755877.2830397,Noncommunicable diseases,Domestic government,Botswana
+BFA,2022,57319532.76995809,Noncommunicable diseases,Domestic government,Burkina Faso
+BDI,2020,4735845.869054192,Noncommunicable diseases,Domestic government,Burundi
+CPV,2019,13659168.470276402,Noncommunicable diseases,Domestic government,Cabo Verde
+CMR,2019,30223019.713111985,Noncommunicable diseases,Domestic government,Cameroon
+CAF,2019,3433388.23330048,Noncommunicable diseases,Domestic government,Central African Republic
+TCD,2022,13289198.3119891,Noncommunicable diseases,Domestic government,Chad
+COM,2019,253342.25378145548,Noncommunicable diseases,Domestic government,Comoros
+COG,2020,13003083.0082457,Noncommunicable diseases,Domestic government,Congo Republic
+CIV,2021,141076591.98018354,Noncommunicable diseases,Domestic government,Cote d'Ivoire
+COD,2022,136740775.4309934,Noncommunicable diseases,Domestic government,DR Congo
+SWZ,2019,44769957.34583554,Noncommunicable diseases,Domestic government,Eswatini
+ETH,2020,358024916.96364135,Noncommunicable diseases,Domestic government,Ethiopia
+GAB,2019,92587008.92178552,Noncommunicable diseases,Domestic government,Gabon
+GMB,2019,7051234.689542902,Noncommunicable diseases,Domestic government,Gambia
+GHA,2022,407227948.26652485,Noncommunicable diseases,Domestic government,Ghana
+GIN,2021,14093666.3161831,Noncommunicable diseases,Domestic government,Guinea
+GNB,2021,930679.096498926,Noncommunicable diseases,Domestic government,Guinea-Bissau
+KEN,2019,312389636.5152282,Noncommunicable diseases,Domestic government,Kenya
+LBR,2020,7081489.651808619,Noncommunicable diseases,Domestic government,Liberia
+MDG,2021,9322078.799189664,Noncommunicable diseases,Domestic government,Madagascar
+MWI,2019,18778566.771168277,Noncommunicable diseases,Domestic government,Malawi
+MLI,2020,140500242.3050946,Noncommunicable diseases,Domestic government,Mali
+MRT,2021,51763027.15594423,Noncommunicable diseases,Domestic government,Mauritania
+MUS,2019,225802466.44336697,Noncommunicable diseases,Domestic government,Mauritius
+MOZ,2018,3964464.893469278,Noncommunicable diseases,Domestic government,Mozambique
+NAM,2019,137057664.20373425,Noncommunicable diseases,Domestic government,Namibia
+NER,2022,36839081.18294023,Noncommunicable diseases,Domestic government,Niger
+NGA,2021,454036323.9649849,Noncommunicable diseases,Domestic government,Nigeria
+STP,2021,5693516.320463715,Noncommunicable diseases,Domestic government,Sao Tome and Principe
+SEN,2021,166519132.1857147,Noncommunicable diseases,Domestic government,Senegal
+SYC,2019,31729959.69339161,Noncommunicable diseases,Domestic government,Seychelles
+SLE,2021,15277816.220815828,Noncommunicable diseases,Domestic government,Sierra Leone
+ZAF,2019,8274408362.43476,Noncommunicable diseases,Domestic government,South Africa
+SSD,2019,87031.24781764302,Noncommunicable diseases,Domestic government,South Sudan
+TGO,2021,4747368.8586864555,Noncommunicable diseases,Domestic government,Togo
+UGA,2019,66929372.86371376,Noncommunicable diseases,Domestic government,Uganda
+TZA,2019,189831862.34981993,Noncommunicable diseases,Domestic government,Tanzania
+ZMB,2016,63773946.29544974,Noncommunicable diseases,Domestic government,Zambia
+ZWE,2020,59430986.394134566,Noncommunicable diseases,Domestic government,Zimbabwe
+CRI,2020,1883542881.742456,Noncommunicable diseases,Domestic government,Costa Rica
+GUY,2019,55331958.49313542,Noncommunicable diseases,Domestic government,Guyana
+HTI,2016,23227738.15143109,Noncommunicable diseases,Domestic government,Haiti
+AFG,2022,8396943.280194642,Noncommunicable diseases,Domestic government,Afghanistan
+DJI,2017,6389560.924238864,Noncommunicable diseases,Domestic government,Djibouti
+EGY,2020,2820729736.1129317,Noncommunicable diseases,Domestic government,Egypt
+SDN,2019,203097318.1827279,Noncommunicable diseases,Domestic government,Sudan
+ARM,2022,185942148.05054876,Noncommunicable diseases,Domestic government,Armenia
+GEO,2019,274275882.24375266,Noncommunicable diseases,Domestic government,Georgia
+KGZ,2016,112165814.70211002,Noncommunicable diseases,Domestic government,Kyrgyz Republic
+MKD,2022,333001456.0124174,Noncommunicable diseases,Domestic government,North Macedonia
+MDA,2018,415436201.41486615,Noncommunicable diseases,Domestic government,Moldova
+TJK,2019,75628716.84794337,Noncommunicable diseases,Domestic government,Tajikistan
+UZB,2019,315187642.13609356,Noncommunicable diseases,Domestic government,Uzbekistan
+MMR,2022,112574775.00162588,Noncommunicable diseases,Domestic government,Myanmar
+LKA,2018,603592644.2200377,Noncommunicable diseases,Domestic government,Sri Lanka
+KHM,2019,117418231.67892855,Noncommunicable diseases,Domestic government,Cambodia
+BEN,2018,1385066.0595401735,Injuries,Domestic government,Benin
+BWA,2019,39002844.62234945,Injuries,Domestic government,Botswana
+BFA,2022,10968885.272354588,Injuries,Domestic government,Burkina Faso
+BDI,2020,5627453.669972258,Injuries,Domestic government,Burundi
+CPV,2019,2056359.6149989525,Injuries,Domestic government,Cabo Verde
+TCD,2022,4221152.604246077,Injuries,Domestic government,Chad
+COM,2019,153736.25662443417,Injuries,Domestic government,Comoros
+COG,2020,21456032.817532018,Injuries,Domestic government,Congo Republic
+CIV,2021,4628273.194729453,Injuries,Domestic government,Cote d'Ivoire
+COD,2022,29229698.63913465,Injuries,Domestic government,DR Congo
+SWZ,2019,8183156.154457201,Injuries,Domestic government,Eswatini
+ETH,2020,47072243.16307361,Injuries,Domestic government,Ethiopia
+GAB,2019,15606655.490101945,Injuries,Domestic government,Gabon
+GHA,2022,66316912.16696485,Injuries,Domestic government,Ghana
+GIN,2021,8636672.229668261,Injuries,Domestic government,Guinea
+GNB,2021,526597.8572866954,Injuries,Domestic government,Guinea-Bissau
+KEN,2019,79583382.79412076,Injuries,Domestic government,Kenya
+LBR,2020,6438140.4493163545,Injuries,Domestic government,Liberia
+MDG,2021,506024.1658172534,Injuries,Domestic government,Madagascar
+MWI,2019,14677072.939510511,Injuries,Domestic government,Malawi
+MLI,2020,21544299.640609626,Injuries,Domestic government,Mali
+MRT,2021,3049875.9089555973,Injuries,Domestic government,Mauritania
+MUS,2019,30292875.88284895,Injuries,Domestic government,Mauritius
+NAM,2019,43098736.38387221,Injuries,Domestic government,Namibia
+NER,2022,7192142.424053927,Injuries,Domestic government,Niger
+NGA,2021,88372518.09363455,Injuries,Domestic government,Nigeria
+STP,2021,1238201.4144891857,Injuries,Domestic government,Sao Tome and Principe
+SEN,2021,25861540.003523417,Injuries,Domestic government,Senegal
+SYC,2019,6491997.482963543,Injuries,Domestic government,Seychelles
+SLE,2021,1607328.674189822,Injuries,Domestic government,Sierra Leone
+ZAF,2019,2531098935.873359,Injuries,Domestic government,South Africa
+SSD,2019,9553951.87965509,Injuries,Domestic government,South Sudan
+TGO,2021,2333754.33062929,Injuries,Domestic government,Togo
+UGA,2019,6003214.246460859,Injuries,Domestic government,Uganda
+TZA,2019,14602337.436473936,Injuries,Domestic government,Tanzania
+ZMB,2016,37777419.23649854,Injuries,Domestic government,Zambia
+ZWE,2020,11656547.964218937,Injuries,Domestic government,Zimbabwe
+CRI,2020,219506939.74350148,Injuries,Domestic government,Costa Rica
+GUY,2019,22697453.057025257,Injuries,Domestic government,Guyana
+HTI,2016,7865809.497771824,Injuries,Domestic government,Haiti
+AFG,2022,474967.3760616015,Injuries,Domestic government,Afghanistan
+DJI,2017,4435437.8092140015,Injuries,Domestic government,Djibouti
+EGY,2020,163104779.18675682,Injuries,Domestic government,Egypt
+SDN,2019,4623775.688994219,Injuries,Domestic government,Sudan
+ARM,2022,14142497.039614271,Injuries,Domestic government,Armenia
+GEO,2019,39258758.48646521,Injuries,Domestic government,Georgia
+KGZ,2016,11156538.234576195,Injuries,Domestic government,Kyrgyz Republic
+MKD,2022,44997191.212450124,Injuries,Domestic government,North Macedonia
+MDA,2018,31040110.239024952,Injuries,Domestic government,Moldova
+TJK,2019,4302963.147407118,Injuries,Domestic government,Tajikistan
+UZB,2019,3407313.1212803717,Injuries,Domestic government,Uzbekistan
+MMR,2022,26378455.746698376,Injuries,Domestic government,Myanmar
+LKA,2018,146691798.21477783,Injuries,Domestic government,Sri Lanka
+KHM,2019,47342297.24295986,Injuries,Domestic government,Cambodia
+BEN,2018,302684.01922499336,HIV/AIDS and other STDs,Private and out-of-pocket,Benin
+BWA,2019,13614695.753158407,HIV/AIDS and other STDs,Private and out-of-pocket,Botswana
+BFA,2022,2171996.002504624,HIV/AIDS and other STDs,Private and out-of-pocket,Burkina Faso
+BDI,2020,130609.18456864342,HIV/AIDS and other STDs,Private and out-of-pocket,Burundi
+CMR,2019,4230315.8963814145,HIV/AIDS and other STDs,Private and out-of-pocket,Cameroon
+CAF,2019,2702148.4490340645,HIV/AIDS and other STDs,Private and out-of-pocket,Central African Republic
+TCD,2022,319402.32735353673,HIV/AIDS and other STDs,Private and out-of-pocket,Chad
+COM,2019,311449.28553388966,HIV/AIDS and other STDs,Private and out-of-pocket,Comoros
+COG,2020,5449169.322177823,HIV/AIDS and other STDs,Private and out-of-pocket,Congo Republic
+CIV,2021,4149807.02590417,HIV/AIDS and other STDs,Private and out-of-pocket,Cote d'Ivoire
+COD,2022,1991032.7387636504,HIV/AIDS and other STDs,Private and out-of-pocket,DR Congo
+SWZ,2019,2660815.8098839736,HIV/AIDS and other STDs,Private and out-of-pocket,Eswatini
+ETH,2020,29545122.27237679,HIV/AIDS and other STDs,Private and out-of-pocket,Ethiopia
+GAB,2019,4449489.0386605095,HIV/AIDS and other STDs,Private and out-of-pocket,Gabon
+GMB,2019,613363.7497937604,HIV/AIDS and other STDs,Private and out-of-pocket,Gambia
+GHA,2022,5559596.658768917,HIV/AIDS and other STDs,Private and out-of-pocket,Ghana
+GIN,2021,22432151.4305055,HIV/AIDS and other STDs,Private and out-of-pocket,Guinea
+KEN,2019,64950420.39997143,HIV/AIDS and other STDs,Private and out-of-pocket,Kenya
+LBR,2020,12284930.943410128,HIV/AIDS and other STDs,Private and out-of-pocket,Liberia
+MDG,2021,5581443.834402798,HIV/AIDS and other STDs,Private and out-of-pocket,Madagascar
+MWI,2019,47226150.658426486,HIV/AIDS and other STDs,Private and out-of-pocket,Malawi
+MLI,2020,1986521.169514331,HIV/AIDS and other STDs,Private and out-of-pocket,Mali
+MRT,2021,18715588.070331663,HIV/AIDS and other STDs,Private and out-of-pocket,Mauritania
+MUS,2019,902001.7136467564,HIV/AIDS and other STDs,Private and out-of-pocket,Mauritius
+MOZ,2018,34062562.44741564,HIV/AIDS and other STDs,Private and out-of-pocket,Mozambique
+NAM,2019,29974908.105177607,HIV/AIDS and other STDs,Private and out-of-pocket,Namibia
+NER,2022,207557.33325048536,HIV/AIDS and other STDs,Private and out-of-pocket,Niger
+NGA,2021,871278052.7837408,HIV/AIDS and other STDs,Private and out-of-pocket,Nigeria
+STP,2021,77906.50356968009,HIV/AIDS and other STDs,Private and out-of-pocket,Sao Tome and Principe
+SEN,2021,11298926.831463424,HIV/AIDS and other STDs,Private and out-of-pocket,Senegal
+SLE,2021,1358631.2689426646,HIV/AIDS and other STDs,Private and out-of-pocket,Sierra Leone
+SSD,2019,1009240.8940974604,HIV/AIDS and other STDs,Private and out-of-pocket,South Sudan
+TGO,2021,2480477.871392224,HIV/AIDS and other STDs,Private and out-of-pocket,Togo
+UGA,2019,4500214.689622906,HIV/AIDS and other STDs,Private and out-of-pocket,Uganda
+TZA,2019,93142121.75569317,HIV/AIDS and other STDs,Private and out-of-pocket,Tanzania
+ZMB,2016,23331635.22751719,HIV/AIDS and other STDs,Private and out-of-pocket,Zambia
+ZWE,2020,2683320.6803867356,HIV/AIDS and other STDs,Private and out-of-pocket,Zimbabwe
+CRI,2020,579512.4494204727,HIV/AIDS and other STDs,Private and out-of-pocket,Costa Rica
+GUY,2019,1480942.289787146,HIV/AIDS and other STDs,Private and out-of-pocket,Guyana
+HTI,2016,0.0,HIV/AIDS and other STDs,Private and out-of-pocket,Haiti
+AFG,2022,25973709.268827505,HIV/AIDS and other STDs,Private and out-of-pocket,Afghanistan
+DJI,2017,93724.09481505728,HIV/AIDS and other STDs,Private and out-of-pocket,Djibouti
+SDN,2019,745307.8818648852,HIV/AIDS and other STDs,Private and out-of-pocket,Sudan
+ARM,2022,270940.24131318886,HIV/AIDS and other STDs,Private and out-of-pocket,Armenia
+GEO,2019,177000.71454673226,HIV/AIDS and other STDs,Private and out-of-pocket,Georgia
+KGZ,2016,464695.4697031145,HIV/AIDS and other STDs,Private and out-of-pocket,Kyrgyz Republic
+MKD,2022,29967.26637244562,HIV/AIDS and other STDs,Private and out-of-pocket,North Macedonia
+MDA,2018,212559.00208181175,HIV/AIDS and other STDs,Private and out-of-pocket,Moldova
+TJK,2019,427930.8677331417,HIV/AIDS and other STDs,Private and out-of-pocket,Tajikistan
+MMR,2022,22056026.306415003,HIV/AIDS and other STDs,Private and out-of-pocket,Myanmar
+LKA,2018,59990.389137210026,HIV/AIDS and other STDs,Private and out-of-pocket,Sri Lanka
+KHM,2019,2277521.4000519174,HIV/AIDS and other STDs,Private and out-of-pocket,Cambodia
+BEN,2018,7030.972231056331,Tuberculosis,Private and out-of-pocket,Benin
+BWA,2019,4722694.782589539,Tuberculosis,Private and out-of-pocket,Botswana
+CMR,2019,864870.6563552585,Tuberculosis,Private and out-of-pocket,Cameroon
+CAF,2019,319420.14238500013,Tuberculosis,Private and out-of-pocket,Central African Republic
+TCD,2022,108439.10409941588,Tuberculosis,Private and out-of-pocket,Chad
+COM,2019,4627.387066418598,Tuberculosis,Private and out-of-pocket,Comoros
+COG,2020,940920.951130355,Tuberculosis,Private and out-of-pocket,Congo Republic
+CIV,2021,488061.75293927616,Tuberculosis,Private and out-of-pocket,Cote d'Ivoire
+COD,2022,3799017.784677359,Tuberculosis,Private and out-of-pocket,DR Congo
+SWZ,2019,611100.8268830297,Tuberculosis,Private and out-of-pocket,Eswatini
+ETH,2020,107151814.82082012,Tuberculosis,Private and out-of-pocket,Ethiopia
+GAB,2019,2003750.5318796071,Tuberculosis,Private and out-of-pocket,Gabon
+GHA,2022,579205.3624099414,Tuberculosis,Private and out-of-pocket,Ghana
+GIN,2021,1763685.409446631,Tuberculosis,Private and out-of-pocket,Guinea
+KEN,2019,21416213.137028165,Tuberculosis,Private and out-of-pocket,Kenya
+LBR,2020,8033860.35036565,Tuberculosis,Private and out-of-pocket,Liberia
+MDG,2021,316926.3890888419,Tuberculosis,Private and out-of-pocket,Madagascar
+MWI,2019,4761176.157053554,Tuberculosis,Private and out-of-pocket,Malawi
+MLI,2020,133887.75596337763,Tuberculosis,Private and out-of-pocket,Mali
+NAM,2019,62206.23939025573,Tuberculosis,Private and out-of-pocket,Namibia
+NER,2022,243590.4635043474,Tuberculosis,Private and out-of-pocket,Niger
+NGA,2021,852426710.9077135,Tuberculosis,Private and out-of-pocket,Nigeria
+STP,2021,13187.707779774788,Tuberculosis,Private and out-of-pocket,Sao Tome and Principe
+SEN,2021,1483624.277656139,Tuberculosis,Private and out-of-pocket,Senegal
+SLE,2021,1344213.4307172415,Tuberculosis,Private and out-of-pocket,Sierra Leone
+SSD,2019,13.791982334579142,Tuberculosis,Private and out-of-pocket,South Sudan
+UGA,2019,743111.668259399,Tuberculosis,Private and out-of-pocket,Uganda
+TZA,2019,4853155.795698711,Tuberculosis,Private and out-of-pocket,Tanzania
+ZMB,2016,2272306.7901544417,Tuberculosis,Private and out-of-pocket,Zambia
+ZWE,2020,2852428.0438840496,Tuberculosis,Private and out-of-pocket,Zimbabwe
+CRI,2020,112912.73840554536,Tuberculosis,Private and out-of-pocket,Costa Rica
+GUY,2019,74378.34704415861,Tuberculosis,Private and out-of-pocket,Guyana
+HTI,2016,0.0,Tuberculosis,Private and out-of-pocket,Haiti
+AFG,2022,29824946.223652013,Tuberculosis,Private and out-of-pocket,Afghanistan
+DJI,2017,55048.6483401026,Tuberculosis,Private and out-of-pocket,Djibouti
+EGY,2020,329040.2077832989,Tuberculosis,Private and out-of-pocket,Egypt
+SDN,2019,498728.9620542038,Tuberculosis,Private and out-of-pocket,Sudan
+ARM,2022,0.0,Tuberculosis,Private and out-of-pocket,Armenia
+GEO,2019,526577.1257765284,Tuberculosis,Private and out-of-pocket,Georgia
+KGZ,2016,168502.1706724753,Tuberculosis,Private and out-of-pocket,Kyrgyz Republic
+MKD,2022,1380.5815814893322,Tuberculosis,Private and out-of-pocket,North Macedonia
+MDA,2018,323297.45958628965,Tuberculosis,Private and out-of-pocket,Moldova
+TJK,2019,407502.0072132179,Tuberculosis,Private and out-of-pocket,Tajikistan
+MMR,2022,32391347.041587096,Tuberculosis,Private and out-of-pocket,Myanmar
+LKA,2018,1361314.980237935,Tuberculosis,Private and out-of-pocket,Sri Lanka
+KHM,2019,11243555.590468636,Tuberculosis,Private and out-of-pocket,Cambodia
+BEN,2018,34060083.63467877,Malaria,Private and out-of-pocket,Benin
+BWA,2019,10187063.129235242,Malaria,Private and out-of-pocket,Botswana
+BFA,2022,82623622.87204914,Malaria,Private and out-of-pocket,Burkina Faso
+BDI,2020,28746248.050160307,Malaria,Private and out-of-pocket,Burundi
+CMR,2019,141547069.5084293,Malaria,Private and out-of-pocket,Cameroon
+CAF,2019,42670468.960863024,Malaria,Private and out-of-pocket,Central African Republic
+TCD,2022,42595575.99235415,Malaria,Private and out-of-pocket,Chad
+COM,2019,695151.3298729125,Malaria,Private and out-of-pocket,Comoros
+COG,2020,70622262.46273401,Malaria,Private and out-of-pocket,Congo Republic
+CIV,2021,406547221.08808166,Malaria,Private and out-of-pocket,Cote d'Ivoire
+COD,2022,182564500.8581729,Malaria,Private and out-of-pocket,DR Congo
+SWZ,2019,4958923.375869406,Malaria,Private and out-of-pocket,Eswatini
+ETH,2020,81695351.69646195,Malaria,Private and out-of-pocket,Ethiopia
+GAB,2019,22745095.01499077,Malaria,Private and out-of-pocket,Gabon
+GMB,2019,7878494.996208215,Malaria,Private and out-of-pocket,Gambia
+GHA,2022,136724455.44581982,Malaria,Private and out-of-pocket,Ghana
+GIN,2021,107127905.92273408,Malaria,Private and out-of-pocket,Guinea
+KEN,2019,148248055.9500353,Malaria,Private and out-of-pocket,Kenya
+LBR,2020,92382351.96870898,Malaria,Private and out-of-pocket,Liberia
+MDG,2021,44104671.03920024,Malaria,Private and out-of-pocket,Madagascar
+MWI,2019,31744881.813686963,Malaria,Private and out-of-pocket,Malawi
+MLI,2020,178231161.94419947,Malaria,Private and out-of-pocket,Mali
+MRT,2021,19458557.941524092,Malaria,Private and out-of-pocket,Mauritania
+MOZ,2018,10584821.105256869,Malaria,Private and out-of-pocket,Mozambique
+NAM,2019,1113748.5883480418,Malaria,Private and out-of-pocket,Namibia
+NER,2022,65328565.118828624,Malaria,Private and out-of-pocket,Niger
+NGA,2021,5517612052.255294,Malaria,Private and out-of-pocket,Nigeria
+STP,2021,209840.72288463637,Malaria,Private and out-of-pocket,Sao Tome and Principe
+SEN,2021,12618561.821086029,Malaria,Private and out-of-pocket,Senegal
+SLE,2021,39008122.49503336,Malaria,Private and out-of-pocket,Sierra Leone
+SSD,2019,112836080.70338345,Malaria,Private and out-of-pocket,South Sudan
+TGO,2021,80993115.96549259,Malaria,Private and out-of-pocket,Togo
+UGA,2019,129769585.30250572,Malaria,Private and out-of-pocket,Uganda
+TZA,2019,174968614.57807466,Malaria,Private and out-of-pocket,Tanzania
+ZMB,2016,27716044.273095444,Malaria,Private and out-of-pocket,Zambia
+ZWE,2020,10871968.891787224,Malaria,Private and out-of-pocket,Zimbabwe
+GUY,2019,1417676.409575379,Malaria,Private and out-of-pocket,Guyana
+HTI,2016,2535478.9150603004,Malaria,Private and out-of-pocket,Haiti
+AFG,2022,20959321.77687547,Malaria,Private and out-of-pocket,Afghanistan
+DJI,2017,150054.7667887214,Malaria,Private and out-of-pocket,Djibouti
+EGY,2020,0.0,Malaria,Private and out-of-pocket,Egypt
+SDN,2019,2210309.6837556115,Malaria,Private and out-of-pocket,Sudan
+KGZ,2016,227.68299197267524,Malaria,Private and out-of-pocket,Kyrgyz Republic
+MKD,2022,7.276168436430164,Malaria,Private and out-of-pocket,North Macedonia
+MDA,2018,0.0,Malaria,Private and out-of-pocket,Moldova
+MMR,2022,747956.0250100303,Malaria,Private and out-of-pocket,Myanmar
+LKA,2018,6542.988971342872,Malaria,Private and out-of-pocket,Sri Lanka
+KHM,2019,1561828.0667001707,Malaria,Private and out-of-pocket,Cambodia
+BEN,2018,10101495.13777023,Maternal health,Private and out-of-pocket,Benin
+BWA,2019,7391209.725430103,Maternal health,Private and out-of-pocket,Botswana
+BFA,2022,25834798.42735966,Maternal health,Private and out-of-pocket,Burkina Faso
+BDI,2020,27504152.58381599,Maternal health,Private and out-of-pocket,Burundi
+CPV,2019,661386.071965787,Maternal health,Private and out-of-pocket,Cabo Verde
+CMR,2019,27235757.90801326,Maternal health,Private and out-of-pocket,Cameroon
+CAF,2019,5073255.901576273,Maternal health,Private and out-of-pocket,Central African Republic
+TCD,2022,44152952.36620899,Maternal health,Private and out-of-pocket,Chad
+COM,2019,12119.517389982551,Maternal health,Private and out-of-pocket,Comoros
+COG,2020,134724.04009511138,Maternal health,Private and out-of-pocket,Congo Republic
+CIV,2021,57054098.58454022,Maternal health,Private and out-of-pocket,Cote d'Ivoire
+COD,2022,207127151.75150776,Maternal health,Private and out-of-pocket,DR Congo
+SWZ,2019,1809458.249765805,Maternal health,Private and out-of-pocket,Eswatini
+ETH,2020,22890279.120579727,Maternal health,Private and out-of-pocket,Ethiopia
+GAB,2019,21436246.865515664,Maternal health,Private and out-of-pocket,Gabon
+GMB,2019,2183610.904934739,Maternal health,Private and out-of-pocket,Gambia
+GHA,2022,16775935.244910784,Maternal health,Private and out-of-pocket,Ghana
+GIN,2021,6599472.242156435,Maternal health,Private and out-of-pocket,Guinea
+KEN,2019,304016747.39422196,Maternal health,Private and out-of-pocket,Kenya
+LBR,2020,67959656.43844344,Maternal health,Private and out-of-pocket,Liberia
+MDG,2021,2414736.475261469,Maternal health,Private and out-of-pocket,Madagascar
+MWI,2019,81504.73345440469,Maternal health,Private and out-of-pocket,Malawi
+MLI,2020,107706.06766172212,Maternal health,Private and out-of-pocket,Mali
+MRT,2021,3596028.0200956436,Maternal health,Private and out-of-pocket,Mauritania
+MUS,2019,7309822.453571167,Maternal health,Private and out-of-pocket,Mauritius
+MOZ,2018,23923.16817070209,Maternal health,Private and out-of-pocket,Mozambique
+NAM,2019,139197305.01675397,Maternal health,Private and out-of-pocket,Namibia
+NER,2022,9355171.050609384,Maternal health,Private and out-of-pocket,Niger
+NGA,2021,1440748138.7661848,Maternal health,Private and out-of-pocket,Nigeria
+STP,2021,548527.8434389737,Maternal health,Private and out-of-pocket,Sao Tome and Principe
+SEN,2021,20984793.976133954,Maternal health,Private and out-of-pocket,Senegal
+SYC,2019,663653.9971788318,Maternal health,Private and out-of-pocket,Seychelles
+SLE,2021,10104031.559533335,Maternal health,Private and out-of-pocket,Sierra Leone
+ZAF,2019,1207914699.3830006,Maternal health,Private and out-of-pocket,South Africa
+SSD,2019,3651670.0788932503,Maternal health,Private and out-of-pocket,South Sudan
+TGO,2021,52226730.88766798,Maternal health,Private and out-of-pocket,Togo
+UGA,2019,26480874.492339008,Maternal health,Private and out-of-pocket,Uganda
+TZA,2019,40973168.04140055,Maternal health,Private and out-of-pocket,Tanzania
+ZMB,2016,6854321.433092335,Maternal health,Private and out-of-pocket,Zambia
+ZWE,2020,1683250.989219854,Maternal health,Private and out-of-pocket,Zimbabwe
+CRI,2020,28938.995050297675,Maternal health,Private and out-of-pocket,Costa Rica
+GUY,2019,4626.94965039914,Maternal health,Private and out-of-pocket,Guyana
+HTI,2016,15557501.739482572,Maternal health,Private and out-of-pocket,Haiti
+AFG,2022,424224241.49845046,Maternal health,Private and out-of-pocket,Afghanistan
+EGY,2020,13933067.883955574,Maternal health,Private and out-of-pocket,Egypt
+SDN,2019,6195388.896099791,Maternal health,Private and out-of-pocket,Sudan
+ARM,2022,27951851.033382896,Maternal health,Private and out-of-pocket,Armenia
+GEO,2019,6146349.812635277,Maternal health,Private and out-of-pocket,Georgia
+KGZ,2016,2139573.163954163,Maternal health,Private and out-of-pocket,Kyrgyz Republic
+MKD,2022,591524.152749192,Maternal health,Private and out-of-pocket,North Macedonia
+MDA,2018,5705333.058954733,Maternal health,Private and out-of-pocket,Moldova
+TJK,2019,36436485.54206208,Maternal health,Private and out-of-pocket,Tajikistan
+MMR,2022,242551995.53753525,Maternal health,Private and out-of-pocket,Myanmar
+LKA,2018,50764159.03527112,Maternal health,Private and out-of-pocket,Sri Lanka
+KHM,2019,79456397.0241873,Maternal health,Private and out-of-pocket,Cambodia
+BEN,2018,6169431.512550288,Family planning,Private and out-of-pocket,Benin
+BFA,2022,2026758.4418898013,Family planning,Private and out-of-pocket,Burkina Faso
+BDI,2020,181524.17131887103,Family planning,Private and out-of-pocket,Burundi
+CAF,2019,24396.427744127035,Family planning,Private and out-of-pocket,Central African Republic
+COM,2019,1101723.08802398,Family planning,Private and out-of-pocket,Comoros
+COG,2020,2056.4244647431155,Family planning,Private and out-of-pocket,Congo Republic
+CIV,2021,644915.6027155732,Family planning,Private and out-of-pocket,Cote d'Ivoire
+COD,2022,974962.056045754,Family planning,Private and out-of-pocket,DR Congo
+SWZ,2019,46284.67681788727,Family planning,Private and out-of-pocket,Eswatini
+ETH,2020,28593233.223082047,Family planning,Private and out-of-pocket,Ethiopia
+GAB,2019,1785572.6003142835,Family planning,Private and out-of-pocket,Gabon
+GIN,2021,10671307.135987328,Family planning,Private and out-of-pocket,Guinea
+KEN,2019,62953353.33820691,Family planning,Private and out-of-pocket,Kenya
+LBR,2020,11062946.373371417,Family planning,Private and out-of-pocket,Liberia
+MDG,2021,236.09852425108951,Family planning,Private and out-of-pocket,Madagascar
+MWI,2019,3586753.1861218507,Family planning,Private and out-of-pocket,Malawi
+MLI,2020,2408083.1801091577,Family planning,Private and out-of-pocket,Mali
+MUS,2019,120020.8575837403,Family planning,Private and out-of-pocket,Mauritius
+MOZ,2018,154318.6973507916,Family planning,Private and out-of-pocket,Mozambique
+NAM,2019,578260.281973727,Family planning,Private and out-of-pocket,Namibia
+NER,2022,2725837.1056986977,Family planning,Private and out-of-pocket,Niger
+NGA,2021,260297770.73444468,Family planning,Private and out-of-pocket,Nigeria
+STP,2021,519909.1141043923,Family planning,Private and out-of-pocket,Sao Tome and Principe
+SEN,2021,5381690.188086713,Family planning,Private and out-of-pocket,Senegal
+SYC,2019,42056.89114421594,Family planning,Private and out-of-pocket,Seychelles
+SLE,2021,4186478.8935576617,Family planning,Private and out-of-pocket,Sierra Leone
+ZAF,2019,34078391.42420607,Family planning,Private and out-of-pocket,South Africa
+TGO,2021,240768.24307617953,Family planning,Private and out-of-pocket,Togo
+UGA,2019,1177955.1604545778,Family planning,Private and out-of-pocket,Uganda
+TZA,2019,11872230.658147337,Family planning,Private and out-of-pocket,Tanzania
+ZMB,2016,11405430.846386528,Family planning,Private and out-of-pocket,Zambia
+ZWE,2020,631839.1551033185,Family planning,Private and out-of-pocket,Zimbabwe
+CRI,2020,14283748.130867066,Family planning,Private and out-of-pocket,Costa Rica
+GUY,2019,0.0,Family planning,Private and out-of-pocket,Guyana
+HTI,2016,130870.26880391673,Family planning,Private and out-of-pocket,Haiti
+AFG,2022,12960235.132177172,Family planning,Private and out-of-pocket,Afghanistan
+DJI,2017,397772.2717549098,Family planning,Private and out-of-pocket,Djibouti
+ARM,2022,0.0,Family planning,Private and out-of-pocket,Armenia
+KGZ,2016,0.0,Family planning,Private and out-of-pocket,Kyrgyz Republic
+MKD,2022,176953.2200479901,Family planning,Private and out-of-pocket,North Macedonia
+MDA,2018,0.0,Family planning,Private and out-of-pocket,Moldova
+TJK,2019,219341.44979286665,Family planning,Private and out-of-pocket,Tajikistan
+MMR,2022,31445645.1399076,Family planning,Private and out-of-pocket,Myanmar
+LKA,2018,2793422.8367367443,Family planning,Private and out-of-pocket,Sri Lanka
+KHM,2019,18470607.918025132,Family planning,Private and out-of-pocket,Cambodia
+BEN,2018,5127010.740460871,Nutritional deficiencies,Private and out-of-pocket,Benin
+BWA,2019,2915260.925600359,Nutritional deficiencies,Private and out-of-pocket,Botswana
+BFA,2022,312487.42987986637,Nutritional deficiencies,Private and out-of-pocket,Burkina Faso
+BDI,2020,321505.90349014086,Nutritional deficiencies,Private and out-of-pocket,Burundi
+CMR,2019,23192942.898775507,Nutritional deficiencies,Private and out-of-pocket,Cameroon
+CAF,2019,1348297.7146850054,Nutritional deficiencies,Private and out-of-pocket,Central African Republic
+TCD,2022,21509827.17672536,Nutritional deficiencies,Private and out-of-pocket,Chad
+COM,2019,27985.787751059474,Nutritional deficiencies,Private and out-of-pocket,Comoros
+COG,2020,6073705.666852822,Nutritional deficiencies,Private and out-of-pocket,Congo Republic
+CIV,2021,3448433.481361224,Nutritional deficiencies,Private and out-of-pocket,Cote d'Ivoire
+COD,2022,95695934.37907064,Nutritional deficiencies,Private and out-of-pocket,DR Congo
+SWZ,2019,4995754.14144743,Nutritional deficiencies,Private and out-of-pocket,Eswatini
+ETH,2020,29715190.519431416,Nutritional deficiencies,Private and out-of-pocket,Ethiopia
+GAB,2019,468211.6047601568,Nutritional deficiencies,Private and out-of-pocket,Gabon
+GMB,2019,71590.20869686882,Nutritional deficiencies,Private and out-of-pocket,Gambia
+GHA,2022,79873587.17784439,Nutritional deficiencies,Private and out-of-pocket,Ghana
+GIN,2021,3672369.3083147416,Nutritional deficiencies,Private and out-of-pocket,Guinea
+KEN,2019,142045685.60199964,Nutritional deficiencies,Private and out-of-pocket,Kenya
+LBR,2020,10331577.092301734,Nutritional deficiencies,Private and out-of-pocket,Liberia
+MDG,2021,2725888.0839370233,Nutritional deficiencies,Private and out-of-pocket,Madagascar
+MWI,2019,15876699.42135694,Nutritional deficiencies,Private and out-of-pocket,Malawi
+MLI,2020,5373924.820681197,Nutritional deficiencies,Private and out-of-pocket,Mali
+MUS,2019,26668.110698093868,Nutritional deficiencies,Private and out-of-pocket,Mauritius
+NAM,2019,532569.531172344,Nutritional deficiencies,Private and out-of-pocket,Namibia
+NER,2022,36386267.49203018,Nutritional deficiencies,Private and out-of-pocket,Niger
+NGA,2021,37340325.8325537,Nutritional deficiencies,Private and out-of-pocket,Nigeria
+STP,2021,20138.772180109416,Nutritional deficiencies,Private and out-of-pocket,Sao Tome and Principe
+SEN,2021,54619204.47608779,Nutritional deficiencies,Private and out-of-pocket,Senegal
+SYC,2019,307988.87091706676,Nutritional deficiencies,Private and out-of-pocket,Seychelles
+SLE,2021,15932003.136987496,Nutritional deficiencies,Private and out-of-pocket,Sierra Leone
+ZAF,2019,15378810.869872848,Nutritional deficiencies,Private and out-of-pocket,South Africa
+SSD,2019,1363133.7367561185,Nutritional deficiencies,Private and out-of-pocket,South Sudan
+TGO,2021,9312596.287846908,Nutritional deficiencies,Private and out-of-pocket,Togo
+UGA,2019,5307403.165641335,Nutritional deficiencies,Private and out-of-pocket,Uganda
+TZA,2019,16166256.35766871,Nutritional deficiencies,Private and out-of-pocket,Tanzania
+ZMB,2016,120830.50793073353,Nutritional deficiencies,Private and out-of-pocket,Zambia
+ZWE,2020,148371.75445796043,Nutritional deficiencies,Private and out-of-pocket,Zimbabwe
+CRI,2020,32366755.1231957,Nutritional deficiencies,Private and out-of-pocket,Costa Rica
+GUY,2019,140082.0278313403,Nutritional deficiencies,Private and out-of-pocket,Guyana
+HTI,2016,15471355.391599365,Nutritional deficiencies,Private and out-of-pocket,Haiti
+AFG,2022,67261979.99283646,Nutritional deficiencies,Private and out-of-pocket,Afghanistan
+DJI,2017,1782829.5541648052,Nutritional deficiencies,Private and out-of-pocket,Djibouti
+EGY,2020,433271341.6636951,Nutritional deficiencies,Private and out-of-pocket,Egypt
+SDN,2019,3499430.606587844,Nutritional deficiencies,Private and out-of-pocket,Sudan
+ARM,2022,15855383.079362135,Nutritional deficiencies,Private and out-of-pocket,Armenia
+GEO,2019,269926.0896837667,Nutritional deficiencies,Private and out-of-pocket,Georgia
+KGZ,2016,1241764.0871975347,Nutritional deficiencies,Private and out-of-pocket,Kyrgyz Republic
+MKD,2022,3269154.262962621,Nutritional deficiencies,Private and out-of-pocket,North Macedonia
+MDA,2018,1701056.6739543416,Nutritional deficiencies,Private and out-of-pocket,Moldova
+TJK,2019,9676.828667332353,Nutritional deficiencies,Private and out-of-pocket,Tajikistan
+MMR,2022,2987434.0048510944,Nutritional deficiencies,Private and out-of-pocket,Myanmar
+LKA,2018,3328404.519739266,Nutritional deficiencies,Private and out-of-pocket,Sri Lanka
+KHM,2019,2550715.940534991,Nutritional deficiencies,Private and out-of-pocket,Cambodia
+BEN,2018,12411560.683340443,Noncommunicable diseases,Private and out-of-pocket,Benin
+BWA,2019,89802203.30605628,Noncommunicable diseases,Private and out-of-pocket,Botswana
+BFA,2022,159407456.80463034,Noncommunicable diseases,Private and out-of-pocket,Burkina Faso
+BDI,2020,5357156.3724009935,Noncommunicable diseases,Private and out-of-pocket,Burundi
+CPV,2019,751181.4835826398,Noncommunicable diseases,Private and out-of-pocket,Cabo Verde
+CMR,2019,94677586.5092034,Noncommunicable diseases,Private and out-of-pocket,Cameroon
+CAF,2019,7578808.893207557,Noncommunicable diseases,Private and out-of-pocket,Central African Republic
+TCD,2022,250644345.90726784,Noncommunicable diseases,Private and out-of-pocket,Chad
+COM,2019,3061741.251238868,Noncommunicable diseases,Private and out-of-pocket,Comoros
+COG,2020,11634438.10693494,Noncommunicable diseases,Private and out-of-pocket,Congo Republic
+CIV,2021,358067750.0507266,Noncommunicable diseases,Private and out-of-pocket,Cote d'Ivoire
+COD,2022,19230246.04018055,Noncommunicable diseases,Private and out-of-pocket,DR Congo
+SWZ,2019,24577581.425535433,Noncommunicable diseases,Private and out-of-pocket,Eswatini
+ETH,2020,622613685.3375808,Noncommunicable diseases,Private and out-of-pocket,Ethiopia
+GAB,2019,102289197.24698506,Noncommunicable diseases,Private and out-of-pocket,Gabon
+GMB,2019,5538850.939583694,Noncommunicable diseases,Private and out-of-pocket,Gambia
+GHA,2022,228799718.6439243,Noncommunicable diseases,Private and out-of-pocket,Ghana
+GIN,2021,61275743.9545513,Noncommunicable diseases,Private and out-of-pocket,Guinea
+KEN,2019,187273287.36031547,Noncommunicable diseases,Private and out-of-pocket,Kenya
+LBR,2020,46599144.11003229,Noncommunicable diseases,Private and out-of-pocket,Liberia
+MDG,2021,25309327.616906025,Noncommunicable diseases,Private and out-of-pocket,Madagascar
+MWI,2019,18272521.122683898,Noncommunicable diseases,Private and out-of-pocket,Malawi
+MLI,2020,56456893.979805544,Noncommunicable diseases,Private and out-of-pocket,Mali
+MRT,2021,73960019.52221906,Noncommunicable diseases,Private and out-of-pocket,Mauritania
+MUS,2019,299626926.4889746,Noncommunicable diseases,Private and out-of-pocket,Mauritius
+MOZ,2018,7112246.259947866,Noncommunicable diseases,Private and out-of-pocket,Mozambique
+NAM,2019,141918497.26196942,Noncommunicable diseases,Private and out-of-pocket,Namibia
+NER,2022,68118512.3378797,Noncommunicable diseases,Private and out-of-pocket,Niger
+NGA,2021,1934269327.5208068,Noncommunicable diseases,Private and out-of-pocket,Nigeria
+STP,2021,1519979.645216771,Noncommunicable diseases,Private and out-of-pocket,Sao Tome and Principe
+SEN,2021,350082377.12982935,Noncommunicable diseases,Private and out-of-pocket,Senegal
+SYC,2019,9629333.454031652,Noncommunicable diseases,Private and out-of-pocket,Seychelles
+SLE,2021,39184355.25919466,Noncommunicable diseases,Private and out-of-pocket,Sierra Leone
+ZAF,2019,9541887339.20339,Noncommunicable diseases,Private and out-of-pocket,South Africa
+SSD,2019,5553938.106611073,Noncommunicable diseases,Private and out-of-pocket,South Sudan
+TGO,2021,50153440.98878059,Noncommunicable diseases,Private and out-of-pocket,Togo
+UGA,2019,341788105.75141966,Noncommunicable diseases,Private and out-of-pocket,Uganda
+TZA,2019,79653285.15798768,Noncommunicable diseases,Private and out-of-pocket,Tanzania
+ZMB,2016,59948960.986047536,Noncommunicable diseases,Private and out-of-pocket,Zambia
+ZWE,2020,79077324.63981263,Noncommunicable diseases,Private and out-of-pocket,Zimbabwe
+CRI,2020,618182911.0895349,Noncommunicable diseases,Private and out-of-pocket,Costa Rica
+GUY,2019,54091547.95695198,Noncommunicable diseases,Private and out-of-pocket,Guyana
+HTI,2016,74191068.4560935,Noncommunicable diseases,Private and out-of-pocket,Haiti
+AFG,2022,431680152.903693,Noncommunicable diseases,Private and out-of-pocket,Afghanistan
+DJI,2017,3741532.122337795,Noncommunicable diseases,Private and out-of-pocket,Djibouti
+EGY,2020,5607714271.62783,Noncommunicable diseases,Private and out-of-pocket,Egypt
+SDN,2019,596873600.415268,Noncommunicable diseases,Private and out-of-pocket,Sudan
+ARM,2022,1079660221.5217066,Noncommunicable diseases,Private and out-of-pocket,Armenia
+GEO,2019,165694793.90505973,Noncommunicable diseases,Private and out-of-pocket,Georgia
+KGZ,2016,12175541.78967877,Noncommunicable diseases,Private and out-of-pocket,Kyrgyz Republic
+MKD,2022,115271514.24053767,Noncommunicable diseases,Private and out-of-pocket,North Macedonia
+MDA,2018,67381387.92310627,Noncommunicable diseases,Private and out-of-pocket,Moldova
+TJK,2019,133827314.85965064,Noncommunicable diseases,Private and out-of-pocket,Tajikistan
+MMR,2022,1061742982.9418333,Noncommunicable diseases,Private and out-of-pocket,Myanmar
+LKA,2018,424767293.6780809,Noncommunicable diseases,Private and out-of-pocket,Sri Lanka
+KHM,2019,448744886.26658833,Noncommunicable diseases,Private and out-of-pocket,Cambodia
+BEN,2018,12984555.48914434,Injuries,Private and out-of-pocket,Benin
+BWA,2019,3168293.433609094,Injuries,Private and out-of-pocket,Botswana
+BFA,2022,11152395.799329968,Injuries,Private and out-of-pocket,Burkina Faso
+BDI,2020,7267700.134145635,Injuries,Private and out-of-pocket,Burundi
+CPV,2019,5954499.612194011,Injuries,Private and out-of-pocket,Cabo Verde
+CMR,2019,10261735.61904988,Injuries,Private and out-of-pocket,Cameroon
+TCD,2022,853264.8174505807,Injuries,Private and out-of-pocket,Chad
+COM,2019,6363641.223121234,Injuries,Private and out-of-pocket,Comoros
+COG,2020,18300003.305906534,Injuries,Private and out-of-pocket,Congo Republic
+CIV,2021,40451321.89216213,Injuries,Private and out-of-pocket,Cote d'Ivoire
+COD,2022,870003.8692591592,Injuries,Private and out-of-pocket,DR Congo
+SWZ,2019,2092679.1934351788,Injuries,Private and out-of-pocket,Eswatini
+ETH,2020,10349488.644919269,Injuries,Private and out-of-pocket,Ethiopia
+GAB,2019,14220724.39217903,Injuries,Private and out-of-pocket,Gabon
+GMB,2019,1123935.8753233324,Injuries,Private and out-of-pocket,Gambia
+GHA,2022,60719656.34036071,Injuries,Private and out-of-pocket,Ghana
+GIN,2021,51265946.05293305,Injuries,Private and out-of-pocket,Guinea
+KEN,2019,67640269.08924936,Injuries,Private and out-of-pocket,Kenya
+LBR,2020,13310844.935005002,Injuries,Private and out-of-pocket,Liberia
+MDG,2021,1220436.8166962157,Injuries,Private and out-of-pocket,Madagascar
+MWI,2019,14283535.658510618,Injuries,Private and out-of-pocket,Malawi
+MLI,2020,30590354.218332093,Injuries,Private and out-of-pocket,Mali
+MRT,2021,5306883.29407445,Injuries,Private and out-of-pocket,Mauritania
+MUS,2019,14053791.22243886,Injuries,Private and out-of-pocket,Mauritius
+MOZ,2018,4780218.52671127,Injuries,Private and out-of-pocket,Mozambique
+NAM,2019,39215476.123122625,Injuries,Private and out-of-pocket,Namibia
+NER,2022,7263840.045324994,Injuries,Private and out-of-pocket,Niger
+NGA,2021,1204434969.8195052,Injuries,Private and out-of-pocket,Nigeria
+STP,2021,396423.889989408,Injuries,Private and out-of-pocket,Sao Tome and Principe
+SEN,2021,26238090.81271227,Injuries,Private and out-of-pocket,Senegal
+SYC,2019,2026099.132424008,Injuries,Private and out-of-pocket,Seychelles
+SLE,2021,7711265.523488457,Injuries,Private and out-of-pocket,Sierra Leone
+ZAF,2019,1017666286.4406128,Injuries,Private and out-of-pocket,South Africa
+SSD,2019,58106518.80604144,Injuries,Private and out-of-pocket,South Sudan
+TGO,2021,23658005.61858156,Injuries,Private and out-of-pocket,Togo
+UGA,2019,53433721.19065478,Injuries,Private and out-of-pocket,Uganda
+TZA,2019,12163321.00888278,Injuries,Private and out-of-pocket,Tanzania
+ZMB,2016,5053962.3122305805,Injuries,Private and out-of-pocket,Zambia
+ZWE,2020,21616235.202808656,Injuries,Private and out-of-pocket,Zimbabwe
+CRI,2020,71446402.12777342,Injuries,Private and out-of-pocket,Costa Rica
+GUY,2019,11990830.13530189,Injuries,Private and out-of-pocket,Guyana
+HTI,2016,76906281.11943138,Injuries,Private and out-of-pocket,Haiti
+AFG,2022,157289401.84632143,Injuries,Private and out-of-pocket,Afghanistan
+DJI,2017,2591912.5813641944,Injuries,Private and out-of-pocket,Djibouti
+EGY,2020,25354999.572048873,Injuries,Private and out-of-pocket,Egypt
+SDN,2019,138292559.8613986,Injuries,Private and out-of-pocket,Sudan
+ARM,2022,52607146.28325539,Injuries,Private and out-of-pocket,Armenia
+GEO,2019,16053964.809388615,Injuries,Private and out-of-pocket,Georgia
+KGZ,2016,985756.388480672,Injuries,Private and out-of-pocket,Kyrgyz Republic
+MKD,2022,1759267.247770303,Injuries,Private and out-of-pocket,North Macedonia
+MDA,2018,5034529.705318959,Injuries,Private and out-of-pocket,Moldova
+TJK,2019,8221003.554491462,Injuries,Private and out-of-pocket,Tajikistan
+MMR,2022,204040203.8644084,Injuries,Private and out-of-pocket,Myanmar
+LKA,2018,73285687.5444236,Injuries,Private and out-of-pocket,Sri Lanka
+KHM,2019,128359793.53177652,Injuries,Private and out-of-pocket,Cambodia

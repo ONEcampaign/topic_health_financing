@@ -8,8 +8,7 @@ package-mode = false
 
 [tool.poetry.dependencies]
 python = "^3.10"
-
-[tool.poetry.group.dev.dependencies]
+bblocks = "^1.4.1"
 
 [build-system]
 requires = ["poetry-core>=1.0.0"]
