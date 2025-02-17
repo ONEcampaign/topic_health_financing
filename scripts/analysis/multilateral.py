@@ -1,12 +1,12 @@
 from functools import partial
 
 import pandas as pd
+from bblocks import add_income_level_column, set_bblocks_data_path
 from oda_data import read_crs, set_data_path, download_crs
-from pydeflate import deflate, set_pydeflate_path
+from pydeflate import set_pydeflate_path, oecd_dac_deflate
 
 from scripts import config
 from scripts.config import MULTI_END_YEAR, MULTI_START_YEAR, PATHS
-from bblocks import add_income_level_column, set_bblocks_data_path
 
 # Set path to raw data folders
 set_data_path(PATHS.raw_data)
@@ -66,48 +66,38 @@ MULTILATERALS: dict = {
     1044: ("New Development Bank", [1, 2]),
 }
 
-
 # -------------------------------------------------------------------------------------
 
 # helper function to convert from current to constant prices, using DAC data
 to_constant_dac = partial(
-    deflate,
+    oecd_dac_deflate,
     base_year=config.CONSTANT_YEAR,
-    deflator_source="oecd_dac",
-    deflator_method="dac_deflator",
-    exchange_source="oecd_dac",
-    exchange_method="implied",
-    source_currency="USA",
-    target_currency="USA",
     id_column="donor_code",
-    id_type="DAC",
-    source_column="usd_disbursement",
-    target_column="usd_disbursement",
-    date_column="year",
+    use_source_codes=True,
+    value_column="usd_disbursement",
+    target_value_column="usd_disbursement",
 )
 
 
 def read_raw_data() -> pd.DataFrame:
     """Read the CRS for the years under study"""
-    return read_crs(years=range(MULTI_START_YEAR, MULTI_END_YEAR + 1)).filter(
-        [
-            "year",
-            "donor_code",
-            "agency_code",
-            "donor_name",
-            "recipient_code",
-            "recipient_name",
-            "region_code",
-            "region_name",
-            "purpose_code",
-            "sector_code",
-            "purpose_name",
-            "sector_name",
-            "flow_name",
-            "usd_disbursement",
-        ],
-        axis=1,
-    )
+    cols = [
+        "year",
+        "donor_code",
+        "agency_code",
+        "donor_name",
+        "recipient_code",
+        "recipient_name",
+        "recipient_region_code",
+        "recipient_region",
+        "purpose_code",
+        "sector_code",
+        "purpose_name",
+        "sector_name",
+        "flow_name",
+        "usd_disbursement",
+    ]
+    return read_crs(years=range(MULTI_START_YEAR, MULTI_END_YEAR + 1), columns=cols)
 
 
 def filter_multi_donors(df: pd.DataFrame) -> pd.DataFrame:
@@ -162,7 +152,7 @@ def summarise_by_donor_recipient_year_flow_sector(df: pd.DataFrame) -> pd.DataFr
         "donor_name",
         "recipient_code",
         "recipient_name",
-        "region_code",
+        "recipient_region_code",
         "flow_name",
         "year",
         "sector",
@@ -219,9 +209,10 @@ def add_region_groups(df: pd.DataFrame) -> pd.DataFrame:
         798: "Asia",
     }
 
-    return df.assign(region_name=lambda d: d.region_code.map(regions))
+    return df.assign(recipient_region=lambda d: d.recipient_region_code.map(regions))
 
 
 if __name__ == "__main__":
     # to update underlying data
-    download_crs(years=range(MULTI_START_YEAR, MULTI_END_YEAR + 1))
+    ...
+    # download_crs()
