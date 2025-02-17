@@ -10,7 +10,9 @@ from scripts.analysis.common import add_pop, add_gge_usd_const_2022, add_gdp_usd
 
 
 def expand_df(df):
-    """ """
+    """
+    Expand the dataframe to include all years for each country
+    """
 
     return (df
             .set_index(["iso3_code", "year"])
@@ -19,7 +21,9 @@ def expand_df(df):
             )
 
 def ffill_df(df):
-    """ """
+    """
+    Forward fill missing values with the previous value up to 2 years
+    """
 
     return(df
            .sort_values(["iso3_code", "year"])
@@ -28,6 +32,7 @@ def ffill_df(df):
 
 def add_africa_low_middle_income(df, col_name = "group"):
     """Add a group for Africa low and lower middle income countries"""
+
     afr_df = (df
               .pipe(add_income_level_column, "iso3_code", 'ISO3')
               .assign(continent = lambda d: coco.convert(d.iso3_code, src="ISO3", to="continent"))
@@ -38,8 +43,12 @@ def add_africa_low_middle_income(df, col_name = "group"):
 
     return pd.concat([df, afr_df], ignore_index=True)
 
-def add_group(df, group):
-    """ """
+def add_group(df: pd.DataFrame, group: str) -> pd.DataFrame:
+    """Add a group column to the dataframe
+
+    df: the dataframe
+    group: the group to add, either "continent" or "income_level"
+    """
 
     if group == "continent":
         return (df
@@ -55,11 +64,11 @@ def add_group(df, group):
     else:
         raise ValueError(f"Invalid group: {group}")
 
-def filter_threshold(df, threshold=0.95):
-    """
+def filter_threshold(df, threshold=0.95) -> pd.DataFrame:
+    """Filter the dataframe to only include groups that have a completion rate of at least threshold
 
-    df: expanded dataframe
-
+    df: the dataframe
+    threshold: the threshold to filter by
     """
 
     #special countries that did not exist in some years - South Sudan, Timor-leste
@@ -93,8 +102,9 @@ def filter_threshold(df, threshold=0.95):
             .reset_index(drop=True)
             )
 
-def agg(df):
-    """ """
+def agg(df: pd.DataFrame) -> pd.DataFrame:
+    """Aggregate the dataframe by group and year
+    """
 
     return (df
             .groupby(["group", 'year'])
@@ -103,8 +113,9 @@ def agg(df):
             )
 
 
-def agg_proportion(df, denominator_col):
-    """ """
+def agg_proportion(df: pd.DataFrame, denominator_col: str) -> pd.DataFrame:
+    """Aggregate the dataframe by group and year
+    """
 
     return (df
             .groupby(["group", 'year'])
@@ -114,8 +125,16 @@ def agg_proportion(df, denominator_col):
             )
 
 
-def aggregate(df, continent=True, income_level=True):
-    """ """
+def aggregate(df: pd.DataFrame, continent: bool=True, income_level: bool=True) -> pd.DataFrame:
+    """Aggregate the dataframe
+
+    df: the dataframe
+    continent: whether to aggregate by continent
+    income_level: whether to aggregate by income level
+
+    Returns:
+        the aggregated dataframe
+    """
 
     # if both continent and income_level are False, raise and error
     if not continent and not income_level:
@@ -146,8 +165,19 @@ def aggregate(df, continent=True, income_level=True):
     return pd.concat([cont_df, income_df], ignore_index=True).loc[lambda d: d.year <= 2022]
 
 
-def aggregate_proportion(df, proportion_funct, denominator_col, *, continent=True, income_level=True):
-    """ """
+def aggregate_proportion(df: pd.DataFrame, proportion_funct: callable, denominator_col: str, *, continent: bool=True, income_level: bool=True) -> pd.DataFrame:
+    """Aggregate the dataframe by proportion of the denominator
+
+    Args:
+        df: the dataframe
+        proportion_funct: the function to calculate the proportion
+        denominator_col: the column to use as the denominator
+        continent: whether to aggregate by continent
+        income_level: whether to aggregate by income level
+
+    Returns:
+        the aggregated dataframe
+    """
 
     # if both continent and income_level are False, raise and error
     if not continent and not income_level:
@@ -183,41 +213,41 @@ def aggregate_proportion(df, proportion_funct, denominator_col, *, continent=Tru
     return pd.concat([cont_df, income_df], ignore_index=True).loc[lambda d: d.year <= 2022]
 
 
-def aggregate_per_capita(df, *, continent=True, income_level=True):
-    """ """
+def aggregate_per_capita(df: pd.DataFrame, *, continent=True, income_level=True) -> pd.DataFrame:
+    """Aggregate per capita data"""
 
     return (df
-            .pipe(aggregate_proportion, add_pop, "population")
+            .pipe(aggregate_proportion, add_pop, "population", continent=continent, income_level=income_level)
             )
 
-def aggregate_pct_gge_usd_const_2022(df, *, continent=True, income_level=True):
-    """ """
+def aggregate_pct_gge_usd_const_2022(df: pd.DataFrame, *, continent=True, income_level=True)-> pd.DataFrame:
+    """Aggregate the percentage of general government expenditure in USD constant 2022"""
 
     return (df
-            .pipe(aggregate_proportion, add_gge_usd_const_2022, "gge_usd2022")
+            .pipe(aggregate_proportion, add_gge_usd_const_2022, "gge_usd2022", continent=continent, income_level=income_level)
             .assign(value = lambda d: d.value*100)
             )
 
-def aggregate_pct_che_usd2022(df, *, continent=True, income_level=True):
-    """ """
+def aggregate_pct_che_usd2022(df, *, continent=True, income_level=True) -> pd.DataFrame:
+    """Aggregate the percentage of current health expenditure in USD 2022"""
 
     return (df
-            .pipe(aggregate_proportion, add_che_usd2022, "che_usd2022")
+            .pipe(aggregate_proportion, add_che_usd2022, "che_usd2022", continent=continent, income_level=income_level)
             .assign(value = lambda d: d.value*100)
             )
 
-def aggregate_pct_gdp_usd_curr(df, *, continent=True, income_level=True):
-    """ """
+# def aggregate_pct_gdp_usd_curr(df, *, continent=True, income_level=True):
+#     """Aggregate the percentage of GDP in USD current"""
+#
+#     return (df
+#             .pipe(aggregate_proportion, add_gdp_usd_curr, "gdp_usd_curr")
+#             .assign(value = lambda d: d.value*100)
+#             )
+
+def aggregate_pct_gdp_usd_const_2022(df, *, continent=True, income_level=True) -> pd.DataFrame:
+    """Aggregate the percentage of GDP in USD constant 2022"""
 
     return (df
-            .pipe(aggregate_proportion, add_gdp_usd_curr, "gdp_usd_curr")
-            .assign(value = lambda d: d.value*100)
-            )
-
-def aggregate_pct_gdp_usd_const_2022(df, *, continent=True, income_level=True):
-    """ """
-
-    return (df
-            .pipe(aggregate_proportion, add_gdp_usd_const_2022, "gdp_usd_const_2022")
+            .pipe(aggregate_proportion, add_gdp_usd_const_2022, "gdp_usd_const_2022", continent=continent, income_level=income_level)
             .assign(value = lambda d: d.value*100)
             )

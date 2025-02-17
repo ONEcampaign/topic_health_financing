@@ -1,6 +1,7 @@
 """Download GHED data"""
 
 import bblocks_data_importers as bbdata
+import pandas as pd
 import numpy as np
 import country_converter as coco
 from bblocks.dataframe_tools.add import add_income_level_column
@@ -9,7 +10,9 @@ from scripts.config import PATHS
 from scripts.logger import logger
 
 
-def clean(df):
+def clean(df) -> pd.DataFrame:
+    """Clean the GHED data"""
+
     return (df
      .assign(value=lambda d: np.where(d["unit"] == "Millions", d["value"] * 1e6, d["value"]))
      .assign(value=lambda d: np.where(d["unit"] == "Thousands", d["value"] * 1e3, d["value"]))
@@ -18,7 +21,7 @@ def clean(df):
             .loc[:, ['iso3_code', 'year', 'indicator_code', 'value', 'continent', 'income_level']]
      )
 
-def download_ghed():
+def download_ghed() -> None:
     """Download ghed data to raw data directory"""
 
     ghed = bbdata.GHED()

@@ -1,4 +1,4 @@
-""" """
+"""Create formatted data for total health expenditure, government expenditure, expenditure by source, and expenditure by condition"""
 
 import pandas as pd
 import numpy as np
@@ -9,10 +9,11 @@ from scripts.analysis.aggregates import aggregate_per_capita, aggregate_pct_gdp_
 from scripts.config import PATHS
 
 
-def create_total_health_expenditure():
-    """ """
+def create_total_health_expenditure() -> pd.DataFrame:
+    """Create data with total health expenditure in constant USD, per capita, and as a percentage of GDP
+    """
 
-    ghed = get_ghed_data()
+    ghed = get_ghed_data() # get the raw data
 
     # Total health expenditure in constant 2022 USD
     tt = (ghed.loc[lambda d: d.indicator_code == 'che_usd2022', ['iso3_code', 'year', 'value']].reset_index(drop=True))
@@ -29,13 +30,13 @@ def create_total_health_expenditure():
     ag_tt_gdp = aggregate_pct_gdp_usd_const_2022(ghed.loc[lambda d: d.indicator_code == 'che_usd2022', ['iso3_code', 'year', 'value']])
     tt_gdp_full = pd.concat([tt_gdp, ag_tt_gdp.rename(columns={'group':'iso3_code'})]).assign(unit = "percent of GDP")
 
+    # merge the dataframes, convert the iso3 codes to names
     df = (pd.concat([tt_full,tt_pc_full,tt_gdp_full])
             .assign(entity_name=lambda d: coco.convert(d.iso3_code, to='name_short', not_found=None))
             .assign(iso3_code = lambda d: coco.convert(d.iso3_code, src='ISO3', to='ISO3', not_found=np.nan))
             )
 
     return df
-    # df.to_csv(PATHS.output / "total_health_expenditure", index=False)
 
 
 def create_gov_expenditure():
@@ -69,8 +70,8 @@ def create_gov_expenditure():
             )
 
 
-def calculate_pvt_excl_oop_usd2022(ghed: pd.DataFrame):
-    """ """
+def calculate_pvt_excl_oop_usd2022(ghed: pd.DataFrame) -> pd.DataFrame:
+    """Calculate private expenditure excluding out-of-pocket payments"""
 
     return (ghed.loc[lambda d: d.indicator_code.isin(["fs4_usd2022", "fs5_usd2022", "fs6_usd2022", "fsnec_usd2022", "fs61_usd2022"])]
      .pivot(index=["iso3_code", "year"], columns = 'indicator_code', values='value')
@@ -83,8 +84,8 @@ def calculate_pvt_excl_oop_usd2022(ghed: pd.DataFrame):
      )
 
 
-def calculate_pvt_excl_oop_percent_che(ghed: pd.DataFrame):
-    """ """
+def calculate_pvt_excl_oop_percent_che(ghed: pd.DataFrame) -> pd.DataFrame:
+    """Calculate private expenditure excluding out-of-pocket payments as a percentage of current health expenditure"""
 
     che = (ghed
            .loc[lambda d: d.indicator_code.isin(["hf1", "hf2", "hf3", "hf4", "hfnec"])]
@@ -111,7 +112,7 @@ def calculate_pvt_excl_oop_percent_che(ghed: pd.DataFrame):
                          )
 
 
-def create_expenditure_by_source():
+def create_expenditure_by_source() -> pd.DataFrame:
     """External, domestic gov, OOP, private excl OOP"""
 
     ghed = get_ghed_data()
@@ -206,8 +207,8 @@ def create_expenditure_by_source():
 
 
 
-def create_expenditure_by_condition():
-    """ """
+def create_expenditure_by_condition() -> pd.DataFrame:
+    """Create data with health expenditure by condition"""
 
     ghed = get_ghed_data()
 
