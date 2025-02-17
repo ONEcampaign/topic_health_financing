@@ -13,11 +13,11 @@ class PATHS:
     logs = scripts / ".logs"
 
 
-CONSTANT_YEAR: int = 2021
+CONSTANT_YEAR: int = 2023
 
 UN_POPULATION_YEARS: dict[str, int] = {"start_year": 2000, "end_year": 2023}
 UN_POPULATION_URL: str = "https://population.un.org/dataportalapi/api/v1/"
 
-MULTI_CONSTANT_YEAR: int = 2021
+MULTI_CONSTANT_YEAR: int = 2023
 MULTI_START_YEAR: int = 2006
-MULTI_END_YEAR: int = 2021
+MULTI_END_YEAR: int = 2023
