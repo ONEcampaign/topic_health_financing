@@ -135,6 +135,8 @@ def chart_2_3():
      .sort_values(by="year", ascending=False)
      .pipe(custom_sort, "income_level", ["Low income", "Lower middle income", "Upper middle income", "High income"])
      .reset_index(drop=True)
+     .assign(target = lambda d: np.where(d.value >= 15, "target reached", "target not reached"))
+     .loc[:, ["iso3_code",	"target",	'year',	'value',	'unit',	'entity_name',	'continent',	'income_level']]
      .to_csv(PATHS.output / "section_2_3_chart.csv", index=False)
      )
 
