@@ -25,11 +25,11 @@ def chart_1_1():
     # format data for chart
     (df
      .assign(value = lambda d: np.where(d.unit == "USD constant (2022)", d.value/1e9, d.value))
-     .assign(unit = lambda d: d.unit.map({"USD constant (2022)": "Total (USD billions)",
+     .assign(unit = lambda d: d.unit.map({"USD constant (2022)": "Total (US$ billions)",
                                           "per capita, USD constant (2022)": "Per capita (US$)",
                                           "percent of GDP": "Percent of GDP"}),
-             unit_annotate = lambda d: d.unit.map({"Total (USD billions)": "billion US$",
-                                                   "Per capita (USD)": "US$ per capita",
+             unit_annotate = lambda d: d.unit.map({"Total (US$ billions)": "billion US$",
+                                                   "Per capita (US$)": "US$ per capita",
                                                    "Percent of GDP": "% of GDP"}),
 
              )
