@@ -1,11 +1,10 @@
-""" """
+"""Common functions for aggregating data into groups"""
 
 import pandas as pd
-import numpy as np
 import country_converter as coco
 from bblocks.dataframe_tools.add import add_income_level_column
 
-from scripts.analysis.common import add_pop, add_gge_usd_const_2022, add_gdp_usd_curr, add_gdp_usd_const_2022, add_che_usd2022
+from scripts.analysis.common import add_pop, add_gge_usd_const_2022, add_gdp_usd_const_2022, add_che_usd2022
 
 
 
@@ -71,16 +70,11 @@ def filter_threshold(df, threshold=0.95) -> pd.DataFrame:
     threshold: the threshold to filter by
     """
 
-    #special countries that did not exist in some years - South Sudan, Timor-leste
-    # dictionary of the iso3 code and the year it was created
-
-    spcial_iso = {"SSD": 2011, "TSL": 2002} # these iso codes should only be included from the year they were created
-
     total_count= (df
                   [['iso3_code', "group", "year"]]
                           # remove the special iso codes before the year they were created
                           .loc[lambda d: ~(((d.iso3_code=="SSD") & (d.year < 2011))
-                                           | ((d.iso3_code=="TSL") & (d.year < 2002)))
+                                           | ((d.iso3_code=="TLS") & (d.year < 2002)))
                           ]
 
                   .groupby(["group", 'year'])
